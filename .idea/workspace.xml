@@ -1,0 +1,924 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2774e54c-0a4f-4f30-9e38-c5ee0352aa9a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WordCount$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WordCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WordCountDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/CustomArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/jqf-examples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/examples/jqf-examples.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/test/java/edu/berkeley/cs/jqf/examples/chess/MoveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/src/test/java/edu/berkeley/cs/jqf/examples/chess/MoveTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz-results/.cur_input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz-results/corpus/id_000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz-results/fuzz.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz-results/plot_data" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz-results/plot_data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/jqf-fuzz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/bigfuzz-guidance.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/ei/ZestGuidance.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/ei/ZestGuidance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzGuidance.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzGuidance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instrument/jqf-instrument.iml" beforeDir="false" afterPath="$PROJECT_DIR$/instrument/jqf-instrument.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instrument/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/DefaultInstructionVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/instrument/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/DefaultInstructionVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instrument/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/SingleSnoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/instrument/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/SingleSnoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instrument/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/ThreadTracer.java" beforeDir="false" afterPath="$PROJECT_DIR$/instrument/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/ThreadTracer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instrument/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/TraceLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/instrument/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/TraceLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instrument/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/events/TraceEventVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/instrument/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/events/TraceEventVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instrument/src/main/java/edu/ucla/cs/jqf/instrument/dataflowevents/FilterEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instrument/src/main/java/edu/ucla/cs/jqf/instrument/dataflowevents/FlatMapEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instrument/src/main/java/edu/ucla/cs/jqf/instrument/dataflowevents/MapToPairEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instrument/src/main/java/edu/ucla/cs/jqf/instrument/dataflowevents/ReduceByKeyEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instrument/src/main/java/edu/ucla/cs/jqf/instrument/dataflowevents/ReduceEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instrument/src/main/java/janala/instrument/SnoopInstructionMethodAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/instrument/src/main/java/janala/instrument/SnoopInstructionMethodAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instrument/src/main/java/janala/logger/AbstractLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/instrument/src/main/java/janala/logger/AbstractLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instrument/src/main/java/janala/logger/inst/IVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/instrument/src/main/java/janala/logger/inst/IVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-plugin/jqf-maven-plugin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/maven-plugin/jqf-maven-plugin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rWordCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/janala.conf" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/janala.conf" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/fuzz/target/" />
+    <ignored path="$PROJECT_DIR$/maven-plugin/target/" />
+    <ignored path="$PROJECT_DIR$/examples/target/" />
+    <ignored path="$PROJECT_DIR$/instrument/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bigfuzz/src/edu/ucla/cs/bigfuzz/customarray/CustomArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="774">
+              <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TraceEventTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="738">
+              <caret line="49" column="68" selection-start-line="49" selection-start-column="65" selection-end-line="49" selection-end-column="68" />
+              <folding>
+                <element signature="e#0#3081#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bigfuzz/src/SalaryAnalysisMutation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-456">
+              <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bigfuzz/src/edu/ucla/cs/bigfuzz/dataflow/FilterEvent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bigfuzz/src/WordCount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bigfuzz/src/SalaryAnalysisDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="100" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bigfuzz/src/SalaryAnalysis.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzGuidance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="12906">
+              <caret line="725" selection-start-line="725" selection-end-line="725" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#20365#20366#0" expanded="true" />
+                <element signature="e#20397#20398#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bigfuzz/src/WordCountDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>BigFuzz</find>
+      <find>prepareOutputDirectory</find>
+      <find>coverage</find>
+      <find>runCoverage</find>
+      <find>numTrials</find>
+      <find>displayStats</find>
+      <find>handleResult</find>
+      <find>generatecall</find>
+      <find>handle</find>
+      <find>handleevent</find>
+      <find>maxDurationMillis</find>
+      <find>input</find>
+      <find>isReturnOrMethodThrow</find>
+      <find>callback</find>
+      <find>Zestguidance</find>
+      <find>BigFuzzguidance</find>
+      <find>duration</find>
+      <find>handleresult</find>
+      <find>stop</find>
+      <find>Stopping criteria</find>
+      <find>trial</find>
+      <find>maxtrial</find>
+      <find>parentinput</find>
+      <find>random</find>
+      <find>Bran</find>
+      <find>value</find>
+      <find>call</find>
+      <find>getinput</find>
+      <find>bran</find>
+      <find>load</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/instrument/src/main/java/edu/ucla/cs/jqf/instrument/dataflowevents/MapEvent.java" />
+        <option value="$PROJECT_DIR$/instrument/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/events/FlatMapEvent.java" />
+        <option value="$PROJECT_DIR$/instrument/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/events/dataflowevents/MapEvent.java" />
+        <option value="$PROJECT_DIR$/instrument/src/main/java/edu/ucla/cs/jqf/instrument/dataflowevents/MapToPairEvent.java" />
+        <option value="$PROJECT_DIR$/instrument/src/main/java/edu/ucla/cs/jqf/instrument/dataflowevents/ReduceByKeyEvent.java" />
+        <option value="$PROJECT_DIR$/instrument/src/main/java/edu/ucla/cs/jqf/instrument/dataflowevents/FlatMapEvent.java" />
+        <option value="$PROJECT_DIR$/instrument/src/main/java/edu/ucla/cs/jqf/instrument/dataflowevents/ReduceEvent.java" />
+        <option value="$PROJECT_DIR$/instrument/src/main/java/edu/ucla/cs/jqf/instrument/dataflowevents/FilterEvent.java" />
+        <option value="$PROJECT_DIR$/instrument/src/main/java/janala/logger/inst/DATAFLOW.java" />
+        <option value="$PROJECT_DIR$/instrument/src/main/java/janala/logger/AbstractLogger.java" />
+        <option value="$PROJECT_DIR$/instrument/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/DefaultInstructionVisitor.java" />
+        <option value="$PROJECT_DIR$/instrument/src/main/java/edu/ucla/cs/jqf/instrument/dataflowevents/DataFlowInstructionVisitor.java" />
+        <option value="$PROJECT_DIR$/instrument/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/ControlFlowInstructionVisitor.java" />
+        <option value="$PROJECT_DIR$/instrument/src/main/java/janala/instrument/SnoopInstructionTransformer.java" />
+        <option value="$PROJECT_DIR$/instrument/src/main/java/janala/logger/inst/IVisitor.java" />
+        <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/ei/ZestGuidance.java" />
+        <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.java" />
+        <option value="$PROJECT_DIR$/instrument/src/main/java/janala/instrument/SnoopInstructionMethodAdapter.java" />
+        <option value="$PROJECT_DIR$/instrument/src/main/java/edu/ucla/cs/jqf/instrument/dataflow/events/FilterEvent.java" />
+        <option value="$PROJECT_DIR$/instrument/src/main/java/edu/ucla/cs/jqf/instrument/dataflow/events/FlatMapEvent.java" />
+        <option value="$PROJECT_DIR$/instrument/src/main/java/edu/ucla/cs/jqf/instrument/dataflow/events/MapToPairEvent.java" />
+        <option value="$PROJECT_DIR$/instrument/src/main/java/edu/ucla/cs/jqf/instrument/dataflow/events/ReduceByKeyEvent.java" />
+        <option value="$PROJECT_DIR$/instrument/src/main/java/edu/ucla/cs/jqf/instrument/dataflow/events/ReduceEvent.java" />
+        <option value="$PROJECT_DIR$/instrument/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/SingleSnoop.java" />
+        <option value="$PROJECT_DIR$/instrument/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/TraceLogger.java" />
+        <option value="$PROJECT_DIR$/dataflow/src/edu/ucla/cs/jqf/instrument/dataflow/events/MapToPairEvent.java" />
+        <option value="$PROJECT_DIR$/BigFuzzTest/src/edu/ucla/cs/bigfuzz/CustomArray.java" />
+        <option value="$PROJECT_DIR$/BigFuzzTest/src/edu/ucla/bigfuzz/sparkprogram/WordCount.java" />
+        <option value="$PROJECT_DIR$/instrument/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/ThreadTracer.java" />
+        <option value="$PROJECT_DIR$/BigFuzzTest/src/edu/ucla/cs/bigfuzz/dataflow/MapToPairEvent.java" />
+        <option value="$PROJECT_DIR$/BigFuzzTest/src/edu/ucla/cs/bigfuzz/dataflow/ReduceByKeyEvent.java" />
+        <option value="$PROJECT_DIR$/BigFuzzTest/src/edu/ucla/cs/bigfuzz/dataflow/FlatMapEvent.java" />
+        <option value="$PROJECT_DIR$/BigFuzzTest/src/WordCount.java" />
+        <option value="$PROJECT_DIR$/examples/src/test/java/edu/berkeley/cs/jqf/examples/chess/MoveTest.java" />
+        <option value="$PROJECT_DIR$/BigFuzzTest/src/edu/ucla/cs/bigfuzz/SalaryAnalysisDriver.java" />
+        <option value="$PROJECT_DIR$/BigFuzzTest/src/edu/ucla/cs/bigfuzz/SalaryAnalysis.java" />
+        <option value="$PROJECT_DIR$/BigFuzzTest/src/edu/ucla/cs/bigfuzz/SalaryAnalysisMutation.java" />
+        <option value="$PROJECT_DIR$/BigFuzzTest/src/edu/ucla/cs/bigfuzz/dataflow/ReduceEvent.java" />
+        <option value="$PROJECT_DIR$/BigFuzzTest/src/edu/ucla/cs/bigfuzz/dataflow/FilterEvent.java" />
+        <option value="$PROJECT_DIR$/BigFuzzTest/src/edu/ucla/cs/bigfuzz/dataflow/MapEvent.java" />
+        <option value="$PROJECT_DIR$/instrument/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/events/TraceEventVisitor.java" />
+        <option value="$PROJECT_DIR$/BigFuzzTest/src/WordCountDriver.java" />
+        <option value="$PROJECT_DIR$/BigFuzzTest/src/SalaryAnalysis.java" />
+        <option value="$PROJECT_DIR$/BigFuzzTest/src/edu/ucla/cs/bigfuzz/customarray/CustomArray.java" />
+        <option value="$PROJECT_DIR$/BigFuzzTest/src/SalaryAnalysisDriver.java" />
+        <option value="$PROJECT_DIR$/bigfuzztest/src/edu/ucla/cs/bigfuzz/dataflow/FilterEvent.java" />
+        <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzGuidance.java" />
+        <option value="$PROJECT_DIR$/bigfuzztest/src/edu/ucla/cs/bigfuzz/customarray/CustomArray.java" />
+        <option value="$PROJECT_DIR$/bigfuzztest/src/SalaryAnalysisDriver.java" />
+        <option value="$PROJECT_DIR$/bigfuzztest/src/SalaryAnalysis.java" />
+        <option value="$PROJECT_DIR$/bigfuzz/src/SalaryAnalysisMutation.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jqf-instrument" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jqf-instrument" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="58" />
+    <option name="y" value="36" />
+    <option name="width" value="1717" />
+    <option name="height" value="979" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="bigfuzz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="bigfuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2764706" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dataflow/src/edu/ucla/cs/jqf/instrument/dataflow" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.SalaryAnalysisMutation">
+    <configuration name="SalaryAnalysisDriver (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SalaryAnalysisDriver" />
+      <module name="bigfuzz-dfcoverage" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SalaryAnalysisDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SalaryAnalysisDriver" />
+      <module name="bigfuzz-dfcoverage" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SalaryAnalysisMutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SalaryAnalysisMutation" />
+      <module name="bigfuzz-dfcoverage" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SalaryAnalysisDriver.testSalaryAnalysis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bigfuzz-dfcoverage" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SalaryAnalysisDriver" />
+      <option name="METHOD_NAME" value="testSalaryAnalysis" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordCountDriver.testWordCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bigfuzz-dfcoverage" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WordCountDriver" />
+      <option name="METHOD_NAME" value="testWordCount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SalaryAnalysisMutation" />
+        <item itemvalue="JUnit.SalaryAnalysisDriver.testSalaryAnalysis" />
+        <item itemvalue="Application.SalaryAnalysisDriver (1)" />
+        <item itemvalue="Application.SalaryAnalysisDriver" />
+        <item itemvalue="JUnit.WordCountDriver.testWordCount" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2774e54c-0a4f-4f30-9e38-c5ee0352aa9a" name="Default Changelist" comment="" />
+      <created>1563824292225</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563824292225</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="WordCountDriver_testWordCount - 2019.10.09 at 12h 58m 57s.xml">
+      <configuration name="WordCountDriver.testWordCount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SalaryAnalysisDriver_testSalaryAnalysis - 2019.10.09 at 14h 11m 21s.xml">
+      <configuration name="SalaryAnalysisDriver.testSalaryAnalysis" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="31" width="1920" height="1049" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7635468" visible="true" weight="0.2669537" />
+      <window_info id="Structure" order="1" sideWeight="0.2364532" side_tool="true" visible="true" weight="0.2669537" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.12958716" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3016055" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.26605505" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.1108719" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzGuidance.java</url>
+          <line>847</line>
+          <properties class="edu.ucla.cs.jqf.bigfuzz.BigFuzzGuidance" method="generateCallBack">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/ei/ZestGuidance.java</url>
+          <line>341</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/instrument/src/main/java/janala/logger/inst/MemberRef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/instrument/src/main/java/janala/logger/inst/Instruction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/instrument/src/main/java/janala/logger/inst/METHOD_BEGIN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/instrument/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/PrintLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/instrument/src/main/java/janala/logger/inst/INVOKEINTERFACE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/java/jdk1.8.0_211/src.zip!/java/lang/reflect/Parameter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="105" column="19" selection-start-line="105" selection-start-column="19" selection-end-line="105" selection-end-column="19" />
+          <folding>
+            <element signature="e#2756#2757#0" expanded="true" />
+            <element signature="e#2828#2829#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/java/jdk1.8.0_211/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4014">
+          <caret line="269" column="18" selection-start-line="269" selection-start-column="18" selection-end-line="269" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/java/jdk1.8.0_211/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataflow/src/edu/ucla/cs/jqf/instrument/dataflow/events/ReduceEvent.java" />
+    <entry file="file://$PROJECT_DIR$/dataflow/src/edu/ucla/cs/jqf/instrument/dataflow/events/MapToPairEvent.java" />
+    <entry file="file://$PROJECT_DIR$/dataflow/dataflow.iml" />
+    <entry file="file://$PROJECT_DIR$/dataflow/src/edu/ucla/cs/jqf/instrument/dataflow/events/FilterEvent.java" />
+    <entry file="file://$PROJECT_DIR$/dataflow/src/edu/ucla/cs/jqf/instrument/dataflow/events/ReduceByKeyEvent.java" />
+    <entry file="file://$PROJECT_DIR$/dataflow/src/edu/ucla/cs/jqf/instrument/dataflow/events/FlatMapEvent.java" />
+    <entry file="file://$PROJECT_DIR$/BigFuzzTest/src/edu/ucla/cs/bigfuzz/edu/ucla/cs/bigfuzz/dataflow/events/FilterEvent.java" />
+    <entry file="file://$PROJECT_DIR$/bigfuzz/src/edu/ucla/cs/bigfuzz/sparkprogram/WordCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/instrument/src/main/java/edu/ucla/cs/jqf/instrument/dataflow/events/FilterEvent.java" />
+    <entry file="file://$PROJECT_DIR$/instrument/src/main/java/edu/ucla/cs/jqf/instrument/dataflow/events/FlatMapEvent.java" />
+    <entry file="file://$PROJECT_DIR$/instrument/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/TraceLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2425#2426#0" expanded="true" />
+            <element signature="e#2457#2458#0" expanded="true" />
+            <element signature="e#2239#2240#0" expanded="true" />
+            <element signature="e#2288#2289#0" expanded="true" />
+            <element signature="e#2744#2745#0" expanded="true" />
+            <element signature="e#2784#2785#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/instrument/src/main/java/edu/ucla/cs/jqf/instrument/dataflow/events/MapToPairEvent.java" />
+    <entry file="file://$PROJECT_DIR$/instrument/src/main/java/edu/ucla/cs/jqf/instrument/dataflow/events/ReduceByKeyEvent.java" />
+    <entry file="file://$PROJECT_DIR$/instrument/src/main/java/edu/ucla/cs/jqf/instrument/dataflow/events/ReduceEvent.java" />
+    <entry file="file://$PROJECT_DIR$/instrument/src/main/java/edu/ucla/cs/jqf/instrument/dataflow/DataFlowInstructionVisitor.java" />
+    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/util/Counter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="184" column="37" selection-start-line="184" selection-start-column="37" selection-end-line="184" selection-end-column="37" />
+          <folding>
+            <element signature="e#2917#2918#0" expanded="true" />
+            <element signature="e#2969#2970#0" expanded="true" />
+            <element signature="e#3867#3868#0" expanded="true" />
+            <element signature="e#3923#3924#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/METHOD_BEGIN.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/instrument/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/events/CallEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/util/Coverage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="95" column="30" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigfuzz/src/edu/ucla/cs/bigfuzz/dataflow/ReduceByKeyEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigfuzz/src/edu/ucla/cs/bigfuzz/dataflow/MapToPairEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/src/test/java/edu/berkeley/cs/jqf/examples/chess/MoveTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1152">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="e#0#2628#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigfuzz/src/edu/ucla/cs/bigfuzz/dataflow/ReduceEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/instrument/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/ControlFlowInstructionVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-199">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/instrument/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/DefaultInstructionVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/instrument/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/SingleSnoop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/instrument/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/ThreadTracer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="214" column="52" selection-start-line="214" selection-start-column="47" selection-end-line="214" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/instrument/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/events/BranchEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="53" column="5" selection-start-line="51" selection-start-column="4" selection-end-line="53" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigfuzz/src/edu/ucla/cs/bigfuzz/dataflow/FlatMapEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigfuzz/src/edu/ucla/cs/bigfuzz/dataflow/MapEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/instrument/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/events/TraceEventVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="60" column="44" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigfuzz/target/classes/SalaryAnalysis.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/junit/GuidedFuzzing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="95" column="95" selection-start-line="95" selection-start-column="92" selection-end-line="95" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigfuzz/src/edu/ucla/cs/bigfuzz/customarray/CustomArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TraceEventTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="49" column="68" selection-start-line="49" selection-start-column="65" selection-end-line="49" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#3081#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigfuzz/src/edu/ucla/cs/bigfuzz/dataflow/FilterEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigfuzz/src/WordCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigfuzz/src/SalaryAnalysisDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="100" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigfuzz/src/SalaryAnalysis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzGuidance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12906">
+          <caret line="725" selection-start-line="725" selection-end-line="725" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#20365#20366#0" expanded="true" />
+            <element signature="e#20397#20398#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigfuzz/src/WordCountDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigfuzz/src/SalaryAnalysisMutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-456">
+          <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2764706" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2764706" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>bigfuzz-test</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2764706" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>classes2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2764706" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2764706" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

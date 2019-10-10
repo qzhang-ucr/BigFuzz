@@ -1,0 +1,83 @@
+Saving new input (at run 1): input #0 of size 4; total coverage = 3
+Saved - fuzz-results/corpus/id_000000 random +count+cov+valid
+
+# Cycle 1 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 3 branches
+Total 3 branches covered
+
+
+
+
+
+# Cycle 2 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 3 branches
+Total 3 branches covered
+
+
+
+
+
+# Cycle 3 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 3 branches
+Total 3 branches covered
+
+
+
+
+
+# Cycle 4 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 3 branches
+Total 3 branches covered
+
+
+
+
+
+# Cycle 5 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 3 branches
+Total 3 branches covered
+
+
+
+
+
+# Cycle 6 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 3 branches
+Total 3 branches covered
+
+
+
+
+
+# Cycle 7 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 3 branches
+Total 3 branches covered
+
+
+
+
+
+# Cycle 8 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 3 branches
+Total 3 branches covered
+
+
+
+
+
+# Cycle 9 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 3 branches
+Total 3 branches covered
+
+
+
+

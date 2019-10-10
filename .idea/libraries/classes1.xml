@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="classes1">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/instrument/target/classes" />
+      <root url="file://$PROJECT_DIR$/instrument/target/test-classes" />
+      <root url="file://$PROJECT_DIR$/instrument/target/dependency" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/instrument/target/dependency" recursive="false" />
+  </library>
+</component>

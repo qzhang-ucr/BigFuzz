@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="classes">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/fuzz/target/classes" />
+      <root url="file://$PROJECT_DIR$/fuzz/target/test-classes" />
+      <root url="file://$PROJECT_DIR$/fuzz/target/dependency" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/fuzz/target/dependency" recursive="false" />
+  </library>
+</component>
