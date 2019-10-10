@@ -5,4 +5,9 @@
 Coverage for dataflow operators
 
 
-# Test
+## How to use
+cd to /director/to/BigFuzz/BigFuzzTest/target/classes
+
+../../../bin/jqf-bigfuzz -c .:$(/director/to/BigFuzz/scripts/classpath.sh) WordCountDriver testWordCount 3
+
+## TODO List
