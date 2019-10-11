@@ -28,8 +28,7 @@
  */
 package edu.berkeley.cs.jqf.fuzz.junit.quickcheck;
 
-import java.io.EOFException;
-import java.io.File;
+import java.io.*;
 import java.lang.reflect.Executable;
 import java.lang.reflect.Parameter;
 import java.lang.reflect.Type;
@@ -133,12 +132,31 @@ public class FuzzStatement extends Statement {
                     try {
 
                         // Generate input values
+                        System.out.println("StreamBackedRandom");
+                        /*StringBuilder stringBuilder = new StringBuilder();
+                        String line = null;
+                        InputStream inputStream = guidance.getInput();
+                        try (BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream))) {
+                            while ((line = bufferedReader.readLine()) != null) {
+                                stringBuilder.append(line);
+                            }
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                        System.out.println("StreamBackedRandom getValue: "+stringBuilder.toString());*/
                         StreamBackedRandom randomFile = new StreamBackedRandom(guidance.getInput(), Long.BYTES);
                         SourceOfRandomness random = new FastSourceOfRandomness(randomFile);
                         GenerationStatus genStatus = new NonTrackingGenerationStatus(random);
                         args = generators.stream()
                                 .map(g -> g.generate(random, genStatus))
                                 .toArray();
+                        /*for(Object arg:args)
+                        {
+                            System.out.println(arg.toString());
+                        }*/
+                        Object[] args2 = {"ABCDE"};
+                        args = args2;
+                        System.out.println(args.toString());
                     } catch (IllegalStateException e) {
                         if (e.getCause() instanceof EOFException) {
                             // This happens when we reach EOF before reading all the random values.

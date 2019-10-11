@@ -416,7 +416,7 @@ public class BigFuzzSalaryGuidance implements Guidance {
     @Override
     public InputStream getInput()
     {
-        System.out.println("xxxBigFuzzGuidance::getInput");
+        System.out.println("xxxBigFuzzSalaryGuidance::getInputxxx");
         //return Guidance.createInputStream(() -> random.nextInt(256));
         // Clear coverage stats for this run
         runCoverage.clear();
@@ -488,7 +488,8 @@ public class BigFuzzSalaryGuidance implements Guidance {
         // Return an input stream that reads bytes from a linear array
         return new InputStream() {
             int bytesRead = 0;
-
+            String initialString = "text1111111";
+            byte[] bytes = initialString.getBytes();
             @Override
             public int read() throws IOException {
                 assert currentInput instanceof LinearInput : "ZestGuidance should only mutate LinearInput(s)";
@@ -496,7 +497,13 @@ public class BigFuzzSalaryGuidance implements Guidance {
                 // For linear inputs, get with key = bytesRead (which is then incremented)
                 LinearInput linearInput = (LinearInput) currentInput;
                 // Attempt to get a value from the list, or else generate a random value
+                /*if(bytesRead>=bytes.length)
+                {
+                    return -1;
+                }
+                //int ret = bytes[bytesRead++];*/
                 int ret = linearInput.getOrGenerateFresh(bytesRead++, random);
+                //bytesRead++;
                 //System.out.println("read("+bytesRead+") = "+ret);
                 return ret;
             }
@@ -631,7 +638,7 @@ public class BigFuzzSalaryGuidance implements Guidance {
             int validNonZeroAfter = validCoverage.getNonZeroCount();
 
             // Possibly save input
-            boolean toSave = false;
+            boolean toSave = true;
             String why = "";
 
 
@@ -892,6 +899,7 @@ public class BigFuzzSalaryGuidance implements Guidance {
         public int getOrGenerateFresh(Integer key, Random random) {
             // Otherwise, make sure we are requesting just beyond the end-of-list
             // assert (key == values.size());
+            //System.out.println("getOrGenerateFresh");
             if (key != requested) {
                 throw new IllegalStateException(String.format("Bytes from linear input out of order. " +
                         "Size = %d, Key = %d", values.size(), key));

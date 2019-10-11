@@ -1,3 +1,5 @@
+package edu.ucla.cs.jqf.bigfuzz;
+
 import java.io.*;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
@@ -71,27 +73,27 @@ public class SalaryAnalysisMutation {
         }
 
         // Mutate
-        System.out.println("Before Mutation"+list.size());
+        /*System.out.println("Before Mutation"+list.size());
         for(String line : list)
         {
             System.out.println(line);
-        }
+        }*/
         randomGenerate(list);
         randomDuplicate(list);
-        System.out.println("After Mutation: "+list.size());
+        /*System.out.println("After Mutation: "+list.size());
         for(String line : list)
         {
             System.out.println(line);
-        }
+        }*/
 
         fileLines = list;
     }
 
-    public static void main(String[] args) throws IOException{
+    /*public static void main(String[] args) throws IOException{
 
         SalaryAnalysisMutation mutation = new SalaryAnalysisMutation();
         mutation.mutate("/home/qzhang/Downloads/BigTest-JPF-integrated/benchmarks/src/datasets/salary.csv");
         mutation.writeFile("/home/qzhang/Downloads/BigTest-JPF-integrated/benchmarks/src/datasets/salary2.csv");
-    }
+    }*/
 
 }

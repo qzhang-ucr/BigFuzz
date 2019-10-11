@@ -14,10 +14,10 @@ public class SalaryAnalysis {
         if(file.exists())
         {
             list = CustomArray.read(inputFile);
-            for(String line : list)
+            /*for(String line : list)
             {
                 System.out.println(line);
-            }
+            }*/
         }
         else
         {
@@ -28,17 +28,7 @@ public class SalaryAnalysis {
         ArrayList<Integer> filterSalary = CustomArray.filter(salary, 100000);
         Integer sum = CustomArray.reduce(filterSalary);
         System.out.println(sum);
-        //list = CustomArray.addLine(inputFile);
-        //list.add(inputFile);
-        //ArrayList<String> words = CustomArray.flatMap();
-        //ArrayList<Map<String, Integer>> tamResult = CustomArray.mapToPair(words);
-        //Map<String, Integer> counts = CustomArray.reduceByKey(tamResult);
-//        for(Map.Entry<String, Integer>  entry : counts.entrySet())
-//        {
-//            String word = entry.getKey();
-//            Integer value = entry.getValue();
-//            System.out.println(word+", "+value);
-//        }
+
     }
 
 }

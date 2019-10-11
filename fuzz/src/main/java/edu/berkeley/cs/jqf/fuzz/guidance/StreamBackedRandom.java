@@ -107,7 +107,7 @@ public class StreamBackedRandom extends Random {
     @Override
     public int next(int bits) {
         // Ensure that up to 32 bits are being requested
-        if (bits < 0 || bits > 32) {
+        /*if (bits < 0 || bits > 32) {
             throw new IllegalArgumentException("Must read 1-32 bits at a time");
         }
 
@@ -148,22 +148,36 @@ public class StreamBackedRandom extends Random {
 
         // Return only the lower order bits as requested
         int mask = bits < 32 ? (1 << bits) - 1 : -1;
-        return value & mask;
-
+        return value & mask;*/
+        int maxBytesToRead = 1;
+        int value = 0;
+        try {
+            int actualBytesRead = inputStream.read(byteBuffer.array(), 0, maxBytesToRead);
+            value = byteBuffer.getInt(0);
+        }
+        catch (IOException e)
+        {
+            throw new GuidanceException(e);
+        }
+        System.out.println("StreamBackedRandom:next "+maxBytesToRead+", "+value);
+        return value;
     }
 
     @Override
     public int nextInt(int bound) {
         if (bound <= 0)
             throw new IllegalArgumentException("bound must be positive");
+        System.out.println("StreamBackedRandom:nextInt");
         return next(31) % bound;
     }
 
     public byte nextByte() {
+        System.out.println("StreamBackedRandom:nextByte");
         return (byte) next(Byte.SIZE);
     }
 
     public short nextShort() {
+        System.out.println("StreamBackedRandom:nextShort");
         return (short) next(Short.SIZE);
     }
 

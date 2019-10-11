@@ -13,7 +13,12 @@ public class WordCountDriver {
 //        System.out.println(fileName);
 //        byte[] bs = fileName.getBytes();
 //        System.out.println(Arrays.toString(bs));
-        System.out.println("WordCountDriver::testWordCount: "+fileName);
+        byte[] bytes = fileName.getBytes();
+        for(int i=0;i<bytes.length;i++)
+        {
+            System.out.println("WordCountDriver: i, b: "+i+", "+bytes[i]);
+        }
+        System.out.println("WordCountDriver::testWordCount:fileName: "+fileName);
         WordCount cnt = new WordCount();
         cnt.WordCount(fileName);
     }

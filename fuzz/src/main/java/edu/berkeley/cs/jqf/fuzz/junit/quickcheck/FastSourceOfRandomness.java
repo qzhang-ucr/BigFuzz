@@ -91,6 +91,7 @@ public class FastSourceOfRandomness extends SourceOfRandomness {
 
     @Override
     public int nextInt(int min, int max) {
+        System.out.println("FastSourceOfRandomness:nextInt: (min, max)=("+min+", "+max+")");
         if (min == Integer.MIN_VALUE && max == Integer.MAX_VALUE) {
             return delegate.nextInt();
         }

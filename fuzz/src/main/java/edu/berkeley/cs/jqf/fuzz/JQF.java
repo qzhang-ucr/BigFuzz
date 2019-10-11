@@ -37,6 +37,7 @@ import com.pholser.junit.quickcheck.internal.generator.ServiceLoaderGeneratorSou
 import com.pholser.junit.quickcheck.random.SourceOfRandomness;
 import com.pholser.junit.quickcheck.runner.JUnitQuickcheck;
 import edu.berkeley.cs.jqf.fuzz.junit.quickcheck.FuzzStatement;
+import edu.berkeley.cs.jqf.fuzz.junit.quickcheck.FuzzStringStatement;
 import org.junit.runners.model.FrameworkMethod;
 import org.junit.runners.model.InitializationError;
 import org.junit.runners.model.Statement;
@@ -84,7 +85,8 @@ public class JQF extends JUnitQuickcheck {
 
     @Override public Statement methodBlock(FrameworkMethod method) {
         if (method.getAnnotation(Fuzz.class) != null) {
-            return new FuzzStatement(method, getTestClass(), generatorRepository);
+            System.out.println("JQF:methodBlock");
+            return new FuzzStringStatement(method, getTestClass(), generatorRepository);
         }
         return super.methodBlock(method);
     }

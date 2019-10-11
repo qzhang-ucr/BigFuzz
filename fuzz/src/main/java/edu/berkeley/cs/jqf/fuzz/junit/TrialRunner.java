@@ -62,9 +62,7 @@ public class TrialRunner extends BlockJUnit4ClassRunner {
     }
 
     public void run() throws Throwable {
+        //System.out.println("TrialRunner");
         this.methodBlock(method).evaluate();
     }
-
-
-
 }

@@ -30,6 +30,7 @@ package edu.berkeley.cs.jqf.fuzz.guidance;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.UnsupportedEncodingException;
 import java.util.function.Consumer;
 import java.util.function.Supplier;
 
@@ -93,7 +94,7 @@ public interface Guidance {
      * @throws GuidanceException if there was an I/O or other error
      *                  in generating the input stream
      */
-    InputStream getInput() throws IllegalStateException, GuidanceException;
+    InputStream getInput() throws IllegalStateException, GuidanceException, IOException;
 
     /**
      * Returns whether an input is ready for a new trial
