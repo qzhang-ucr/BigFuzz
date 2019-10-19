@@ -29,7 +29,12 @@ public class SalaryAnalysisMutation {
         int generatedTimes = r.nextInt(maxGenerateTimes)+1;
         for(int i=0;i<generatedTimes;i++)
         {
-            int number = r.nextInt(maxGenerateValue);
+            double tempnumber = r.nextGaussian()*10000+10000;
+            if(tempnumber<0)
+            {
+                tempnumber = 0;
+            }
+            int number = (int)tempnumber;
             String numberAsString = decimalFormat.format(number);
             if(r.nextBoolean())
             {

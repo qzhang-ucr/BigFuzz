@@ -24,9 +24,9 @@ public class SalaryAnalysis {
             System.out.println("File does not exist!");
             return;
         }
-        ArrayList<Integer> salary = CustomArray.map(list);
-        ArrayList<Integer> filterSalary = CustomArray.filter(salary, 100000);
-        Integer sum = CustomArray.reduce(filterSalary);
+        ArrayList<ArrayList<Integer>> salary = CustomArray.map(list);
+        //ArrayList<Integer> filterSalary = CustomArray.filter(salary, 100000);
+        Integer sum = CustomArray.reduce(salary);
         System.out.println(sum);
 
     }

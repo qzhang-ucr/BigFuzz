@@ -29,8 +29,6 @@
 package edu.ucla.cs.jqf.bigfuzz;
 
 import java.io.*;
-import java.nio.ByteBuffer;
-import java.nio.ByteOrder;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
@@ -40,6 +38,7 @@ import java.util.function.Consumer;
 import edu.berkeley.cs.jqf.fuzz.guidance.Guidance;
 import edu.berkeley.cs.jqf.fuzz.guidance.GuidanceException;
 import edu.berkeley.cs.jqf.fuzz.guidance.Result;
+import edu.berkeley.cs.jqf.fuzz.junit.quickcheck.ExcuCMDLine;
 import edu.berkeley.cs.jqf.fuzz.util.Coverage;
 import edu.berkeley.cs.jqf.instrument.tracing.events.TraceEvent;
 
@@ -139,6 +138,7 @@ public class NoGuidance implements Guidance {
     public void handleResult(Result result, Throwable error) {
         numTrials++;
         System.out.println("numTrials: "+numTrials);
+
         // Display error stack trace in case of failure
         if (result == Result.FAILURE) {
             if (out != null) {

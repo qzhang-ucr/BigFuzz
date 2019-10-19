@@ -71,6 +71,10 @@ import static edu.berkeley.cs.jqf.fuzz.guidance.Result.*;
  */
 public class FuzzStringStatement extends Statement {
 
+    private static final String basePath = "/Users/zhuhaichao/Desktop/";
+    private static final String sendKondorShellName = basePath + "submit.sh";
+    private static final String fileBasePath = "/Users/zhuhaichao/Documents/Workspace/github/BigFuzz/fuzz/target/classes/";
+    private static final ExcuCMDLine excuCMDLine = new ExcuCMDLine();
     private final FrameworkMethod method;
     private final TestClass testClass;
     private final Map<String, Type> typeVariables;
@@ -108,7 +112,7 @@ public class FuzzStringStatement extends Statement {
 
         // Get the currently registered fuzz guidance
         Guidance guidance = GuidedFuzzing.getCurrentGuidance();
-
+        int count = 0;
         // If nothing is set, default to random or repro
         if (guidance == null) {
             // Check for @Fuzz(repro=)
@@ -129,6 +133,7 @@ public class FuzzStringStatement extends Statement {
                 Throwable error = null;
 
                 // Initialize guided fuzzing using a file-backed random number source
+                String currentFile;
                 try {
                     Object[] args;
                     try {
@@ -146,8 +151,8 @@ public class FuzzStringStatement extends Statement {
                             e.printStackTrace();
                         }
                         //System.out.println("StreamBackedRandom getValue: "+stringBuilder.toString());
-
-                        Object[] args2 = {stringBuilder.toString()};
+                        currentFile = stringBuilder.toString();
+                        Object[] args2 = {currentFile};
                         args = args2;
                         //System.out.println(args.toString());
                     } catch (IllegalStateException e) {
@@ -174,7 +179,16 @@ public class FuzzStringStatement extends Statement {
 
                     // Attempt to run the trial
                     new TrialRunner(testClass.getJavaClass(), method, args).run();
+                    try
+                    {
+                        System.out.println(sendKondorShellName+" "+currentFile+", "+count);
+                        count++;
+                        excuCMDLine.executeShell(sendKondorShellName+" "+currentFile);
+                    }
+                    catch (IOException e)
+                    {
 
+                    }
                     // If we reached here, then the trial must be a success
                     result = SUCCESS;
                 } catch (GuidanceException e) {

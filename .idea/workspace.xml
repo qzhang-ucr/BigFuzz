@@ -3,353 +3,34 @@
   <component name="ChangeListManager">
     <list default="true" id="2774e54c-0a4f-4f30-9e38-c5ee0352aa9a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigfuzz/bigfuzz-dfcoverage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bigfuzz/bigfuzz-dfcoverage.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bigfuzz/src/SalaryAnalysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/bigfuzz/src/SalaryAnalysis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigfuzz/src/SalaryAnalysisDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/bigfuzz/src/SalaryAnalysisDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigfuzz/src/SalaryAnalysisMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/SalaryAnalysisMutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigfuzz/src/WordCountDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/bigfuzz/src/WordCountDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bigfuzz/src/edu/ucla/cs/bigfuzz/customarray/CustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/bigfuzz/src/edu/ucla/cs/bigfuzz/customarray/CustomArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigfuzz/target/classes/SalaryAnalysis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigfuzz/target/classes/SalaryAnalysisDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigfuzz/target/classes/SalaryAnalysisMutation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigfuzz/target/classes/WordCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigfuzz/target/classes/WordCountDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigfuzz/target/classes/edu/ucla/cs/bigfuzz/customarray/CustomArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigfuzz/target/classes/edu/ucla/cs/bigfuzz/dataflow/FilterEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigfuzz/target/classes/edu/ucla/cs/bigfuzz/dataflow/FlatMapEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigfuzz/target/classes/edu/ucla/cs/bigfuzz/dataflow/MapEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigfuzz/target/classes/edu/ucla/cs/bigfuzz/dataflow/MapToPairEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigfuzz/target/classes/edu/ucla/cs/bigfuzz/dataflow/ReduceByKeyEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigfuzz/target/classes/edu/ucla/cs/bigfuzz/dataflow/ReduceEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigfuzz/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/WordCount$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigfuzz/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/WordCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/jqf-examples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/examples/jqf-examples.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/bigfuzz-guidance.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/bigfuzz-guidance.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/JQF.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/JQF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/guidance/Guidance.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/guidance/Guidance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/guidance/StreamBackedRandom.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/guidance/StreamBackedRandom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/junit/GuidedFuzzing.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/junit/GuidedFuzzing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/junit/TrialRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/junit/TrialRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/junit/quickcheck/FastSourceOfRandomness.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/junit/quickcheck/FastSourceOfRandomness.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/junit/quickcheck/FuzzStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/junit/quickcheck/FuzzStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigfuzz/target/classes/SalaryAnalysis.class" beforeDir="false" afterPath="$PROJECT_DIR$/bigfuzz/target/classes/SalaryAnalysis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigfuzz/target/classes/edu/ucla/cs/bigfuzz/customarray/CustomArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/bigfuzz/target/classes/edu/ucla/cs/bigfuzz/customarray/CustomArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/junit/quickcheck/FuzzStringStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/junit/quickcheck/FuzzStringStatement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzSalaryGuidance.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzSalaryGuidance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/META-INF/bigfuzz-guidance.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/META-INF/services/com.pholser.junit.quickcheck.generator.Generator" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/SalaryAnalysis.class" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/target/classes/SalaryAnalysis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/SalaryAnalysisDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/target/classes/SalaryAnalysisDriver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/SalaryAnalysisMutation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/WordCountDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/target/classes/WordCountDriver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/Fuzz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/JQF.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/afl/AFLDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/afl/AFLGuidance$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/afl/AFLGuidance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/afl/PerfFuzzDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/afl/PerfFuzzGuidance$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/afl/PerfFuzzGuidance$CallingContext$Frame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/afl/PerfFuzzGuidance$CallingContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/afl/PerfFuzzGuidance$PerfFeedbackType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/afl/PerfFuzzGuidance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/ei/ExecutionContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/ei/ExecutionIndex$Prefix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/ei/ExecutionIndex$Suffix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/ei/ExecutionIndex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/ei/ExecutionIndexingDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/ei/ExecutionIndexingGuidance$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/ei/ExecutionIndexingGuidance$InputLocation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/ei/ExecutionIndexingGuidance$InputPrefixMapping.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/ei/ExecutionIndexingGuidance$MappedInput$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/ei/ExecutionIndexingGuidance$MappedInput.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/ei/ExecutionIndexingGuidance$MappedSeedInput.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/ei/ExecutionIndexingGuidance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/ei/ExecutionIndexingState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/ei/ZestDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/ei/ZestGuidance$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/ei/ZestGuidance$Input.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/ei/ZestGuidance$LinearInput.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/ei/ZestGuidance$SeedInput.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/ei/ZestGuidance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/guidance/Guidance$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/guidance/Guidance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/guidance/GuidanceException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/guidance/Result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/guidance/StreamBackedRandom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/guidance/TimeoutException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/junit/GuidedFuzzing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/junit/TrialRunner$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/junit/TrialRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/junit/quickcheck/FastSourceOfRandomness.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/junit/quickcheck/FuzzStatement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/junit/quickcheck/InputStreamGenerator$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/junit/quickcheck/InputStreamGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/junit/quickcheck/NonTrackingGenerationStatus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/random/NoGuidance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/random/RandomDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/repro/ReproDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/repro/ReproGuidance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/util/Counter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/util/Coverage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/util/Hashing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/util/MapOfCounters.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/util/NonZeroCachingCounter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/util/ProducerHashMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/ucla/cs/bigfuzz/customarray/CustomArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/target/classes/edu/ucla/cs/bigfuzz/customarray/CustomArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/NoGuidance.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/NoGuidance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/SalaryAnalysisMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/SalaryAnalysisMutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/junit/quickcheck/FuzzStringStatement.class" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/junit/quickcheck/FuzzStringStatement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/target/classes/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/ucla/cs/jqf/bigfuzz/BigFuzzSalaryGuidance$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/ucla/cs/jqf/bigfuzz/BigFuzzSalaryGuidance$Input.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/ucla/cs/jqf/bigfuzz/BigFuzzSalaryGuidance$LinearInput.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/ucla/cs/jqf/bigfuzz/BigFuzzSalaryGuidance$SeedInput.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/ucla/cs/jqf/bigfuzz/BigFuzzSalaryGuidance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/jqf-instrument.iml" beforeDir="false" afterPath="$PROJECT_DIR$/instrument/jqf-instrument.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/edu/berkeley/cs/jqf/instrument/InstrumentingClassLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/edu/berkeley/cs/jqf/instrument/tracing/ControlFlowInstructionVisitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/edu/berkeley/cs/jqf/instrument/tracing/DefaultInstructionVisitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/edu/berkeley/cs/jqf/instrument/tracing/PrintLogger$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/edu/berkeley/cs/jqf/instrument/tracing/PrintLogger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/edu/berkeley/cs/jqf/instrument/tracing/SingleSnoop$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/edu/berkeley/cs/jqf/instrument/tracing/SingleSnoop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/edu/berkeley/cs/jqf/instrument/tracing/ThreadTracer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/edu/berkeley/cs/jqf/instrument/tracing/ThreadTracer$BaseHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/edu/berkeley/cs/jqf/instrument/tracing/ThreadTracer$MatchingNullHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/edu/berkeley/cs/jqf/instrument/tracing/ThreadTracer$TraceEventGeneratingHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/edu/berkeley/cs/jqf/instrument/tracing/ThreadTracer$Values.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/edu/berkeley/cs/jqf/instrument/tracing/ThreadTracer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/edu/berkeley/cs/jqf/instrument/tracing/TraceLogger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/edu/berkeley/cs/jqf/instrument/tracing/events/AllocEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/edu/berkeley/cs/jqf/instrument/tracing/events/BranchEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/edu/berkeley/cs/jqf/instrument/tracing/events/CallEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/edu/berkeley/cs/jqf/instrument/tracing/events/ReadEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/edu/berkeley/cs/jqf/instrument/tracing/events/ReturnEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/edu/berkeley/cs/jqf/instrument/tracing/events/TraceEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/edu/berkeley/cs/jqf/instrument/tracing/events/TraceEventVisitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/edu/berkeley/cs/jqf/instrument/util/DoublyLinkedList$LinkedListIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/edu/berkeley/cs/jqf/instrument/util/DoublyLinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/edu/berkeley/cs/jqf/instrument/util/DoublyLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/edu/berkeley/cs/jqf/instrument/util/FastBlockingQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/edu/berkeley/cs/jqf/instrument/util/Stack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/instrument/Config.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/instrument/GlobalStateForInstrumentation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/instrument/SafeClassWriter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/instrument/SnoopInstructionClassAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/instrument/SnoopInstructionMethodAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/instrument/SnoopInstructionTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/instrument/TryCatchBlock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/instrument/Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/AbstractLogger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/Logger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/StringLogger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/StringPrintLogger$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/StringPrintLogger$FinishThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/StringPrintLogger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/AALOAD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/AASTORE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/ACONST_NULL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/ALOAD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/ANEWARRAY.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/ARETURN.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/ARRAYLENGTH.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/ASTORE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/ATHROW.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/BALOAD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/BASTORE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/BIPUSH.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/CALOAD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/CASTORE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/CHECKCAST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/ConditionalBranch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/D2F.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/D2I.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/D2L.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/DADD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/DALOAD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/DASTORE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/DATAFLOW.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/DCMPG.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/DCMPL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/DCONST_0.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/DCONST_1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/DDIV.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/DLOAD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/DMUL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/DNEG.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/DREM.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/DRETURN.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/DSTORE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/DSUB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/DUP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/DUP2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/DUP2_X1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/DUP2_X2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/DUP_X1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/DUP_X2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/F2D.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/F2I.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/F2L.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/FADD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/FALOAD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/FASTORE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/FCMPG.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/FCMPL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/FCONST_0.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/FCONST_1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/FCONST_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/FDIV.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/FLOAD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/FMUL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/FNEG.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/FREM.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/FRETURN.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/FSTORE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/FSUB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/GETFIELD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/GETSTATIC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/GETVALUE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/GETVALUE_Object.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/GETVALUE_boolean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/GETVALUE_byte.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/GETVALUE_char.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/GETVALUE_double.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/GETVALUE_float.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/GETVALUE_int.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/GETVALUE_long.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/GETVALUE_short.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/GETVALUE_void.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/GOTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/HEAPLOAD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/I2B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/I2C.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/I2D.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/I2F.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/I2L.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/I2S.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/IADD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/IALOAD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/IAND.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/IASTORE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/ICONST_0.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/ICONST_1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/ICONST_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/ICONST_3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/ICONST_4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/ICONST_5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/ICONST_M1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/IDIV.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/IFEQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/IFGE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/IFGT.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/IFLE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/IFLT.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/IFNE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/IFNONNULL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/IFNULL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/IF_ACMPEQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/IF_ACMPNE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/IF_ICMPEQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/IF_ICMPGE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/IF_ICMPGT.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/IF_ICMPLE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/IF_ICMPLT.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/IF_ICMPNE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/IINC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/ILOAD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/IMUL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/INEG.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/INSTANCEOF.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/INVOKEINTERFACE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/INVOKEMETHOD_END.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/INVOKEMETHOD_EXCEPTION.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/INVOKESPECIAL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/INVOKESTATIC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/INVOKEVIRTUAL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/IOR.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/IREM.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/IRETURN.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/ISHL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/ISHR.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/ISTORE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/ISUB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/IUSHR.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/IVisitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/IXOR.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/Instruction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/InvokeInstruction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/JSR.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/L2D.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/L2F.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/L2I.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/LADD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/LALOAD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/LAND.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/LASTORE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/LCMP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/LCONST_0.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/LCONST_1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/LDC_Object.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/LDC_String.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/LDC_double.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/LDC_float.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/LDC_int.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/LDC_long.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/LDIV.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/LLOAD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/LMUL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/LNEG.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/LOOKUPSWITCH.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/LOR.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/LREM.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/LRETURN.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/LSHL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/LSHR.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/LSTORE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/LSUB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/LUSHR.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/LXOR.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/MAKE_SYMBOLIC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/METHOD_BEGIN.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/METHOD_THROW.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/MONITORENTER.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/MONITOREXIT.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/MULTIANEWARRAY.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/MemberRef.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/NEW.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/NEWARRAY.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/NOP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/POP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/POP2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/PUTFIELD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/PUTSTATIC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/RET.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/RETURN.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/SALOAD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/SASTORE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/SIPUSH.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/SPECIAL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/SWAP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/classes/janala/logger/inst/TABLESWITCH.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/test-classes/benchmarks/BinaryTree$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/test-classes/benchmarks/BinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/test-classes/benchmarks/CancelReturn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/test-classes/benchmarks/DataStructures.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/test-classes/benchmarks/HelloWorld.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/test-classes/benchmarks/MultiThreaded$NamePrinter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/test-classes/benchmarks/MultiThreaded.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/test-classes/benchmarks/Outer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/test-classes/benchmarks/Outer$Inner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/test-classes/benchmarks/Outer$StaticNested.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/test-classes/benchmarks/Outer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/test-classes/benchmarks/Recursion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/test-classes/benchmarks/StaticInit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/test-classes/benchmarks/StaticInitDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/test-classes/benchmarks/UninitializedThis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/target/test-classes/benchmarks/Wrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/ucla/cs/jqf/bigfuzz/BigFuzzSalaryGuidance.class" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/target/classes/edu/ucla/cs/jqf/bigfuzz/BigFuzzSalaryGuidance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/ucla/cs/jqf/bigfuzz/NoGuidance.class" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/target/classes/edu/ucla/cs/jqf/bigfuzz/NoGuidance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/ucla/cs/jqf/bigfuzz/SalaryAnalysisMutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/target/classes/edu/ucla/cs/jqf/bigfuzz/SalaryAnalysisMutation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/janala.conf" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/janala.conf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -363,6 +44,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1S1QbIL6iFVlcLmafzQch5WtBAz" />
   <component name="ProjectLevelVcsManager">
@@ -406,7 +90,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SalaryAnalysisDriver">
+  <component name="RunManager" selected="Application.ExcuCMDLine">
+    <configuration name="ExcuCMDLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.berkeley.cs.jqf.fuzz.junit.quickcheck.ExcuCMDLine" />
+      <module name="bigfuzz-guidance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.berkeley.cs.jqf.fuzz.junit.quickcheck.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SalaryAnalysisMutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.ucla.cs.jqf.bigfuzz.SalaryAnalysisMutation" />
       <module name="bigfuzz-guidance" />
@@ -419,16 +116,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SalaryAnalysisDriver" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SalaryAnalysisDriver.testSalaryAnalysis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bigfuzz-dfcoverage" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SalaryAnalysisDriver" />
-      <option name="METHOD_NAME" value="testSalaryAnalysis" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -451,7 +138,7 @@
       <module name="bigfuzz-guidance" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.ucla.cs.jqf.bigfuzz.*" />
+          <option name="PATTERN" value="edu.berkeley.cs.jqf.fuzz.junit.quickcheck.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -463,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExcuCMDLine" />
         <item itemvalue="JUnit.SalaryAnalysisDriver" />
         <item itemvalue="JUnit.edu.berkeley.cs.jqf.fuzz in bigfuzz-guidance" />
         <item itemvalue="JUnit.edu.ucla.cs.jqf.bigfuzz in bigfuzz-guidance" />
         <item itemvalue="Application.SalaryAnalysisMutation" />
-        <item itemvalue="JUnit.SalaryAnalysisDriver.testSalaryAnalysis" />
       </list>
     </recent_temporary>
   </component>

@@ -1,10 +1,10 @@
 package edu.ucla.cs.bigfuzz.customarray;
 
-//import edu.berkeley.cs.jqf.instrument.tracing.TraceLogger;
+import edu.berkeley.cs.jqf.instrument.tracing.TraceLogger;
 import edu.ucla.cs.bigfuzz.dataflow.*;
-//import edu.ucla.cs.bigfuzz.sparkprogram.WordCount;
-//import janala.logger.inst.METHOD_BEGIN;
-//import janala.logger.inst.MemberRef;
+import edu.ucla.cs.bigfuzz.sparkprogram.WordCount;
+import janala.logger.inst.METHOD_BEGIN;
+import janala.logger.inst.MemberRef;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -41,38 +41,51 @@ public class CustomArray {
         return list;
     }
 
-    public static ArrayList<Integer> map(ArrayList<String> lines)
+    public static ArrayList<ArrayList<Integer>> map(ArrayList<String> lines)
     {
         System.out.println("Generating Data Flow Event: Map");
 
         int callersLineNumber = Thread.currentThread().getStackTrace()[1].getLineNumber();
 
-        //int iid = CustomArray.class.hashCode(); // this should be a random value associated with a program location
-        //MemberRef method = new METHOD_BEGIN(Thread.currentThread().getStackTrace()[1].getClassName(), Thread.currentThread().getStackTrace()[1].getMethodName(), "()V"); // containing method
+        int iid = CustomArray.class.hashCode(); // this should be a random value associated with a program location
+        MemberRef method = new METHOD_BEGIN(Thread.currentThread().getStackTrace()[1].getClassName(), Thread.currentThread().getStackTrace()[1].getMethodName(), "()V"); // containing method
 
-        //       MemberRef method = new METHOD_BEGIN("examples.A", "foo", "()V");
-
-        // line number if it exists
-
-        //System.out.println(callersLineNumber);
         // Generate a custom event!
-        //TraceLogger.get().emit(new MapEvent(iid, method, callersLineNumber));
+        TraceLogger.get().emit(new MapEvent(iid, method, callersLineNumber));
 
 
-        ArrayList<Integer> ret = new ArrayList<Integer>();
-
+        ArrayList<ArrayList<Integer>> ret = new ArrayList<ArrayList<Integer>>();
+        ArrayList<Integer> arr1 = new ArrayList<Integer>();
+        ArrayList<Integer> arr2 = new ArrayList<Integer>();
+        ArrayList<Integer> arr3 = new ArrayList<Integer>();
         for(String line : lines)
         {
+            int val = 0;
             if(line.charAt(0)=='$')
             {
-                ret.add(Integer.parseInt(line.substring(1).replace(",","")));
+                val = Integer.parseInt(line.substring(1).replace(",",""));
             }
             else
             {
-                ret.add(Integer.parseInt(line.replace(",","")));
+                val = Integer.parseInt(line.replace(",",""));
+            }
+
+            if(val <=5000)
+            {
+                arr1.add(val);
+            }
+            else if(val>5000&&val<=10000)
+            {
+                arr2.add(val);
+            }
+            else if(val>10000) {
+                arr3.add(val);
             }
         }
 
+        ret.add(arr1);
+        ret.add(arr2);
+        ret.add(arr3);
         //System.out.println(ret);
         return ret;
     }
@@ -94,25 +107,17 @@ public class CustomArray {
         System.out.println(ret.size());
         if( !ret.isEmpty()) arm = 1;
 
-        //int callersLineNumber = Thread.currentThread().getStackTrace()[1].getLineNumber();
+        int callersLineNumber = Thread.currentThread().getStackTrace()[1].getLineNumber();
 
-        //int iid = CustomArray.class.hashCode(); // this should be a random value associated with a program location
-        //MemberRef method = new METHOD_BEGIN(Thread.currentThread().getStackTrace()[1].getClassName(), Thread.currentThread().getStackTrace()[1].getMethodName(), "()V"); // containing method
+        int iid = CustomArray.class.hashCode(); // this should be a random value associated with a program location
+        MemberRef method = new METHOD_BEGIN(Thread.currentThread().getStackTrace()[1].getClassName(), Thread.currentThread().getStackTrace()[1].getMethodName(), "()V"); // containing method
 
-        //       MemberRef method = new METHOD_BEGIN("examples.A", "foo", "()V");
-
-        // line number if it exists
-
-        //System.out.println(callersLineNumber);
         // Generate a custom event!
-
-        //TraceLogger.get().emit(new FilterEvent(iid, method, callersLineNumber, arm));
-
-        //System.out.println("hahah");
+        TraceLogger.get().emit(new FilterEvent(iid, method, callersLineNumber, arm));
 
         return ret;
     }
-    public static Integer reduce(ArrayList<Integer> input)
+    /*public static Integer reduce(ArrayList<Integer> input)
     {
         System.out.println("Generating Data Flow Event: Reduce");
 
@@ -137,6 +142,30 @@ public class CustomArray {
         }
 
         return sum;
+    }*/
+    public static Integer reduce(ArrayList<ArrayList<Integer>> input)
+    {
+        System.out.println("Generating Data Flow Event: Reduce");
+
+        int callersLineNumber = Thread.currentThread().getStackTrace()[1].getLineNumber();
+
+        int iid = CustomArray.class.hashCode(); // this should be a random value associated with a program location
+        MemberRef method = new METHOD_BEGIN(Thread.currentThread().getStackTrace()[1].getClassName(), Thread.currentThread().getStackTrace()[1].getMethodName(), "()V"); // containing method
+
+        // Generate a custom event!
+        TraceLogger.get().emit(new ReduceEvent(iid, method, callersLineNumber));
+
+
+        Integer sum = 0;
+        for(ArrayList<Integer> gg : input)
+        {
+            for(Integer num:gg)
+            {
+                sum = sum + num;
+            }
+        }
+
+        return sum;
     }
     public static ArrayList<String> addLine(String inputPath) throws IOException {
         ArrayList<String> list  = new ArrayList<String>();
@@ -158,20 +187,15 @@ public class CustomArray {
         return words;
     }
     public static ArrayList<String> flatMap() {
-        //System.out.println("Generating Data Flow Event: FlatMap");
+        System.out.println("Generating Data Flow Event: FlatMap");
 
-        //int callersLineNumber = Thread.currentThread().getStackTrace()[1].getLineNumber();
+        int callersLineNumber = Thread.currentThread().getStackTrace()[1].getLineNumber();
 
-        //int iid = CustomArray.class.hashCode(); // this should be a random value associated with a program location
-        //MemberRef method = new METHOD_BEGIN(Thread.currentThread().getStackTrace()[1].getClassName(), Thread.currentThread().getStackTrace()[1].getMethodName(), "()V"); // containing method
+        int iid = CustomArray.class.hashCode(); // this should be a random value associated with a program location
+        MemberRef method = new METHOD_BEGIN(Thread.currentThread().getStackTrace()[1].getClassName(), Thread.currentThread().getStackTrace()[1].getMethodName(), "()V"); // containing method
 
-        //       MemberRef method = new METHOD_BEGIN("examples.A", "foo", "()V");
-
-        // line number if it exists
-
-        //System.out.println(callersLineNumber);
         // Generate a custom event!
-        //TraceLogger.get().emit(new FlatMapEvent(iid, method, callersLineNumber));
+        TraceLogger.get().emit(new FlatMapEvent(iid, method, callersLineNumber));
 
         ArrayList<String> words  = new ArrayList<String>();
         return words;
@@ -186,18 +210,13 @@ public class CustomArray {
 //            System.out.println(Thread.currentThread().getStackTrace()[i].getMethodName() + " "+ Thread.currentThread().getStackTrace()[i].getLineNumber());
 //        }
 
-        //int callersLineNumber = Thread.currentThread().getStackTrace()[1].getLineNumber();
+        int callersLineNumber = Thread.currentThread().getStackTrace()[1].getLineNumber();
 
-        //int iid = CustomArray.class.hashCode(); // this should be a random value associated with a program location
-        //MemberRef method = new METHOD_BEGIN(Thread.currentThread().getStackTrace()[1].getClassName(), Thread.currentThread().getStackTrace()[1].getMethodName(), "()V"); // containing method
+        int iid = CustomArray.class.hashCode(); // this should be a random value associated with a program location
+        MemberRef method = new METHOD_BEGIN(Thread.currentThread().getStackTrace()[1].getClassName(), Thread.currentThread().getStackTrace()[1].getMethodName(), "()V"); // containing method
 
-        //       MemberRef method = new METHOD_BEGIN("examples.A", "foo", "()V");
-
-        // line number if it exists
-
-        //System.out.println(callersLineNumber);
         // Generate a custom event!
-        //TraceLogger.get().emit(new MapToPairEvent(iid, method, callersLineNumber));
+        TraceLogger.get().emit(new MapToPairEvent(iid, method, callersLineNumber));
 
 
         int maxNumMap = 5;
@@ -231,18 +250,13 @@ public class CustomArray {
 //            System.out.println(Thread.currentThread().getStackTrace()[i].getMethodName() + " "+ Thread.currentThread().getStackTrace()[i].getLineNumber());
 //        }
 
-        //int callersLineNumber = Thread.currentThread().getStackTrace()[1].getLineNumber();
+        int callersLineNumber = Thread.currentThread().getStackTrace()[1].getLineNumber();
 
-        //int iid = CustomArray.class.hashCode(); // this should be a random value associated with a program location
-        //MemberRef method = new METHOD_BEGIN(Thread.currentThread().getStackTrace()[1].getClassName(), Thread.currentThread().getStackTrace()[1].getMethodName(), "()V"); // containing method
+        int iid = CustomArray.class.hashCode(); // this should be a random value associated with a program location
+        MemberRef method = new METHOD_BEGIN(Thread.currentThread().getStackTrace()[1].getClassName(), Thread.currentThread().getStackTrace()[1].getMethodName(), "()V"); // containing method
 
-        //       MemberRef method = new METHOD_BEGIN("examples.A", "foo", "()V");
-
-        // line number if it exists
-
-        //System.out.println(callersLineNumber);
         // Generate a custom event!
-        //TraceLogger.get().emit(new ReduceByKeyEvent(iid, method, callersLineNumber));
+        TraceLogger.get().emit(new ReduceByKeyEvent(iid, method, callersLineNumber));
 
 
         Map<String, Integer> wordsCountMap;

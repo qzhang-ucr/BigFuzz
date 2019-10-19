@@ -9,6 +9,8 @@ import java.io.File;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.IOException;
+import java.time.Duration;
+import java.time.temporal.ChronoUnit;
 
 public class BigFuzzDriver {
     public static void main(String[] args) {
@@ -23,10 +25,12 @@ public class BigFuzzDriver {
         System.out.println("maxTrials: "+maxTrials);
         File outputDirectory = new File("../fuzz-results");
 
-        String file = "/Users/zhuhaichao/Desktop/BigFuzz/BigFuzzTest/target/classes/salary.csv";
+        String file = "/Users/zhuhaichao/Documents/Workspace/github/BigFuzz/dataset/salary.csv";
         try {
             String title = testClassName+"#"+testMethodName;
-            NoGuidance guidance = new NoGuidance(file, maxTrials, System.err);
+            //NoGuidance guidance = new NoGuidance(file, maxTrials, System.err);
+            Duration duration = Duration.of(100, ChronoUnit.SECONDS);
+            BigFuzzSalaryGuidance guidance = new BigFuzzSalaryGuidance("Test1", file, maxTrials, duration, System.err);
             // Run the Junit test
             GuidedFuzzing.run(testClassName, testMethodName, guidance, System.out);
 
