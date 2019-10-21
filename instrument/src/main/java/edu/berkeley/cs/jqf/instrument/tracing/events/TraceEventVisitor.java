@@ -35,7 +35,9 @@ import edu.ucla.cs.bigfuzz.dataflow.*;
  * Visitor class for {@code TraceEvent} instances.
  *
  * @author Rohan Padhye
+ * @author Qian Zhang
  */
+
 public interface TraceEventVisitor {
 
     default void visitAllocEvent(AllocEvent e) {}
@@ -59,4 +61,5 @@ public interface TraceEventVisitor {
     default void visitReduceEvent(ReduceEvent e) {}
 
     default void visitMapEvent(MapEvent e) {}
+
 }

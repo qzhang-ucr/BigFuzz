@@ -25,7 +25,7 @@ public class SalaryAnalysis {
             return;
         }
         ArrayList<ArrayList<Integer>> salary = CustomArray.map(list);
-        //ArrayList<Integer> filterSalary = CustomArray.filter(salary, 100000);
+//        ArrayList<Integer> filterSalary = CustomArray.filter(salary, 100000);
         Integer sum = CustomArray.reduce(salary);
         System.out.println(sum);
 

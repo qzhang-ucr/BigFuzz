@@ -38,18 +38,15 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-import com.pholser.junit.quickcheck.generator.GenerationStatus;
 import com.pholser.junit.quickcheck.generator.Generator;
 import com.pholser.junit.quickcheck.internal.ParameterTypeContext;
 import com.pholser.junit.quickcheck.internal.generator.GeneratorRepository;
-import com.pholser.junit.quickcheck.random.SourceOfRandomness;
 import edu.berkeley.cs.jqf.fuzz.guidance.Guidance;
 import edu.berkeley.cs.jqf.fuzz.guidance.GuidanceException;
 import edu.berkeley.cs.jqf.fuzz.guidance.TimeoutException;
 import edu.berkeley.cs.jqf.fuzz.random.NoGuidance;
 import edu.berkeley.cs.jqf.fuzz.repro.ReproGuidance;
 import edu.berkeley.cs.jqf.fuzz.guidance.Result;
-import edu.berkeley.cs.jqf.fuzz.guidance.StreamBackedRandom;
 import edu.berkeley.cs.jqf.fuzz.Fuzz;
 import edu.berkeley.cs.jqf.fuzz.junit.GuidedFuzzing;
 import edu.berkeley.cs.jqf.fuzz.junit.TrialRunner;
@@ -73,8 +70,9 @@ public class FuzzStringStatement extends Statement {
 
     private static final String basePath = "/Users/zhuhaichao/Desktop/";
     private static final String sendKondorShellName = basePath + "submit.sh";
-    private static final String fileBasePath = "/Users/zhuhaichao/Documents/Workspace/github/BigFuzz/fuzz/target/classes/";
-    private static final ExcuCMDLine excuCMDLine = new ExcuCMDLine();
+//    private static final String fileBasePath = "/Users/zhuhaichao/Documents/Workspace/github/BigFuzz/fuzz/target/classes/";
+    private static final String fileBasePath = "/home/qzhang/Programs/BigFuzz/fuzz/target/classes/";
+    private static final SparkJobSubmit SPARK_JOB_SUBMIT = new SparkJobSubmit();
     private final FrameworkMethod method;
     private final TestClass testClass;
     private final Map<String, Type> typeVariables;
@@ -179,16 +177,16 @@ public class FuzzStringStatement extends Statement {
 
                     // Attempt to run the trial
                     new TrialRunner(testClass.getJavaClass(), method, args).run();
-                    try
-                    {
-                        System.out.println(sendKondorShellName+" "+currentFile+", "+count);
-                        count++;
-                        excuCMDLine.executeShell(sendKondorShellName+" "+currentFile);
-                    }
-                    catch (IOException e)
-                    {
-
-                    }
+//                    try
+//                    {
+//                        System.out.println(sendKondorShellName+" "+currentFile+", "+count);
+//                        count++;
+//                        SPARK_JOB_SUBMIT.executeShell(sendKondorShellName+" "+currentFile);
+//                    }
+//                    catch (IOException e)
+//                    {
+//
+//                    }
                     // If we reached here, then the trial must be a success
                     result = SUCCESS;
                 } catch (GuidanceException e) {

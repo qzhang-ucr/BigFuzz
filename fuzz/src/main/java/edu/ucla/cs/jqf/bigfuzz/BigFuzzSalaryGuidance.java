@@ -3,6 +3,7 @@ package edu.ucla.cs.jqf.bigfuzz;
 import edu.berkeley.cs.jqf.fuzz.guidance.Guidance;
 import edu.berkeley.cs.jqf.fuzz.guidance.GuidanceException;
 import edu.berkeley.cs.jqf.fuzz.guidance.Result;
+import edu.berkeley.cs.jqf.fuzz.guidance.TimeoutException;
 import edu.berkeley.cs.jqf.fuzz.util.Coverage;
 import edu.berkeley.cs.jqf.instrument.tracing.events.TraceEvent;
 
@@ -122,6 +123,7 @@ public class BigFuzzSalaryGuidance implements Guidance {
             {
                 mutation.mutate(currentInputFile);
                 String fileName = new SimpleDateFormat("yyyyMMddHHmm'.csv'").format(new Date());
+                System.out.println(fileName);
                 currentInputFile = fileName;
                 mutation.writeFile(fileName);
                 testInputFiles.add(fileName);
@@ -180,7 +182,7 @@ public class BigFuzzSalaryGuidance implements Guidance {
         // Stop timeout handling
         this.runStart = null;
 
-        System.out.println("BigFuzzGuidance::handleResult");
+        System.out.println("BigFuzz::handleResult");
         this.numTrials++;
 
         boolean valid = result == Result.SUCCESS;
@@ -301,6 +303,7 @@ public class BigFuzzSalaryGuidance implements Guidance {
         if (STEAL_RESPONSIBILITY) {
 
         }
+        System.out.println("Result:" + result);
 
         return result;
     }
@@ -308,10 +311,36 @@ public class BigFuzzSalaryGuidance implements Guidance {
     @Override
     public Consumer<TraceEvent> generateCallBack(Thread thread) {
 
-        return (event) -> {
-            System.out.println(String.format("Thread %s produced event %s",
-                    thread.getName(), event));
-        };
+//        if (appThread != null) {
+//            throw new IllegalStateException(ZestGuidance.class +
+//                    " only supports single-threaded apps at the moment");
+//        }
+//        appThread = thread;
+
+        return this::handleEvent;
+
+        //print out the trace events generated during test execution
+//        return (event) -> {
+//            System.out.println(String.format("Thread %s produced event %s",
+//                    thread.getName(), event));
+//        };
+    }
+
+    /** Handles a trace event generated during test execution */
+    protected void handleEvent(TraceEvent e) {
+        // Collect totalCoverage
+        runCoverage.handleEvent(e);
+        System.out.println(runCoverage.getNonZeroCount());
+        System.out.println(runCoverage.getCovered());
+
+        // Check for possible timeouts every so often
+//        if (this.singleRunTimeoutMillis > 0 &&
+//                this.runStart != null && (++this.branchCount) % 10_000 == 0) {
+//            long elapsed = new Date().getTime() - runStart.getTime();
+//            if (elapsed > this.singleRunTimeoutMillis) {
+//                throw new TimeoutException(elapsed, this.singleRunTimeoutMillis);
+//            }
+//        }
     }
 
 

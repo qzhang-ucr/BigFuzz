@@ -43,7 +43,7 @@ public class CustomArray {
 
     public static ArrayList<ArrayList<Integer>> map(ArrayList<String> lines)
     {
-        System.out.println("Generating Data Flow Event: Map");
+//        System.out.println("Generating Data Flow Event: Map");
 
         int callersLineNumber = Thread.currentThread().getStackTrace()[1].getLineNumber();
 
@@ -145,7 +145,7 @@ public class CustomArray {
     }*/
     public static Integer reduce(ArrayList<ArrayList<Integer>> input)
     {
-        System.out.println("Generating Data Flow Event: Reduce");
+//        System.out.println("Generating Data Flow Event: Reduce");
 
         int callersLineNumber = Thread.currentThread().getStackTrace()[1].getLineNumber();
 
