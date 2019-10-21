@@ -123,16 +123,15 @@ public class BigFuzzSalaryGuidance implements Guidance {
             {
                 mutation.mutate(currentInputFile);
                 String fileName = new SimpleDateFormat("yyyyMMddHHmm'.csv'").format(new Date());
-                System.out.println(fileName);
                 currentInputFile = fileName;
                 mutation.writeFile(fileName);
-                testInputFiles.add(fileName);
             }
             catch (IOException e)
             {
 
             }
         }
+        testInputFiles.add(currentInputFile);
 
         System.out.println("BigFuzzSalaryGuidance::getInput: "+numTrials+": "+currentInputFile );
         InputStream targetStream = new ByteArrayInputStream(currentInputFile.getBytes());

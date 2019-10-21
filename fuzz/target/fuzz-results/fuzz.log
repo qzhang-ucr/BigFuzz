@@ -1,6 +1,0 @@
-Saving new input (at run 1): input #0 of size 92; total coverage = 0
-Saved - ../fuzz-results/corpus/id_000000 random 
-Saving new input (at run 2): input #1 of size 44; total coverage = 0
-Saved - ../fuzz-results/corpus/id_000001 src:000000,havoc:13 
-Saving new input (at run 3): input #2 of size 92; total coverage = 0
-Saved - ../fuzz-results/corpus/id_000002 src:000000,havoc:6 

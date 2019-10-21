@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/bigfuzz/bigfuzz-dfcoverage.iml" filepath="$PROJECT_DIR$/bigfuzz/bigfuzz-dfcoverage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customarray/bigfuzz-dfcoverage.iml" filepath="$PROJECT_DIR$/customarray/bigfuzz-dfcoverage.iml" />
       <module fileurl="file://$PROJECT_DIR$/fuzz/bigfuzz-guidance.iml" filepath="$PROJECT_DIR$/fuzz/bigfuzz-guidance.iml" />
       <module fileurl="file://$PROJECT_DIR$/jqf.iml" filepath="$PROJECT_DIR$/jqf.iml" />
       <module fileurl="file://$PROJECT_DIR$/examples/jqf-examples.iml" filepath="$PROJECT_DIR$/examples/jqf-examples.iml" />
