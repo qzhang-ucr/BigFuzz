@@ -224,6 +224,7 @@ public class BigFuzzSalaryGuidance implements Guidance {
             // Existing branches *may* be included, depending on the heuristics used.
             // A valid input will steal responsibility from invalid inputs
             Set<Object> responsibilities = computeResponsibilities(valid);
+            System.out.println("Responsibilities of this input: "+responsibilities);
 
             // Update total coverage
             boolean coverageBitsUpdated = totalCoverage.updateBits(runCoverage);
@@ -302,7 +303,7 @@ public class BigFuzzSalaryGuidance implements Guidance {
         if (STEAL_RESPONSIBILITY) {
 
         }
-        System.out.println("Result:" + result);
+//        System.out.println("Result:" + result);
 
         return result;
     }

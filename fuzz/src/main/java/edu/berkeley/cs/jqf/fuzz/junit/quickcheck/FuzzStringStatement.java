@@ -68,7 +68,8 @@ import static edu.berkeley.cs.jqf.fuzz.guidance.Result.*;
  */
 public class FuzzStringStatement extends Statement {
 
-    private static final String basePath = "/Users/zhuhaichao/Desktop/";
+//    private static final String basePath = "/Users/zhuhaichao/Desktop/";
+    private static final String basePath = "/home/qzhang/Downloads/";
     private static final String sendKondorShellName = basePath + "submit.sh";
 //    private static final String fileBasePath = "/Users/zhuhaichao/Documents/Workspace/github/BigFuzz/fuzz/target/classes/";
     private static final String fileBasePath = "/home/qzhang/Programs/BigFuzz/fuzz/target/classes/";
@@ -175,18 +176,19 @@ public class FuzzStringStatement extends Statement {
                         // System.out.println(randomFile.getTotalBytesRead() + " random bytes read");
                     }
 
-                    // Attempt to run the trial
+                    // Attempt to run the trial and submit spark job
                     new TrialRunner(testClass.getJavaClass(), method, args).run();
-//                    try
-//                    {
-//                        System.out.println(sendKondorShellName+" "+currentFile+", "+count);
-//                        count++;
-//                        SPARK_JOB_SUBMIT.executeShell(sendKondorShellName+" "+currentFile);
-//                    }
-//                    catch (IOException e)
-//                    {
-//
-//                    }
+                    try
+                    {
+                     //   System.out.println(sendKondorShellName+" "+currentFile+", "+count);
+                        System.out.println("Current Input:" + currentFile + ", " + count);
+                        count++;
+                        SPARK_JOB_SUBMIT.executeShell(sendKondorShellName+" "+currentFile);
+                    }
+                    catch (IOException e)
+                    {
+
+                    }
                     // If we reached here, then the trial must be a success
                     result = SUCCESS;
                 } catch (GuidanceException e) {

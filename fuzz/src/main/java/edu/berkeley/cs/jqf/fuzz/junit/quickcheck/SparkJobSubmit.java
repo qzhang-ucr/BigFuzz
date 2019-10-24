@@ -8,7 +8,8 @@ import java.util.Date;
 public class SparkJobSubmit {
 
     // base path
-    private static final String basePath = "/Users/zhuhaichao/Desktop/";
+//    private static final String basePath = "/Users/zhuhaichao/Desktop/";
+    private static final String basePath = "/home/qzhang/Downloads/";
 
     // 记录Shell执行状况的日志文件的位置(绝对路径)
     private static final String executeShellLogFile = basePath
@@ -19,7 +20,7 @@ public class SparkJobSubmit {
             + "printFileName.sh";
 
     public int executeShell(String shellCommand) throws IOException {
-        System.out.println("shellCommand:"+shellCommand);
+//        System.out.println("Spark Job Submission:"+shellCommand);
         int success = 0;
         StringBuffer stringBuffer = new StringBuffer();
         BufferedReader bufferedReader = null;
@@ -28,7 +29,7 @@ public class SparkJobSubmit {
 
         try {
             stringBuffer.append(dateFormat.format(new Date()))
-                    .append("Execute Shell Command ").append(shellCommand)
+                    .append("Spark Job Submission ").append(shellCommand)
                     .append(" \r\n");
             Process pid = null;
             String[] cmd = { "/bin/sh", "-c", shellCommand };
@@ -46,7 +47,7 @@ public class SparkJobSubmit {
                 stringBuffer.append("NO PID\r\n");
             }
             stringBuffer.append(dateFormat.format(new Date())).append(
-                    "Shell Execution Completed\r\nResult：\r\n");
+                    "Job Submission Completed\r\nResult：\r\n");
             String line = null;
             // 读取Shell的输出内容，并添加到stringBuffer中
             while (bufferedReader != null
@@ -66,7 +67,8 @@ public class SparkJobSubmit {
                     OutputStream outputStream = new FileOutputStream(executeShellLogFile);
                     outputStreamWriter = new OutputStreamWriter(outputStream, "UTF-8");
                     outputStreamWriter.write(stringBuffer.toString());
-                    System.out.println("stringBuffer.toString():"+stringBuffer.toString());
+                //    System.out.println("stringBuffer.toString():"+stringBuffer.toString());
+                    System.out.println(stringBuffer.toString());
                 } catch (Exception e) {
                     e.printStackTrace();
                 } finally {
