@@ -35,12 +35,24 @@ public class SalaryAnalysisMutation {
                 tempnumber = 0;
             }
             int number = (int)tempnumber;
-            String numberAsString = decimalFormat.format(number);
+            String numberAsString = Integer.toString(number);
             if(r.nextBoolean())
             {
                 numberAsString = "$"+numberAsString;
             }
             int insertPos = r.nextInt(list.size());
+
+            int zip = r.nextInt(89999)+1;
+            int age = (int)r.nextGaussian()*45+30;
+            if(age>=100)
+            {
+                age=99;
+            }
+            if(age<0)
+            {
+                age = 0;
+            }
+            numberAsString = Integer.toString(zip)+","+Integer.toString(age)+","+numberAsString;
             list.add(insertPos, numberAsString);
         }
     }

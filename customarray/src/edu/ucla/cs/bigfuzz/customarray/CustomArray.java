@@ -55,37 +55,29 @@ public class CustomArray {
 
 
         ArrayList<ArrayList<Integer>> ret = new ArrayList<ArrayList<Integer>>();
-        ArrayList<Integer> arr1 = new ArrayList<Integer>();
-        ArrayList<Integer> arr2 = new ArrayList<Integer>();
-        ArrayList<Integer> arr3 = new ArrayList<Integer>();
+        for(int i=0;i<10;i++)
+        {
+            ret.add(new ArrayList<Integer>());
+        }
         for(String line : lines)
         {
+            System.out.println(line);
             int val = 0;
-            if(line.charAt(0)=='$')
+            int zipCode = 0;
+            int age = 0;
+            String[] columns = line.split(",");
+            if(columns[2].charAt(0)=='$')
             {
-                val = Integer.parseInt(line.substring(1).replace(",",""));
+                val = Integer.parseInt(columns[2].substring(1).replace(",",""));
             }
             else
             {
-                val = Integer.parseInt(line.replace(",",""));
+                val = Integer.parseInt(columns[2].replace(",",""));
             }
-
-            if(val <=5000)
-            {
-                arr1.add(val);
-            }
-            else if(val>5000&&val<=10000)
-            {
-                arr2.add(val);
-            }
-            else if(val>10000) {
-                arr3.add(val);
-            }
+            age = Integer.parseInt(columns[1])/10;
+            ret.get(age).add(val);
         }
 
-        ret.add(arr1);
-        ret.add(arr2);
-        ret.add(arr3);
         //System.out.println(ret);
         return ret;
     }
@@ -143,7 +135,7 @@ public class CustomArray {
 
         return sum;
     }*/
-    public static Integer reduce(ArrayList<ArrayList<Integer>> input)
+    public static ArrayList<Integer> reduce(ArrayList<ArrayList<Integer>> input)
     {
 //        System.out.println("Generating Data Flow Event: Reduce");
 
@@ -156,16 +148,18 @@ public class CustomArray {
         TraceLogger.get().emit(new ReduceEvent(iid, method, callersLineNumber));
 
 
-        Integer sum = 0;
+        ArrayList<Integer> ret = new ArrayList<Integer>();
         for(ArrayList<Integer> gg : input)
         {
+            int sum = 0;
             for(Integer num:gg)
             {
                 sum = sum + num;
             }
+            ret.add(sum);
         }
 
-        return sum;
+        return ret;
     }
     public static ArrayList<String> addLine(String inputPath) throws IOException {
         ArrayList<String> list  = new ArrayList<String>();
