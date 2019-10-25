@@ -182,6 +182,8 @@ public class BigFuzzSalaryGuidance implements Guidance {
         this.runStart = null;
 
         System.out.println("BigFuzz::handleResult");
+        System.out.println(result);
+
         this.numTrials++;
 
         boolean valid = result == Result.SUCCESS;
@@ -240,14 +242,14 @@ public class BigFuzzSalaryGuidance implements Guidance {
             int validNonZeroAfter = validCoverage.getNonZeroCount();
 
             // Possibly save input
-            boolean toSave = true;
+            boolean toSave = false;
             String why = "";
 
 
-            if (SAVE_NEW_COUNTS && coverageBitsUpdated) {
-                toSave = true;
-                why = why + "+count";
-            }
+//            if (SAVE_NEW_COUNTS && coverageBitsUpdated) {
+//                toSave = true;
+//                why = why + "+count";
+//            }
 
             // Save if new total coverage found
             if (nonZeroAfter > nonZeroBefore) {
@@ -264,6 +266,30 @@ public class BigFuzzSalaryGuidance implements Guidance {
                 toSave = true;
                 why = why + "+valid";
             }
+
+            if (toSave) {
+
+                infoLog("Saving new input (at run %d): " +
+//                                "input #%d " +
+//                                "of size %d; " +
+                                "total coverage = %d",
+                        numTrials,
+//                        savedInputs.size(),
+//                        currentInput.size(),
+                        nonZeroAfter);
+
+                // Change current inputfile name
+
+                File src = new File(currentInputFile);
+                currentInputFile += why;
+                File des = new File(currentInputFile);
+                if (!src.renameTo(des)) {
+                    System.out.println("Failed to renameTo file");
+                }
+
+
+            }
+
         } else if (result == Result.FAILURE || result == Result.TIMEOUT) {
             String msg = error.getMessage();
 
@@ -330,8 +356,8 @@ public class BigFuzzSalaryGuidance implements Guidance {
     protected void handleEvent(TraceEvent e) {
         // Collect totalCoverage
         runCoverage.handleEvent(e);
-        System.out.println(runCoverage.getNonZeroCount());
-        System.out.println(runCoverage.getCovered());
+//        System.out.println(runCoverage.getNonZeroCount());
+//        System.out.println(runCoverage.getCovered());
 
         // Check for possible timeouts every so often
 //        if (this.singleRunTimeoutMillis > 0 &&

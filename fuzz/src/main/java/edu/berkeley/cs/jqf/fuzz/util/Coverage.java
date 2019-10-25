@@ -93,23 +93,23 @@ public class Coverage implements TraceEventVisitor {
     @Override
     public void visitBranchEvent(BranchEvent b) {
         counter.increment1(b.getIid(), b.getArm());
-        System.out.println("Coverage::visitBranchEvent");
+//        System.out.println("Coverage::visitBranchEvent");
     }
 
     @Override
     public void visitCallEvent(CallEvent e) {
         counter.increment(e.getIid());
-        System.out.println("Coverage::visitCallEvent");
+//        System.out.println("Coverage::visitCallEvent");
     }
 
     public void visitMapEvent(MapEvent e) {
         counter.increment(e.getIid());
-        System.out.println("Coverage: visitMap");
+//        System.out.println("Coverage: visitMap");
     }
 
     public void visitReduceEvent(ReduceEvent e) {
         counter.increment(e.getIid());
-        System.out.println("Coverage: visitReduce");
+//        System.out.println("Coverage: visitReduce");
     }
 
     /**
