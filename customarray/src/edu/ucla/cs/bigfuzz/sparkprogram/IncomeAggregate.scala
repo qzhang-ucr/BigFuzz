@@ -1,7 +1,4 @@
-/**
-  * Created by malig on 3/27/18.
-  * Modified by Qian on 10/07/19.
-  */
+
 
 import org.apache.spark.{SparkConf, SparkContext}
 
