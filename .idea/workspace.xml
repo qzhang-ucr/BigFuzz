@@ -3,22 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2774e54c-0a4f-4f30-9e38-c5ee0352aa9a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/target/classes/201910231132.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/target/classes/201910231152.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/target/classes/201910241138.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate$$anonfun$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate$$anonfun$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate$$anonfun$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate$$anonfun$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate$$anonfun$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate$$anonfun$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate$$anonfun$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate$$anonfun$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate$$anonfun$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate$$anonfun$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate$.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/salary1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/junit/quickcheck/FuzzStringStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/junit/quickcheck/FuzzStringStatement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/util/Coverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/util/Coverage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzSalaryGuidance.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzSalaryGuidance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/201910251526.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/201910251526.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/201910251526.csv+cov" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/201910251526.csv+cov" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/salary1.csv+cov" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/salary1.csv+cov" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzSalaryGuidance.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="233">
-              <caret line="285" column="30" lean-forward="true" selection-start-line="285" selection-start-column="30" selection-end-line="285" selection-end-column="30" />
+              <caret line="285" column="30" selection-start-line="285" selection-start-column="30" selection-end-line="285" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -73,11 +60,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/customarray/src/SalaryAnalysis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="432">
+              <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataset/salary1.csv+cov">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/JoinSkew.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -133,6 +138,8 @@
         <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.java" />
         <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/util/Coverage.java" />
         <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzSalaryGuidance.java" />
+        <option value="$PROJECT_DIR$/dataset/salary1.csv+cov" />
+        <option value="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/JoinSkew.scala" />
       </list>
     </option>
   </component>
@@ -176,25 +183,27 @@
             <path>
               <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
               <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="customarray" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bigfuzz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="customarray" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bigfuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="sparkprogram" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
               <item name="dataset" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
               <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
-              <item name="instrument" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
-              <item name="instrument" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
-              <item name="instrument" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -228,6 +237,7 @@
       <recent name="edu.ucla.cs.bigfuzz" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dataset" />
       <recent name="$PROJECT_DIR$/TestCases/src/edu/ucla/cs/bigfuzz" />
     </key>
   </component>
@@ -243,7 +253,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IncomeDataGen">
+  <component name="RunManager" selected="Application.JoinSkew">
     <configuration name="IncomeAggregate" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="IncomeAggregate" />
       <module name="bigfuzz-dfcoverage" />
@@ -257,6 +267,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="datagen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JoinSkew" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="edu.ucla.cs.bigfuzz.sparkprogram.JoinSkew" />
+      <module name="bigfuzz-dfcoverage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.ucla.cs.bigfuzz.sparkprogram.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -286,27 +309,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="edu.berkeley.cs.jqf.fuzz in bigfuzz-guidance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bigfuzz-guidance" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.berkeley.cs.jqf.fuzz.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.berkeley.cs.jqf.fuzz" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JoinSkew" />
         <item itemvalue="Application.IncomeDataGen" />
         <item itemvalue="Application.IncomeAggregate" />
         <item itemvalue="Application.SparkJobSubmit" />
         <item itemvalue="JUnit.SalaryAnalysisDriver" />
-        <item itemvalue="JUnit.edu.berkeley.cs.jqf.fuzz in bigfuzz-guidance" />
       </list>
     </recent_temporary>
   </component>
@@ -575,7 +584,7 @@
     <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzSalaryGuidance.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
-          <caret line="285" column="30" lean-forward="true" selection-start-line="285" selection-start-column="30" selection-end-line="285" selection-end-column="30" />
+          <caret line="285" column="30" selection-start-line="285" selection-start-column="30" selection-end-line="285" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -586,10 +595,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/201910251526.csv+cov">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/201910251526.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/customarray/src/SalaryAnalysis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        <state relative-caret-position="432">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/salary1.csv+cov">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/JoinSkew.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
