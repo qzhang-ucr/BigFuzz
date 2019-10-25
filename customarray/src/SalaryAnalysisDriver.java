@@ -12,11 +12,11 @@ public class SalaryAnalysisDriver {
 //        System.out.println(fileName);
 //        byte[] bs = fileName.getBytes();
 //        System.out.println(Arrays.toString(bs));
-        byte[] bytes = fileName.getBytes();
+//        byte[] bytes = fileName.getBytes();
         System.out.println("SalaryAnalysisDriver::testSalaryAnalysis: "+fileName);
-        SalaryAnalysis ana = new SalaryAnalysis();
+        SalaryAnalysis analysis = new SalaryAnalysis();
         //fileName = "/home/qzhang/Downloads/BigTest-JPF-integrated/benchmarks/src/datasets/salary.csv";
-        ana.SalaryAnalysis(fileName);
+        analysis.SalaryAnalysis(fileName);
     }
 
 //    public static void main(String[] args) throws IOException

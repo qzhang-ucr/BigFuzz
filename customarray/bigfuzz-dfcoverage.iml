@@ -15,5 +15,6 @@
     <orderEntry type="library" name="org.apache.spark:spark-core_2.10:2.1.0" level="project" />
     <orderEntry type="module" module-name="bigfuzz-guidance" />
     <orderEntry type="module" module-name="jqf-instrument" />
+    <orderEntry type="library" name="scala-sdk-2.11.8" level="application" />
   </component>
 </module>
