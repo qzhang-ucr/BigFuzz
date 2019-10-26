@@ -5,14 +5,12 @@ import edu.ucla.cs.bigfuzz.dataflow.*;
 import edu.ucla.cs.bigfuzz.sparkprogram.WordCount;
 import janala.logger.inst.METHOD_BEGIN;
 import janala.logger.inst.MemberRef;
+import javafx.util.Pair;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.TreeMap;
+import java.util.*;
 
 public class CustomArray {
 
@@ -39,6 +37,133 @@ public class CustomArray {
 
         //br.close();
         return list;
+    }
+
+    public static ArrayList<SalaryItem> map1(ArrayList<String> lines)
+    {
+//        System.out.println("Generating Data Flow Event: Map");
+
+        int callersLineNumber = Thread.currentThread().getStackTrace()[1].getLineNumber();
+
+        int iid = CustomArray.class.hashCode(); // this should be a random value associated with a program location
+        MemberRef method = new METHOD_BEGIN(Thread.currentThread().getStackTrace()[1].getClassName(), Thread.currentThread().getStackTrace()[1].getMethodName(), "()V"); // containing method
+
+        // Generate a custom event!
+        TraceLogger.get().emit(new MapEvent(iid, method, callersLineNumber));
+
+
+        ArrayList<SalaryItem> ret = new ArrayList<SalaryItem>();
+
+        for(String line : lines)
+        {
+            //System.out.println(line);
+            int salary = 0;
+
+            int age = 0;
+            String[] columns = line.split(",");
+            String zipCode = columns[0];
+            if(columns[2].charAt(0)=='$')
+            {
+                salary = Integer.parseInt(columns[2].substring(1).replace(",",""));
+            }
+            else
+            {
+                salary = Integer.parseInt(columns[2].replace(",",""));
+            }
+            age = Integer.parseInt(columns[1]);
+            SalaryItem item = new SalaryItem(zipCode, age, salary);
+            ret.add(item);
+        }
+
+        //System.out.println(ret);
+        return ret;
+    }
+    public static ArrayList<SalaryItem> filter1(ArrayList<SalaryItem> items, String zipcode)
+    {
+        ArrayList<SalaryItem> ret = new ArrayList<SalaryItem>();
+        for(SalaryItem item:items)
+        {
+            if(item.getZipcode().equals(zipcode))
+            {
+                ret.add(item);
+            }
+        }
+        return ret;
+    }
+    public static ArrayList<Pair<String, Integer>> map2(ArrayList<SalaryItem> items)
+    {
+        ArrayList<Pair<String, Integer>> ret = new ArrayList<Pair<String, Integer>>();
+        for(SalaryItem item:items)
+        {
+            int salary = item.getSalary();
+            int age = item.getAge();
+            String key = "";
+            if(age>=20&&age<40)
+            {
+                key = "20-40";//ret.add(new Pair<String, Integer>("20-30", salary));
+            }
+            else if(age>=40&&age<=65)
+            {
+                key = "40-65";//ret.add(new Pair<String, Integer>("40-65", salary));
+            }
+            else if(age<20)
+            {
+                key = "0-19";
+            }
+            else
+            {
+                key = ">65";
+            }
+            ret.add(new Pair<String, Integer>(key, salary));
+        }
+        return ret;
+    }
+    public static ArrayList<Pair<String, Pair<Integer, Integer>>> mapValues1(ArrayList<Pair<String, Integer>> arrayList)
+    {
+        ArrayList<Pair<String, Pair<Integer, Integer>>> ret = new ArrayList<Pair<String, Pair<Integer, Integer>>>();
+        for(Pair<String, Integer> item:arrayList)
+        {
+            ret.add(new Pair<String, Pair<Integer, Integer>>(item.getKey(), new Pair<Integer, Integer>(item.getValue(), 1)));
+        }
+        return ret;
+    }
+    public static Map<String, Pair<Integer, Integer>>  reduceByKey1(ArrayList<Pair<String, Pair<Integer, Integer>>> arrayList)
+    {
+        Map<String, Pair<Integer, Integer>> res = new HashMap<>();
+        res.put("0-19", new Pair<Integer, Integer>(0,0));
+        res.put("20-40", new Pair<Integer, Integer>(0,0));
+        res.put("40-65", new Pair<Integer, Integer>(0,0));
+        res.put(">65", new Pair<Integer, Integer>(0,0));
+        //System.out.println("reduceByKey1");
+        for(Pair<String, Pair<Integer, Integer>> item:arrayList)
+        {
+            Pair<Integer, Integer> p = res.get(item.getKey());
+            //System.out.println(item.getKey()+", "+p.getKey()+","+p.getValue());
+            int salary = p.getKey() + item.getValue().getKey();
+            int count = p.getValue() + item.getValue().getValue();
+            Pair<Integer, Integer> newp = new Pair<Integer, Integer>(salary, count);
+            res.put(item.getKey(), newp);
+            p = res.get(item.getKey());
+            //System.out.println(item.getKey()+", "+p.getKey()+","+p.getValue());
+        }
+        return res;
+    }
+    public static Map<String, Double> mapValues2(Map<String, Pair<Integer, Integer>> mmp)
+    {
+        Map<String, Double> ret = new HashMap<>();
+        Iterator iterator = mmp.keySet().iterator();
+        while (iterator.hasNext())
+        {
+            String key = (String) iterator.next();
+            Pair<Integer, Integer> p = mmp.get(key);
+            double value = 0;
+            if(p.getValue()!=0)
+            {
+                value = p.getKey()*1.0/p.getValue();
+            }
+            ret.put(key, value);
+        }
+        return ret;
     }
 
     public static ArrayList<ArrayList<Integer>> map(ArrayList<String> lines)

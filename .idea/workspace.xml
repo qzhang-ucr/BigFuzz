@@ -3,9 +3,355 @@
   <component name="ChangeListManager">
     <list default="true" id="2774e54c-0a4f-4f30-9e38-c5ee0352aa9a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/target/classes/201910251526.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/201910251526.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/target/classes/201910251526.csv+cov" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/201910251526.csv+cov" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/salary1.csv+cov" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/salary1.csv+cov" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/SalaryAnalysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/SalaryAnalysis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/SalaryAnalysisDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/SalaryAnalysisDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/CustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/CustomArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/IncomeAggregate.scala" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/IncomeAggregate.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate$.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/META-INF/bigfuzz-dfcoverage.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/SalaryAnalysis.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/SalaryAnalysis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/SalaryAnalysisDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/SalaryAnalysisDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/customarray/CustomArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/customarray/CustomArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/algs4/BoyerMoore.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/algs4/BoyerMoore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/bcel/JavaClassGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/bcel/JavaClassGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/chess/FENGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/chess/FENGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/common/AlphaStringGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/common/AlphaStringGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/common/ArbitraryLengthStringGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/common/ArbitraryLengthStringGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/common/AsciiStringGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/common/AsciiStringGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/common/Dictionary.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/common/Dictionary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/common/DictionaryBackedStringGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/common/DictionaryBackedStringGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/common/FixedSize.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/common/FixedSize.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/guava/CacheRequestsGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/guava/CacheRequestsGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/imageio/ImageInputStreamGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/imageio/ImageInputStreamGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/jgrapht/BitSetBasedSimpleGraphGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/jgrapht/BitSetBasedSimpleGraphGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/jgrapht/FastGnmRandomGraphGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/jgrapht/FastGnmRandomGraphGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/jgrapht/GraphModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/jgrapht/GraphModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/jgrapht/ModelBasedDirectedGraphGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/jgrapht/ModelBasedDirectedGraphGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/jgrapht/ModelBasedGraphGenerator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/jgrapht/ModelBasedGraphGenerator$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/jgrapht/ModelBasedGraphGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/jgrapht/ModelBasedGraphGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/jgrapht/Renderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/jgrapht/Renderer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/js/JavaScriptCodeGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/js/JavaScriptCodeGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/AbstractKaitaiGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/AbstractKaitaiGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/KaitaiStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/KaitaiStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/KaitaiStruct.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/KaitaiStruct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$ColorType.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$ColorType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$PhysUnit.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$PhysUnit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$Png$BkgdChunk.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$Png$BkgdChunk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$Png$BkgdGreyscale.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$Png$BkgdGreyscale.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$Png$BkgdIndexed.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$Png$BkgdIndexed.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$Png$BkgdTruecolor.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$Png$BkgdTruecolor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$Png$ChrmChunk.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$Png$ChrmChunk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$Png$Chunk.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$Png$Chunk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$Png$CompressedTextChunk.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$Png$CompressedTextChunk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$Png$GamaChunk.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$Png$GamaChunk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$Png$IhdrChunk.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$Png$IhdrChunk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$Png$InternationalTextChunk.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$Png$InternationalTextChunk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$Png$PhysChunk.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$Png$PhysChunk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$Png$PlteChunk.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$Png$PlteChunk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$Png$Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$Png$Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$Png$Rgb.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$Png$Rgb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$Png$SrgbChunk$Intent.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$Png$SrgbChunk$Intent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$Png$SrgbChunk.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$Png$SrgbChunk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$Png$TextChunk.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$Png$TextChunk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$Png$TimeChunk.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$Png$TimeChunk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$Png.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator$Png.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/kaitai/PngKaitaiGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/trees/BinaryTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/trees/BinaryTree$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/trees/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/trees/BinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/trees/RedBlackBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/trees/RedBlackBST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/trees/RedBlackBSTGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/trees/RedBlackBSTGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/trees/RedBlackBSTNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/trees/RedBlackBSTNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/trees/RedBlackBSTNodeGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/trees/RedBlackBSTNodeGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/xml/XMLDocumentUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/xml/XMLDocumentUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/xml/XmlDocumentGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/edu/berkeley/cs/jqf/examples/xml/XmlDocumentGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/RobustnessTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/RobustnessTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/algs4/StringSearchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/algs4/StringSearchTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/ant/ProjectBuilderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/ant/ProjectBuilderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/bcel/ParserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/bcel/ParserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/chess/FENTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/chess/FENTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/closure/CompilerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/closure/CompilerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/commons/CompressTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/commons/CompressTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/commons/DecompressTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/commons/DecompressTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/commons/MathTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/commons/MathTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/commons/PatriciaTrieTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/commons/PatriciaTrieTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/guava/CacheEvictionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/guava/CacheEvictionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/imageio/GifReaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/imageio/GifReaderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/imageio/JpegReaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/imageio/JpegReaderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jdk/DateFormatterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jdk/DateFormatterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jdk/HashTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jdk/HashTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jdk/MultiThreadedTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jdk/MultiThreadedTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jdk/MultiThreadedTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jdk/MultiThreadedTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jdk/RegexTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jdk/RegexTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jdk/SortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jdk/SortTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jdk/URLTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jdk/URLTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jgrapht/CyclesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jgrapht/CyclesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jgrapht/DirectedGraphTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jgrapht/DirectedGraphTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jgrapht/LayoutTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jgrapht/LayoutTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jgrapht/ShortestPathTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jgrapht/ShortestPathTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jgrapht/SimpleGraphTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jgrapht/SimpleGraphTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jgrapht/SpanningTreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jgrapht/SpanningTreeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jgrapht/WeightedGraphTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jgrapht/WeightedGraphTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/maven/ModelReaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/maven/ModelReaderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/rhino/CompilerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/rhino/CompilerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/tika/TikaParserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/tika/TikaParserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/tomcat/HeadersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/tomcat/HeadersTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/tomcat/ParametersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/tomcat/ParametersTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/tomcat/WebXmlTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/tomcat/WebXmlTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/trees/BinaryTreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/trees/BinaryTreeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/trees/RedBlackBSTTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/trees/RedBlackBSTTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/org/apache/bcel/verifier/StatelessVerifierFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/test-classes/org/apache/bcel/verifier/StatelessVerifierFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/org/apache/coyote/http11/HeaderParser$SocketWrapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/test-classes/org/apache/coyote/http11/HeaderParser$SocketWrapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/org/apache/coyote/http11/HeaderParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/test-classes/org/apache/coyote/http11/HeaderParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-plugin/target/classes/edu/berkeley/cs/jqf/plugin/FuzzGoal.class" beforeDir="false" afterPath="$PROJECT_DIR$/maven-plugin/target/classes/edu/berkeley/cs/jqf/plugin/FuzzGoal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-plugin/target/classes/edu/berkeley/cs/jqf/plugin/ReproGoal.class" beforeDir="false" afterPath="$PROJECT_DIR$/maven-plugin/target/classes/edu/berkeley/cs/jqf/plugin/ReproGoal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/berkeley/cs/jqf/instrument/InstrumentingClassLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/berkeley/cs/jqf/instrument/tracing/ControlFlowInstructionVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/berkeley/cs/jqf/instrument/tracing/DefaultInstructionVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/berkeley/cs/jqf/instrument/tracing/PrintLogger$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/berkeley/cs/jqf/instrument/tracing/PrintLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/berkeley/cs/jqf/instrument/tracing/SingleSnoop$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/berkeley/cs/jqf/instrument/tracing/SingleSnoop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/berkeley/cs/jqf/instrument/tracing/ThreadTracer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/berkeley/cs/jqf/instrument/tracing/ThreadTracer$BaseHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/berkeley/cs/jqf/instrument/tracing/ThreadTracer$MatchingNullHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/berkeley/cs/jqf/instrument/tracing/ThreadTracer$TraceEventGeneratingHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/berkeley/cs/jqf/instrument/tracing/ThreadTracer$Values.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/berkeley/cs/jqf/instrument/tracing/ThreadTracer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/berkeley/cs/jqf/instrument/tracing/TraceLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/berkeley/cs/jqf/instrument/tracing/events/AllocEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/berkeley/cs/jqf/instrument/tracing/events/BranchEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/berkeley/cs/jqf/instrument/tracing/events/CallEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/berkeley/cs/jqf/instrument/tracing/events/ReadEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/berkeley/cs/jqf/instrument/tracing/events/ReturnEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/berkeley/cs/jqf/instrument/tracing/events/TraceEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/berkeley/cs/jqf/instrument/tracing/events/TraceEventVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/berkeley/cs/jqf/instrument/util/DoublyLinkedList$LinkedListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/berkeley/cs/jqf/instrument/util/DoublyLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/berkeley/cs/jqf/instrument/util/DoublyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/berkeley/cs/jqf/instrument/util/FastBlockingQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/berkeley/cs/jqf/instrument/util/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/ucla/cs/bigfuzz/dataflow/FilterEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/ucla/cs/bigfuzz/dataflow/FlatMapEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/ucla/cs/bigfuzz/dataflow/MapEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/ucla/cs/bigfuzz/dataflow/MapToPairEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/ucla/cs/bigfuzz/dataflow/ReduceByKeyEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/ucla/cs/bigfuzz/dataflow/ReduceEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/instrument/Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/instrument/GlobalStateForInstrumentation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/instrument/SafeClassWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/instrument/SnoopInstructionClassAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/instrument/SnoopInstructionMethodAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/instrument/SnoopInstructionTransformer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/instrument/TryCatchBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/instrument/Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/AbstractLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/Logger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/StringLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/StringPrintLogger$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/StringPrintLogger$FinishThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/StringPrintLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/AALOAD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/AASTORE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/ACONST_NULL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/ALOAD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/ANEWARRAY.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/ARETURN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/ARRAYLENGTH.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/ASTORE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/ATHROW.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/BALOAD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/BASTORE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/BIPUSH.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/CALOAD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/CASTORE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/CHECKCAST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/ConditionalBranch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/D2F.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/D2I.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/D2L.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/DADD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/DALOAD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/DASTORE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/DATAFLOW.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/DCMPG.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/DCMPL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/DCONST_0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/DCONST_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/DDIV.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/DLOAD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/DMUL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/DNEG.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/DREM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/DRETURN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/DSTORE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/DSUB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/DUP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/DUP2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/DUP2_X1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/DUP2_X2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/DUP_X1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/DUP_X2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/F2D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/F2I.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/F2L.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/FADD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/FALOAD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/FASTORE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/FCMPG.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/FCMPL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/FCONST_0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/FCONST_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/FCONST_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/FDIV.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/FLOAD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/FMUL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/FNEG.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/FREM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/FRETURN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/FSTORE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/FSUB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/GETFIELD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/GETSTATIC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/GETVALUE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/GETVALUE_Object.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/GETVALUE_boolean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/GETVALUE_byte.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/GETVALUE_char.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/GETVALUE_double.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/GETVALUE_float.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/GETVALUE_int.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/GETVALUE_long.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/GETVALUE_short.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/GETVALUE_void.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/GOTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/HEAPLOAD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/I2B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/I2C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/I2D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/I2F.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/I2L.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/I2S.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/IADD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/IALOAD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/IAND.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/IASTORE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/ICONST_0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/ICONST_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/ICONST_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/ICONST_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/ICONST_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/ICONST_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/ICONST_M1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/IDIV.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/IFEQ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/IFGE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/IFGT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/IFLE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/IFLT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/IFNE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/IFNONNULL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/IFNULL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/IF_ACMPEQ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/IF_ACMPNE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/IF_ICMPEQ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/IF_ICMPGE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/IF_ICMPGT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/IF_ICMPLE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/IF_ICMPLT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/IF_ICMPNE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/IINC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/ILOAD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/IMUL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/INEG.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/INSTANCEOF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/INVOKEINTERFACE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/INVOKEMETHOD_END.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/INVOKEMETHOD_EXCEPTION.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/INVOKESPECIAL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/INVOKESTATIC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/INVOKEVIRTUAL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/IOR.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/IREM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/IRETURN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/ISHL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/ISHR.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/ISTORE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/ISUB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/IUSHR.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/IVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/IXOR.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/Instruction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/InvokeInstruction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/JSR.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/L2D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/L2F.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/L2I.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/LADD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/LALOAD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/LAND.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/LASTORE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/LCMP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/LCONST_0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/LCONST_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/LDC_Object.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/LDC_String.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/LDC_double.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/LDC_float.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/LDC_int.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/LDC_long.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/LDIV.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/LLOAD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/LMUL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/LNEG.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/LOOKUPSWITCH.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/LOR.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/LREM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/LRETURN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/LSHL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/LSHR.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/LSTORE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/LSUB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/LUSHR.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/LXOR.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/MAKE_SYMBOLIC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/METHOD_BEGIN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/METHOD_THROW.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/MONITORENTER.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/MONITOREXIT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/MULTIANEWARRAY.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/MemberRef.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/NEW.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/NEWARRAY.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/NOP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/POP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/POP2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/PUTFIELD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/PUTSTATIC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/RET.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/RETURN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/SALOAD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/SASTORE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/SIPUSH.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/SPECIAL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/SWAP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/janala/logger/inst/TABLESWITCH.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/benchmarks/BinaryTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/benchmarks/BinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/benchmarks/CancelReturn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/benchmarks/DataStructures.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/benchmarks/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/benchmarks/MultiThreaded$NamePrinter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/benchmarks/MultiThreaded.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/benchmarks/Outer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/benchmarks/Outer$Inner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/benchmarks/Outer$StaticNested.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/benchmarks/Outer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/benchmarks/Recursion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/benchmarks/StaticInit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/benchmarks/StaticInitDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/benchmarks/UninitializedThis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/benchmarks/Wrapper.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,76 +365,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="28" column="52" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzSalaryGuidance.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="285" column="30" selection-start-line="285" selection-start-column="30" selection-end-line="285" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/ei/ZestGuidance.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="638" selection-start-line="638" selection-end-line="663" selection-end-column="13" />
-              <folding>
-                <element signature="e#28977#30725#1" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/customarray/src/SalaryAnalysisDriver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/customarray/src/SalaryAnalysis.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataset/salary1.csv+cov">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/JoinSkew.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -96,121 +372,15 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>sendKondorShellName</find>
-      <find>coverage</find>
-      <find>SPARK_JOB_SUBMIT</find>
-      <find>mutation</find>
-      <find>public</find>
-      <find>result</find>
-      <find>runCoverage</find>
-      <find>computeResponsibilities</find>
-      <find>STEAL_RESPONSIBILITY</find>
-      <find>saveCurrentInput</find>
-      <find>%</find>
-      <find>console</find>
-      <find>validCoverage</find>
-      <find>$USER_HOME$/Desktop</find>
-      <find>responsibleInputs</find>
-      <find>idx</find>
-      <find>SAVE_NEW_COUNTS</find>
-      <find>coverageBitsUpdated</find>
-      <find>handleResult</find>
-      <find>currentInput</find>
-      <find>currentIn</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/dataset/salary.csv" />
-        <option value="$PROJECT_DIR$/customarray/src/SalaryAnalysisDriver.java" />
-        <option value="$PROJECT_DIR$/customarray/src/SalaryAnalysis.java" />
-        <option value="$PROJECT_DIR$/dataset/salary1.csv" />
-        <option value="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/IncomeAggregate.scala" />
-        <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/SalaryAnalysisMutation.java" />
-        <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/datagen/IncomeDataGen.scala" />
-        <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/junit/quickcheck/FuzzStringStatement.java" />
-        <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.java" />
-        <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/util/Coverage.java" />
-        <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzSalaryGuidance.java" />
-        <option value="$PROJECT_DIR$/dataset/salary1.csv+cov" />
-        <option value="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/JoinSkew.scala" />
-      </list>
-    </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="338" />
-    <option name="y" value="166" />
-    <option name="width" value="1485" />
-    <option name="height" value="817" />
-  </component>
   <component name="ProjectId" id="1S1QbIL6iFVlcLmafzQch5WtBAz" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
-              <item name="customarray" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
-              <item name="customarray" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
-              <item name="customarray" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bigfuzz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
-              <item name="customarray" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bigfuzz" type="462c0819:PsiDirectoryNode" />
-              <item name="sparkprogram" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
-              <item name="dataset" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -219,7 +389,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../data_skew_detect" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2764706" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -253,7 +423,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JoinSkew">
+  <component name="RunManager" selected="Application.SalaryAnalysisDriver">
     <configuration name="IncomeAggregate" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="IncomeAggregate" />
       <module name="bigfuzz-dfcoverage" />
@@ -287,6 +457,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SalaryAnalysisDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SalaryAnalysisDriver" />
+      <module name="bigfuzz-dfcoverage" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SparkJobSubmit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.berkeley.cs.jqf.fuzz.junit.quickcheck.SparkJobSubmit" />
       <module name="bigfuzz-guidance" />
@@ -300,22 +477,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SalaryAnalysisDriver" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bigfuzz-dfcoverage" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SalaryAnalysisDriver" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SalaryAnalysisDriver" />
         <item itemvalue="Application.JoinSkew" />
         <item itemvalue="Application.IncomeDataGen" />
         <item itemvalue="Application.IncomeAggregate" />
         <item itemvalue="Application.SparkJobSubmit" />
-        <item itemvalue="JUnit.SalaryAnalysisDriver" />
       </list>
     </recent_temporary>
   </component>
@@ -332,80 +500,12 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="31" width="1920" height="1049" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7614679" visible="true" weight="0.22874059" />
-      <window_info id="Structure" order="1" sideWeight="0.23853211" side_tool="true" weight="0.27556512" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Learn" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.14449541" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.121559635" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.26605505" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.1108719" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7614679" visible="true" weight="0.27556512" />
-      <window_info id="Structure" order="1" sideWeight="0.23853211" side_tool="true" visible="true" weight="0.27556512" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Learn" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.12958716" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19469027" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.26605505" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.1108719" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout-to-restore>
-  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -433,197 +533,9 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/ei/ZestGuidance.java</url>
           <line>341</line>
-          <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dataset/salary.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/instrument/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/events/CallEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="62" column="31" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/util/Counter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="61" column="18" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/salary1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/WordCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/datagen/IncomeDataGen.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/IncomeAggregate.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="38" column="54" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/CustomArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-478">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2904#2913#0" expanded="true" />
-            <element signature="e#5389#5398#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/src/WordCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/SalaryAnalysisMutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/junit/quickcheck/FuzzStringStatement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="181" column="9" selection-start-line="181" selection-start-column="9" selection-end-line="181" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/junit/quickcheck/FuzzStatement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
-          <caret line="192" column="11" lean-forward="true" selection-start-line="192" selection-start-column="11" selection-end-line="192" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="28" column="52" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/util/Coverage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="101" column="2" selection-start-line="101" selection-start-column="2" selection-end-line="101" selection-end-column="2" />
-          <folding>
-            <element signature="e#3167#3168#0" expanded="true" />
-            <element signature="e#3203#3204#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/NoGuidance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1350">
-          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/201910251504.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-3996" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/ei/ZestGuidance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="638" selection-start-line="638" selection-end-line="663" selection-end-column="13" />
-          <folding>
-            <element signature="e#28977#30725#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/SalaryAnalysisDriver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzSalaryGuidance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="285" column="30" selection-start-line="285" selection-start-column="30" selection-end-line="285" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/src/SalaryAnalysisDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/201910251526.csv+cov">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/201910251526.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/src/SalaryAnalysis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/salary1.csv+cov">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/JoinSkew.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

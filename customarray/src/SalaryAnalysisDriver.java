@@ -19,10 +19,10 @@ public class SalaryAnalysisDriver {
         analysis.SalaryAnalysis(fileName);
     }
 
-//    public static void main(String[] args) throws IOException
-//    {
-//
-//        SalaryAnalysis salaryAnalysis = new SalaryAnalysis();
-//        salaryAnalysis.SalaryAnalysis("/home/qzhang/Downloads/BigTest-JPF-integrated/benchmarks/src/datasets/salary.csv");
-//    }
+    public static void main(String[] args) throws IOException
+    {
+
+        SalaryAnalysis salaryAnalysis = new SalaryAnalysis();
+        salaryAnalysis.SalaryAnalysis("/Users/zhuhaichao/Documents/Workspace/github/BigFuzz/dataset/201910251526.csv");
+    }
 }

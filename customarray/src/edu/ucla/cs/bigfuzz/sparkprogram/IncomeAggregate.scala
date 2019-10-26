@@ -40,6 +40,15 @@ object IncomeAggregate  {
       .mapValues(x => (x._2, x._1.toDouble / x._2.toDouble))
       .foreach(println)
 
+//    (90024, 40, 5000)
+//   map s1, s2, s3 (90024, 40, 5000)
+//   filter  s1 s2 s3 (90024 xxxx)
+//    map (40-50, s3), (0-19, s3)
+//    mapvalues (label, (s3, 1))
+//    reducebykey (label (s3, +))
+//    mapvalue (label, s3/+)
+
+
     //    try{
     //      val sum = text.map{
     //        line =>
