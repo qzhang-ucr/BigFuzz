@@ -58,6 +58,7 @@ public class SalaryAnalysisMutation {
     }
 
     public void writeFile(String outputFile) throws IOException {
+//        String path = "/home/qzhang/Programs/BigFuzz/dataset/" + outputFile;
         File fout = new File(outputFile);
         FileOutputStream fos = new FileOutputStream(fout);
 

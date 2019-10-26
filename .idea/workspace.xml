@@ -3,13 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="2774e54c-0a4f-4f30-9e38-c5ee0352aa9a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/CustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/CustomArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/customarray/CustomArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/customarray/CustomArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/salary1.csv+cov" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/salary1.csv+cov" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/util/Coverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/util/Coverage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzSalaryGuidance.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzSalaryGuidance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/events/TraceEventVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/instrument/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/events/TraceEventVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/janala.conf" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/janala.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/201910252334.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/201910252334.csv+crash+1+java.lang.ArrayIndexOutOfBoundsException" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/201910251526.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/201910251526.csv+cov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/salary1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/SalaryAnalysisMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/SalaryAnalysisMutation.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +29,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="28" column="72" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
+            <state relative-caret-position="90">
+              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/SalaryAnalysisMutation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="61" column="39" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -43,19 +53,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dataset/salary1.csv+cov">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/customarray/src/SalaryAnalysis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-612">
+            <state relative-caret-position="-288">
               <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
@@ -66,18 +67,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/CustomArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="92" column="2" selection-start-line="92" selection-start-column="2" selection-end-line="92" selection-end-column="2" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -111,8 +100,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>out</find>
-      <find>arm</find>
       <find>handleE</find>
+      <find>arm</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -128,10 +117,11 @@
         <option value="$PROJECT_DIR$/instrument/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/events/TraceEventVisitor.java" />
         <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/util/Coverage.java" />
         <option value="$PROJECT_DIR$/dataset/salary1.csv+crash+0+java.lang.NumberFormatException: For input string: &quot;50.00&quot;" />
-        <option value="$PROJECT_DIR$/dataset/salary1.csv" />
-        <option value="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/CustomArray.java" />
         <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzSalaryGuidance.java" />
         <option value="$PROJECT_DIR$/dataset/salary1.csv+cov" />
+        <option value="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/CustomArray.java" />
+        <option value="$PROJECT_DIR$/dataset/salary1.csv" />
+        <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/SalaryAnalysisMutation.java" />
       </list>
     </option>
   </component>
@@ -154,6 +144,45 @@
             <path>
               <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
               <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="customarray" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="customarray" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="customarray" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bigfuzz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="customarray" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bigfuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="customarray" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="customarray" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="customarray" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
@@ -448,13 +477,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/customarray/src/SalaryAnalysisDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dataset/salary1.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -509,34 +531,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/src/SalaryAnalysis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="28" column="72" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dataset/salary1.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/CustomArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="92" column="2" selection-start-line="92" selection-start-column="2" selection-end-line="92" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -547,10 +545,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/salary1.csv+cov">
+    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/src/SalaryAnalysis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-288">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/target/classes/201910260006.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-2808">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/CustomArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="102" column="8" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/src/SalaryAnalysisDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/target/classes/201910252334.csv+crash+1+java.lang.ArrayIndexOutOfBoundsException">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/salary1.csv">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="90">
           <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/SalaryAnalysisMutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="61" column="39" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
         </state>
       </provider>
     </entry>

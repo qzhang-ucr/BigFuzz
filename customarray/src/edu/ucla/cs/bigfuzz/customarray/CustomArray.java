@@ -101,7 +101,6 @@ public class CustomArray {
         // Generate a custom event!
         TraceLogger.get().emit(new FilterEvent(iid, method, callersLineNumber, arm));
 
-
         return ret;
     }
 
