@@ -36,9 +36,7 @@ import edu.berkeley.cs.jqf.instrument.tracing.events.BranchEvent;
 import edu.berkeley.cs.jqf.instrument.tracing.events.CallEvent;
 import edu.berkeley.cs.jqf.instrument.tracing.events.TraceEvent;
 import edu.berkeley.cs.jqf.instrument.tracing.events.TraceEventVisitor;
-import edu.ucla.cs.bigfuzz.dataflow.FilterEvent;
-import edu.ucla.cs.bigfuzz.dataflow.MapEvent;
-import edu.ucla.cs.bigfuzz.dataflow.ReduceEvent;
+import edu.ucla.cs.bigfuzz.dataflow.*;
 
 /**
  * Utility class to collect branch and function coverage
@@ -110,6 +108,18 @@ public class Coverage implements TraceEventVisitor {
     public void visitReduceEvent(ReduceEvent e) {
         counter.increment(e.getIid());
 //        System.out.println("Coverage: visitReduce");
+    }
+
+    public void visitReduceByKeyEvent(ReduceByKeyEvent e) {
+        counter.increment(e.getIid());
+    }
+
+    public void visitFilterEvent(FilterEvent e) {
+        counter.increment1(e.getIid(), e.getArm());
+    }
+
+    public void visitMapValuesEvent(MapValuesEvent e) {
+        counter.increment(e.getIid());
     }
 
     /**

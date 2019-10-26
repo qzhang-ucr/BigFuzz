@@ -81,6 +81,7 @@ public class CustomArray {
     public static ArrayList<SalaryItem> filter1(ArrayList<SalaryItem> items, String zipcode)
     {
         ArrayList<SalaryItem> ret = new ArrayList<SalaryItem>();
+        int arm = 0;
         for(SalaryItem item:items)
         {
             if(item.getZipcode().equals(zipcode))
@@ -88,10 +89,33 @@ public class CustomArray {
                 ret.add(item);
             }
         }
+
+//        System.out.println(ret.size());
+        if( !ret.isEmpty()) arm = 1;
+
+        int callersLineNumber = Thread.currentThread().getStackTrace()[1].getLineNumber();
+
+        int iid = CustomArray.class.hashCode(); // this should be a random value associated with a program location
+        MemberRef method = new METHOD_BEGIN(Thread.currentThread().getStackTrace()[1].getClassName(), Thread.currentThread().getStackTrace()[1].getMethodName(), "()V"); // containing method
+
+        // Generate a custom event!
+        TraceLogger.get().emit(new FilterEvent(iid, method, callersLineNumber, arm));
+
+
         return ret;
     }
+
     public static ArrayList<Pair<String, Integer>> map2(ArrayList<SalaryItem> items)
     {
+        int callersLineNumber = Thread.currentThread().getStackTrace()[1].getLineNumber();
+
+        int iid = CustomArray.class.hashCode(); // this should be a random value associated with a program location
+        MemberRef method = new METHOD_BEGIN(Thread.currentThread().getStackTrace()[1].getClassName(), Thread.currentThread().getStackTrace()[1].getMethodName(), "()V"); // containing method
+
+        // Generate a custom event!
+        TraceLogger.get().emit(new MapEvent(iid, method, callersLineNumber));
+
+
         ArrayList<Pair<String, Integer>> ret = new ArrayList<Pair<String, Integer>>();
         for(SalaryItem item:items)
         {
@@ -118,8 +142,17 @@ public class CustomArray {
         }
         return ret;
     }
+
     public static ArrayList<Pair<String, Pair<Integer, Integer>>> mapValues1(ArrayList<Pair<String, Integer>> arrayList)
     {
+        int callersLineNumber = Thread.currentThread().getStackTrace()[1].getLineNumber();
+
+        int iid = CustomArray.class.hashCode(); // this should be a random value associated with a program location
+        MemberRef method = new METHOD_BEGIN(Thread.currentThread().getStackTrace()[1].getClassName(), Thread.currentThread().getStackTrace()[1].getMethodName(), "()V"); // containing method
+
+        // Generate a custom event!
+        TraceLogger.get().emit(new MapValuesEvent(iid, method, callersLineNumber));
+
         ArrayList<Pair<String, Pair<Integer, Integer>>> ret = new ArrayList<Pair<String, Pair<Integer, Integer>>>();
         for(Pair<String, Integer> item:arrayList)
         {
@@ -127,8 +160,18 @@ public class CustomArray {
         }
         return ret;
     }
+
     public static Map<String, Pair<Integer, Integer>>  reduceByKey1(ArrayList<Pair<String, Pair<Integer, Integer>>> arrayList)
     {
+        int callersLineNumber = Thread.currentThread().getStackTrace()[1].getLineNumber();
+
+        int iid = CustomArray.class.hashCode(); // this should be a random value associated with a program location
+        MemberRef method = new METHOD_BEGIN(Thread.currentThread().getStackTrace()[1].getClassName(), Thread.currentThread().getStackTrace()[1].getMethodName(), "()V"); // containing method
+
+        // Generate a custom event!
+        TraceLogger.get().emit(new ReduceByKeyEvent(iid, method, callersLineNumber));
+
+
         Map<String, Pair<Integer, Integer>> res = new HashMap<>();
         res.put("0-19", new Pair<Integer, Integer>(0,0));
         res.put("20-40", new Pair<Integer, Integer>(0,0));
@@ -148,8 +191,18 @@ public class CustomArray {
         }
         return res;
     }
+
     public static Map<String, Double> mapValues2(Map<String, Pair<Integer, Integer>> mmp)
     {
+        int callersLineNumber = Thread.currentThread().getStackTrace()[1].getLineNumber();
+
+        int iid = CustomArray.class.hashCode(); // this should be a random value associated with a program location
+        MemberRef method = new METHOD_BEGIN(Thread.currentThread().getStackTrace()[1].getClassName(), Thread.currentThread().getStackTrace()[1].getMethodName(), "()V"); // containing method
+
+        // Generate a custom event!
+        TraceLogger.get().emit(new MapValuesEvent(iid, method, callersLineNumber));
+
+
         Map<String, Double> ret = new HashMap<>();
         Iterator iterator = mmp.keySet().iterator();
         while (iterator.hasNext())

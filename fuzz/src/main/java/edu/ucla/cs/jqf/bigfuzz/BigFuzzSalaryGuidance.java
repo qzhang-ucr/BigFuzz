@@ -194,11 +194,42 @@ public class BigFuzzSalaryGuidance implements Guidance {
         }
 
         // Display error stack trace in case of failure
-        if (result == Result.FAILURE) {
-            if (out != null) {
-                error.printStackTrace(out);
-            }
+        if (result == Result.FAILURE || result == Result.TIMEOUT) {
+//            if (out != null) {
+//                error.printStackTrace(out);
+//            }
             this.keepGoing = KEEP_GOING_ON_ERROR;
+            String msg = error.getMessage();
+
+            //get the root cause
+            Throwable rootCause = error;
+            while (rootCause.getCause() != null) {
+                rootCause = rootCause.getCause();
+            }
+
+            //   Attempt to add this to the set of unique failures
+            if (uniqueFailures.add(Arrays.asList(rootCause.getStackTrace()))) {
+
+                int crashIdx = uniqueFailures.size()-1;
+
+//                String saveFileName = String.format("id_%06d", crashIdx);
+//                File saveFile = new File(savedFailuresDirectory, saveFileName);
+//                writeCurrentInputToFile(saveFile);
+
+                infoLog("%s","Found crash: " + error.getClass() + " - " + (msg != null ? msg : ""));
+
+//                String how = currentInput.desc;
+                String why = result == Result.FAILURE ? "+crash" : "+hang";
+//                infoLog("Saved - %s %s %s", saveFile.getPath(), how, why);
+
+                File src = new File(currentInputFile);
+                currentInputFile = currentInputFile + why + "+" + crashIdx + "+" + rootCause;
+                File des = new File(currentInputFile);
+                if (!src.renameTo(des)) {
+                    System.out.println("Failed to renameTo file");
+                }
+
+            }
         }
 
         // Keep track of discards
@@ -345,7 +376,7 @@ public class BigFuzzSalaryGuidance implements Guidance {
 
         return this::handleEvent;
 
-        //print out the trace events generated during test execution
+////        print out the trace events generated during test execution
 //        return (event) -> {
 //            System.out.println(String.format("Thread %s produced event %s",
 //                    thread.getName(), event));

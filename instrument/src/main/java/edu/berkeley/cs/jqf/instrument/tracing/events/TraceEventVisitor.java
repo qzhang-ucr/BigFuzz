@@ -62,4 +62,6 @@ public interface TraceEventVisitor {
 
     default void visitMapEvent(MapEvent e) {}
 
+    default void visitMapValuesEvent(MapValuesEvent e) {}
+
 }
