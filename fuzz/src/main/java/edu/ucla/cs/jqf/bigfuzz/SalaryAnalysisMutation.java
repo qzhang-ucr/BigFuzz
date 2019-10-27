@@ -98,6 +98,7 @@ public class SalaryAnalysisMutation {
         }*/
         randomGenerate(list);
         randomDuplicate(list);
+        randomMutate(list);
         /*System.out.println("After Mutation: "+list.size());
         for(String line : list)
         {
@@ -106,7 +107,58 @@ public class SalaryAnalysisMutation {
 
         fileLines = list;
     }
+    private void randomMutate(ArrayList<String> list)
+    {
+        for(int i=0;i<list.size();i++)
+        {
+            String line = list.get(i);
+            String[] components = line.split(",");
+            line = "";
+            for(int j=0;j<components.length;j++)
+            {
+                if(r.nextDouble()>0.8)
+                {
+                    components[j] = randomChangeByte(components[j]);
+                }
+                if(line.equals(""))
+                {
+                    line = components[j];
+                }
+                else
+                {
+                    line = line+","+components[j];
+                }
+            }
 
+            list.set(i, line);
+        }
+    }
+
+    private String randomChangeByte(String instr)
+    {
+        // 0: random replace one char
+        // 1: random delete one char
+        // 2: random add one char
+        String ret = "";
+        int pos = r.nextInt(instr.length());
+        int method = r.nextInt(3);
+        if(method == 0)
+        {
+            char[] temp = instr.toCharArray();
+            temp[pos] = (char)r.nextInt(256);
+            ret = String.valueOf(temp);
+        }
+        else if(method==1)
+        {
+            ret = instr.substring(0, pos)+instr.substring(pos+1);
+        }
+        else
+        {
+            char temp = (char)r.nextInt(256);
+            ret = instr.substring(0, pos)+temp+instr.substring(pos);
+        }
+        return ret;
+    }
     /*public static void main(String[] args) throws IOException{
 
         SalaryAnalysisMutation mutation = new SalaryAnalysisMutation();
