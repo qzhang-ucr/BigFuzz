@@ -19,3 +19,7 @@ cd to /director/to/BigFuzz/BigFuzzTest/target/classes
 3.3 random change int to float. e.g., [90024, 45, 5000] -> [90024, 45.0, 5000] / [90024, 45, 5000.0]
 3.4 random insert letters e.g., [90024, 50, 5000] -> [90024a, 50, 5000] / [90024, 50, a5000]
 3.4 random delete / add one column
+
+lower bound of total coverage
+
+

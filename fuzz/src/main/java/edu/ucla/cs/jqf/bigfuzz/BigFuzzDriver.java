@@ -1,14 +1,9 @@
 package edu.ucla.cs.jqf.bigfuzz;
 
 //import edu.berkeley.cs.jqf.fuzz.junit.GuidedFuzzing;
-import edu.berkeley.cs.jqf.fuzz.guidance.Result;
 import edu.berkeley.cs.jqf.fuzz.junit.GuidedFuzzing;
 
-import java.io.BufferedReader;
 import java.io.File;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.IOException;
 import java.time.Duration;
 import java.time.temporal.ChronoUnit;
 
@@ -23,15 +18,15 @@ public class BigFuzzDriver {
         String testMethodName = args[1];
         Long maxTrials = args.length > 2 ? Long.parseLong(args[2]) : Long.MAX_VALUE;
         System.out.println("maxTrials: "+maxTrials);
-        File outputDirectory = new File("../fuzz-results");
+//        File outputDirectory = new File("../fuzz-results");
 
         String file = "/Users/zhuhaichao/Documents/Workspace/github/BigFuzz/dataset/salary1.csv";
 //        String file = "/home/qzhang/Programs/BigFuzz/dataset/salary1.csv";
-        try {
+       try {
             String title = testClassName+"#"+testMethodName;
             //NoGuidance guidance = new NoGuidance(file, maxTrials, System.err);
             Duration duration = Duration.of(100, ChronoUnit.SECONDS);
-            BigFuzzSalaryGuidance guidance = new BigFuzzSalaryGuidance("Test1", file, maxTrials, duration, System.err);
+            BigFuzzGuidance guidance = new BigFuzzGuidance("Test1", file, maxTrials, duration, System.err);
             // Run the Junit test
             GuidedFuzzing.run(testClassName, testMethodName, guidance, System.out);
 
@@ -41,8 +36,8 @@ public class BigFuzzDriver {
             }
 
         } catch (Exception e) {
-            e.printStackTrace();
-            System.exit(2);
+//            e.printStackTrace();
+//            System.exit(2);
         }
 
     }

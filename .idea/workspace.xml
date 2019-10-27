@@ -3,11 +3,28 @@
   <component name="ChangeListManager">
     <list default="true" id="2774e54c-0a4f-4f30-9e38-c5ee0352aa9a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/salary1.csv+cov" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/salary1.csv+cov" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/201910260016.csv+cov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/201910260017.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/201910260017.csv+cov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/201910262130.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/201910262130.csv+cov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/201910262133.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/201910262133.csv+cov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/201910262134.csv+crash+0+java.lang.NumberFormatException: For input string: &quot;ø0&quot;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/201910262134.csv+crash+1+java.lang.NumberFormatException: For input string: &quot;187Û7&quot;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/201910262136.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/201910262136.csv+crash+0+java.lang.NumberFormatException: For input string: &quot;B0&quot;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/201910262155.csv+crash+0+java.lang.NumberFormatException: For input string: &quot;0&quot;" beforePathEscaped="$PROJECT_DIR$/customarray/target/classes/201910262155.csv+crash+0+java.lang.NumberFormatException: For input string: &quot;#2#0&quot;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/customarray/CustomArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/customarray/CustomArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/salary1.csv+cov" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/salary1.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzSalaryGuidance.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzGuidance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/SalaryAnalysisMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/SalaryAnalysisMutation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/target/classes/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/ucla/cs/jqf/bigfuzz/BigFuzzSalaryGuidance.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/ucla/cs/jqf/bigfuzz/SalaryAnalysisMutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/target/classes/edu/ucla/cs/jqf/bigfuzz/SalaryAnalysisMutation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/janala.conf" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/janala.conf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,20 +68,20 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dataset" />
+      <recent name="$PROJECT_DIR$/TestCases/src/edu/ucla/cs/bigfuzz" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.ucla.cs.bigfuzz" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/instrument/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/events/dataflow" />
       <recent name="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/dataflow" />
       <recent name="$PROJECT_DIR$/dataflow/src/edu/ucla/cs/jqf/instrument/dataflow" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="edu.ucla.cs.bigfuzz" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/dataset" />
-      <recent name="$PROJECT_DIR$/TestCases/src/edu/ucla/cs/bigfuzz" />
     </key>
   </component>
   <component name="RunDashboard">

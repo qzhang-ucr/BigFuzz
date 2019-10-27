@@ -1,8 +1,12 @@
 package edu.ucla.cs.jqf.bigfuzz;
 
+import org.apache.commons.lang.ArrayUtils;
+
 import java.io.*;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Random;
 
 public class SalaryAnalysisMutation {
@@ -74,9 +78,12 @@ public class SalaryAnalysisMutation {
     public void mutate(String inputFile) throws IOException
     {
         // Read a file
+//        String original = "/Users/zhuhaichao/Documents/Workspace/github/BigFuzz/dataset/salary1.csv+cov";
         File file=new File(inputFile);
+//        File file = new File(original);
         ArrayList<String> list = new ArrayList<String>();
         BufferedReader br = new BufferedReader(new FileReader(inputFile));
+//        BufferedReader br = new BufferedReader(new FileReader(original));
         if(file.exists())
         {
             String readLine = null;
@@ -96,8 +103,8 @@ public class SalaryAnalysisMutation {
         {
             System.out.println(line);
         }*/
-        randomGenerate(list);
-        randomDuplicate(list);
+//        randomGenerate(list);
+        //randomDuplicate(list);
         randomMutate(list);
         /*System.out.println("After Mutation: "+list.size());
         for(String line : list)
@@ -107,9 +114,95 @@ public class SalaryAnalysisMutation {
 
         fileLines = list;
     }
+    public static String[] removeOneElement(String[] input, int index) {
+        List result = new LinkedList();
+
+        for(int i=0;i<input.length;i++)
+        {
+            if(i==index)
+            {
+                continue;
+            }
+            result.add(input[i]);
+        }
+
+        return (String [])result.toArray(input);
+    }
+    public static String[] AddOneElement(String[] input, String value, int index) {
+        List result = new LinkedList();
+
+        for(int i=0;i<input.length;i++)
+        {
+            result.add(input[i]);
+            if(i==index)
+            {
+                result.add(value);
+            }
+        }
+
+        return (String [])result.toArray(input);
+    }
+
     private void randomMutate(ArrayList<String> list)
     {
-        for(int i=0;i<list.size();i++)
+        r.setSeed(System.currentTimeMillis());
+        int lineNum = r.nextInt(list.size());
+        // 0: random change value
+        // 1: random change into float
+        // 2: random insert
+        // 3: random delete one column
+        // 4: random add one coumn
+        String[] columns = list.get(lineNum).split(",");
+        int method = r.nextInt(5);
+        int columID = r.nextInt(3);
+        if(method == 0){
+            if(columns[columID].charAt(0)=='$')
+            {
+                columns[columID] = "$"+Integer.toString(r.nextInt());
+            }
+            else
+            {
+                columns[columID] = Integer.toString(r.nextInt());
+            }
+        }
+        else if(method==1) {
+            int value = 0;
+            if(columns[columID].charAt(0)=='$')
+            {
+                value = Integer.parseInt(columns[columID].substring(1));
+            }
+            else
+            {
+                value = Integer.parseInt(columns[columID]);
+            }
+            float v = (float)value + r.nextFloat();
+            columns[columID] = Float.toString(v);
+        }
+        else if(method==2) {
+            char temp = (char)r.nextInt(256);
+            int pos = r.nextInt(columns[columID].length());
+            columns[columID] = columns[columID].substring(0, pos)+temp+columns[columID].substring(pos);
+        }
+        else if(method==3) {
+            columns = removeOneElement(columns, columID);
+        }
+        else if(method==4) {
+            String one = Integer.toString(r.nextInt(10000));
+            columns = AddOneElement(columns, one, columID);
+        }
+        String line = "";
+        for(int j=0;j<columns.length;j++) {
+            if(j==0)
+            {
+                line = columns[j];
+            }
+            else
+            {
+                line = line+","+columns[j];
+            }
+        }
+        list.set(lineNum, line);
+        /*for(int i=0;i<list.size();i++)
         {
             String line = list.get(i);
             String[] components = line.split(",");
@@ -131,7 +224,7 @@ public class SalaryAnalysisMutation {
             }
 
             list.set(i, line);
-        }
+        }*/
     }
 
     private String randomChangeByte(String instr)

@@ -6,9 +6,14 @@ import edu.berkeley.cs.jqf.fuzz.guidance.Result;
 import edu.berkeley.cs.jqf.fuzz.guidance.TimeoutException;
 import edu.berkeley.cs.jqf.fuzz.util.Coverage;
 import edu.berkeley.cs.jqf.instrument.tracing.events.TraceEvent;
+import org.apache.commons.io.FileUtils;
 
 import java.io.*;
 
+import java.nio.channels.FileChannel;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.*;
@@ -23,7 +28,7 @@ import static java.lang.Math.log;
  * Mutations: 1. randomly mutation
  * code coverage guidance: control flow coverage, dataflow operators's coverage
  */
-public class BigFuzzSalaryGuidance implements Guidance {
+public class BigFuzzGuidance implements Guidance {
 
     /** The name of the test for display purposes. */
     protected final String testName;
@@ -94,7 +99,7 @@ public class BigFuzzSalaryGuidance implements Guidance {
     ArrayList<String> testInputFiles = new ArrayList<String>();
 
 
-    public BigFuzzSalaryGuidance(String testName, String initialInputFile, long maxTrials, Duration duration, PrintStream out) throws IOException {
+    public BigFuzzGuidance(String testName, String initialInputFile, long maxTrials, Duration duration, PrintStream out) throws IOException {
 
         this.testName = testName;
         this.maxDurationMillis = duration != null ? duration.toMillis() : Long.MAX_VALUE;
@@ -109,6 +114,19 @@ public class BigFuzzSalaryGuidance implements Guidance {
         this.out = out;
     }
 
+    private static void copyFileUsingFileChannels(File source, File dest) throws IOException {
+        FileChannel inputChannel = null;
+        FileChannel outputChannel = null;
+        try {
+            inputChannel = new FileInputStream(source).getChannel();
+            outputChannel = new FileOutputStream(dest).getChannel();
+            outputChannel.transferFrom(inputChannel, 0, inputChannel.size());
+        } finally {
+            inputChannel.close();
+            outputChannel.close();
+        }
+    }
+
     @Override
     public InputStream getInput()
     {
@@ -117,36 +135,46 @@ public class BigFuzzSalaryGuidance implements Guidance {
         // Clear coverage stats for this run
         runCoverage.clear();
 
-        if(!testInputFiles.isEmpty())
+        if(testInputFiles.isEmpty())
+        {
+            String fileName = currentInputFile.substring(currentInputFile.lastIndexOf('/')+1);
+            File src = new File(currentInputFile);
+            File dst = new File(fileName);
+            try
+            {
+                copyFileUsingFileChannels(src, dst);
+            }
+            catch (IOException e)
+            {
+                System.out.println(e);
+            }
+            currentInputFile = fileName;
+        }
+        else
         {
             try
             {
-                mutation.mutate(currentInputFile);
-                String fileName = new SimpleDateFormat("yyyyMMddHHmm'.csv'").format(new Date());
+                mutation.mutate(initialInputFile);//currentInputFile
+                String fileName = new SimpleDateFormat("yyyyMMddHHmmss'_"+this.numTrials+".csv'").format(new Date());
                 currentInputFile = fileName;
                 mutation.writeFile(fileName);
             }
             catch (IOException e)
             {
-
+                System.out.println(e);
             }
         }
         testInputFiles.add(currentInputFile);
 
         System.out.println("BigFuzzSalaryGuidance::getInput: "+numTrials+": "+currentInputFile );
-        InputStream targetStream = new ByteArrayInputStream(currentInputFile.getBytes());
+        InputStream targetStream = new ByteArrayInputStream(currentInputFile.getBytes());//currentInputFile.getBytes()
 
         return targetStream;
     }
 
     /** Writes a line of text to a given log file. */
     protected void appendLineToFile(File file, String line) throws GuidanceException {
-        //System.out.println("appendLineToFile: ");
-        //System.out.println("appendLineToFile: "+line);
-        /*if(file == null)
-        {
-            System.out.println("File is NULL");
-        }*/
+
         try (PrintWriter out = new PrintWriter(new FileWriter(file, true))) {
             out.println(line);
         } catch (IOException e) {
@@ -193,45 +221,6 @@ public class BigFuzzSalaryGuidance implements Guidance {
             this.numValid++;
         }
 
-        // Display error stack trace in case of failure
-        if (result == Result.FAILURE || result == Result.TIMEOUT) {
-//            if (out != null) {
-//                error.printStackTrace(out);
-//            }
-            this.keepGoing = KEEP_GOING_ON_ERROR;
-            String msg = error.getMessage();
-
-            //get the root cause
-            Throwable rootCause = error;
-            while (rootCause.getCause() != null) {
-                rootCause = rootCause.getCause();
-            }
-
-            //   Attempt to add this to the set of unique failures
-            if (uniqueFailures.add(Arrays.asList(rootCause.getStackTrace()))) {
-
-                int crashIdx = uniqueFailures.size()-1;
-
-//                String saveFileName = String.format("id_%06d", crashIdx);
-//                File saveFile = new File(savedFailuresDirectory, saveFileName);
-//                writeCurrentInputToFile(saveFile);
-
-                infoLog("%s","Found crash: " + error.getClass() + " - " + (msg != null ? msg : ""));
-
-//                String how = currentInput.desc;
-                String why = result == Result.FAILURE ? "+crash" : "+hang";
-//                infoLog("Saved - %s %s %s", saveFile.getPath(), how, why);
-
-                File src = new File(currentInputFile);
-                currentInputFile = currentInputFile + why + "+" + crashIdx + "+" + rootCause;
-                File des = new File(currentInputFile);
-                if (!src.renameTo(des)) {
-                    System.out.println("Failed to renameTo file");
-                }
-
-            }
-        }
-
         // Keep track of discards
         if (result == Result.INVALID) {
             numDiscards++;
@@ -240,6 +229,7 @@ public class BigFuzzSalaryGuidance implements Guidance {
         // Stopping criteria
         if (numTrials >= maxTrials) {
             this.keepGoing = false;
+            System.out.println("keepGoing: "+keepGoing);
         }
 
         if (numTrials > 10 && ((float) numDiscards)/((float) (numTrials)) > maxDiscardRatio) {
@@ -276,12 +266,6 @@ public class BigFuzzSalaryGuidance implements Guidance {
             boolean toSave = false;
             String why = "";
 
-
-//            if (SAVE_NEW_COUNTS && coverageBitsUpdated) {
-//                toSave = true;
-//                why = why + "+count";
-//            }
-
             // Save if new total coverage found
             if (nonZeroAfter > nonZeroBefore) {
                 // Must be responsible for some branch
@@ -299,7 +283,6 @@ public class BigFuzzSalaryGuidance implements Guidance {
             }
 
             if (toSave) {
-
                 infoLog("Saving new input (at run %d): " +
 //                                "input #%d " +
 //                                "of size %d; " +
@@ -310,32 +293,48 @@ public class BigFuzzSalaryGuidance implements Guidance {
                         nonZeroAfter);
 
                 // Change current inputfile name
-
                 File src = new File(currentInputFile);
                 currentInputFile += why;
                 File des = new File(currentInputFile);
-                if (!src.renameTo(des)) {
-                    System.out.println("Failed to renameTo file");
-                }
-
-
+                src.renameTo(des);
             }
-
-        } else if (result == Result.FAILURE || result == Result.TIMEOUT) {
+            else {
+                File src2 = new File(currentInputFile);
+                src2.delete();
+            }
+        }else if (result == Result.FAILURE || result == Result.TIMEOUT) {
+//            if (out != null) {
+//                error.printStackTrace(out);
+//            }
+//            this.keepGoing = KEEP_GOING_ON_ERROR;
             String msg = error.getMessage();
+//            System.out.println("msg:" + msg);
 
-            // Get the root cause of the failure
+            //get the root cause
             Throwable rootCause = error;
             while (rootCause.getCause() != null) {
                 rootCause = rootCause.getCause();
             }
 
-            // Attempt to add this to the set of unique failures
+            //   Attempt to add this to the set of unique failures
             if (uniqueFailures.add(Arrays.asList(rootCause.getStackTrace()))) {
+                int crashIdx = uniqueFailures.size() - 1;
 
+                infoLog("%s", "Found crash: " + error.getClass() + " - " + (msg != null ? msg : ""));
+
+//                String how = currentInput.desc;
+                String why = result == Result.FAILURE ? "+crash" : "+hang";
+//                infoLog("Saved - %s %s %s", saveFile.getPath(), how, why);
+
+                File src = new File(currentInputFile);
+                currentInputFile = currentInputFile + why + "+" + crashIdx + "+" + rootCause;
+                File des = new File(currentInputFile);
+                src.renameTo(des);
+            } else {
+                File src2 = new File(currentInputFile);
+                src2.delete();
             }
         }
-
     }
 
     // Compute a set of branches for which the current input may assume responsibility
