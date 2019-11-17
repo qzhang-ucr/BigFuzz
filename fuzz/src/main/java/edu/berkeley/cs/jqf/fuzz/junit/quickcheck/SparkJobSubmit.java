@@ -8,8 +8,8 @@ import java.util.Date;
 public class SparkJobSubmit {
 
     // base path
-//    private static final String basePath = "/Users/zhuhaichao/Desktop/";
-    private static final String basePath = "/home/qzhang/Downloads/";
+    private static final String basePath = "/Users/zhuhaichao/Desktop/";
+//    private static final String basePath = "/home/qzhang/Downloads/";
 
     // 记录Shell执行状况的日志文件的位置(绝对路径)
     private static final String executeShellLogFile = basePath

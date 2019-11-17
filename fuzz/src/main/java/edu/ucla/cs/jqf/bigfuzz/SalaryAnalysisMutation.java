@@ -9,26 +9,36 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
 
-public class SalaryAnalysisMutation {
+public class SalaryAnalysisMutation implements BigFuzzMutation{
 
     Random r = new Random();
     int maxDuplicatedTimes = 1000;
     int maxGenerateTimes = 1000;
     int maxGenerateValue = 10000000;
     DecimalFormat decimalFormat = new DecimalFormat("#,##0");
-    ArrayList<String> fileLines = new ArrayList<String>();
-    private void randomDuplicate(ArrayList<String> list)
+    ArrayList<String> fileRows = new ArrayList<String>();
+
+    /**
+     * Randomly duplicate some lines and then randomly insert into the input lines
+     * @param rows
+     */
+    public void randomDuplicateRows(ArrayList<String> rows)
     {
-        int ind = r.nextInt(list.size());
+        int ind = r.nextInt(rows.size());
         int duplicatedTimes = r.nextInt(maxDuplicatedTimes)+1;
-        String duplicatedValue = list.get(ind);
+        String duplicatedValue = rows.get(ind);
         for(int i=0;i<duplicatedTimes;i++)
         {
-            int insertPos = r.nextInt(list.size());
-            list.add(insertPos, duplicatedValue);
+            int insertPos = r.nextInt(rows.size());
+            rows.add(insertPos, duplicatedValue);
         }
     }
-    private void randomGenerate(ArrayList<String> list)
+
+    /**
+     * Randomly generate some lines and then randomly insert into the input lines
+     * @param rows
+     */
+    public void randomGenerateRows(ArrayList<String> rows)
     {
         int generatedTimes = r.nextInt(maxGenerateTimes)+1;
         for(int i=0;i<generatedTimes;i++)
@@ -44,7 +54,7 @@ public class SalaryAnalysisMutation {
             {
                 numberAsString = "$"+numberAsString;
             }
-            int insertPos = r.nextInt(list.size());
+            int insertPos = r.nextInt(rows.size());
 
             int zip = r.nextInt(89999)+1;
             int age = (int)r.nextGaussian()*45+30;
@@ -57,7 +67,65 @@ public class SalaryAnalysisMutation {
                 age = 0;
             }
             numberAsString = Integer.toString(zip)+","+Integer.toString(age)+","+numberAsString;
-            list.add(insertPos, numberAsString);
+            rows.add(insertPos, numberAsString);
+        }
+    }
+
+    public void randomGenerateOneColumn(int columnID, int minV, int maxV, ArrayList<String> rows)
+    {
+        int generatedTimes = r.nextInt(maxGenerateTimes)+1;
+        for(int i=0;i<generatedTimes;i++)
+        {
+            int rowID = r.nextInt(rows.size());
+            String row = rows.get(rowID);
+            String[] columns = row.split(",");
+            columns[columnID] = Integer.toString(r.nextInt(maxV-minV)+minV);
+            int insertPos = r.nextInt(rows.size());
+
+            String insertRow = columns[0];
+
+            for(int j=1;j<columns.length;j++)
+            {
+                insertRow = insertRow + ","+columns[j];
+            }
+
+            rows.add(insertPos, insertRow);
+        }
+    }
+
+    public void randomDuplacteOneColumn(int columnID, int minV, int maxV, ArrayList<String> rows)
+    {
+        int generatedTimes = r.nextInt(maxGenerateTimes)+1;
+        ArrayList<String> tempRows = new ArrayList<String>(rows);
+        for(int i=0;i<rows.size();i++) {
+            String row = rows.get(i);
+            String[] columns = row.split(",");
+            int val = Integer.parseInt(columns[columnID]);
+            if (val >= minV && val <= maxV) {
+                int insertPos = r.nextInt(tempRows.size());
+                tempRows.add(insertPos, row);
+            }
+        }
+        rows = tempRows;
+    }
+
+    public void improveOneColumn(int columnID, int minV, int maxV, ArrayList<String> rows)
+    {
+        for(int i=0;i<rows.size();i++) {
+            String row = rows.get(i);
+            String[] columns = row.split(",");
+            int val = Integer.parseInt(columns[columnID]);
+            if (val < minV || val > maxV) {
+                columns[columnID] = Integer.toString(r.nextInt(maxV-minV)+minV);
+                String insertRow = columns[0];
+
+                for(int j=1;j<columns.length;j++)
+                {
+                    insertRow = insertRow + ","+columns[j];
+                }
+
+                rows.set(i, insertRow);
+            }
         }
     }
 
@@ -68,8 +136,8 @@ public class SalaryAnalysisMutation {
 
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(fos));
 
-        for (int i = 0; i < fileLines.size(); i++) {
-            bw.write(fileLines.get(i));
+        for (int i = 0; i < fileRows.size(); i++) {
+            bw.write(fileRows.get(i));
             bw.newLine();
         }
 
@@ -77,18 +145,17 @@ public class SalaryAnalysisMutation {
     }
     public void mutate(String inputFile) throws IOException
     {
-        // Read a file
-//        String original = "/Users/zhuhaichao/Documents/Workspace/github/BigFuzz/dataset/salary1.csv+cov";
+
         File file=new File(inputFile);
-//        File file = new File(original);
-        ArrayList<String> list = new ArrayList<String>();
+
+        ArrayList<String> rows = new ArrayList<String>();
         BufferedReader br = new BufferedReader(new FileReader(inputFile));
-//        BufferedReader br = new BufferedReader(new FileReader(original));
+
         if(file.exists())
         {
             String readLine = null;
             while((readLine = br.readLine()) != null){
-                list.add(readLine);
+                rows.add(readLine);
             }
         }
         else
@@ -97,22 +164,9 @@ public class SalaryAnalysisMutation {
             return;
         }
 
-        // Mutate
-        /*System.out.println("Before Mutation"+list.size());
-        for(String line : list)
-        {
-            System.out.println(line);
-        }*/
-//        randomGenerate(list);
-        //randomDuplicate(list);
-        randomMutate(list);
-        /*System.out.println("After Mutation: "+list.size());
-        for(String line : list)
-        {
-            System.out.println(line);
-        }*/
+        mutate(rows);
 
-        fileLines = list;
+        fileRows = rows;
     }
     public static String[] removeOneElement(String[] input, int index) {
         List result = new LinkedList();
@@ -143,7 +197,7 @@ public class SalaryAnalysisMutation {
         return (String [])result.toArray(input);
     }
 
-    private void randomMutate(ArrayList<String> list)
+    public void mutate(ArrayList<String> list)
     {
         r.setSeed(System.currentTimeMillis());
         int lineNum = r.nextInt(list.size());
@@ -154,41 +208,41 @@ public class SalaryAnalysisMutation {
         // 4: random add one coumn
         String[] columns = list.get(lineNum).split(",");
         int method = r.nextInt(5);
-        int columID = r.nextInt(3);
+        int columnID = r.nextInt(3);
         if(method == 0){
-            if(columns[columID].charAt(0)=='$')
+            if(columns[columnID].charAt(0)=='$')
             {
-                columns[columID] = "$"+Integer.toString(r.nextInt());
+                columns[columnID] = "$"+Integer.toString(r.nextInt());
             }
             else
             {
-                columns[columID] = Integer.toString(r.nextInt());
+                columns[columnID] = Integer.toString(r.nextInt());
             }
         }
         else if(method==1) {
             int value = 0;
-            if(columns[columID].charAt(0)=='$')
+            if(columns[columnID].charAt(0)=='$')
             {
-                value = Integer.parseInt(columns[columID].substring(1));
+                value = Integer.parseInt(columns[columnID].substring(1));
             }
             else
             {
-                value = Integer.parseInt(columns[columID]);
+                value = Integer.parseInt(columns[columnID]);
             }
             float v = (float)value + r.nextFloat();
-            columns[columID] = Float.toString(v);
+            columns[columnID] = Float.toString(v);
         }
         else if(method==2) {
             char temp = (char)r.nextInt(256);
-            int pos = r.nextInt(columns[columID].length());
-            columns[columID] = columns[columID].substring(0, pos)+temp+columns[columID].substring(pos);
+            int pos = r.nextInt(columns[columnID].length());
+            columns[columnID] = columns[columnID].substring(0, pos)+temp+columns[columnID].substring(pos);
         }
         else if(method==3) {
-            columns = removeOneElement(columns, columID);
+            columns = removeOneElement(columns, columnID);
         }
         else if(method==4) {
             String one = Integer.toString(r.nextInt(10000));
-            columns = AddOneElement(columns, one, columID);
+            columns = AddOneElement(columns, one, columnID);
         }
         String line = "";
         for(int j=0;j<columns.length;j++) {

@@ -1,30 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="IncomeAnalysis:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2774e54c-0a4f-4f30-9e38-c5ee0352aa9a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/target/classes/201910260016.csv+cov" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/target/classes/201910260017.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/target/classes/201910260017.csv+cov" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/target/classes/201910262130.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/target/classes/201910262130.csv+cov" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/target/classes/201910262133.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/target/classes/201910262133.csv+cov" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/target/classes/201910262134.csv+crash+0+java.lang.NumberFormatException: For input string: &quot;ø0&quot;" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/target/classes/201910262134.csv+crash+1+java.lang.NumberFormatException: For input string: &quot;187Û7&quot;" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/target/classes/201910262136.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/target/classes/201910262136.csv+crash+0+java.lang.NumberFormatException: For input string: &quot;B0&quot;" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/target/classes/201910262155.csv+crash+0+java.lang.NumberFormatException: For input string: &quot;0&quot;" beforePathEscaped="$PROJECT_DIR$/customarray/target/classes/201910262155.csv+crash+0+java.lang.NumberFormatException: For input string: &quot;#2#0&quot;" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/customarray/CustomArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/customarray/CustomArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/salary1.csv+cov" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/salary1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzSalaryGuidance.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzGuidance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/IncomeAggregate.scala" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/IncomeAggregate.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/20191027124345_17.csv+crash+1+java.lang.NumberFormatException: For input string: &quot;null&quot;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/20191027124345_3.csv+crash+0+java.lang.NumberFormatException: For input string: &quot;null&quot;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/20191027124345_4.csv+cov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/20191027124346_143.csv+cov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/20191027124346_161.csv+cov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/20191027124346_166.csv+cov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/20191027124346_219.csv+crash+3+java.lang.NumberFormatException: For input string: &quot;10&quot;" beforePathEscaped="$PROJECT_DIR$/customarray/target/classes/20191027124346_219.csv+crash+3+java.lang.NumberFormatException: For input string: &quot;#c#10&quot;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/20191027124346_82.csv+crash+2+java.lang.ArrayIndexOutOfBoundsException: 2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/20191027124349_2919.csv+crash+4+java.lang.NumberFormatException: For input string: &quot;&quot;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/20191027124351_4752.csv+crash+5+java.lang.ArrayIndexOutOfBoundsException" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/20191027124403_17708.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate$$anonfun$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate$$anonfun$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate$$anonfun$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate$$anonfun$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate$$anonfun$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate$$anonfun$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate$$anonfun$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate$.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/salary1.csv+cov" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/salary1.csv+cov" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/salary1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/salary1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/junit/quickcheck/FuzzStringStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/junit/quickcheck/FuzzStringStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/junit/quickcheck/SparkJobSubmit.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/junit/quickcheck/SparkJobSubmit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzGuidance.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzGuidance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/SalaryAnalysisMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/SalaryAnalysisMutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/target/classes/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/ucla/cs/jqf/bigfuzz/BigFuzzSalaryGuidance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/ucla/cs/jqf/bigfuzz/SalaryAnalysisMutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/target/classes/edu/ucla/cs/jqf/bigfuzz/SalaryAnalysisMutation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/janala.conf" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/janala.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/junit/quickcheck/FuzzStringStatement.class" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/junit/quickcheck/FuzzStringStatement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/junit/quickcheck/SparkJobSubmit.class" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/junit/quickcheck/SparkJobSubmit.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +73,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../data_skew_detect" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2764706" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -96,7 +107,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SalaryAnalysisDriver">
+  <component name="RunManager" selected="Application.IncomeAggregate">
     <configuration name="IncomeAggregate" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="IncomeAggregate" />
       <module name="bigfuzz-dfcoverage" />
@@ -152,10 +163,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IncomeAggregate" />
         <item itemvalue="Application.SalaryAnalysisDriver" />
         <item itemvalue="Application.JoinSkew" />
         <item itemvalue="Application.IncomeDataGen" />
-        <item itemvalue="Application.IncomeAggregate" />
         <item itemvalue="Application.SparkJobSubmit" />
       </list>
     </recent_temporary>

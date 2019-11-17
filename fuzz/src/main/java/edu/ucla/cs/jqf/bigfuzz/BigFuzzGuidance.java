@@ -93,7 +93,7 @@ public class BigFuzzGuidance implements Guidance {
     static final boolean STEAL_RESPONSIBILITY = Boolean.getBoolean("jqf.ei.STEAL_RESPONSIBILITY");
 
     protected final String initialInputFile;
-    SalaryAnalysisMutation mutation = new SalaryAnalysisMutation();
+    BigFuzzMutation mutation = new SalaryAnalysisMutation();
     private String currentInputFile;
 
     ArrayList<String> testInputFiles = new ArrayList<String>();

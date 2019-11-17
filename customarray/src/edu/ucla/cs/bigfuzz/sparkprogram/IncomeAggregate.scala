@@ -5,15 +5,16 @@ import org.apache.spark.{SparkConf, SparkContext}
 object IncomeAggregate  {
   def main(args: Array[String]): Unit = {
     val conf = new SparkConf()
-    conf.setMaster("local[6]")
+//    conf.setMaster("local[6]")
     conf.setAppName("Income")
 
     val startTime = System.currentTimeMillis();
     val sc = new SparkContext(conf)
 
-    //    val text = sc.textFile(args(0));
+    val text = sc.textFile(args(0));
 
-    val text = sc.textFile("/home/qzhang/Programs/BigFuzz/dataset/salary1.csv")
+//    val text = sc.textFile("/Users/zhuhaichao/Documents/Workspace/github/BigFuzz/dataset/salary1.csv");
+//    val text = sc.textFile("/home/qzhang/Programs/BigFuzz/dataset/salary1.csv")
 
     val data = text.map {
       s =>
