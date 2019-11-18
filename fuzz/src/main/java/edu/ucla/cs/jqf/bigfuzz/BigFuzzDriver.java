@@ -20,8 +20,8 @@ public class BigFuzzDriver {
         System.out.println("maxTrials: "+maxTrials);
 //        File outputDirectory = new File("../fuzz-results");
 
-        String file = "/Users/zhuhaichao/Documents/Workspace/github/BigFuzz/dataset/salary1.csv";
-//        String file = "/home/qzhang/Programs/BigFuzz/dataset/salary1.csv";
+//        String file = "/Users/zhuhaichao/Documents/Workspace/github/BigFuzz/dataset/salary1.csv";
+        String file = "/home/qzhang/Programs/BigFuzz/dataset/salary1.csv";
        try {
             String title = testClassName+"#"+testMethodName;
             //NoGuidance guidance = new NoGuidance(file, maxTrials, System.err);
