@@ -65,6 +65,7 @@
         <module>instrument</module>
         <module>examples</module>
         <module>maven-plugin</module>
+        <module>parse</module>
     </modules>
 
     <dependencyManagement>

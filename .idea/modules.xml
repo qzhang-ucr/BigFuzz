@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/examples/jqf-examples.iml" filepath="$PROJECT_DIR$/examples/jqf-examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/instrument/jqf-instrument.iml" filepath="$PROJECT_DIR$/instrument/jqf-instrument.iml" />
       <module fileurl="file://$PROJECT_DIR$/maven-plugin/jqf-maven-plugin.iml" filepath="$PROJECT_DIR$/maven-plugin/jqf-maven-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parse/parse.iml" filepath="$PROJECT_DIR$/parse/parse.iml" />
     </modules>
   </component>
 </project>
