@@ -7,17 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2774e54c-0a4f-4f30-9e38-c5ee0352aa9a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/bigfuzz-dfcoverage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/bigfuzz-dfcoverage.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/jqf-examples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/examples/jqf-examples.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/bigfuzz-guidance.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/bigfuzz-guidance.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/jqf-instrument.iml" beforeDir="false" afterPath="$PROJECT_DIR$/instrument/jqf-instrument.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jqf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jqf.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parse/src/main/java/ToComplie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parse/target/classes/ToComplie.class" beforeDir="false" afterPath="$PROJECT_DIR$/parse/target/classes/ToComplie.class" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,6 +54,10 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -90,18 +90,6 @@
       <recent name="$PROJECT_DIR$/dataset" />
       <recent name="$PROJECT_DIR$/TestCases/src/edu/ucla/cs/bigfuzz" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.ToComplie">
     <configuration name="CommuteType" type="Application" factoryName="Application" temporary="true">
@@ -161,6 +149,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -171,7 +171,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563824292225</updated>
-      <workItem from="1576199499628" duration="2086000" />
+      <workItem from="1576199499628" duration="6289000" />
+      <workItem from="1577989446378" duration="13749000" />
     </task>
     <servers />
   </component>
@@ -204,6 +205,32 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1172" y="479" key="#Project_Structure" timestamp="1578093426292">
+      <screen x="0" y="23" width="2560" height="1348" />
+    </state>
+    <state x="1172" y="479" key="#Project_Structure/0.23.2560.1348@0.23.2560.1348" timestamp="1578093426292" />
+    <state x="1078" y="751" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1577989939041">
+      <screen x="0" y="23" width="2560" height="1348" />
+    </state>
+    <state x="1078" y="751" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.23.2560.1348@0.23.2560.1348" timestamp="1577989939041" />
+    <state width="677" height="287" key="GridCell.Tab.0.bottom" timestamp="1578100368020">
+      <screen x="0" y="23" width="2560" height="1348" />
+    </state>
+    <state width="677" height="287" key="GridCell.Tab.0.bottom/0.23.2560.1348@0.23.2560.1348" timestamp="1578100368020" />
+    <state width="677" height="287" key="GridCell.Tab.0.center" timestamp="1578100368019">
+      <screen x="0" y="23" width="2560" height="1348" />
+    </state>
+    <state width="677" height="287" key="GridCell.Tab.0.center/0.23.2560.1348@0.23.2560.1348" timestamp="1578100368019" />
+    <state width="677" height="287" key="GridCell.Tab.0.left" timestamp="1578100368019">
+      <screen x="0" y="23" width="2560" height="1348" />
+    </state>
+    <state width="677" height="287" key="GridCell.Tab.0.left/0.23.2560.1348@0.23.2560.1348" timestamp="1578100368019" />
+    <state width="677" height="287" key="GridCell.Tab.0.right" timestamp="1578100368020">
+      <screen x="0" y="23" width="2560" height="1348" />
+    </state>
+    <state width="677" height="287" key="GridCell.Tab.0.right/0.23.2560.1348@0.23.2560.1348" timestamp="1578100368020" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

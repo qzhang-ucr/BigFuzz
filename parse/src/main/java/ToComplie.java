@@ -5,11 +5,12 @@ import java.util.regex.Pattern;
 
 
 public class ToComplie {
-    private static String[] constLibrary = new String[]{"CustomArray.map","CustomArray.filter",
-            "CustomArray.mapValues","CustomArray.reduceByKey","CustomArray.mapToPair","CustomArray.flatMap",
+    private static String[] constLibrary = new String[]{"map","filter",
+            "mapValues","reduceByKey","mapToPair","flatMap",
             "CustomArray.read(inputFile);"};
     private static int[] timeForOpe = new int[]{0,0,0,0,0,0,0};
     private static int totalStage = 0;
+    private static ArrayList<String> operatorLine = new ArrayList<>();
 
 
 
@@ -34,6 +35,7 @@ public class ToComplie {
     private static ArrayList<String> Refactor(ArrayList<String> source, String name) {
 
         ArrayList<String> list = new ArrayList<>();
+        list.add("import edu.ucla.cs.bigfuzz.customarray."+name+"CustomArray;");
         list.add("import edu.ucla.cs.bigfuzz.customarray.CustomArray;");
         list.add("import javafx.util.Pair;");
         list.add("import java.io.File;");
@@ -74,12 +76,14 @@ public class ToComplie {
                         previous = "results"+(totalStage-1);
                         mapToVar.add(mapToVar.get(mapToVar.size()-1));
                     }
-                    newLine = "<youItem> result"+totalStage+" = "+
+                    newLine = "ArrayList<Object> results"+totalStage+" = "+name+"CustomArray."+
                             constLibrary[operator]+timeForOpe[operator]+"("+previous+");";
+                    operatorLine.add(constLibrary[operator]+timeForOpe[operator]);
                 }
                 else {
                     newLine = "ArrayList<String> result0 = "+constLibrary[operator];
                     mapToVar.add(a.findVal(line));
+                    operatorLine.add(constLibrary[operator]);
                     findAlready = true;
                 }
                 list.add(newLine);
@@ -116,9 +120,9 @@ public class ToComplie {
         //sourceCode = reader(args[0]);
         String pathr = "customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/";
         String pathw = "customarray/src/";
-        sourceCode = reader(pathr+"IncomeAggregate.scala");
+        sourceCode = reader(pathr+"StudentGrades.scala");
         //String name =args[1];
-        String name = "SalaryAnalysis1";
+        String name = "StudentGrades";
         sourceCode = Refactor(sourceCode, name);
 
         ArrayList<String> driver;
@@ -133,6 +137,7 @@ public class ToComplie {
             driveFile.write(line+"\n");
         }
         driveFile.close();
+        UDFgenerator UDF = new UDFgenerator(name);
+        UDF.UDFset(operatorLine);
     }
 }
-

@@ -95,7 +95,7 @@
     <orderEntry type="library" scope="TEST" name="Maven: com.google.truth.extensions:truth-java8-extension:0.37" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.google.auto.value:auto-value:1.5.3" level="project" />
     <orderEntry type="module-library">
-      <library name="Maven: com.sun:tools:11.0.4">
+      <library name="Maven: com.sun:tools:11.0.5">
         <CLASSES>
           <root url="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/lib/tools.jar!/" />
         </CLASSES>

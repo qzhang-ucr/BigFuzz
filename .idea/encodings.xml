@@ -3,9 +3,18 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/examples" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/examples/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/examples/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fuzz" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fuzz/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fuzz/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/instrument" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/instrument/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/maven-plugin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maven-plugin/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/parse" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parse/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parse/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
   </component>
 </project>
