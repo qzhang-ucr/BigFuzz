@@ -7,12 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2774e54c-0a4f-4f30-9e38-c5ee0352aa9a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/bigfuzz-dfcoverage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/bigfuzz-dfcoverage.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/jqf-examples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/examples/jqf-examples.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parse/src/main/java/ToComplie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parse/target/classes/ToComplie.class" beforeDir="false" afterPath="$PROJECT_DIR$/parse/target/classes/ToComplie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parse/src/main/java/UDFgenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/parse/src/main/java/UDFgenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +168,7 @@
       <option name="presentableId" value="Default" />
       <updated>1563824292225</updated>
       <workItem from="1576199499628" duration="6289000" />
-      <workItem from="1577989446378" duration="13749000" />
+      <workItem from="1577989446378" duration="17177000" />
     </task>
     <servers />
   </component>
@@ -215,22 +211,22 @@
       <screen x="0" y="23" width="2560" height="1348" />
     </state>
     <state x="1078" y="751" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.23.2560.1348@0.23.2560.1348" timestamp="1577989939041" />
-    <state width="677" height="287" key="GridCell.Tab.0.bottom" timestamp="1578100368020">
+    <state width="677" height="287" key="GridCell.Tab.0.bottom" timestamp="1578100385668">
       <screen x="0" y="23" width="2560" height="1348" />
     </state>
-    <state width="677" height="287" key="GridCell.Tab.0.bottom/0.23.2560.1348@0.23.2560.1348" timestamp="1578100368020" />
-    <state width="677" height="287" key="GridCell.Tab.0.center" timestamp="1578100368019">
+    <state width="677" height="287" key="GridCell.Tab.0.bottom/0.23.2560.1348@0.23.2560.1348" timestamp="1578100385668" />
+    <state width="677" height="287" key="GridCell.Tab.0.center" timestamp="1578100385668">
       <screen x="0" y="23" width="2560" height="1348" />
     </state>
-    <state width="677" height="287" key="GridCell.Tab.0.center/0.23.2560.1348@0.23.2560.1348" timestamp="1578100368019" />
-    <state width="677" height="287" key="GridCell.Tab.0.left" timestamp="1578100368019">
+    <state width="677" height="287" key="GridCell.Tab.0.center/0.23.2560.1348@0.23.2560.1348" timestamp="1578100385668" />
+    <state width="677" height="287" key="GridCell.Tab.0.left" timestamp="1578100385667">
       <screen x="0" y="23" width="2560" height="1348" />
     </state>
-    <state width="677" height="287" key="GridCell.Tab.0.left/0.23.2560.1348@0.23.2560.1348" timestamp="1578100368019" />
-    <state width="677" height="287" key="GridCell.Tab.0.right" timestamp="1578100368020">
+    <state width="677" height="287" key="GridCell.Tab.0.left/0.23.2560.1348@0.23.2560.1348" timestamp="1578100385667" />
+    <state width="677" height="287" key="GridCell.Tab.0.right" timestamp="1578100385668">
       <screen x="0" y="23" width="2560" height="1348" />
     </state>
-    <state width="677" height="287" key="GridCell.Tab.0.right/0.23.2560.1348@0.23.2560.1348" timestamp="1578100368020" />
+    <state width="677" height="287" key="GridCell.Tab.0.right/0.23.2560.1348@0.23.2560.1348" timestamp="1578100385668" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

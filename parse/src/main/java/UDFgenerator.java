@@ -37,7 +37,13 @@ public class UDFgenerator {
         CustomFile.write(UDFPreConstruct()+"\n");
         for (String operator: dataFlow){
             if (operator!="CustomArray.read(inputFile);") {CustomFile.write(" public static ArrayList<Object> "+operator+"(ArrayList<Object> lines)\n"+"{\n"+
-                    "ArrayList<Object> k = new ArrayList<>();\n"+"return k;\n"+"\n}\n");
+                    "        int callersLineNumber = Thread.currentThread().getStackTrace()[1].getLineNumber();\n" +
+                    "\n" +
+                    "        int iid = CustomArray.class.hashCode(); // this should be a random value associated with a program location\n" +
+                    "        MemberRef method = new METHOD_BEGIN(Thread.currentThread().getStackTrace()[1].getClassName(), Thread.currentThread().getStackTrace()[1].getMethodName(), \"()V\"); // containing method\n" +
+                    "\n" +
+                    "        // Generate a custom event!\n" +
+                    "        TraceLogger.get().emit(new MapValuesEvent(iid, method, callersLineNumber));"+"ArrayList<Object> k = new ArrayList<>();\n"+"return k;\n"+"\n}\n");
         }
         }
         CustomFile.write("}");
