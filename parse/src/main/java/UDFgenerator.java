@@ -43,7 +43,7 @@ public class UDFgenerator {
                     "        MemberRef method = new METHOD_BEGIN(Thread.currentThread().getStackTrace()[1].getClassName(), Thread.currentThread().getStackTrace()[1].getMethodName(), \"()V\"); // containing method\n" +
                     "\n" +
                     "        // Generate a custom event!\n" +
-                    "        TraceLogger.get().emit(new MapValuesEvent(iid, method, callersLineNumber));"+"ArrayList<Object> k = new ArrayList<>();\n"+"return k;\n"+"\n}\n");
+                    "        TraceLogger.get().emit(new "+operator.substring(0,operator.length()-1)+"Event(iid, method, callersLineNumber));"+"ArrayList<Object> k = new ArrayList<>();\n"+"return k;\n"+"\n}\n");
         }
         }
         CustomFile.write("}");

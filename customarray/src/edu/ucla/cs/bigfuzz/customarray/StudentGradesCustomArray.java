@@ -16,7 +16,7 @@ import java.util.*;public class StudentGradesCustomArray {
     public void StudentGradesCustomArray() {
 
     }
- public static ArrayList<Object> flatMap1(ArrayList<Object> lines)
+ public static ArrayList<Object> FlatMap1(ArrayList<String> lines)
 {
         int callersLineNumber = Thread.currentThread().getStackTrace()[1].getLineNumber();
 
@@ -24,11 +24,11 @@ import java.util.*;public class StudentGradesCustomArray {
         MemberRef method = new METHOD_BEGIN(Thread.currentThread().getStackTrace()[1].getClassName(), Thread.currentThread().getStackTrace()[1].getMethodName(), "()V"); // containing method
 
         // Generate a custom event!
-        TraceLogger.get().emit(new MapValuesEvent(iid, method, callersLineNumber));ArrayList<Object> k = new ArrayList<>();
+        TraceLogger.get().emit(new FlatMapEvent(iid, method, callersLineNumber));ArrayList<Object> k = new ArrayList<>();
 return k;
 
 }
- public static ArrayList<Object> flatMap2(ArrayList<Object> lines)
+ public static ArrayList<Object> FlatMap2(ArrayList<Object> lines)
 {
         int callersLineNumber = Thread.currentThread().getStackTrace()[1].getLineNumber();
 
@@ -36,11 +36,11 @@ return k;
         MemberRef method = new METHOD_BEGIN(Thread.currentThread().getStackTrace()[1].getClassName(), Thread.currentThread().getStackTrace()[1].getMethodName(), "()V"); // containing method
 
         // Generate a custom event!
-        TraceLogger.get().emit(new MapValuesEvent(iid, method, callersLineNumber));ArrayList<Object> k = new ArrayList<>();
+        TraceLogger.get().emit(new FlatMapEvent(iid, method, callersLineNumber));ArrayList<Object> k = new ArrayList<>();
 return k;
 
 }
- public static ArrayList<Object> map1(ArrayList<Object> lines)
+ public static ArrayList<Object> Map1(ArrayList<Object> lines)
 {
         int callersLineNumber = Thread.currentThread().getStackTrace()[1].getLineNumber();
 
@@ -48,11 +48,11 @@ return k;
         MemberRef method = new METHOD_BEGIN(Thread.currentThread().getStackTrace()[1].getClassName(), Thread.currentThread().getStackTrace()[1].getMethodName(), "()V"); // containing method
 
         // Generate a custom event!
-        TraceLogger.get().emit(new MapValuesEvent(iid, method, callersLineNumber));ArrayList<Object> k = new ArrayList<>();
+        TraceLogger.get().emit(new MapEvent(iid, method, callersLineNumber));ArrayList<Object> k = new ArrayList<>();
 return k;
 
 }
- public static ArrayList<Object> map2(ArrayList<Object> lines)
+ public static ArrayList<Object> Map2(ArrayList<Object> lines)
 {
         int callersLineNumber = Thread.currentThread().getStackTrace()[1].getLineNumber();
 
@@ -60,11 +60,11 @@ return k;
         MemberRef method = new METHOD_BEGIN(Thread.currentThread().getStackTrace()[1].getClassName(), Thread.currentThread().getStackTrace()[1].getMethodName(), "()V"); // containing method
 
         // Generate a custom event!
-        TraceLogger.get().emit(new MapValuesEvent(iid, method, callersLineNumber));ArrayList<Object> k = new ArrayList<>();
+        TraceLogger.get().emit(new MapEvent(iid, method, callersLineNumber));ArrayList<Object> k = new ArrayList<>();
 return k;
 
 }
- public static ArrayList<Object> reduceByKey1(ArrayList<Object> lines)
+ public static ArrayList<Object> ReduceByKey1(ArrayList<Object> lines)
 {
         int callersLineNumber = Thread.currentThread().getStackTrace()[1].getLineNumber();
 
@@ -72,11 +72,11 @@ return k;
         MemberRef method = new METHOD_BEGIN(Thread.currentThread().getStackTrace()[1].getClassName(), Thread.currentThread().getStackTrace()[1].getMethodName(), "()V"); // containing method
 
         // Generate a custom event!
-        TraceLogger.get().emit(new MapValuesEvent(iid, method, callersLineNumber));ArrayList<Object> k = new ArrayList<>();
+        TraceLogger.get().emit(new ReduceByKeyEvent(iid, method, callersLineNumber));ArrayList<Object> k = new ArrayList<>();
 return k;
 
 }
- public static ArrayList<Object> filter1(ArrayList<Object> lines)
+ public static ArrayList<Object> Filter1(ArrayList<Object> lines)
 {
         int callersLineNumber = Thread.currentThread().getStackTrace()[1].getLineNumber();
 
@@ -84,7 +84,7 @@ return k;
         MemberRef method = new METHOD_BEGIN(Thread.currentThread().getStackTrace()[1].getClassName(), Thread.currentThread().getStackTrace()[1].getMethodName(), "()V"); // containing method
 
         // Generate a custom event!
-        TraceLogger.get().emit(new MapValuesEvent(iid, method, callersLineNumber));ArrayList<Object> k = new ArrayList<>();
+        TraceLogger.get().emit(new FilterEvent(iid, method, callersLineNumber,0));ArrayList<Object> k = new ArrayList<>();
 return k;
 
 }

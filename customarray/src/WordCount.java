@@ -8,13 +8,14 @@ import java.util.Map;
 public class WordCount {
     public void WordCount(String inputFile) throws IOException {
 
+        //System.out.println("hello");
+
         File file=new File(inputFile);
         ArrayList<String> list;
         if(file.exists())
         {
             list = CustomArray.read(inputFile);
         }
-
         list = CustomArray.addLine(inputFile);
         //list.add(inputFile)
 //      System.out.println("hi, "+ list);

@@ -8,7 +8,19 @@
   <component name="ChangeListManager">
     <list default="true" id="2774e54c-0a4f-4f30-9e38-c5ee0352aa9a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/bigfuzz-dfcoverage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/bigfuzz-dfcoverage.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/StudentGrades.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/StudentGrades.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/WordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/WordCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/StudentGradesCustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/StudentGradesCustomArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/WordCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/WordCount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzGuidance.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzGuidance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/SalaryAnalysisMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/SalaryAnalysisMutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/target/classes/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parse/src/main/java/ToComplie.java" beforeDir="false" afterPath="$PROJECT_DIR$/parse/src/main/java/ToComplie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parse/src/main/java/UDFgenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/parse/src/main/java/UDFgenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parse/target/classes/ToComplie.class" beforeDir="false" afterPath="$PROJECT_DIR$/parse/target/classes/ToComplie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parse/target/classes/UDFgenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/parse/target/classes/UDFgenerator.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +100,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.ToComplie">
+    <configuration name="BigFuzzDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.ucla.cs.jqf.bigfuzz.BigFuzzDriver" />
+      <module name="bigfuzz-guidance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.ucla.cs.jqf.bigfuzz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CommuteType" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="edu.ucla.cs.bigfuzz.sparkprogram.CommuteType" />
       <module name="bigfuzz-dfcoverage" />
@@ -97,20 +122,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IncomeAggregate" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="IncomeAggregate" />
-      <module name="bigfuzz-dfcoverage" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SalaryAnalysisDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SalaryAnalysisDriver" />
-      <module name="bigfuzz-dfcoverage" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -135,13 +146,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WordCountDriver.testWordCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bigfuzz-dfcoverage" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WordCountDriver" />
+      <option name="METHOD_NAME" value="testWordCount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ToComplie" />
+        <item itemvalue="JUnit.WordCountDriver.testWordCount" />
+        <item itemvalue="Application.BigFuzzDriver" />
         <item itemvalue="Application.StudentGrades" />
         <item itemvalue="Application.CommuteType" />
-        <item itemvalue="Application.IncomeAggregate" />
-        <item itemvalue="Application.SalaryAnalysisDriver" />
       </list>
     </recent_temporary>
   </component>
@@ -211,21 +232,25 @@
       <screen x="0" y="23" width="2560" height="1348" />
     </state>
     <state x="1078" y="751" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.23.2560.1348@0.23.2560.1348" timestamp="1577989939041" />
-    <state width="677" height="287" key="GridCell.Tab.0.bottom" timestamp="1578100385668">
-      <screen x="0" y="23" width="2560" height="1348" />
+    <state width="1358" height="287" key="GridCell.Tab.0.bottom" timestamp="1579719798964">
+      <screen x="0" y="23" width="2560" height="1344" />
     </state>
+    <state width="1358" height="287" key="GridCell.Tab.0.bottom/0.23.2560.1344@0.23.2560.1344" timestamp="1579719798964" />
     <state width="677" height="287" key="GridCell.Tab.0.bottom/0.23.2560.1348@0.23.2560.1348" timestamp="1578100385668" />
-    <state width="677" height="287" key="GridCell.Tab.0.center" timestamp="1578100385668">
-      <screen x="0" y="23" width="2560" height="1348" />
+    <state width="1358" height="287" key="GridCell.Tab.0.center" timestamp="1579719798963">
+      <screen x="0" y="23" width="2560" height="1344" />
     </state>
+    <state width="1358" height="287" key="GridCell.Tab.0.center/0.23.2560.1344@0.23.2560.1344" timestamp="1579719798963" />
     <state width="677" height="287" key="GridCell.Tab.0.center/0.23.2560.1348@0.23.2560.1348" timestamp="1578100385668" />
-    <state width="677" height="287" key="GridCell.Tab.0.left" timestamp="1578100385667">
-      <screen x="0" y="23" width="2560" height="1348" />
+    <state width="1358" height="287" key="GridCell.Tab.0.left" timestamp="1579719798963">
+      <screen x="0" y="23" width="2560" height="1344" />
     </state>
+    <state width="1358" height="287" key="GridCell.Tab.0.left/0.23.2560.1344@0.23.2560.1344" timestamp="1579719798963" />
     <state width="677" height="287" key="GridCell.Tab.0.left/0.23.2560.1348@0.23.2560.1348" timestamp="1578100385667" />
-    <state width="677" height="287" key="GridCell.Tab.0.right" timestamp="1578100385668">
-      <screen x="0" y="23" width="2560" height="1348" />
+    <state width="1358" height="287" key="GridCell.Tab.0.right" timestamp="1579719798963">
+      <screen x="0" y="23" width="2560" height="1344" />
     </state>
+    <state width="1358" height="287" key="GridCell.Tab.0.right/0.23.2560.1344@0.23.2560.1344" timestamp="1579719798963" />
     <state width="677" height="287" key="GridCell.Tab.0.right/0.23.2560.1348@0.23.2560.1348" timestamp="1578100385668" />
   </component>
   <component name="XDebuggerManager">

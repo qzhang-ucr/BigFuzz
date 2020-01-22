@@ -17,5 +17,6 @@
     <orderEntry type="module" module-name="jqf-instrument" />
     <orderEntry type="library" name="scala-sdk-2.11.8" level="application" />
     <orderEntry type="library" name="scala-sdk-2.11.12" level="application" />
+    <orderEntry type="library" name="Maven: org.scalaz:scalaz-core_2.12:7.2.15" level="project" />
   </component>
 </module>

@@ -6,7 +6,7 @@ import edu.berkeley.cs.jqf.fuzz.guidance.Result;
 import edu.berkeley.cs.jqf.fuzz.guidance.TimeoutException;
 import edu.berkeley.cs.jqf.fuzz.util.Coverage;
 import edu.berkeley.cs.jqf.instrument.tracing.events.TraceEvent;
-import org.apache.commons.io.FileUtils;
+//import org.apache.commons.io.FileUtils;
 
 import java.io.*;
 

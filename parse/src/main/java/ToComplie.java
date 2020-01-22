@@ -5,8 +5,8 @@ import java.util.regex.Pattern;
 
 
 public class ToComplie {
-    private static String[] constLibrary = new String[]{"map","filter",
-            "mapValues","reduceByKey","mapToPair","flatMap",
+    private static String[] constLibrary = new String[]{"Map","Filter",
+            "MapValues","ReduceByKey","MapToPair","FlatMap",
             "CustomArray.read(inputFile);"};
     private static int[] timeForOpe = new int[]{0,0,0,0,0,0,0};
     private static int totalStage = 0;
