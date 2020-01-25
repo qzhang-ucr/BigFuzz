@@ -20,6 +20,26 @@ public class CustomArray {
 
     }
 
+    public static String readStr(String inputPath) throws IOException {
+        BufferedReader br = new BufferedReader(new FileReader(inputPath));
+        //List<String> lists = new ArrayList<String>();
+        String list =null;
+        String readLine = null;
+        while((readLine = br.readLine()) != null){
+            list = list+readLine;
+            /*String[] wordsArr1 = readLine.split("[^a-zA-Z]");
+            for (String word : wordsArr1) {
+                if(word.length() != 0){
+                    lists.add(word);
+                }
+            }*/
+        }
+
+        //br.close();
+        return list;
+    }
+
+
     public static ArrayList<String> read(String inputPath) throws IOException {
         ArrayList<String> list  = new ArrayList<String>();
         BufferedReader br = new BufferedReader(new FileReader(inputPath));

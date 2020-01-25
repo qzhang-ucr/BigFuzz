@@ -21,8 +21,11 @@ class ComplieTool {
         Pattern val = Pattern.compile("val|JavaRDD|JavaPairRDD");
         Matcher a = val.matcher(line);
 
-
+        Pattern impor = Pattern.compile("import");
+        Matcher b = impor.matcher(line);
         if (!a.find()) return null;
+        if (b.find()) return null;
+
 
         String valName = "";
         int pointer = a.end();
@@ -60,7 +63,7 @@ class ComplieTool {
                 break;
             }
         }
-        return "result"+pointer;
+        return "results"+pointer;
     }
 
     ArrayList<Integer> DataFlowSequence(String line){

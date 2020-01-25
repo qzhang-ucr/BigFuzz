@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 public class ToComplie {
     private static String[] constLibrary = new String[]{"Map","Filter",
             "MapValues","ReduceByKey","MapToPair","FlatMap",
-            "CustomArray.read(inputFile);"};
+            "CustomArray.readStr(inputFile);"};
     private static int[] timeForOpe = new int[]{0,0,0,0,0,0,0};
     private static int totalStage = 0;
     private static ArrayList<String> operatorLine = new ArrayList<>();
@@ -71,6 +71,7 @@ public class ToComplie {
                         previous = a.trace(mapToVar,line);
                         findAlready = false;
                         mapToVar.add(a.findVal(line));
+
                     }
                     else {
                         previous = "results"+(totalStage-1);
@@ -81,7 +82,7 @@ public class ToComplie {
                     operatorLine.add(constLibrary[operator]+timeForOpe[operator]);
                 }
                 else {
-                    newLine = "ArrayList<String> result0 = "+constLibrary[operator];
+                    newLine = "String results0 = "+constLibrary[operator];
                     mapToVar.add(a.findVal(line));
                     operatorLine.add(constLibrary[operator]);
                     findAlready = true;
@@ -120,9 +121,9 @@ public class ToComplie {
         //sourceCode = reader(args[0]);
         String pathr = "customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/";
         String pathw = "customarray/src/";
-        sourceCode = reader(pathr+"StudentGrades.scala");
+        sourceCode = reader(pathr+"WordCountNew.scala");
         //String name =args[1];
-        String name = "StudentGrades";
+        String name = "WordCountNew";
         sourceCode = Refactor(sourceCode, name);
 
         ArrayList<String> driver;
@@ -137,7 +138,7 @@ public class ToComplie {
             driveFile.write(line+"\n");
         }
         driveFile.close();
-        UDFgenerator UDF = new UDFgenerator(name);
+        UDFgenerator UDF = new UDFgenerator(name,operatorLine.size());
         UDF.UDFset(operatorLine);
     }
 }
