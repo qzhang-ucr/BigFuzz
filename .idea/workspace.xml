@@ -8,14 +8,58 @@
   <component name="ChangeListManager">
     <list default="true" id="2774e54c-0a4f-4f30-9e38-c5ee0352aa9a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/CustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/CustomArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parse/src/main/java/ComplieTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/parse/src/main/java/ComplieTool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parse/src/main/java/ToComplie.java" beforeDir="false" afterPath="$PROJECT_DIR$/parse/src/main/java/ToComplie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parse/src/main/java/UDFgenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/parse/src/main/java/UDFgenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parse/target/classes/ComplieTool.class" beforeDir="false" afterPath="$PROJECT_DIR$/parse/target/classes/ComplieTool.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parse/target/classes/ToComplie.class" beforeDir="false" afterPath="$PROJECT_DIR$/parse/target/classes/ToComplie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parse/target/classes/UDFgenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/parse/target/classes/UDFgenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate$$anonfun$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate$$anonfun$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/IncomeAggregate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/SalaryAnalysis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/SalaryAnalysisDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/WordCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/WordCountDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/customarray/CustomArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/customarray/SalaryItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/CommuteType$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/CommuteType$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/CommuteType$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/CommuteType$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/CommuteType$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/CommuteType$$anonfun$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/CommuteType$$anonfun$main$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/CommuteType$$anonfun$main$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/CommuteType$$anonfun$main$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/CommuteType$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/CommuteType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/JoinSkew$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/JoinSkew$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/JoinSkew$$anonfun$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/JoinSkew$$anonfun$main$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/JoinSkew$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/JoinSkew.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/StudentGrades$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/StudentGrades$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/StudentGrades$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/StudentGrades$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/StudentGrades$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/StudentGrades$$anonfun$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/StudentGrades$$anonfun$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/StudentGrades$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/StudentGrades.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/WordCount$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/WordCount.class" beforeDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/parse/target/" />
+    <ignored path="$PROJECT_DIR$/fuzz/target/" />
+    <ignored path="$PROJECT_DIR$/maven-plugin/target/" />
+    <ignored path="$PROJECT_DIR$/instrument/target/" />
+    <ignored path="$PROJECT_DIR$/examples/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +75,64 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzGuidance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzMutation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parse/src/main/java/ComplieTool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/customarray/src/SalaryAnalysis.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/IncomeAggregate.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="40" column="14" selection-start-line="39" selection-end-line="41" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -52,9 +154,111 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="375" />
+    <option name="y" value="164" />
+    <option name="width" value="1717" />
+    <option name="height" value="786" />
+  </component>
   <component name="ProjectId" id="1S1QbIL6iFVlcLmafzQch5WtBAz" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="customarray" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="customarray" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="customarray" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bigfuzz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="customarray" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bigfuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="sparkprogram" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="dataset" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="fuzz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="fuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="fuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="fuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="fuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="fuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="bigfuzz" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
@@ -68,7 +272,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/parse" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BigFuzz-TestPrograms" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2764706" />
@@ -93,6 +297,18 @@
       <recent name="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/dataflow" />
       <recent name="$PROJECT_DIR$/dataflow/src/edu/ucla/cs/jqf/instrument/dataflow" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Application.ToComplie">
     <configuration name="BigFuzzDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -182,6 +398,39 @@
     </task>
     <servers />
   </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="31" width="1920" height="1049" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32454252" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32912844" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32912844" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -191,6 +440,12 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -248,9 +503,265 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/ei/ZestGuidance.java</url>
           <line>341</line>
+          <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/instrument/src/main/java/edu/ucla/cs/bigfuzz/dataflow/MapValuesEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/instrument/src/main/java/edu/ucla/cs/bigfuzz/dataflow/MapEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/instrument/src/main/java/edu/ucla/cs/bigfuzz/dataflow/ReduceByKeyEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/instrument/src/main/java/edu/ucla/cs/bigfuzz/dataflow/ReduceEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/CommuteType.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/StudentGrades.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/instrument/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/DefaultInstructionVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/reduceByKey1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/map2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/flatMap3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/SalaryAnalysisMutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4798">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/NoGuidance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1756">
+          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/junit/quickcheck/FuzzStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2764">
+          <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/junit/quickcheck/FuzzStringStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1692">
+          <caret line="73" column="44" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/junit/quickcheck/SparkJobSubmit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-802">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/src/SalaryAnalysisDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parse/src/main/java/UDFgenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1072">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parse/src/main/java/ToComplie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="133" column="28" lean-forward="true" selection-start-line="133" selection-start-column="28" selection-end-line="133" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/salary1.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20200122104953_1.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzGuidance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzMutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parse/src/main/java/ComplieTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/src/SalaryAnalysis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/IncomeAggregate.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="40" column="14" selection-start-line="39" selection-end-line="41" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>bigfuzz-guidance</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2764706" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
