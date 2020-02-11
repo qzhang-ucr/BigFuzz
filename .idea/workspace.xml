@@ -7,12 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2774e54c-0a4f-4f30-9e38-c5ee0352aa9a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/src/StudentGrades.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/src/WordCountNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/WordCountNew.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/src/WordCountNewDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/WordCountNewDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/JoinSkew.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/StudentGrades.scala" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/StudentGrades.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parse/parse.iml" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/parse.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parse/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parse/src/main/java/ComplieTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/src/main/java/ComplieTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parse/src/main/java/ToComplie.java" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/src/main/java/ToComplie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parse/src/main/java/UDFgenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/src/main/java/UDFgenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parse/target/classes/ComplieTool.class" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/target/classes/ComplieTool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parse/target/classes/META-INF/parse.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/target/classes/META-INF/parse.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parse/target/classes/ToComplie.class" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/target/classes/ToComplie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parse/target/classes/UDFgenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/target/classes/UDFgenerator.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,16 +47,16 @@
         <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/StudentGrades.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="14" lean-forward="true" selection-start-line="11" selection-end-line="14" />
+              <caret line="14" selection-start-line="11" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/MovieRating.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="36">
+              <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -67,7 +70,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/customarray/src/WordCountNewDriver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -148,73 +151,12 @@
             <path>
               <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
               <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
-              <item name="customarray" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
-              <item name="customarray" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bigfuzz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
-              <item name="customarray" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bigfuzz" type="462c0819:PsiDirectoryNode" />
-              <item name="sparkprogram" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
               <item name="dataset" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
               <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
               <item name="fuzz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
-              <item name="fuzz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
-              <item name="fuzz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
-              <item name="fuzz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
-              <item name="fuzz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
-              <item name="fuzz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="bigfuzz" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -302,7 +244,7 @@
     </configuration>
     <configuration name="ToComplie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ToComplie" />
-      <module name="parse" />
+      <module name="bigfuzz-transformer" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -363,7 +305,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="31" width="1920" height="1049" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2949408" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -375,7 +316,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32912844" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3738532" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -383,7 +324,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.32912844" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32912844" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -564,14 +505,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parse/src/main/java/UDFgenerator.java">
+    <entry file="file://$PROJECT_DIR$/transformer/src/main/java/UDFgenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1072">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parse/src/main/java/ToComplie.java">
+    <entry file="file://$PROJECT_DIR$/transformer/src/main/java/ToComplie.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="512">
           <caret line="133" column="28" lean-forward="true" selection-start-line="133" selection-start-column="28" selection-end-line="133" selection-end-column="28" />
@@ -611,7 +552,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parse/src/main/java/ComplieTool.java">
+    <entry file="file://$PROJECT_DIR$/transformer/src/main/java/ComplieTool.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
@@ -677,14 +618,7 @@
     <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/StudentGrades.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="14" lean-forward="true" selection-start-line="11" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/MovieRating.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="14" selection-start-line="11" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -716,6 +650,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="50" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/MovieRating.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
         </state>
       </provider>
     </entry>

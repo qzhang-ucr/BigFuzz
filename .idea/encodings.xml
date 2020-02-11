@@ -12,9 +12,8 @@
     <file url="file://$PROJECT_DIR$/instrument/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/maven-plugin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/maven-plugin/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/parse" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/parse/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/parse/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/transformer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/transformer/src/main/java" charset="UTF-8" />
   </component>
 </project>
