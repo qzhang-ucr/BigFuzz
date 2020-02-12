@@ -7,12 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2774e54c-0a4f-4f30-9e38-c5ee0352aa9a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/CommuteType.scala" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/CommuteType.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/CommuteType$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/CommuteType$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/CommuteType$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/CommuteType$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/CommuteType$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/CommuteType$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/CommuteType$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/CommuteType$$anonfun$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/CommuteType$$anonfun$main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/CommuteType$$anonfun$main$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/CommuteType$$anonfun$main$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/CommuteType$$anonfun$main$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/CommuteType$$anonfun$main$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/CommuteType$$anonfun$main$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/CommuteType$$anonfun$main$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/CommuteType$$anonfun$main$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/CommuteType$$anonfun$main$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/CommuteType$$anonfun$main$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/CommuteType$.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/CommuteType$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/MovieRating$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/MovieRating$$anonfun$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/MovieRating$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/MovieRating$$anonfun$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/MovieRating$$anonfun$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/MovieRating$$anonfun$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/MovieRating$$anonfun$5.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/MovieRating$.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/MovieRating$.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -42,55 +51,78 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/StudentGrades.scala">
+        <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/WordCountNew.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" selection-start-line="11" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/MovieRating.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="72">
+              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/reduceByKey1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/customarray/src/WordCountNew.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/customarray/src/WordCountNewDriver.java">
+        <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/CommuteType.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="10" column="50" selection-end-line="16" />
+              <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+              <folding>
+                <element signature="e#42#91#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/WordCountNew.scala">
+        <entry file="file://$PROJECT_DIR$/customarray/src/CommuteType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+            <state relative-caret-position="252">
+              <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/CommuteType/map1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="24" />
+              <folding>
+                <element signature="e#908#909#0" expanded="true" />
+                <element signature="e#943#944#0" expanded="true" />
+                <element signature="e#1206#1207#0" expanded="true" />
+                <element signature="e#1231#1232#0" expanded="true" />
+                <element signature="e#1252#1253#0" expanded="true" />
+                <element signature="e#1277#1278#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/CommuteType/CommuteTypeCustomArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="531">
+              <caret line="81" column="49" lean-forward="true" selection-start-line="81" selection-start-column="49" selection-end-line="81" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/customarray/src/CommuteTypeDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/customarray/src/SalaryAnalysisDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="26" column="5" selection-start-line="21" selection-end-line="26" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -104,6 +136,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>filter</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -114,6 +151,13 @@
         <option value="$PROJECT_DIR$/customarray/src/WordCountNew.java" />
         <option value="$PROJECT_DIR$/customarray/src/WordCountNewDriver.java" />
         <option value="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/MovieRating.scala" />
+        <option value="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/CommuteTypeCustomArray.java" />
+        <option value="$PROJECT_DIR$/customarray/src/CommuteTypeDriver.java" />
+        <option value="$PROJECT_DIR$/customarray/src/CommuteType.java" />
+        <option value="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/CommuteType/map5.java" />
+        <option value="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/CommuteType/CommuteTypeCustomArray.java" />
+        <option value="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/CommuteType/map1.java" />
+        <option value="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/CommuteType.scala" />
       </list>
     </option>
   </component>
@@ -128,10 +172,10 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="777" />
-    <option name="y" value="32" />
-    <option name="width" value="1160" />
-    <option name="height" value="1043" />
+    <option name="x" value="715" />
+    <option name="y" value="254" />
+    <option name="width" value="1717" />
+    <option name="height" value="786" />
   </component>
   <component name="ProjectId" id="1S1QbIL6iFVlcLmafzQch5WtBAz" />
   <component name="ProjectLevelVcsManager">
@@ -153,52 +197,55 @@
             <path>
               <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
               <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="customarray" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="customarray" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="customarray" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bigfuzz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="customarray" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bigfuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="customarray" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="customarray" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bigfuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="customarray" type="462c0819:PsiDirectoryNode" />
+              <item name="CommuteType" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="customarray" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bigfuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="sparkprogram" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
               <item name="dataset" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
               <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
               <item name="fuzz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
-              <item name="fuzz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
-              <item name="fuzz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
-              <item name="fuzz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
-              <item name="fuzz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
-              <item name="fuzz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="bigfuzz" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -219,7 +266,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BigFuzz-TestPrograms" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FaultMutation" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2764706" />
@@ -257,22 +304,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MovieRating">
-    <configuration name="BigFuzzDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.ucla.cs.jqf.bigfuzz.BigFuzzDriver" />
-      <module name="bigfuzz-guidance" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.ucla.cs.jqf.bigfuzz.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MovieRating" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="edu.ucla.cs.bigfuzz.sparkprogram.MovieRating" />
+  <component name="RunManager" selected="Application.CommuteTypeDriver (2)">
+    <configuration name="CommuteType" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="edu.ucla.cs.bigfuzz.sparkprogram.CommuteType" />
       <module name="bigfuzz-dfcoverage" />
       <extension name="coverage">
         <pattern>
@@ -284,37 +318,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToComplie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ToComplie" />
-      <module name="bigfuzz-transformer" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="reduceByKey1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.ucla.cs.bigfuzz.customarray.reduceByKey1" />
+    <configuration name="CommuteTypeDriver (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CommuteTypeDriver" />
       <module name="bigfuzz-dfcoverage" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordCountDriver.testWordCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CommuteTypeDriver (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CommuteTypeDriver" />
       <module name="bigfuzz-dfcoverage" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WordCountDriver" />
-      <option name="METHOD_NAME" value="testWordCount" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommuteTypeDriver (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CommuteTypeDriver" />
+      <module name="bigfuzz-dfcoverage" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommuteTypeDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CommuteTypeDriver" />
+      <module name="bigfuzz-dfcoverage" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MovieRating" />
-        <item itemvalue="Application.ToComplie" />
-        <item itemvalue="Application.reduceByKey1" />
-        <item itemvalue="JUnit.WordCountDriver.testWordCount" />
-        <item itemvalue="Application.BigFuzzDriver" />
+        <item itemvalue="Application.CommuteTypeDriver (2)" />
+        <item itemvalue="Application.CommuteTypeDriver" />
+        <item itemvalue="Application.CommuteType" />
+        <item itemvalue="Application.CommuteTypeDriver (1)" />
+        <item itemvalue="Application.CommuteTypeDriver (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -347,8 +385,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="31" width="1920" height="1049" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2949408" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2949408" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -358,7 +397,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17660551" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36238533" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -491,13 +530,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/map2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/flatMap3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -530,20 +562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-802">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/transformer/src/main/java/UDFgenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1072">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/transformer/src/main/java/ToComplie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="133" column="28" lean-forward="true" selection-start-line="133" selection-start-column="28" selection-end-line="133" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -580,20 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/transformer/src/main/java/ComplieTool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/src/SalaryAnalysis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/IncomeAggregate.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -612,20 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/CommuteType.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/src/SalaryAnalysisDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -660,27 +650,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/WordCountNew.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/src/WordCountNew.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/src/WordCountNewDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="50" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/StudentGradesCustomArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1163">
@@ -701,13 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/MovieRating.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/SalaryAnalysisMutation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3492">
@@ -718,10 +680,170 @@
     <entry file="file://$PROJECT_DIR$/salary1.csv+crash+0+java.lang.ClassNotFoundException: edu.ucla.cs.bigfuzz.customarray.CustomArray">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/CommuteType.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transformer/src/main/java/ToComplie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="133" column="28" lean-forward="true" selection-start-line="133" selection-start-column="28" selection-end-line="133" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transformer/src/main/java/ComplieTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-576">
+          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transformer/src/main/java/UDFgenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/map2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/CommuteTypeCustomArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/reduceByKey1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/MovieRating.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/src/WordCountNew.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/src/WordCountNewDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="50" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/WordCountNew.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/src/SalaryAnalysisDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="26" column="5" selection-start-line="21" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/CommuteType/filter2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/CustomArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-414">
+          <caret line="71" column="74" selection-start-line="71" selection-start-column="57" selection-end-line="71" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/CommuteType/map3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/CommuteType/map5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/src/SalaryAnalysis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/src/CommuteTypeDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/src/CommuteType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/CommuteType/CommuteTypeCustomArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="81" column="49" lean-forward="true" selection-start-line="81" selection-start-column="49" selection-end-line="81" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/CommuteType/map1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="24" />
+          <folding>
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
+            <element signature="e#1206#1207#0" expanded="true" />
+            <element signature="e#1231#1232#0" expanded="true" />
+            <element signature="e#1252#1253#0" expanded="true" />
+            <element signature="e#1277#1278#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/CommuteType.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+          <folding>
+            <element signature="e#42#91#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
