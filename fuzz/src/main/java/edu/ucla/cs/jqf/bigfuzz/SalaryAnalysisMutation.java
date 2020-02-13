@@ -3,6 +3,8 @@ package edu.ucla.cs.jqf.bigfuzz;
 //import org.apache.commons.lang.ArrayUtils;
 
 import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -143,7 +145,39 @@ public class SalaryAnalysisMutation implements BigFuzzMutation{
 
         bw.close();
     }
-    public void mutate(String inputFile) throws IOException
+
+    public void mutate(String inputFile, String nextInputFile) throws IOException
+    {
+        List<String> fileList = Files.readAllLines(Paths.get(inputFile));
+        Random random = new Random();
+        int n = random.nextInt(fileList.size());
+        String fileToMutate = fileList.get(n);
+        mutateFile(fileToMutate);
+//        System.out.println(fileToMutate);
+        String fileName = nextInputFile + "+" + fileToMutate.substring(fileToMutate.lastIndexOf('/')+1);
+//        System.out.println(fileName);
+        writeFile(fileName);
+
+        String path = System.getProperty("user.dir")+"/"+fileName;
+//        System.out.println(path);
+//        System.out.println(fileList);
+
+        // write next input config
+        BufferedWriter bw = new BufferedWriter(new FileWriter(nextInputFile));
+
+        for(int i = 0; i < fileList.size(); i++)
+        {
+            if(i == n)
+                bw.write(path);
+            else
+                bw.write(fileList.get(i));
+            bw.newLine();
+            bw.flush();
+        }
+        bw.close();
+    }
+
+    public void mutateFile(String inputFile) throws IOException
     {
 
         File file=new File(inputFile);

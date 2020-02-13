@@ -135,6 +135,8 @@ public class BigFuzzGuidance implements Guidance {
         // Clear coverage stats for this run
         runCoverage.clear();
 
+
+        ///copy the configuration/input file
         if(testInputFiles.isEmpty())
         {
             String fileName = currentInputFile.substring(currentInputFile.lastIndexOf('/')+1);
@@ -154,10 +156,15 @@ public class BigFuzzGuidance implements Guidance {
         {
             try
             {
-                mutation.mutate(initialInputFile);//currentInputFile
-                String fileName = new SimpleDateFormat("yyyyMMddHHmmss'_"+this.numTrials+".csv'").format(new Date());
-                currentInputFile = fileName;
-                mutation.writeFile(fileName);
+//                mutation.mutate(initialInputFile);//currentInputFile
+//                String fileName = new SimpleDateFormat("yyyyMMddHHmmss'_"+this.numTrials+".csv'").format(new Date());
+//                currentInputFile = fileName;
+//                mutation.writeFile(fileName);
+
+                String nextInputFile = new SimpleDateFormat("yyyyMMddHHmmss'_"+this.numTrials+"'").format(new Date());
+                mutation.mutate(initialInputFile, nextInputFile);//currentInputFile
+                currentInputFile = nextInputFile;
+
             }
             catch (IOException e)
             {

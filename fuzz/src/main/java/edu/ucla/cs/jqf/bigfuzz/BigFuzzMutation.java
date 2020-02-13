@@ -11,7 +11,7 @@ public interface BigFuzzMutation {
      * @param inputFile
      * @throws IOException
      */
-    public void mutate(String inputFile) throws IOException;
+    public void mutate(String inputFile, String nextInputFile) throws IOException;
 
     /**
      * mutate on rows of an input file

@@ -3,21 +3,30 @@ import edu.berkeley.cs.jqf.fuzz.JQF;
 import org.junit.runner.RunWith;
 
 import java.io.IOException;
-@RunWith(JQF.class)
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.List;
 
+
+@RunWith(JQF.class)
 public class CommuteTypeDriver {
 
-//@Fuzz
-//    public void testCommuteType(String fileName) throws IOException {
-//        System.out.println("CommuteTypeDriver::testCommuteType: "+fileName);
-//        CommuteType analysis = new CommuteType();
-//        analysis.CommuteType(fileName);
-//    }
+    @Fuzz
+    public void testCommuteType(String fileName) throws IOException {
+        System.out.println("CommuteTypeDriver::testCommuteType: "+fileName);
 
-    public static void main(String[] args) throws IOException
-    {
+        List<String> fileList = Files.readAllLines(Paths.get(fileName));
+
         CommuteType analysis = new CommuteType();
-        analysis.CommuteType("/home/qzhang/Programs/BigFuzz-TestPrograms/src/dataset/trips.csv", "/home/qzhang/Programs/BigFuzz-TestPrograms/src/dataset/zipcode.csv");
+        analysis.CommuteType(fileList.get(0), fileList.get(1));
+    }
 
-   }
+//    public static void main(String[] args) throws IOException
+//    {
+//        List<String> fileList = Files.readAllLines(Paths.get("/home/qzhang/Programs/BigFuzz/dataset/config"));
+//
+//        CommuteType analysis = new CommuteType();
+//        analysis.CommuteType(fileList.get(0), fileList.get(1));
+//
+//   }
 }

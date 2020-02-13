@@ -101,7 +101,7 @@ public class NoGuidance implements Guidance {
         {
             try
             {
-                mutation.mutate(currentFile);
+//                mutation.mutate(currentFile);
                 String fileName = new SimpleDateFormat("yyyyMMddHHmm'.csv'").format(new Date());
                 currentFile = fileName;
                 mutation.writeFile(fileName);
