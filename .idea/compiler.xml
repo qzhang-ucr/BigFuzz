@@ -6,9 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="jqf-examples" />
         <module name="bigfuzz-transformer" />
         <module name="jqf-instrument" />
+        <module name="jqf-examples" />
         <module name="jqf-maven-plugin" />
         <module name="bigfuzz-guidance" />
       </profile>

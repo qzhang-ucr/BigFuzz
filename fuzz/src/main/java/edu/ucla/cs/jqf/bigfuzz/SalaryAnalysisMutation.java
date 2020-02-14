@@ -19,6 +19,7 @@ public class SalaryAnalysisMutation implements BigFuzzMutation{
     int maxGenerateValue = 10000000;
     DecimalFormat decimalFormat = new DecimalFormat("#,##0");
     ArrayList<String> fileRows = new ArrayList<String>();
+    String delete;
 
     /**
      * Randomly duplicate some lines and then randomly insert into the input lines
@@ -146,6 +147,11 @@ public class SalaryAnalysisMutation implements BigFuzzMutation{
         bw.close();
     }
 
+    public void deleteFile(String currentInputFile) throws IOException {
+        File del = new File(delete);
+        del.delete();
+    }
+
     public void mutate(String inputFile, String nextInputFile) throws IOException
     {
         List<String> fileList = Files.readAllLines(Paths.get(inputFile));
@@ -153,15 +159,15 @@ public class SalaryAnalysisMutation implements BigFuzzMutation{
         int n = random.nextInt(fileList.size());
         String fileToMutate = fileList.get(n);
         mutateFile(fileToMutate);
-//        System.out.println(fileToMutate);
+
         String fileName = nextInputFile + "+" + fileToMutate.substring(fileToMutate.lastIndexOf('/')+1);
-//        System.out.println(fileName);
         writeFile(fileName);
 
         String path = System.getProperty("user.dir")+"/"+fileName;
 //        System.out.println(path);
 //        System.out.println(fileList);
 
+        delete = path;
         // write next input config
         BufferedWriter bw = new BufferedWriter(new FileWriter(nextInputFile));
 
@@ -175,6 +181,11 @@ public class SalaryAnalysisMutation implements BigFuzzMutation{
             bw.flush();
         }
         bw.close();
+    }
+
+    @Override
+    public void mutateFile(String inputFile, int index) throws IOException {
+
     }
 
     public void mutateFile(String inputFile) throws IOException
@@ -234,7 +245,9 @@ public class SalaryAnalysisMutation implements BigFuzzMutation{
     public void mutate(ArrayList<String> list)
     {
         r.setSeed(System.currentTimeMillis());
+        System.out.println(list.size());
         int lineNum = r.nextInt(list.size());
+        System.out.println(list.get(lineNum));
         // 0: random change value
         // 1: random change into float
         // 2: random insert
@@ -243,31 +256,18 @@ public class SalaryAnalysisMutation implements BigFuzzMutation{
         String[] columns = list.get(lineNum).split(",");
         int method = r.nextInt(5);
         int columnID = r.nextInt(3);
+        System.out.println("********"+method+" "+lineNum+" "+columnID);
         if(method == 0){
-            if(columns[columnID].charAt(0)=='$')
-            {
-                columns[columnID] = "$"+Integer.toString(r.nextInt());
-            }
-            else
-            {
-                columns[columnID] = Integer.toString(r.nextInt());
-            }
+            columns[columnID] = Integer.toString(r.nextInt());
         }
         else if(method==1) {
             int value = 0;
-            if(columns[columnID].charAt(0)=='$')
-            {
-                value = Integer.parseInt(columns[columnID].substring(1));
-            }
-            else
-            {
-                value = Integer.parseInt(columns[columnID]);
-            }
+            value = Integer.parseInt(columns[columnID]);
             float v = (float)value + r.nextFloat();
             columns[columnID] = Float.toString(v);
         }
         else if(method==2) {
-            char temp = (char)r.nextInt(256);
+            char temp = (char)r.nextInt(255);
             int pos = r.nextInt(columns[columnID].length());
             columns[columnID] = columns[columnID].substring(0, pos)+temp+columns[columnID].substring(pos);
         }

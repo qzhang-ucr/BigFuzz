@@ -306,6 +306,21 @@ public class BigFuzzGuidance implements Guidance {
                 src.renameTo(des);
             }
             else {
+                try {
+                    mutation.deleteFile(currentInputFile);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+//                try {
+//                    List<String> deleteList = Files.readAllLines(Paths.get(currentInputFile));
+//                    for(int i = 0; i < deleteList.size(); i++)
+//                    {
+//                        File del = new File(deleteList.get(i));
+//                        del.delete();
+//                    }
+//                } catch (IOException e) {
+//                    e.printStackTrace();
+//                }
                 File src2 = new File(currentInputFile);
                 src2.delete();
             }
@@ -338,6 +353,21 @@ public class BigFuzzGuidance implements Guidance {
                 File des = new File(currentInputFile);
                 src.renameTo(des);
             } else {
+                try {
+                    mutation.deleteFile(currentInputFile);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+//                try {
+//                    List<String> deleteList = Files.readAllLines(Paths.get(currentInputFile));
+//                    for(int i = 0; i < deleteList.size(); i++)
+//                    {
+//                        File del = new File(deleteList.get(i));
+//                        del.delete();
+//                    }
+//                } catch (IOException e) {
+//                    e.printStackTrace();
+//                }
                 File src2 = new File(currentInputFile);
                 src2.delete();
             }

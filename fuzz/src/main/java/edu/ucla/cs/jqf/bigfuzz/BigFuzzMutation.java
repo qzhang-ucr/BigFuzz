@@ -5,13 +5,19 @@ import java.util.ArrayList;
 
 public interface BigFuzzMutation {
 
-
     /**
      * mutate on an csv file
      * @param inputFile
      * @throws IOException
      */
     public void mutate(String inputFile, String nextInputFile) throws IOException;
+
+    /**
+     * mutate file based on index (support multiple data-specific mutations)
+     * @param inputFile, index
+     * @throws IOException
+     * */
+    public void mutateFile(String inputFile, int index) throws IOException;
 
     /**
      * mutate on rows of an input file
@@ -45,4 +51,5 @@ public interface BigFuzzMutation {
      * @throws IOException
      */
     public void writeFile(String outputFile) throws IOException;
+    public void deleteFile(String currentFile) throws IOException;
 }
