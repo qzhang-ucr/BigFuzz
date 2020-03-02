@@ -12,13 +12,15 @@ import java.util.Arrays;
 import java.util.List;
 
 public class WordCount implements Serializable {
-    public void wordCount(String inputFile) {
+
+    public static void main(String[] args) {
         SparkConf sparkConf = new SparkConf()
                 .setAppName("Example Spark App")
                 .setMaster("local[*]"); // Delete this line when submitting to a cluster
         JavaSparkContext sparkContext = new JavaSparkContext(sparkConf);
-        JavaRDD<String> lines = sparkContext.textFile(inputFile);
-//        JavaRDD<String> inputFile = sparkContext.textFile(fileName);
+
+//        JavaRDD<String> lines = sparkContext.textFile(inputFile);
+        JavaRDD<String> lines = sparkContext.textFile("/home/qzhang/Programs/BigFuzz/dataset/data/");
 
         JavaRDD words = lines.flatMap(s -> Arrays.asList(s.split(" ")).iterator());
 
