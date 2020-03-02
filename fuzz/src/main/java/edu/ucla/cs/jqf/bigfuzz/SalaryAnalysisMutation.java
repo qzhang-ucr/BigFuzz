@@ -145,6 +145,7 @@ public class SalaryAnalysisMutation implements BigFuzzMutation{
         }
 
         bw.close();
+        fos.close();
     }
 
     public void deleteFile(String currentInputFile) throws IOException {

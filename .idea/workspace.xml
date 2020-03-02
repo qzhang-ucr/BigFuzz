@@ -7,259 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2774e54c-0a4f-4f30-9e38-c5ee0352aa9a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SalaryAnalysis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SalaryAnalysis1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SalaryAnalysis1Driver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SalaryAnalysisDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentGrades.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentGradesDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WordCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WordCountDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/bigfuzz-dfcoverage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/bigfuzz-dfcoverage.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/src/SalaryAnalysisDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/SalaryAnalysisDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/target/classes/SalaryAnalysisDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/SalaryAnalysisDriver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/config" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataset/salary1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/salary1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/jqf-examples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/examples/jqf-examples.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzGuidance.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzGuidance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzMutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/CommuteTypeMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/CommuteTypeMutation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/SalaryAnalysisMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/SalaryAnalysisMutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/berkeley/cs/jqf/instrument/InstrumentingClassLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/ControlFlowInstructionVisitor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/DefaultInstructionVisitor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/PrintLogger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/SingleSnoop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/ThreadTracer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/TraceLogger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/events/AllocEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/events/BranchEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/events/CallEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/events/ReadEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/events/ReturnEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/events/TraceEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/events/TraceEventVisitor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/berkeley/cs/jqf/instrument/util/DoublyLinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/berkeley/cs/jqf/instrument/util/FastBlockingQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/berkeley/cs/jqf/instrument/util/Stack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ucla/cs/bigfuzz/dataflow/FilterEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ucla/cs/bigfuzz/dataflow/FlatMapEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ucla/cs/bigfuzz/dataflow/MapEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ucla/cs/bigfuzz/dataflow/MapToPairEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ucla/cs/bigfuzz/dataflow/ReduceByKeyEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ucla/cs/bigfuzz/dataflow/ReduceEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/instrument/Config.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/instrument/GlobalStateForInstrumentation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/instrument/SafeClassWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/instrument/SnoopInstructionClassAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/instrument/SnoopInstructionMethodAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/instrument/SnoopInstructionTransformer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/instrument/TryCatchBlock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/instrument/Utils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/AbstractLogger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/Logger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/StringLogger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/StringPrintLogger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/AALOAD.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/AASTORE.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/ACONST_NULL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/ALOAD.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/ANEWARRAY.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/ARETURN.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/ARRAYLENGTH.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/ASTORE.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/ATHROW.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/BALOAD.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/BASTORE.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/BIPUSH.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/CALOAD.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/CASTORE.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/CHECKCAST.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/ConditionalBranch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/D2F.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/D2I.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/D2L.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/DADD.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/DALOAD.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/DASTORE.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/DATAFLOW.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/DCMPG.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/DCMPL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/DCONST_0.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/DCONST_1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/DDIV.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/DLOAD.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/DMUL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/DNEG.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/DREM.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/DRETURN.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/DSTORE.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/DSUB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/DUP.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/DUP2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/DUP2_X1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/DUP2_X2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/DUP_X1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/DUP_X2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/F2D.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/F2I.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/F2L.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/FADD.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/FALOAD.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/FASTORE.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/FCMPG.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/FCMPL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/FCONST_0.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/FCONST_1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/FCONST_2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/FDIV.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/FLOAD.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/FMUL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/FNEG.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/FREM.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/FRETURN.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/FSTORE.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/FSUB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/GETFIELD.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/GETSTATIC.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/GETVALUE.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/GETVALUE_Object.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/GETVALUE_boolean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/GETVALUE_byte.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/GETVALUE_char.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/GETVALUE_double.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/GETVALUE_float.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/GETVALUE_int.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/GETVALUE_long.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/GETVALUE_short.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/GETVALUE_void.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/GOTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/HEAPLOAD.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/I2B.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/I2C.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/I2D.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/I2F.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/I2L.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/I2S.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/IADD.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/IALOAD.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/IAND.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/IASTORE.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/ICONST_0.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/ICONST_1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/ICONST_2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/ICONST_3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/ICONST_4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/ICONST_5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/ICONST_M1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/IDIV.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/IFEQ.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/IFGE.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/IFGT.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/IFLE.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/IFLT.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/IFNE.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/IFNONNULL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/IFNULL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/IF_ACMPEQ.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/IF_ACMPNE.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/IF_ICMPEQ.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/IF_ICMPGE.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/IF_ICMPGT.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/IF_ICMPLE.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/IF_ICMPLT.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/IF_ICMPNE.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/IINC.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/ILOAD.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/IMUL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/INEG.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/INSTANCEOF.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/INVOKEINTERFACE.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/INVOKEMETHOD_END.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/INVOKEMETHOD_EXCEPTION.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/INVOKESPECIAL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/INVOKESTATIC.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/INVOKEVIRTUAL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/IOR.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/IREM.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/IRETURN.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/ISHL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/ISHR.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/ISTORE.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/ISUB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/IUSHR.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/IVisitor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/IXOR.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/Instruction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/InvokeInstruction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/JSR.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/L2D.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/L2F.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/L2I.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/LADD.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/LALOAD.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/LAND.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/LASTORE.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/LCMP.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/LCONST_0.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/LCONST_1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/LDC_Object.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/LDC_String.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/LDC_double.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/LDC_float.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/LDC_int.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/LDC_long.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/LDIV.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/LLOAD.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/LMUL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/LNEG.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/LOOKUPSWITCH.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/LOR.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/LREM.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/LRETURN.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/LSHL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/LSHR.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/LSTORE.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/LSUB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/LUSHR.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/LXOR.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/MAKE_SYMBOLIC.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/METHOD_BEGIN.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/METHOD_THROW.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/MONITORENTER.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/MONITOREXIT.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/MULTIANEWARRAY.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/MemberRef.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/NEW.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/NEWARRAY.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/NOP.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/POP.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/POP2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/PUTFIELD.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/PUTSTATIC.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/RET.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/RETURN.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/SALOAD.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/SASTORE.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/SIPUSH.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/SPECIAL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/SWAP.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/janala/logger/inst/TABLESWITCH.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BinaryTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CancelReturn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DataStructures.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HelloWorld.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MultiThreaded.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Outer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Recursion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StaticInit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StaticInitDriver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UninitializedThis.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Wrapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transformer/bigfuzz-transformer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/bigfuzz-transformer.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -287,29 +39,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzGuidance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1332">
-              <caret line="95" column="57" selection-start-line="95" selection-start-column="35" selection-end-line="95" selection-end-column="57" />
+            <state relative-caret-position="2447">
+              <caret line="174" column="43" selection-start-line="174" selection-start-column="27" selection-end-line="174" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/SalaryAnalysisMutation.java">
+        <entry file="file://$PROJECT_DIR$/dataset/salary1.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state>
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
+            </state>
+          </provider>
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/CommuteTypeMutation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4572">
-              <caret line="261" column="9" selection-start-line="261" selection-start-column="9" selection-end-line="261" selection-end-column="9" />
+            <state relative-caret-position="501">
+              <caret line="328" column="20" selection-start-line="328" selection-start-column="20" selection-end-line="328" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -318,19 +73,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataset/config">
+        <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/MutationGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="49" selection-start-column="49" selection-end-column="49" />
+            <state relative-caret-position="288">
+              <caret line="16" column="124" selection-start-line="16" selection-start-column="102" selection-end-line="16" selection-end-column="124" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzMutation.java">
+        <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/MutationTemplate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="19" column="26" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="26" />
+            <state relative-caret-position="465">
+              <caret line="224" column="17" selection-start-line="224" selection-start-column="12" selection-end-line="224" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -349,6 +110,12 @@
       <find>filter</find>
       <find>mutation</find>
       <find>Commute</find>
+      <find>File</find>
+      <find>FileInputStream</find>
+      <find>Write</find>
+      <find>writeFile</find>
+      <find>Output</find>
+      <find>close</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -373,13 +140,19 @@
         <option value="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/WordCount.java" />
         <option value="$PROJECT_DIR$/customarray/src/SalaryAnalysisDriver.java" />
         <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzMutation.java" />
-        <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/CommuteTypeMutation.java" />
-        <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzGuidance.java" />
-        <option value="$PROJECT_DIR$/dataset/salary1.csv" />
         <option value="$PROJECT_DIR$/customarray/target/classes/config+cov" />
         <option value="$PROJECT_DIR$/dataset/config" />
-        <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/SalaryAnalysisMutation.java" />
         <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.java" />
+        <option value="$PROJECT_DIR$/dataset/data" />
+        <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/FindSalaryMutation.java" />
+        <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/MovieRatingMutation.java" />
+        <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/StudentGradeMutation.java" />
+        <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/MutationGenerator.java" />
+        <option value="$PROJECT_DIR$/dataset/salary1.csv" />
+        <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/MutationTemplate.java" />
+        <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzGuidance.java" />
+        <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/SalaryAnalysisMutation.java" />
+        <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/CommuteTypeMutation.java" />
       </list>
     </option>
   </component>
@@ -399,10 +172,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="239" />
-    <option name="y" value="299" />
-    <option name="width" value="1591" />
-    <option name="height" value="1043" />
+    <option name="y" value="169" />
+    <option name="width" value="1687" />
+    <option name="height" value="872" />
   </component>
   <component name="ProjectId" id="1S1QbIL6iFVlcLmafzQch5WtBAz" />
   <component name="ProjectLevelVcsManager">
@@ -421,6 +193,74 @@
             <path>
               <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
               <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="customarray" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="customarray" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="customarray" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="dataset" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="fuzz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="fuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="fuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="fuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="fuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="fuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="bigfuzz" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -478,14 +318,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestMutation">
-    <configuration name="CommuteTypeDriver (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CommuteTypeDriver" />
-      <module name="bigfuzz-dfcoverage" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MutationGenerator">
     <configuration name="CommuteTypeDriver (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CommuteTypeDriver" />
       <module name="bigfuzz-dfcoverage" />
@@ -507,6 +340,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MutationGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.ucla.cs.jqf.bigfuzz.MutationGenerator" />
+      <module name="bigfuzz-guidance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.ucla.cs.jqf.bigfuzz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestMutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.ucla.cs.jqf.bigfuzz.TestMutation" />
       <module name="bigfuzz-guidance" />
@@ -522,11 +368,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MutationGenerator" />
         <item itemvalue="Application.TestMutation" />
         <item itemvalue="Application.CommuteTypeDriver" />
         <item itemvalue="Application.CommuteTypeDriver (4)" />
         <item itemvalue="Application.CommuteTypeDriver (3)" />
-        <item itemvalue="Application.CommuteTypeDriver (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -561,7 +407,7 @@
     <frame x="0" y="31" width="1920" height="1049" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25080732" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25188375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -570,8 +416,8 @@
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30504587" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32912844" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1571101" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -672,77 +518,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/trips.csv+ 20200212145713" />
-    <entry file="file://$PROJECT_DIR$/trips.csv+20200212150509" />
-    <entry file="file://$PROJECT_DIR$/trips.csv+20200212151223" />
-    <entry file="file://$PROJECT_DIR$/zipcode.csv+20200212150418" />
-    <entry file="file://$PROJECT_DIR$/20200212152833" />
-    <entry file="file://$PROJECT_DIR$/20200212152755" />
-    <entry file="file://$PROJECT_DIR$/20200212152727" />
-    <entry file="file://$PROJECT_DIR$/20200212154318_123" />
-    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/TestMutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="67" lean-forward="true" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/NoGuidance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="103" column="2" selection-start-line="103" selection-start-column="2" selection-end-line="103" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200212160242_2+zipcode.csv" />
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200212160242_1+zipcode.csv" />
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200212160242_3+zipcode.csv" />
-    <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/IncomeAggregate.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200212160632_1+zipcode.csv" />
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200213103750_6+crash+0+java.lang.NumberFormatException: For input string: &quot;null&quot;" />
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200213103750_6+trips.csv" />
-    <entry file="file://$PROJECT_DIR$/customarray/src/CommuteType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/src/CommuteTypeDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="63" selection-start-line="15" selection-end-line="20" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/config+crash+0+java.lang.IndexOutOfBoundsException: Index: 1, Size: 1" />
-    <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/WordCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/src/SalaryAnalysis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200213141643_1+salary1.csv" />
     <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200213141643_1+crash+0+java.lang.NumberFormatException: For input string: &quot;null&quot;" />
     <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200213141643_2+cov" />
     <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200213141643_5+cov" />
@@ -755,25 +530,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/src/SalaryAnalysisDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200213151006_3+crash+0+java.lang.NumberFormatException: For input string: &quot;null&quot;" />
     <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200213151006_3+trips.csv" />
-    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/CommuteTypeMutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="980">
-          <caret line="136" column="69" selection-start-line="136" selection-start-column="69" selection-end-line="136" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200213152138_3+crash+0+java.lang.NumberFormatException: For input string: &quot;null&quot;" />
     <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200213152512_1693+zipcode.csv" />
     <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200213152512_1845+zipcode.csv" />
@@ -797,51 +555,198 @@
     <entry file="file://$PROJECT_DIR$/customarray/target/classes/config+cov">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/salary1.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzMutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
         </state>
       </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/FindSalaryMutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="11" column="15" selection-end-line="240" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/MovieRatingMutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="11" column="15" selection-end-line="288" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/StudentGradeMutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="212" column="11" selection-end-line="295" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+        <state relative-caret-position="314">
+          <caret line="24" column="67" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzGuidance.java">
+    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200302123709_68+crash+2+java.lang.ArrayIndexOutOfBoundsException: 2">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/src/SalaryAnalysisDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1332">
-          <caret line="95" column="57" selection-start-line="95" selection-start-column="35" selection-end-line="95" selection-end-column="57" />
+        <state relative-caret-position="108">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/SalaryAnalysisMutation.java">
+    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200302123819_16081+salary1.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200302123815_8125+crash+5+java.lang.ArrayIndexOutOfBoundsException">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200302123811_911+salary1.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200302123810_51">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200302123810_477+crash+3+java.lang.ArrayIndexOutOfBoundsException: 2">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200302123810_477+salary1.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200302123810_1+salary1.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200302123810_1+crash+0+java.lang.NumberFormatException: For input string: &quot;50009&quot;">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200302123810_20+salary1.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200302123810_51+salary1.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/TestMutation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4572">
-          <caret line="261" column="9" selection-start-line="261" selection-start-column="9" selection-end-line="261" selection-end-column="9" />
+        <state relative-caret-position="180">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200302130846_22056+salary1.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200302130846_22056+cov">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200302130835_76">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200302130848_26119+salary1.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200302130848_26119">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/salary1.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dataset/config">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="49" selection-start-column="49" selection-end-column="49" />
+          <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzMutation.java">
+    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/MutationGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="26" />
+        <state relative-caret-position="288">
+          <caret line="16" column="124" selection-start-line="16" selection-start-column="102" selection-end-line="16" selection-end-column="124" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzGuidance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2447">
+          <caret line="174" column="43" selection-start-line="174" selection-start-column="27" selection-end-line="174" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/SalaryAnalysisMutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="147" column="17" selection-start-line="147" selection-start-column="12" selection-end-line="147" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/MutationTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="224" column="17" selection-start-line="224" selection-start-column="12" selection-end-line="224" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/CommuteTypeMutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="328" column="20" selection-start-line="328" selection-start-column="20" selection-end-line="328" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

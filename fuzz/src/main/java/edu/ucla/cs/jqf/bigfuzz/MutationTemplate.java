@@ -1,6 +1,6 @@
 package edu.ucla.cs.jqf.bigfuzz;
 
-import org.apache.commons.lang.RandomStringUtils;
+//import org.apache.commons.lang.ArrayUtils;
 
 import java.io.*;
 import java.nio.file.Files;
@@ -11,19 +11,20 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
 
-public class CommuteTypeMutation implements BigFuzzMutation {
+public class MutationTemplate implements BigFuzzMutation{
 
     Random r = new Random();
     ArrayList<String> fileRows = new ArrayList<String>();
     String delete;
 
-    @Override
-    public void mutate(String inputFile, String nextInputFile) throws IOException {
+
+    public void mutate(String inputFile, String nextInputFile) throws IOException
+    {
         List<String> fileList = Files.readAllLines(Paths.get(inputFile));
         Random random = new Random();
         int n = random.nextInt(fileList.size());
         String fileToMutate = fileList.get(n);
-        mutateFile(fileToMutate, n);
+        mutateFile(fileToMutate);
 
         String fileName = nextInputFile + "+" + fileToMutate.substring(fileToMutate.lastIndexOf('/')+1);
         writeFile(fileName);
@@ -48,19 +49,9 @@ public class CommuteTypeMutation implements BigFuzzMutation {
         bw.close();
     }
 
-    public void mutateFile(String inputFile, int index) throws IOException{
-        switch(index)
-        {
-            case 0 :
-                mutateFile(inputFile);
-                break;
+    @Override
+    public void mutateFile(String inputFile, int index) throws IOException {
 
-            case 1 :
-                mutateFile1(inputFile);
-                break;
-            default :
-                mutateFile(inputFile);
-        }
     }
 
     public void mutateFile(String inputFile) throws IOException
@@ -84,153 +75,11 @@ public class CommuteTypeMutation implements BigFuzzMutation {
             return;
         }
 
+        br.close();
+
         mutate(rows);
 
         fileRows = rows;
-    }
-
-    public void mutateFile1(String inputFile) throws IOException
-    {
-
-        File file=new File(inputFile);
-
-        ArrayList<String> rows = new ArrayList<String>();
-        BufferedReader br = new BufferedReader(new FileReader(inputFile));
-
-        if(file.exists())
-        {
-            String readLine = null;
-            while((readLine = br.readLine()) != null){
-                rows.add(readLine);
-            }
-        }
-        else
-        {
-            System.out.println("File does not exist!");
-            return;
-        }
-
-        mutate1(rows);
-
-        fileRows = rows;
-    }
-
-    @Override
-    public void mutate(ArrayList<String> list) {
-        r.setSeed(System.currentTimeMillis());
-        int lineNum = r.nextInt(list.size());
-        // 0: random change value
-        // 1: random change into float
-        // 2: random insert
-        // 3: random delete one column
-        // 4: random add one coumn
-        int method = r.nextInt(5);
-
-
-//        if (method ==0) {
-//            randomChangeByte(list.get(lineNum));
-//        }
-//        else {
-        String[] columns = list.get(lineNum).split(",");
-        int columnID = r.nextInt(5);
-
-        System.out.println("***************"+method +" " + columnID);
-
-        if(method == 0){
-            columns[columnID] = Integer.toString(r.nextInt());
-        }
-        else if(method==1) {
-            int value = 0;
-            value = Integer.parseInt(columns[columnID]);
-            float v = (float)value + r.nextFloat();
-            columns[columnID] = Float.toString(v);
-        }
-        else if(method==2) {
-            char temp = (char)r.nextInt(256);
-            int pos = r.nextInt(columns[columnID].length());
-            columns[columnID] = columns[columnID].substring(0, pos)+temp+columns[columnID].substring(pos);
-        }
-        else if(method==3) {
-            columns = removeOneElement(columns, columnID);
-        }
-        else if(method==4) {
-            String one = Integer.toString(r.nextInt(10000));
-            columns = AddOneElement(columns, one, columnID);
-        }
-        String line = "";
-        if(columns.length == 0) line = columns[0];
-        else {
-            for(int j=0;j<columns.length;j++) {
-                line = line+","+columns[j];
-            }
-        }
-        list.set(lineNum, line);
-
-        /*for(int i=0;i<list.size();i++)
-        {
-            String line = list.get(i);
-            String[] components = line.split(",");
-            line = "";
-            for(int j=0;j<components.length;j++)
-            {
-                if(r.nextDouble()>0.8)
-                {
-                    components[j] = randomChangeByte(components[j]);
-                }
-                if(line.equals(""))
-                {
-                    line = components[j];
-                }
-                else
-                {
-                    line = line+","+components[j];
-                }
-            }
-
-            list.set(i, line);
-        }*/
-    }
-
-    public void mutate1(ArrayList<String> list)
-    {
-        r.setSeed(System.currentTimeMillis());
-        int lineNum = r.nextInt(list.size());
-        // 0: random change value
-        // 1: random insert
-        // 2: random delete one column
-        // 3: random add one coumn
-        String[] columns = list.get(lineNum).split(",");
-        int method = r.nextInt(4);
-        int columnID = r.nextInt(2);
-        System.out.println("***************"+method +" " + columnID);
-
-        if(method == 0){
-            columns[columnID] = Integer.toString(r.nextInt());
-        }
-        else if(method==1) {
-            char temp = (char)r.nextInt(256);
-            int pos = r.nextInt(columns[columnID].length());
-            columns[columnID] = columns[columnID].substring(0, pos)+temp+columns[columnID].substring(pos);
-        }
-        else if(method==2) {
-            columns = removeOneElement(columns, columnID);
-        }
-        else if(method==3) {
-            String one = Integer.toString(r.nextInt(10000));
-            columns = AddOneElement(columns, one, columnID);
-        }
-        String line = "";
-        for(int j=0;j<columns.length;j++) {
-            if(j==0)
-            {
-                line = columns[j];
-            }
-            else
-            {
-                line = line+","+columns[j];
-            }
-        }
-        list.set(lineNum, line);
     }
 
     public static String[] removeOneElement(String[] input, int index) {
@@ -262,30 +111,77 @@ public class CommuteTypeMutation implements BigFuzzMutation {
         return (String [])result.toArray(input);
     }
 
-    private String randomChangeByte(String instr)
+    public void mutate(ArrayList<String> list)
     {
-        // 0: random replace one char
-        // 1: random delete one char
-        // 2: random add one char
-        String ret = "";
-        int pos = r.nextInt(instr.length());
-        int method = r.nextInt(3);
-        if(method == 0)
-        {
-            char[] temp = instr.toCharArray();
-            temp[pos] = (char)r.nextInt(256);
-            ret = String.valueOf(temp);
+        r.setSeed(System.currentTimeMillis());
+        System.out.println(list.size());
+        int lineNum = r.nextInt(list.size());
+        System.out.println(list.get(lineNum));
+        // 0: random change value
+        // 1: random change into float
+        // 2: random insert
+        // 3: random delete one column
+        // 4: random add one coumn
+        String[] columns = list.get(lineNum).split(",");
+        int method = r.nextInt(5);
+        int columnID = r.nextInt(3);
+        System.out.println("********"+method+" "+lineNum+" "+columnID);
+        if(method == 0){
+            columns[columnID] = Integer.toString(r.nextInt());
         }
-        else if(method==1)
-        {
-            ret = instr.substring(0, pos)+instr.substring(pos+1);
+        else if(method==1) {
+            int value = 0;
+            value = Integer.parseInt(columns[columnID]);
+            float v = (float)value + r.nextFloat();
+            columns[columnID] = Float.toString(v);
         }
-        else
-        {
-            char temp = (char)r.nextInt(256);
-            ret = instr.substring(0, pos)+temp+instr.substring(pos);
+        else if(method==2) {
+            char temp = (char)r.nextInt(255);
+            int pos = r.nextInt(columns[columnID].length());
+            columns[columnID] = columns[columnID].substring(0, pos)+temp+columns[columnID].substring(pos);
         }
-        return ret;
+        else if(method==3) {
+            columns = removeOneElement(columns, columnID);
+        }
+        else if(method==4) {
+            String one = Integer.toString(r.nextInt(10000));
+            columns = AddOneElement(columns, one, columnID);
+        }
+        String line = "";
+        for(int j=0;j<columns.length;j++) {
+            if(j==0)
+            {
+                line = columns[j];
+            }
+            else
+            {
+                line = line+","+columns[j];
+            }
+        }
+        list.set(lineNum, line);
+        /*for(int i=0;i<list.size();i++)
+        {
+            String line = list.get(i);
+            String[] components = line.split(",");
+            line = "";
+            for(int j=0;j<components.length;j++)
+            {
+                if(r.nextDouble()>0.8)
+                {
+                    components[j] = randomChangeByte(components[j]);
+                }
+                if(line.equals(""))
+                {
+                    line = components[j];
+                }
+                else
+                {
+                    line = line+","+components[j];
+                }
+            }
+
+            list.set(i, line);
+        }*/
     }
 
     @Override
@@ -334,4 +230,5 @@ public class CommuteTypeMutation implements BigFuzzMutation {
         File del = new File(delete);
         del.delete();
     }
+
 }
