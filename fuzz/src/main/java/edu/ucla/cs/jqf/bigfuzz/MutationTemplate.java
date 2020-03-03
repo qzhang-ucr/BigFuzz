@@ -122,9 +122,9 @@ public class MutationTemplate implements BigFuzzMutation{
         // 2: random insert
         // 3: random delete one column
         // 4: random add one coumn
-        String[] columns = list.get(lineNum).split(",");
+        String[] columns = list.get(lineNum).split("$del$");
         int method = r.nextInt(5);
-        int columnID = r.nextInt(3);
+        int columnID = r.nextInt(Integer.parseInt("$cols$"));
         System.out.println("********"+method+" "+lineNum+" "+columnID);
         if(method == 0){
             columns[columnID] = Integer.toString(r.nextInt());

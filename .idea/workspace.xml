@@ -8,10 +8,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2774e54c-0a4f-4f30-9e38-c5ee0352aa9a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/WordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/WordCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/WordCount$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/WordCount$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/WordCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/WordCount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/CustomMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/CustomMutation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/MutationGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/MutationGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/MutationTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/MutationTemplate.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -63,11 +62,34 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/MutationGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+            <state relative-caret-position="144">
+              <caret line="44" column="17" lean-forward="true" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#676#684#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/java/jdk1.8.0_211/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="2420" column="20" selection-start-line="2420" selection-start-column="20" selection-end-line="2420" selection-end-column="20" />
+              <folding>
+                <element signature="e#94598#94599#0" expanded="true" />
+                <element signature="e#94636#94637#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataset/data">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -75,8 +97,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/MutationTemplate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="126" column="20" selection-start-line="126" selection-start-column="12" selection-end-line="126" selection-end-column="20" />
+            <state relative-caret-position="324">
+              <caret line="126" column="57" selection-start-line="126" selection-start-column="51" selection-end-line="126" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,6 +124,7 @@
       <find>FileInputStream</find>
       <find>Write</find>
       <find>writeFile</find>
+      <find>MutationTemplate</find>
       <find>close</find>
       <find>Output</find>
     </findStrings>
@@ -135,11 +158,12 @@
         <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/MovieRatingMutation.java" />
         <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/StudentGradeMutation.java" />
         <option value="$PROJECT_DIR$/dataset/salary1.csv" />
-        <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/MutationTemplate.java" />
         <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzGuidance.java" />
         <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/SalaryAnalysisMutation.java" />
         <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/CommuteTypeMutation.java" />
         <option value="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/WordCount.java" />
+        <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/CustomMutation.java" />
+        <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/MutationTemplate.java" />
         <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/MutationGenerator.java" />
       </list>
     </option>
@@ -160,9 +184,10 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="32" />
-    <option name="width" value="1835" />
-    <option name="height" value="1048" />
+    <option name="x" value="4" />
+    <option name="y" value="84" />
+    <option name="width" value="1789" />
+    <option name="height" value="959" />
   </component>
   <component name="ProjectId" id="1S1QbIL6iFVlcLmafzQch5WtBAz" />
   <component name="ProjectLevelVcsManager">
@@ -181,6 +206,11 @@
             <path>
               <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
               <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="dataset" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
@@ -378,7 +408,7 @@
     <frame x="0" y="31" width="1920" height="1049" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27987084" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27987084" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -387,8 +417,8 @@
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32912844" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2832569" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32798165" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.07798165" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -396,7 +426,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32912844" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286445" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -489,14 +519,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/SalaryAnalysisDriver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200213151006_3+crash+0+java.lang.NumberFormatException: For input string: &quot;null&quot;" />
     <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200213151006_3+trips.csv" />
     <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200213152138_3+crash+0+java.lang.NumberFormatException: For input string: &quot;null&quot;" />
     <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200213152512_1693+zipcode.csv" />
@@ -525,13 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
           <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/data">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -686,16 +701,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/CommuteTypeMutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="304" selection-start-line="304" selection-end-line="304" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/WordCountNew.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -734,22 +739,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/MutationTemplate.java">
+    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/CommuteTypeMutation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="126" column="20" selection-start-line="126" selection-start-column="12" selection-end-line="126" selection-end-column="20" />
+        <state relative-caret-position="69">
+          <caret line="304" selection-start-line="304" selection-end-line="304" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/MutationGenerator.java">
+    <entry file="file://$PROJECT_DIR$/dataset/data">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+        <state relative-caret-position="54">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/java/jdk1.8.0_211/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="2420" column="20" selection-start-line="2420" selection-start-column="20" selection-end-line="2420" selection-end-column="20" />
+          <folding>
+            <element signature="e#94598#94599#0" expanded="true" />
+            <element signature="e#94636#94637#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/MutationTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="126" column="57" selection-start-line="126" selection-start-column="51" selection-end-line="126" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/CustomMutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="125" column="34" lean-forward="true" selection-start-line="125" selection-start-column="34" selection-end-line="125" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/MutationGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="44" column="17" lean-forward="true" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#676#684#0" expanded="true" />
           </folding>
         </state>
       </provider>

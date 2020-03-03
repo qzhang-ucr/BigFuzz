@@ -11,7 +11,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
 
-public class MutationTemplate implements BigFuzzMutation{
+public class CustomMutation implements BigFuzzMutation{
 
     Random r = new Random();
     ArrayList<String> fileRows = new ArrayList<String>();
@@ -124,7 +124,7 @@ public class MutationTemplate implements BigFuzzMutation{
         // 4: random add one coumn
         String[] columns = list.get(lineNum).split(",");
         int method = r.nextInt(5);
-        int columnID = r.nextInt(3);
+        int columnID = r.nextInt(Integer.parseInt("3"));
         System.out.println("********"+method+" "+lineNum+" "+columnID);
         if(method == 0){
             columns[columnID] = Integer.toString(r.nextInt());
