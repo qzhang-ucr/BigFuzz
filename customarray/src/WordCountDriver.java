@@ -1,27 +1,27 @@
-import edu.berkeley.cs.jqf.fuzz.Fuzz;
-import edu.berkeley.cs.jqf.fuzz.JQF;
-import org.junit.runner.RunWith;
-
-import java.io.IOException;
-import java.util.Arrays;
-
-@RunWith(JQF.class)
-public class WordCountDriver {
-
-    @Fuzz
-    public void testWordCount(String fileName) throws IOException {
-//        System.out.println(fileName);
-//        byte[] bs = fileName.getBytes();
-//        System.out.println(Arrays.toString(bs));
-        byte[] bytes = fileName.getBytes();
-        for(int i=0;i<bytes.length;i++)
-        {
-            System.out.println("WordCountDriver: i, b: "+i+", "+bytes[i]);
-        }
-        System.out.println("WordCountDriver::testWordCount:fileName: "+fileName);
-        WordCount cnt = new WordCount();
-        cnt.WordCount(fileName);
-    }
+//import edu.berkeley.cs.jqf.fuzz.Fuzz;
+//import edu.berkeley.cs.jqf.fuzz.JQF;
+//import org.junit.runner.RunWith;
+//
+//import java.io.IOException;
+//import java.util.Arrays;
+//
+//@RunWith(JQF.class)
+//public class WordCountDriver {
+//
+//    @Fuzz
+//    public void testWordCount(String fileName) throws IOException {
+////        System.out.println(fileName);
+////        byte[] bs = fileName.getBytes();
+////        System.out.println(Arrays.toString(bs));
+//        byte[] bytes = fileName.getBytes();
+//        for(int i=0;i<bytes.length;i++)
+//        {
+//            System.out.println("WordCountDriver: i, b: "+i+", "+bytes[i]);
+//        }
+//        System.out.println("WordCountDriver::testWordCount:fileName: "+fileName);
+//        WordCount cnt = new WordCount();
+//        cnt.WordCount(fileName);
+//    }
 
 
 //
@@ -39,5 +39,21 @@ public class WordCountDriver {
 //    }
 //    //System.out.println("Number of lines in file = " + stringJavaRDD.count());
 
-}
+//}
 
+
+import edu.berkeley.cs.jqf.fuzz.Fuzz;
+import edu.berkeley.cs.jqf.fuzz.JQF;
+
+import org.junit.runner.RunWith;
+
+@RunWith(JQF.class)
+public class WordCountDriver {
+
+    @Fuzz
+    public void testWordCount(String fileName) throws Exception {
+        System.out.println("edu.ucla.cs.bigfuzz.customarray.applicable.WordCount.WordCountDriver::testWordCount: "+fileName);
+        WordCount analysis = new WordCount();
+        analysis.WordCount(fileName);
+    }
+}

@@ -1,10 +1,8 @@
-import edu.ucla.cs.bigfuzz.customarray.StudentGradesCustomArray;
 import edu.ucla.cs.bigfuzz.customarray.CustomArray;
-import javafx.util.Pair;
-import java.io.File;
+
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Map;
+
 public class StudentGrades {
 public void StudentGrades(String inputFile) throws IOException {
 ArrayList<String> result0 = CustomArray.read(inputFile);

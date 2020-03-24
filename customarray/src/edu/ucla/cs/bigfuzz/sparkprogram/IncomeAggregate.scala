@@ -22,7 +22,6 @@ object IncomeAggregate  {
         (cols(0), Integer.parseInt(cols(1)), Integer.parseInt(cols(2)))
     }.filter( s => s._1.equals("90024"))
 
-
     val pair = data.map {
       s =>
         // Checking if age is within certain range

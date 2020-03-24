@@ -6,7 +6,9 @@ import edu.ucla.cs.bigfuzz.dataflow.*;
 import janala.logger.inst.METHOD_BEGIN;
 import janala.logger.inst.MemberRef;
 
-import java.util.*;public class CommuteTypeCustomArray {
+import java.util.*;
+
+public class CommuteTypeCustomArray {
 
     private ArrayList<Object> list;
 

@@ -46,7 +46,7 @@ public class MutationGenerator {
         //String fileName = "/home/qzhang/Programs/BigFuzz/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/CustomMutation.java";
         //File dst = new File(fileName);
 
-        //TODO 2: change the Class Name to CustomMutation
+        //TODO 2: change the Class Name to FindSalaryMutation
         String srcPath = "/home/qzhang/Programs/BigFuzz/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/MutationTemplate.java";
         String dstPath = "/home/qzhang/Programs/BigFuzz/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/CustomMutation.java";
 

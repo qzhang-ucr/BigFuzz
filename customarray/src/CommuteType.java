@@ -3,7 +3,6 @@ import edu.ucla.cs.bigfuzz.customarray.CustomArray;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Iterator;
 
 public class CommuteType {
 public void CommuteType(String inputFile1, String inputFile2) throws IOException {

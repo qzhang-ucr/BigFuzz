@@ -24,6 +24,8 @@ public class BigFuzzDriver {
         //String file = "dataset/salary1.csv";
         String file = "/home/qzhang/Programs/BigFuzz/dataset/config";
        try {
+           long startTime = System.currentTimeMillis();
+
             String title = testClassName+"#"+testMethodName;
             //NoGuidance guidance = new NoGuidance(file, maxTrials, System.err);
             Duration duration = Duration.of(100, ChronoUnit.SECONDS);
@@ -36,7 +38,11 @@ public class BigFuzzDriver {
                         guidance.getCoverage().getNonZeroCount()));
             }
 
-        } catch (Exception e) {
+
+           long endTime = System.currentTimeMillis();
+           System.out.println("*********Running Time：" + (endTime - startTime) + "ms");
+
+       } catch (Exception e) {
 //            e.printStackTrace();
 //            System.exit(2);
         }

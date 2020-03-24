@@ -11,7 +11,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
 
-public class CustomMutation implements BigFuzzMutation{
+public class WordCountMutation implements BigFuzzMutation{
 
     Random r = new Random();
     ArrayList<String> fileRows = new ArrayList<String>();
@@ -124,14 +124,27 @@ public class CustomMutation implements BigFuzzMutation{
         // 4: random add one coumn
         String[] columns = list.get(lineNum).split(",");
         int method = r.nextInt(5);
-        int columnID = r.nextInt(Integer.parseInt("3"));
+        int columnID = r.nextInt(Integer.parseInt("1"));
         System.out.println("********"+method+" "+lineNum+" "+columnID);
+
         if(method == 0){
+            if(columns[columnID].charAt(0)=='$')
+            {
+                columns[columnID] = "$"+Integer.toString(r.nextInt());
+            } else {
             columns[columnID] = Integer.toString(r.nextInt());
+            }
         }
         else if(method==1) {
             int value = 0;
-            value = Integer.parseInt(columns[columnID]);
+            if(columns[columnID].charAt(0)=='$')
+            {
+                value = Integer.parseInt(columns[columnID].substring(1));
+            }
+            else
+            {
+                value = Integer.parseInt(columns[columnID]);
+            }
             float v = (float)value + r.nextFloat();
             columns[columnID] = Float.toString(v);
         }
