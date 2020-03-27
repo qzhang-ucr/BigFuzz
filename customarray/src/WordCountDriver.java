@@ -47,13 +47,34 @@ import edu.berkeley.cs.jqf.fuzz.JQF;
 
 import org.junit.runner.RunWith;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.List;
+import java.util.Scanner;
+
 @RunWith(JQF.class)
 public class WordCountDriver {
 
     @Fuzz
     public void testWordCount(String fileName) throws Exception {
         System.out.println("edu.ucla.cs.bigfuzz.customarray.applicable.WordCount.WordCountDriver::testWordCount: "+fileName);
+
+        List<String> fileList = Files.readAllLines(Paths.get(fileName));
+
+        try {
+            Scanner sc = new Scanner(new File(fileList.get(0)));
+
+            while (sc.hasNextLine()) {
+                System.out.println(sc.nextLine());
+
+            }
+        } catch (FileNotFoundException e) {
+
+        }
+
         WordCount analysis = new WordCount();
-        analysis.WordCount(fileName);
+        analysis.WordCount(fileList.get(0));
     }
 }

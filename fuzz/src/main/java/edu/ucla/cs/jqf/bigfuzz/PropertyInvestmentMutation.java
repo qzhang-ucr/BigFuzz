@@ -2,6 +2,10 @@ package edu.ucla.cs.jqf.bigfuzz;
 
 //import org.apache.commons.lang.ArrayUtils;
 
+/*
+ mutation for I7: it contains a for loop.
+ */
+
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -11,7 +15,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
 
-public class MutationTemplate implements BigFuzzMutation{
+public class PropertyInvestmentMutation implements BigFuzzMutation{
 
     Random r = new Random();
     ArrayList<String> fileRows = new ArrayList<String>();
@@ -122,9 +126,9 @@ public class MutationTemplate implements BigFuzzMutation{
         // 2: random insert
         // 3: random delete one column
         // 4: random add one coumn
-        String[] columns = list.get(lineNum).split("$del$");
+        String[] columns = list.get(lineNum).split(",");
         int method = r.nextInt(5);
-        int columnID = r.nextInt(Integer.parseInt("$cols$"));
+        int columnID = r.nextInt(Integer.parseInt("4"));
         System.out.println("********"+method+" "+lineNum+" "+columnID);
         if(method == 0){
             columns[columnID] = Integer.toString(r.nextInt());

@@ -125,6 +125,7 @@ public class FindSalaryMutation implements BigFuzzMutation{
         String[] columns = list.get(lineNum).split(",");
         int method = r.nextInt(5);
         int columnID = r.nextInt(Integer.parseInt("1"));
+        System.out.println("*******************" + columnID);
         System.out.println("********"+method+" "+lineNum+" "+columnID);
 
         if(method == 0){
@@ -230,6 +231,9 @@ public class FindSalaryMutation implements BigFuzzMutation{
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(fos));
 
         for (int i = 0; i < fileRows.size(); i++) {
+            if(fileRows.get(i) == null) {
+                continue;
+            }
             bw.write(fileRows.get(i));
             bw.newLine();
         }
