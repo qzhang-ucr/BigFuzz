@@ -3,7 +3,7 @@ package edu.ucla.cs.jqf.bigfuzz;
 //import org.apache.commons.lang.ArrayUtils;
 
 /*
- mutation for I4: it contains infinite symbolic states
+ mutation: randomByteMutation.
  */
 
 import java.io.*;
@@ -15,7 +15,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
 
-public class NumberSeriesMutation implements BigFuzzMutation{
+public class RandomMutation implements BigFuzzMutation{
 
     Random r = new Random();
     ArrayList<String> fileRows = new ArrayList<String>();
@@ -118,74 +118,24 @@ public class NumberSeriesMutation implements BigFuzzMutation{
     public void mutate(ArrayList<String> list)
     {
         r.setSeed(System.currentTimeMillis());
-        System.out.println(list.size());
         int lineNum = r.nextInt(list.size());
-        System.out.println(list.get(lineNum));
-        // 0: random change value
-        // 1: random change into float
-        // 2: random insert
-        // 3: random delete one column
-        // 4: random add one coumn
-        String[] columns = list.get(lineNum).split(",");
-        int method = r.nextInt(5);
-        int columnID = r.nextInt(Integer.parseInt("2"));
-        System.out.println("********"+method+" "+lineNum+" "+columnID);
-        if(method == 0){
-            columns[columnID] = Integer.toString(r.nextInt(10000));
-        }
-        else if(method==1) {
-            int value = 0;
-            value = Integer.parseInt(columns[columnID]);
-            float v = (float)value + r.nextFloat();
-            columns[columnID] = Float.toString(v);
-        }
-        else if(method==2) {
-            char temp = (char)r.nextInt(255);
-            int pos = r.nextInt(columns[columnID].length());
-            columns[columnID] = columns[columnID].substring(0, pos)+temp+columns[columnID].substring(pos);
-        }
-        else if(method==3) {
-            columns = removeOneElement(columns, columnID);
-        }
-        else if(method==4) {
-            String one = Integer.toString(r.nextInt(10000));
-            columns = AddOneElement(columns, one, columnID);
-        }
-        String line = "";
-        for(int j=0;j<columns.length;j++) {
-            if(j==0)
-            {
-                line = columns[j];
-            }
-            else
-            {
-                line = line+","+columns[j];
-            }
-        }
-        list.set(lineNum, line);
-        /*for(int i=0;i<list.size();i++)
-        {
-            String line = list.get(i);
-            String[] components = line.split(",");
-            line = "";
-            for(int j=0;j<components.length;j++)
-            {
-                if(r.nextDouble()>0.8)
-                {
-                    components[j] = randomChangeByte(components[j]);
-                }
-                if(line.equals(""))
-                {
-                    line = components[j];
-                }
-                else
-                {
-                    line = line+","+components[j];
-                }
-            }
 
-            list.set(i, line);
-        }*/
+        String line = randomChangeByte(list.get(lineNum));
+        list.set(lineNum, line);
+    }
+
+    private String randomChangeByte(String instr)
+    {
+        String ret = "";
+        System.out.println(instr.length());
+        //int pos = r.nextInt(instr.length());
+        int pos = (int)(Math.random() * instr.length());
+        System.out.println(pos);
+        //random change byte
+        char temp = (char)r.nextInt(256);
+        char[] characters = instr.toCharArray();
+        characters[pos] = temp;
+        return new String(characters);
     }
 
     @Override

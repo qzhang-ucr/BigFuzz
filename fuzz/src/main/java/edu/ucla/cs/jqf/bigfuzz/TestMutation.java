@@ -11,7 +11,7 @@ public class TestMutation {
     public static void main(String[] args) throws IOException
     {
         String initialInputFile = "/home/qzhang/Programs/BigFuzz/dataset/config";
-        BigFuzzMutation mutation = new SalaryAnalysisMutation();
+        BigFuzzMutation mutation = new RandomMutation();
 
         String currentInputFile;
         int i = 123;
