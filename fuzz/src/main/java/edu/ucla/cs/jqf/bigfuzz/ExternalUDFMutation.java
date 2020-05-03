@@ -7,6 +7,9 @@ package edu.ucla.cs.jqf.bigfuzz;
  */
 
 
+import org.apache.commons.lang.RandomStringUtils;
+import scala.actors.threadpool.Arrays;
+
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -21,7 +24,7 @@ public class ExternalUDFMutation implements BigFuzzMutation{
     Random r = new Random();
     ArrayList<String> fileRows = new ArrayList<String>();
     String delete;
-
+    int maxGenerateTimes = 10;
 
     public void mutate(String inputFile, String nextInputFile) throws IOException
     {
@@ -82,24 +85,42 @@ public class ExternalUDFMutation implements BigFuzzMutation{
 
         br.close();
 
-        mutate(rows);
+        int method =(int)(Math.random() * 2);
+        if(method == 0){
+            ArrayList<String> tempRows = new ArrayList<String>();
+            randomGenerateRows(tempRows);
+            System.out.println("rows: " + tempRows);
+            rows = tempRows;
+
+            int next =(int)(Math.random() * 2);
+            if(next == 0){
+                mutate(rows);
+            }
+        }else{
+            mutate(rows);
+        }
 
         fileRows = rows;
     }
 
     public static String[] removeOneElement(String[] input, int index) {
-        List result = new LinkedList();
 
-        for(int i=0;i<input.length;i++)
-        {
-            if(i==index)
-            {
-                continue;
-            }
-            result.add(input[i]);
-        }
-
-        return (String [])result.toArray(input);
+        List<String> list1 = Arrays.asList(input);
+        List<String> arrList = new ArrayList<String>(list1);
+        arrList.remove(input[index]);
+        return arrList.toArray(new String[arrList.size()]);
+//        List result = new LinkedList();
+//
+//        for(int i=0;i<input.length;i++)
+//        {
+//            if(i==index)
+//            {
+//                continue;
+//            }
+//            result.add(input[i]);
+//        }
+//
+//        return (String [])result.toArray(input);
     }
     public static String[] AddOneElement(String[] input, String value, int index) {
         List result = new LinkedList();
@@ -128,30 +149,32 @@ public class ExternalUDFMutation implements BigFuzzMutation{
         // 3: random delete one column
         // 4: random add one coumn
         String[] columns = list.get(lineNum).split(",");
-        int method = r.nextInt(5);
+        int method = r.nextInt(2);
         int columnID = r.nextInt(Integer.parseInt("3"));
-        System.out.println("********"+method+" "+lineNum+" "+columnID);
-        if(method == 0){
-            columns[columnID] = Integer.toString(r.nextInt());
+//        System.out.println("********"+method+" "+lineNum+" "+columnID);
+//        if(method == 0){
+//            columns[columnID] = Integer.toString(r.nextInt());
+//        }
+        if(method==0) {
+           // int value = 0;
+            String r = RandomStringUtils.randomAscii((int)(Math.random() * 5));
+            columns[columnID] = r;
         }
+//        else if(method==1) {
+//            String r = RandomStringUtils.randomAscii((int)(Math.random() * 5));
+//            columns[columnID] = r;
+//        }
         else if(method==1) {
-            int value = 0;
-            value = Integer.parseInt(columns[columnID]);
-            float v = (float)value + r.nextFloat();
-            columns[columnID] = Float.toString(v);
+            int next = r.nextInt(Integer.parseInt("3"));
+            for (int i = 0; i < next; i++){
+                columnID = r.nextInt(columns.length);
+                columns = removeOneElement(columns, columnID);
+            }
         }
-        else if(method==2) {
-            char temp = (char)r.nextInt(255);
-            int pos = r.nextInt(columns[columnID].length());
-            columns[columnID] = columns[columnID].substring(0, pos)+temp+columns[columnID].substring(pos);
-        }
-        else if(method==3) {
-            columns = removeOneElement(columns, columnID);
-        }
-        else if(method==4) {
-            String one = Integer.toString(r.nextInt(10000));
-            columns = AddOneElement(columns, one, columnID);
-        }
+//        else if(method==4) {
+//            String one = Integer.toString(r.nextInt(10000));
+//            columns = AddOneElement(columns, one, columnID);
+//        }
         String line = "";
         for(int j=0;j<columns.length;j++) {
             if(j==0)
@@ -160,7 +183,12 @@ public class ExternalUDFMutation implements BigFuzzMutation{
             }
             else
             {
-                line = line+","+columns[j];
+            //    int next = (int)(Math.random() * 2);
+            //    if(next == 0){
+                    line = line+","+columns[j];
+            //    }else{
+            //        line = line + columns[j];
+            //    }
             }
         }
         list.set(lineNum, line);
@@ -196,7 +224,15 @@ public class ExternalUDFMutation implements BigFuzzMutation{
 
     @Override
     public void randomGenerateRows(ArrayList<String> rows) {
-
+        int generatedTimes = r.nextInt(maxGenerateTimes)+1;
+        for(int i=0;i<generatedTimes;i++)
+        {
+            int a = (int)(Math.random()*255);
+            int b = (int)(Math.random()*255);
+            int c = (int)(Math.random()*255);
+            String numberAsString = Integer.toString(a) + "," + Integer.toString(b) + "," + Integer.toString(c);
+            rows.add(numberAsString);
+        }
     }
 
     @Override

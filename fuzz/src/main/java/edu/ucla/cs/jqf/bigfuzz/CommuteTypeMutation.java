@@ -6,16 +6,14 @@ import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.text.DecimalFormat;
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 
 public class CommuteTypeMutation implements BigFuzzMutation {
 
     Random r = new Random();
     ArrayList<String> fileRows = new ArrayList<String>();
     String delete;
+    int maxGenerateTimes = 20;
 
     @Override
     public void mutate(String inputFile, String nextInputFile) throws IOException {
@@ -84,7 +82,20 @@ public class CommuteTypeMutation implements BigFuzzMutation {
             return;
         }
 
-        mutate(rows);
+        int method =(int)(Math.random() * 2);
+        if(method == 0){
+            ArrayList<String> tempRows = new ArrayList<String>();
+            randomGenerateRows(tempRows);
+            System.out.println("rows: " + tempRows);
+            rows = tempRows;
+
+            int next =(int)(Math.random() * 2);
+            if(next == 0){
+                mutate(rows);
+            }
+        }else{
+            mutate(rows);
+        }
 
         fileRows = rows;
     }
@@ -110,7 +121,20 @@ public class CommuteTypeMutation implements BigFuzzMutation {
             return;
         }
 
-        mutate1(rows);
+        int method =(int)(Math.random() * 2);
+        if(method == 0){
+            ArrayList<String> tempRows = new ArrayList<String>();
+            randomGenerateRows1(tempRows);
+            System.out.println("rows: " + tempRows);
+            rows = tempRows;
+
+            int next =(int)(Math.random() * 2);
+            if(next == 0){
+                mutate1(rows);
+            }
+        }else{
+            mutate1(rows);
+        }
 
         fileRows = rows;
     }
@@ -118,108 +142,29 @@ public class CommuteTypeMutation implements BigFuzzMutation {
     @Override
     public void mutate(ArrayList<String> list) {
         r.setSeed(System.currentTimeMillis());
+        System.out.println(list.size());
         int lineNum = r.nextInt(list.size());
+        System.out.println(list.get(lineNum));
         // 0: random change value
         // 1: random change into float
         // 2: random insert
         // 3: random delete one column
         // 4: random add one coumn
-        int method = r.nextInt(5);
-
-
-//        if (method ==0) {
-//            randomChangeByte(list.get(lineNum));
-//        }
-//        else {
         String[] columns = list.get(lineNum).split(",");
-        int columnID = r.nextInt(5);
+        int method = r.nextInt(2);
+        int columnID = (int)(Math.random() * columns.length);
+        System.out.println("********"+method+" "+lineNum+" "+columnID);
 
-        System.out.println("***************"+method +" " + columnID);
-
-        if(method == 0){
-            columns[columnID] = Integer.toString(r.nextInt());
+        if(method==0) {
+            String r = RandomStringUtils.randomAscii((int)(Math.random() * 5));
+            columns[columnID] = r;
         }
         else if(method==1) {
-            int value = 0;
-            value = Integer.parseInt(columns[columnID]);
-            float v = (float)value + r.nextFloat();
-            columns[columnID] = Float.toString(v);
-        }
-        else if(method==2) {
-            char temp = (char)r.nextInt(256);
-            int pos = r.nextInt(columns[columnID].length());
-            columns[columnID] = columns[columnID].substring(0, pos)+temp+columns[columnID].substring(pos);
-        }
-        else if(method==3) {
             columns = removeOneElement(columns, columnID);
         }
-        else if(method==4) {
-            String one = Integer.toString(r.nextInt(10000));
-            columns = AddOneElement(columns, one, columnID);
-        }
+
         String line = "";
-        if(columns.length == 0) line = columns[0];
-        else {
-            for(int j=0;j<columns.length;j++) {
-                line = line+","+columns[j];
-            }
-        }
-        list.set(lineNum, line);
-
-        /*for(int i=0;i<list.size();i++)
-        {
-            String line = list.get(i);
-            String[] components = line.split(",");
-            line = "";
-            for(int j=0;j<components.length;j++)
-            {
-                if(r.nextDouble()>0.8)
-                {
-                    components[j] = randomChangeByte(components[j]);
-                }
-                if(line.equals(""))
-                {
-                    line = components[j];
-                }
-                else
-                {
-                    line = line+","+components[j];
-                }
-            }
-
-            list.set(i, line);
-        }*/
-    }
-
-    public void mutate1(ArrayList<String> list)
-    {
-        r.setSeed(System.currentTimeMillis());
-        int lineNum = r.nextInt(list.size());
-        // 0: random change value
-        // 1: random insert
-        // 2: random delete one column
-        // 3: random add one coumn
-        String[] columns = list.get(lineNum).split(",");
-        int method = r.nextInt(4);
-        int columnID = r.nextInt(2);
-        System.out.println("***************"+method +" " + columnID);
-
-        if(method == 0){
-            columns[columnID] = Integer.toString(r.nextInt());
-        }
-        else if(method==1) {
-            char temp = (char)r.nextInt(256);
-            int pos = r.nextInt(columns[columnID].length());
-            columns[columnID] = columns[columnID].substring(0, pos)+temp+columns[columnID].substring(pos);
-        }
-        else if(method==2) {
-            columns = removeOneElement(columns, columnID);
-        }
-        else if(method==3) {
-            String one = Integer.toString(r.nextInt(10000));
-            columns = AddOneElement(columns, one, columnID);
-        }
-        String line = "";
+        int delimeter = r.nextInt(2);
         for(int j=0;j<columns.length;j++) {
             if(j==0)
             {
@@ -227,25 +172,62 @@ public class CommuteTypeMutation implements BigFuzzMutation {
             }
             else
             {
-                line = line+","+columns[j];
+                if(delimeter == 0){
+                    line = line+","+columns[j];
+                }else{
+                    line = line + "#" + columns[j];
+                }
+            }
+        }
+        list.set(lineNum, line);
+    }
+
+    public void mutate1(ArrayList<String> list) {
+        r.setSeed(System.currentTimeMillis());
+        System.out.println(list.size());
+        int lineNum = r.nextInt(list.size());
+        System.out.println(list.get(lineNum));
+        // 0: random change value
+        // 1: random change into float
+        // 2: random insert
+        // 3: random delete one column
+        // 4: random add one coumn
+        String[] columns = list.get(lineNum).split(",");
+        int method = r.nextInt(2);
+        int columnID = (int)(Math.random() * columns.length);
+        System.out.println("********"+method+" "+lineNum+" "+columnID);
+
+        if(method==0) {
+            String r = RandomStringUtils.randomAscii((int)(Math.random() * 5));
+            columns[columnID] = r;
+        }else if(method==1) {
+            columns = removeOneElement(columns, columnID);
+        }
+
+        String line = "";
+        int delimeter = r.nextInt(2);
+        for(int j=0;j<columns.length;j++) {
+            if(j==0)
+            {
+                line = columns[j];
+            }
+            else
+            {
+                if(delimeter == 0){
+                    line = line+","+columns[j];
+                }else{
+                    line = line + "#" + columns[j];
+                }
             }
         }
         list.set(lineNum, line);
     }
 
     public static String[] removeOneElement(String[] input, int index) {
-        List result = new LinkedList();
-
-        for(int i=0;i<input.length;i++)
-        {
-            if(i==index)
-            {
-                continue;
-            }
-            result.add(input[i]);
-        }
-
-        return (String [])result.toArray(input);
+        List<String> list1 = Arrays.asList(input);
+        List<String> arrList = new ArrayList<String>(list1);
+        arrList.remove(input[index]);
+        return arrList.toArray(new String[arrList.size()]);
     }
     public static String[] AddOneElement(String[] input, String value, int index) {
         List result = new LinkedList();
@@ -262,32 +244,6 @@ public class CommuteTypeMutation implements BigFuzzMutation {
         return (String [])result.toArray(input);
     }
 
-    private String randomChangeByte(String instr)
-    {
-        // 0: random replace one char
-        // 1: random delete one char
-        // 2: random add one char
-        String ret = "";
-        int pos = r.nextInt(instr.length());
-        int method = r.nextInt(3);
-        if(method == 0)
-        {
-            char[] temp = instr.toCharArray();
-            temp[pos] = (char)r.nextInt(256);
-            ret = String.valueOf(temp);
-        }
-        else if(method==1)
-        {
-            ret = instr.substring(0, pos)+instr.substring(pos+1);
-        }
-        else
-        {
-            char temp = (char)r.nextInt(256);
-            ret = instr.substring(0, pos)+temp+instr.substring(pos);
-        }
-        return ret;
-    }
-
     @Override
     public void randomDuplicateRows(ArrayList<String> rows) {
 
@@ -295,7 +251,29 @@ public class CommuteTypeMutation implements BigFuzzMutation {
 
     @Override
     public void randomGenerateRows(ArrayList<String> rows) {
+        int generatedTimes = r.nextInt(maxGenerateTimes)+1;
+        for(int i=0;i<generatedTimes;i++) {
+            String numberAsString = new String();
+            Integer index = i + 1;
+            String zip1 = "9" + "0" + "0" + r.nextInt(10) + r.nextInt(10);
+            String zip2 = "9" + "0" + "0" + r.nextInt(10) + r.nextInt(10);
+            String dis = RandomStringUtils.randomNumeric((int) (Math.random() * 2));
+            String time = RandomStringUtils.randomNumeric((int) (Math.random() * 4));
+            numberAsString = index +","+zip1 + "," + zip2 + "," + dis + "," + time;
+            rows.add(numberAsString);
+        }
+    }
 
+    public void randomGenerateRows1(ArrayList<String> rows) {
+        int generatedTimes = r.nextInt(maxGenerateTimes)+1;
+        for(int i=0;i<generatedTimes;i++)
+        {
+            String numberAsString = new String();
+            String zip = "9" + "0"+ "0" + r.nextInt(10) + r.nextInt(10);
+            String name = RandomStringUtils.randomAlphabetic((int)(Math.random() * 5));
+            numberAsString = zip + "," + name;
+            rows.add(numberAsString);
+        }
     }
 
     @Override

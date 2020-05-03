@@ -21,7 +21,7 @@ import java.util.*;public class InfiniteloopCustomArray {
 
         ArrayList<Integer> ans = new ArrayList<>();
         TraceLogger.get().emit(new MapEvent(iid, method, callersLineNumber));
-    for (String results: result){System.out.println("aaaaaaaaaaaaaaaaaaaaaaaa");ans.add( map3.apply( results));}
+    for (String results: result){ans.add( map3.apply( results));}
     return ans;
 }
  public static ArrayList< map2> Map2(ArrayList<Integer> result){

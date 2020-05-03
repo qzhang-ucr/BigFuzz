@@ -2,6 +2,8 @@ package edu.ucla.cs.jqf.bigfuzz;
 
 //import org.apache.commons.lang.ArrayUtils;
 
+import org.apache.commons.lang.RandomStringUtils;
+
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -16,6 +18,7 @@ public class FindSalaryMutation implements BigFuzzMutation{
     Random r = new Random();
     ArrayList<String> fileRows = new ArrayList<String>();
     String delete;
+    int maxGenerateTimes = 10;
 
 
     public void mutate(String inputFile, String nextInputFile) throws IOException
@@ -77,7 +80,20 @@ public class FindSalaryMutation implements BigFuzzMutation{
 
         br.close();
 
-        mutate(rows);
+        int method =(int)(Math.random() * 2);
+        if(method == 0){
+            ArrayList<String> tempRows = new ArrayList<String>();
+            randomGenerateRows(tempRows);
+            System.out.println("rows: " + tempRows);
+            rows = tempRows;
+
+            int next =(int)(Math.random() * 2);
+            if(next == 0){
+                mutate(rows);
+            }
+        }else{
+            mutate(rows);
+        }
 
         fileRows = rows;
     }
@@ -117,50 +133,40 @@ public class FindSalaryMutation implements BigFuzzMutation{
         System.out.println(list.size());
         int lineNum = r.nextInt(list.size());
         System.out.println(list.get(lineNum));
-        // 0: random change value
-        // 1: random change into float
-        // 2: random insert
+//        // 0: random change value
+        // 1: random change into string
+//        // 2: random insert
         // 3: random delete one column
         // 4: random add one coumn
         String[] columns = list.get(lineNum).split(",");
-        int method = r.nextInt(5);
+        int method = r.nextInt(2);
         int columnID = r.nextInt(Integer.parseInt("1"));
-        System.out.println("*******************" + columnID);
-        System.out.println("********"+method+" "+lineNum+" "+columnID);
 
-        if(method == 0){
-            if(columns[columnID].charAt(0)=='$')
-            {
-                columns[columnID] = "$"+Integer.toString(r.nextInt());
-            } else {
-            columns[columnID] = Integer.toString(r.nextInt());
+        if(method==0) {
+            if( columns[columnID] == "") return;
+
+            int next = r.nextInt(2);
+            if(next == 0){
+                columns[columnID] = "$" + RandomStringUtils.randomAscii((int)(Math.random() * 10));
+            } else{
+                columns[columnID] = RandomStringUtils.randomAscii((int)(Math.random() * 10));
             }
+//            if(columns[columnID].charAt(0)=='$')
+//            {
+//                columns[columnID] = "$" + RandomStringUtils.randomAscii((int)(Math.random() * 10));
+//            }
+//            else
+//            {
+//                columns[columnID] = RandomStringUtils.randomAscii((int)(Math.random() * 6));
+//            }
         }
         else if(method==1) {
-            int value = 0;
-            if(columns[columnID].charAt(0)=='$')
-            {
-                value = Integer.parseInt(columns[columnID].substring(1));
-            }
-            else
-            {
-                value = Integer.parseInt(columns[columnID]);
-            }
-            float v = (float)value + r.nextFloat();
-            columns[columnID] = Float.toString(v);
-        }
-        else if(method==2) {
-            char temp = (char)r.nextInt(255);
-            int pos = r.nextInt(columns[columnID].length());
-            columns[columnID] = columns[columnID].substring(0, pos)+temp+columns[columnID].substring(pos);
-        }
-        else if(method==3) {
             columns = removeOneElement(columns, columnID);
         }
-        else if(method==4) {
-            String one = Integer.toString(r.nextInt(10000));
-            columns = AddOneElement(columns, one, columnID);
-        }
+//        else if(method==2) {
+//            String one = Integer.toString(r.nextInt(10000));
+//            columns = AddOneElement(columns, one, columnID);
+//        }
         String line = "";
         for(int j=0;j<columns.length;j++) {
             if(j==0)
@@ -205,7 +211,24 @@ public class FindSalaryMutation implements BigFuzzMutation{
 
     @Override
     public void randomGenerateRows(ArrayList<String> rows) {
-
+        int generatedTimes = r.nextInt(maxGenerateTimes)+1;
+        for(int i=0;i<generatedTimes;i++)
+        {
+            int bits = (int)(Math.random()*6);
+            String tempRow = RandomStringUtils.randomNumeric(bits);
+            int method =(int)(Math.random() * 2);
+            if(method == 0){
+                int next = (int)(Math.random()*2);
+                if(next == 0) {
+                    rows.add("$" + tempRow);
+                }else {
+                    rows.add(tempRow);
+                }
+            }
+            else{
+                rows.add(RandomStringUtils.randomNumeric(3));
+            }
+        }
     }
 
     @Override

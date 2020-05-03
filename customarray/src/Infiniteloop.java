@@ -10,9 +10,9 @@ public class Infiniteloop {
 public void Infiniteloop(String inputFile) throws IOException {
 ArrayList<String> results0 = CustomArray.read(inputFile);
 ArrayList<Integer> results1 = InfiniteloopCustomArray.Map1(results0);
-System.out.println(results1);
+//System.out.println(results1);
 ArrayList<map2> results2 = InfiniteloopCustomArray.Map2(results1);
-System.out.println(results2);
+//System.out.println(results2);
 ArrayList<map2> results3 = InfiniteloopCustomArray.Filter1(results2);
 
 for(int i = 0; i < results3.size(); i++){

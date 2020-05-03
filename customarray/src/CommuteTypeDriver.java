@@ -21,12 +21,12 @@ public class CommuteTypeDriver {
         analysis.CommuteType(fileList.get(0), fileList.get(1));
     }
 
-//    public static void main(String[] args) throws IOException
-//    {
-//        List<String> fileList = Files.readAllLines(Paths.get("/home/qzhang/Programs/BigFuzz/dataset/config"));
-//
-//        CommuteType analysis = new CommuteType();
-//        analysis.CommuteType(fileList.get(0), fileList.get(1));
-//
-//   }
+    public static void main(String[] args) throws IOException
+    {
+        List<String> fileList = Files.readAllLines(Paths.get("/home/qzhang/Programs/BigFuzz/dataset/config"));
+
+        CommuteType analysis = new CommuteType();
+        analysis.CommuteType(fileList.get(0), fileList.get(1));
+
+   }
 }

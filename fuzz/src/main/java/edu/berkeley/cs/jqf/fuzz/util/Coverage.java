@@ -102,24 +102,27 @@ public class Coverage implements TraceEventVisitor {
 
     public void visitMapEvent(MapEvent e) {
         counter.increment(e.getIid());
-//        System.out.println("Coverage: visitMap");
+        System.out.println("Coverage: visitMap");
     }
 
     public void visitReduceEvent(ReduceEvent e) {
         counter.increment(e.getIid());
-//        System.out.println("Coverage: visitReduce");
+        System.out.println("Coverage: visitReduce");
     }
 
     public void visitReduceByKeyEvent(ReduceByKeyEvent e) {
         counter.increment(e.getIid());
+        System.out.println("Coverage::visitReduceByKeyEvent");
     }
 
     public void visitFilterEvent(FilterEvent e) {
         counter.increment1(e.getIid(), e.getArm());
+        System.out.println("Coverage::visitFilterEvent");
     }
 
     public void visitMapValuesEvent(MapValuesEvent e) {
         counter.increment(e.getIid());
+        System.out.println("Coverage::visitMapValuesEvent");
     }
 
     /**

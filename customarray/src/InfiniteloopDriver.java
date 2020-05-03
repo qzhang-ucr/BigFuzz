@@ -34,9 +34,9 @@ public class InfiniteloopDriver {
         analysis.Infiniteloop(fileList.get(0));
     }
 
-//    public static void main(String[] args) throws IOException {
-//        String fileName = "/home/qzhang/Programs/BigFuzz/dataset/salary1.csv";
-//        Infiniteloop analysis = new Infiniteloop();
-//        analysis.Infiniteloop(fileName);
-//    }
+    public static void main(String[] args) throws IOException {
+        String fileName = "/home/qzhang/Programs/BigFuzz/dataset/salary1.csv";
+        Infiniteloop analysis = new Infiniteloop();
+        analysis.Infiniteloop(fileName);
+    }
 }

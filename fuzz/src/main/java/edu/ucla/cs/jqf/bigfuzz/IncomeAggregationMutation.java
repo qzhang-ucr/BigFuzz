@@ -3,8 +3,10 @@ package edu.ucla.cs.jqf.bigfuzz;
 //import org.apache.commons.lang.ArrayUtils;
 
 /*
- mutation for I6: unsupported DF operator
+ mutation for I5: unsupported DF operator
  */
+
+import org.apache.commons.lang.RandomStringUtils;
 
 import java.io.*;
 import java.nio.file.Files;
@@ -18,8 +20,8 @@ import java.util.Random;
 public class IncomeAggregationMutation implements BigFuzzMutation{
 
     Random r = new Random();
-    int maxDuplicatedTimes = 1000;
-    int maxGenerateTimes = 1000;
+    int maxDuplicatedTimes = 10;
+    int maxGenerateTimes = 20;
     int maxGenerateValue = 10000000;
     DecimalFormat decimalFormat = new DecimalFormat("#,##0");
     ArrayList<String> fileRows = new ArrayList<String>();
@@ -57,24 +59,10 @@ public class IncomeAggregationMutation implements BigFuzzMutation{
             }
             int number = (int)tempnumber;
             String numberAsString = Integer.toString(number);
-            if(r.nextBoolean())
-            {
-                numberAsString = "$"+numberAsString;
-            }
-            int insertPos = r.nextInt(rows.size());
-
-            int zip = r.nextInt(89999)+1;
-            int age = (int)r.nextGaussian()*45+30;
-            if(age>=100)
-            {
-                age=99;
-            }
-            if(age<0)
-            {
-                age = 0;
-            }
-            numberAsString = Integer.toString(zip)+","+Integer.toString(age)+","+numberAsString;
-            rows.add(insertPos, numberAsString);
+            String zip = "9" + "0"+ "0" + r.nextInt(10) + r.nextInt(10);
+            int age = (int)(Math.random()*99);
+            numberAsString = zip +","+Integer.toString(age)+","+numberAsString;
+           rows.add(numberAsString);
         }
     }
 
@@ -144,6 +132,9 @@ public class IncomeAggregationMutation implements BigFuzzMutation{
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(fos));
 
         for (int i = 0; i < fileRows.size(); i++) {
+            if(fileRows.get(i) == null) {
+                continue;
+            }
             bw.write(fileRows.get(i));
             bw.newLine();
         }
@@ -214,7 +205,20 @@ public class IncomeAggregationMutation implements BigFuzzMutation{
             return;
         }
 
-        mutate(rows);
+        int method =(int)(Math.random() * 2);
+        if(method == 0){
+            ArrayList<String> tempRows = new ArrayList<String>();
+            randomGenerateRows(tempRows);
+            System.out.println("rows: " + tempRows);
+            rows = tempRows;
+
+            int next =(int)(Math.random() * 2);
+            if(next == 0){
+                mutate(rows);
+            }
+        }else{
+            mutate(rows);
+        }
 
         fileRows = rows;
     }
@@ -253,36 +257,39 @@ public class IncomeAggregationMutation implements BigFuzzMutation{
         System.out.println(list.size());
         int lineNum = r.nextInt(list.size());
         System.out.println(list.get(lineNum));
-        // 0: random change value
-        // 1: random change into float
-        // 2: random insert
+//        // 0: random change value
+        // 1: random change into string
+//        // 2: random insert
         // 3: random delete one column
-        // 4: random add one coumn
+//        // 4: random add one coumn
         String[] columns = list.get(lineNum).split(",");
-        int method = r.nextInt(5);
-        int columnID = r.nextInt(3);
+
+        int method = (int)(Math.random() * 2);
+        int columnID = (int)(Math.random() * 2)+1;
         System.out.println("********"+method+" "+lineNum+" "+columnID);
-        if(method == 0){
-            columns[columnID] = Integer.toString(r.nextInt());
+//        if(method == 0){
+//            columns[columnID] = Integer.toString(r.nextInt());
+//        }
+        if(method==0) {
+//            int value = 0;
+//            value = Integer.parseInt(columns[columnID]);
+//            float v = (float)value + r.nextFloat();
+            String r = RandomStringUtils.randomAscii((int)(Math.random() * 5));
+//            columns[columnID] = Float.toString(v);
+            columns[columnID] = r;
         }
+//        else if(method==2) {
+//            char temp = (char)r.nextInt(255);
+//            int pos = r.nextInt(columns[columnID].length());
+//            columns[columnID] = columns[columnID].substring(0, pos)+temp+columns[columnID].substring(pos);
+//        }
         else if(method==1) {
-            int value = 0;
-            value = Integer.parseInt(columns[columnID]);
-            float v = (float)value + r.nextFloat();
-            columns[columnID] = Float.toString(v);
-        }
-        else if(method==2) {
-            char temp = (char)r.nextInt(255);
-            int pos = r.nextInt(columns[columnID].length());
-            columns[columnID] = columns[columnID].substring(0, pos)+temp+columns[columnID].substring(pos);
-        }
-        else if(method==3) {
             columns = removeOneElement(columns, columnID);
         }
-        else if(method==4) {
-            String one = Integer.toString(r.nextInt(10000));
-            columns = AddOneElement(columns, one, columnID);
-        }
+//        else if(method==2) {
+//            String one = Integer.toString(r.nextInt(10000));
+//            columns = AddOneElement(columns, one, columnID);
+//        }
         String line = "";
         for(int j=0;j<columns.length;j++) {
             if(j==0)
@@ -291,7 +298,12 @@ public class IncomeAggregationMutation implements BigFuzzMutation{
             }
             else
             {
-                line = line+","+columns[j];
+                int next = (int)(Math.random() * 2);
+                if(next == 0){
+                    line = line+","+columns[j];
+                }else{
+                    line = line + "#" + columns[j];
+                }
             }
         }
         list.set(lineNum, line);
@@ -322,29 +334,43 @@ public class IncomeAggregationMutation implements BigFuzzMutation{
 
     private String randomChangeByte(String instr)
     {
-        // 0: random replace one char
-        // 1: random delete one char
-        // 2: random add one char
         String ret = "";
-        int pos = r.nextInt(instr.length());
-        int method = r.nextInt(3);
-        if(method == 0)
-        {
-            char[] temp = instr.toCharArray();
-            temp[pos] = (char)r.nextInt(256);
-            ret = String.valueOf(temp);
-        }
-        else if(method==1)
-        {
-            ret = instr.substring(0, pos)+instr.substring(pos+1);
-        }
-        else
-        {
-            char temp = (char)r.nextInt(256);
-            ret = instr.substring(0, pos)+temp+instr.substring(pos);
-        }
-        return ret;
+        System.out.println(instr.length());
+        //int pos = r.nextInt(instr.length());
+        int pos = (int)(Math.random() * instr.length());
+        System.out.println(pos);
+        //random change byte
+        char temp = (char)r.nextInt(256);
+        char[] characters = instr.toCharArray();
+        characters[pos] = temp;
+        return new String(characters);
     }
+
+//    private String randomChangeByte(String instr)
+//    {
+//        // 0: random replace one char
+//        // 1: random delete one char
+//        // 2: random add one char
+//        String ret = "";
+//        int pos = r.nextInt(instr.length());
+//        int method = r.nextInt(3);
+//        if(method == 0)
+//        {
+//            char[] temp = instr.toCharArray();
+//            temp[pos] = (char)r.nextInt(256);
+//            ret = String.valueOf(temp);
+//        }
+//        else if(method==1)
+//        {
+//            ret = instr.substring(0, pos)+instr.substring(pos+1);
+//        }
+//        else
+//        {
+//            char temp = (char)r.nextInt(256);
+//            ret = instr.substring(0, pos)+temp+instr.substring(pos);
+//        }
+//        return ret;
+//    }
     /*public static void main(String[] args) throws IOException{
 
         SalaryAnalysisMutation mutation = new SalaryAnalysisMutation();

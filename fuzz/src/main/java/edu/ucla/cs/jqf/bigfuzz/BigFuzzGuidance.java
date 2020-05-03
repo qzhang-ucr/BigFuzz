@@ -93,7 +93,7 @@ public class BigFuzzGuidance implements Guidance {
     static final boolean STEAL_RESPONSIBILITY = Boolean.getBoolean("jqf.ei.STEAL_RESPONSIBILITY");
 
     protected final String initialInputFile;
-    BigFuzzMutation mutation = new RandomMutation();
+    BigFuzzMutation mutation = new CommuteTypeMutation();
     private String currentInputFile;
 
     ArrayList<String> testInputFiles = new ArrayList<String>();
@@ -238,6 +238,7 @@ public class BigFuzzGuidance implements Guidance {
 
         // Stopping criteria
         if (numTrials >= maxTrials) {
+            System.out.println("current trial: " + numTrials);
             this.keepGoing = false;
             System.out.println("keepGoing: "+keepGoing);
         }
