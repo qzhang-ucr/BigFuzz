@@ -7,40 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2774e54c-0a4f-4f30-9e38-c5ee0352aa9a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/src/CommuteTypeDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/CommuteTypeDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/src/FindSalaryDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/FindSalaryDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/src/Infiniteloop.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/Infiniteloop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/src/InfiniteloopDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/InfiniteloopDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/CommuteType/filter2.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/CommuteType/filter2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/inapplicable/SymbolicStateOutofBounds/InfiniteloopCustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/inapplicable/SymbolicStateOutofBounds/InfiniteloopCustomArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/inapplicable/SymbolicStateOutofBounds/map3.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/inapplicable/SymbolicStateOutofBounds/map3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/config" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/salary1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/util/Coverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/util/Coverage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/AgeAnalysisMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/AgeAnalysisMutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzGuidance.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzGuidance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/CommuteTypeMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/CommuteTypeMutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/ExternalUDFMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/ExternalUDFMutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/FindSalaryMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/FindSalaryMutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/IncomeAggregationMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/IncomeAggregationMutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/MovieRatingMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/MovieRatingMutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/NoGuidance.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/NoGuidance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/NumberSeriesMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/NumberSeriesMutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/PropertyInvestmentMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/PropertyInvestmentMutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/RandomMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/RandomMutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/SalaryAnalysisMutation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/StudentGradeMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/StudentGradeMutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/janala.conf" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/janala.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/WordCountNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/WordCountNew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/WordCountNewDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/WordCountNewDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/jqf-examples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/examples/jqf-examples.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transformer/bigfuzz-transformer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/bigfuzz-transformer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transformer/src/main/java/ComplieTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/src/main/java/ComplieTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transformer/src/main/java/ToComplie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transformer/src/main/java/UDFgenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/src/main/java/UDFgenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transformer/target/classes/ComplieTool.class" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/target/classes/ComplieTool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transformer/target/classes/ToComplie.class" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/target/classes/ToComplie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transformer/target/classes/UDFgenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/target/classes/UDFgenerator.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/classes/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/parse/target/" />
-    <ignored path="$PROJECT_DIR$/fuzz/target/" />
-    <ignored path="$PROJECT_DIR$/maven-plugin/target/" />
-    <ignored path="$PROJECT_DIR$/instrument/target/" />
-    <ignored path="$PROJECT_DIR$/examples/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,55 +35,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/CommuteTypeMutation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="82" column="9" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/customarray/src/DFOperator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/customarray/src/CommuteTypeDriver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/PropertyInvestmentMutation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="172" column="32" selection-start-line="124" selection-start-column="1" selection-end-line="172" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/NumberSeriesMutation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2165">
-              <caret line="105" column="59" selection-start-line="102" selection-end-line="105" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -134,63 +64,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/inapplicable/DFOperator/DFOperatorCustomArray.java" />
-        <option value="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/inapplicable/DFOperator/map3.java" />
-        <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/RandomMutation.java" />
-        <option value="$PROJECT_DIR$/customarray/src/DFOperator.java" />
-        <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/WordCountMutation.java" />
-        <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/NoGuidance.java" />
-        <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/IncomeAggregationMutation.java" />
-        <option value="$PROJECT_DIR$/customarray/src/FindSalaryDriver.java" />
-        <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/FindSalaryMutation.java" />
-        <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/AgeAnalysisMutation.java" />
-        <option value="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/StudentGrades/map3.java" />
-        <option value="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/StudentGrades/reduceByKey2.java" />
-        <option value="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/StudentGrades/map4.java" />
-        <option value="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/StudentGrades/flatMap5.java" />
-        <option value="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/inapplicable/ExternalUDF/Inside.java" />
-        <option value="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/inapplicable/ExternalUDF/filter1.java" />
-        <option value="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/inapplicable/ExternalUDF/ExternalUDFCustomArray.java" />
-        <option value="$PROJECT_DIR$/customarray/src/ExternalUDF.java" />
-        <option value="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/inapplicable/ExternalUDF/map2.java" />
-        <option value="$PROJECT_DIR$/customarray/src/ExternalUDFDriver.java" />
-        <option value="$PROJECT_DIR$/customarray/target/classes/20200421213559_16+salary1.csv" />
-        <option value="$PROJECT_DIR$/customarray/src/DFOperatorDriver.java" />
-        <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/ExternalUDFMutation.java" />
-        <option value="$PROJECT_DIR$/customarray/target/classes/20200422103112_16+salary1.csv" />
-        <option value="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/StudentGrades/StudentGradesCustomArray.java" />
-        <option value="$PROJECT_DIR$/customarray/src/MovieRatingDriver.java" />
-        <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/MovieRatingMutation.java" />
-        <option value="$PROJECT_DIR$/customarray/src/StudentGradesDriver.java" />
-        <option value="$PROJECT_DIR$/customarray/src/StudentGrades.java" />
-        <option value="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/StudentGrades/filter1.java" />
-        <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/StudentGradeMutation.java" />
-        <option value="$PROJECT_DIR$/customarray/src/Infiniteloop.java" />
-        <option value="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/inapplicable/NumberSeries/InfiniteloopCustomArray.java" />
-        <option value="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/inapplicable/SymbolicStateOutofBounds/filter1.java" />
-        <option value="$PROJECT_DIR$/customarray/src/InfiniteloopDriver.java" />
-        <option value="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/inapplicable/SymbolicStateOutofBounds/InfiniteloopCustomArray.java" />
-        <option value="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/inapplicable/Property/map1.java" />
-        <option value="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/inapplicable/Property/map2.java" />
-        <option value="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/inapplicable/Property/PropertyCustomArray.java" />
-        <option value="$PROJECT_DIR$/customarray/src/Property.java" />
-        <option value="$PROJECT_DIR$/customarray/src/PropertyDriver.java" />
-        <option value="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/inapplicable/SymbolicStateOutofBounds/map3.java" />
-        <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/NumberSeriesMutation.java" />
-        <option value="$PROJECT_DIR$/customarray/target/classes/20200502144249_346+salary1.csv" />
-        <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/PropertyInvestmentMutation.java" />
-        <option value="$PROJECT_DIR$/dataset/salary1.csv" />
-        <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzGuidance.java" />
-        <option value="$PROJECT_DIR$/dataset/config" />
-        <option value="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/CommuteType/filter2.java" />
-        <option value="$PROJECT_DIR$/customarray/src/CommuteTypeDriver.java" />
-        <option value="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/CommuteTypeMutation.java" />
-      </list>
-    </option>
-  </component>
   <component name="InvalidFacetManager">
     <ignored-facets>
       <facet id="jqf-examples/invalid/Spring" />
@@ -206,69 +79,9 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-256" />
-    <option name="y" value="44" />
-    <option name="width" value="1717" />
-    <option name="height" value="1019" />
-  </component>
   <component name="ProjectId" id="1S1QbIL6iFVlcLmafzQch5WtBAz" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
-              <item name="customarray" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
-              <item name="customarray" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
-              <item name="customarray" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
-              <item name="customarray" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
-              <item name="dataset" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigFuzz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigFuzz" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
   </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
@@ -282,45 +95,33 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BigFuzz-TestPrograms" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/transformer/src/main/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2764706" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dataset" />
+      <recent name="$PROJECT_DIR$/TestCases/src/edu/ucla/cs/bigfuzz" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/parse" />
-      <recent name="$PROJECT_DIR$/parse/src/main/java" />
-      <recent name="$PROJECT_DIR$/instrument/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/events/dataflow" />
-      <recent name="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/dataflow" />
-      <recent name="$PROJECT_DIR$/dataflow/src/edu/ucla/cs/jqf/instrument/dataflow" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="edu.ucla.cs.bigfuzz.sparkprogram" />
       <recent name="edu.ucla.cs.bigfuzz" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/dataset" />
-      <recent name="$PROJECT_DIR$/TestCases/src/edu/ucla/cs/bigfuzz" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/transformer/src/main/java" />
+      <recent name="$PROJECT_DIR$/parse" />
+      <recent name="$PROJECT_DIR$/parse/src/main/java" />
+      <recent name="$PROJECT_DIR$/instrument/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/events/dataflow" />
+      <recent name="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/dataflow" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.CommuteTypeDriver (1)">
+  <component name="RunManager" selected="Application.ToComplie">
     <configuration name="CommuteTypeDriver (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CommuteTypeDriver" />
       <module name="bigfuzz-dfcoverage" />
@@ -349,20 +150,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PropertyDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PropertyDriver" />
-      <module name="bigfuzz-dfcoverage" />
+    <configuration name="ToComplie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ToComplie" />
+      <module name="bigfuzz-transformer" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ToComplie" />
         <item itemvalue="Application.CommuteTypeDriver (1)" />
         <item itemvalue="Application.CommuteTypeDriver" />
         <item itemvalue="Application.PropertyDriver (2)" />
         <item itemvalue="Application.PropertyDriver (1)" />
-        <item itemvalue="Application.PropertyDriver" />
       </list>
     </recent_temporary>
   </component>
@@ -390,96 +191,9 @@
       <updated>1563824292225</updated>
       <workItem from="1576199499628" duration="6289000" />
       <workItem from="1577989446378" duration="17177000" />
+      <workItem from="1596516065328" duration="544000" />
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="All_in_bigfuzz-guidance - 2020.04.20 at 11h 06m 09s.xml">
-      <configuration name="All in bigfuzz-guidance" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MovieRatingDriver_main - 2020.04.23 at 15h 11m 27s.xml">
-      <configuration name="MovieRatingDriver.main" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MovieRatingDriver_main - 2020.04.23 at 15h 11m 42s.xml">
-      <configuration name="MovieRatingDriver.main" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MovieRatingDriver_main - 2020.04.23 at 15h 12m 42s.xml">
-      <configuration name="MovieRatingDriver.main" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MovieRatingDriver_main - 2020.04.23 at 15h 13m 13s.xml">
-      <configuration name="MovieRatingDriver.main" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MovieRatingDriver_main - 2020.04.23 at 15h 13m 17s.xml">
-      <configuration name="MovieRatingDriver.main" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MovieRatingDriver - 2020.04.23 at 15h 13m 51s.xml">
-      <configuration name="MovieRatingDriver" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MovieRatingDriver - 2020.04.23 at 15h 14m 23s.xml">
-      <configuration name="MovieRatingDriver" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="31" width="1920" height="1049" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.56189454" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Learn" order="6" weight="0.32992464" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32798165" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18463303" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.26490825" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35649547" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Learn" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32798165" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41169724" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.26490825" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -493,12 +207,6 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -521,34 +229,26 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="1172" y="479" key="#Project_Structure" timestamp="1578093426292">
-      <screen x="0" y="23" width="2560" height="1348" />
+    <state width="1358" height="210" key="GridCell.Tab.0.bottom" timestamp="1596516476455">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state x="1172" y="479" key="#Project_Structure/0.23.2560.1348@0.23.2560.1348" timestamp="1578093426292" />
-    <state x="1078" y="751" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1577989939041">
-      <screen x="0" y="23" width="2560" height="1348" />
+    <state width="1358" height="210" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1596516476455" />
+    <state width="1358" height="210" key="GridCell.Tab.0.center" timestamp="1596516476454">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state x="1078" y="751" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.23.2560.1348@0.23.2560.1348" timestamp="1577989939041" />
-    <state width="1358" height="287" key="GridCell.Tab.0.bottom" timestamp="1579913099387">
-      <screen x="0" y="23" width="2560" height="1344" />
+    <state width="1358" height="210" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1596516476454" />
+    <state width="1358" height="210" key="GridCell.Tab.0.left" timestamp="1596516476453">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state width="1358" height="287" key="GridCell.Tab.0.bottom/0.23.2560.1344@0.23.2560.1344" timestamp="1579913099387" />
-    <state width="677" height="287" key="GridCell.Tab.0.bottom/0.23.2560.1348@0.23.2560.1348" timestamp="1578100385668" />
-    <state width="1358" height="287" key="GridCell.Tab.0.center" timestamp="1579913099387">
-      <screen x="0" y="23" width="2560" height="1344" />
+    <state width="1358" height="210" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1596516476453" />
+    <state width="1358" height="210" key="GridCell.Tab.0.right" timestamp="1596516476455">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state width="1358" height="287" key="GridCell.Tab.0.center/0.23.2560.1344@0.23.2560.1344" timestamp="1579913099387" />
-    <state width="677" height="287" key="GridCell.Tab.0.center/0.23.2560.1348@0.23.2560.1348" timestamp="1578100385668" />
-    <state width="1358" height="287" key="GridCell.Tab.0.left" timestamp="1579913099386">
-      <screen x="0" y="23" width="2560" height="1344" />
+    <state width="1358" height="210" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1596516476455" />
+    <state x="142" y="23" key="SettingsEditor" timestamp="1596516357106">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state width="1358" height="287" key="GridCell.Tab.0.left/0.23.2560.1344@0.23.2560.1344" timestamp="1579913099386" />
-    <state width="677" height="287" key="GridCell.Tab.0.left/0.23.2560.1348@0.23.2560.1348" timestamp="1578100385667" />
-    <state width="1358" height="287" key="GridCell.Tab.0.right" timestamp="1579913099387">
-      <screen x="0" y="23" width="2560" height="1344" />
-    </state>
-    <state width="1358" height="287" key="GridCell.Tab.0.right/0.23.2560.1344@0.23.2560.1344" timestamp="1579913099387" />
-    <state width="677" height="287" key="GridCell.Tab.0.right/0.23.2560.1348@0.23.2560.1348" timestamp="1578100385668" />
+    <state x="142" y="23" key="SettingsEditor/0.23.1440.823@0.23.1440.823" timestamp="1596516357106" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -556,436 +256,9 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/ei/ZestGuidance.java</url>
           <line>341</line>
-          <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200502150232_25+salary1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200502150232_141+salary1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200502150232_301+salary1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200502150232_319+salary1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200502150353_6+salary1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200502150353_8+salary1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200502150353_16+salary1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200502150353_17+salary1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200502150354_82+salary1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200502150354_228+salary1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200502150354_622+salary1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200502150511_17+salary1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200502150511_18+salary1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200502150511_21+salary1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200502150512_309+salary1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200502150512_846+salary1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/RandomMutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1656">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/salary1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/src/PropertyDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200502153801_1+salary1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200502153801_5+salary1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200502153801_16+salary1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200502153801_18+salary1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200502153801_25+salary1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200502230912_1+salary1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200502230912_2+salary1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200502230912_5+salary1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200502230912_19+salary1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200502230912_21+salary1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200502231111_1+salary1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200502231111_9+salary1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200502231111_18+salary1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200502231111_32+salary1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200502231227_1+salary1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200502231227_19+salary1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200502231227_22+salary1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzGuidance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="95" column="56" selection-start-line="95" selection-start-column="56" selection-end-line="95" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/src/CommuteType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="12" column="53" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/CommuteType/CommuteTypeCustomArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="47" column="35" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/CommuteType/filter2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/NumberSeriesMutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2165">
-          <caret line="105" column="59" selection-start-line="102" selection-end-line="105" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/PropertyInvestmentMutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="172" column="32" selection-start-line="124" selection-start-column="1" selection-end-line="172" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/src/DFOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/src/CommuteTypeDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200502233036_450+zipcode.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200502233036_1+trips.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200502233139_2+zipcode.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200502233142_1802+zipcode.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customarray/target/classes/20200502233141_659+trips.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/CommuteTypeMutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="82" column="9" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>IncomeAnalysis:jar</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2764706" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring (jqf-examples)|Invalid</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2764706" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>scala-sdk-2.11.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2764706" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2764706" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>jqf-instrument</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2764706" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>org.apache.spark:spark-core_2.10:2.1.0</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2764706" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

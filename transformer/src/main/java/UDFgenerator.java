@@ -1,12 +1,10 @@
-import org.omg.Messaging.SYNC_WITH_TRANSPORT;
-
 import java.io.*;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+//can't support two input argument for one UDF,
 public class UDFgenerator {
     private String pathw = "customarray/src/edu/ucla/cs/bigfuzz/customarray/";
     private String pathr = "customarray/src/edu/ucla/cs/bigfuzz/sparkprogram";
@@ -17,7 +15,7 @@ public class UDFgenerator {
     public UDFgenerator(String name, int number) throws IOException {
         CustomFile = new FileWriter(pathw+name+"CustomArray.java");
         this.name =name;
-        used = new boolean[number];
+        used = new boolean[1000];
         Arrays.fill(used,Boolean.TRUE);
     }
     private String UDFPreConstruct() {
@@ -31,7 +29,7 @@ public class UDFgenerator {
                 "\n" +
                 "import java.io.BufferedReader;\n" +
                 "import java.io.FileReader;\n" +
-                "import java.io.IOException;\n" +
+                "import scala.*;\n" +
                 "import java.util.*;"+
                 "public class "+name+"CustomArray {\n" +
                 "\n" +
@@ -45,15 +43,16 @@ public class UDFgenerator {
     private boolean CheckSameOperator(String operator, String fileName)
     {
         String temp = fileName.substring(0,1).toUpperCase()+fileName.substring(1);
-        //System.out.println(fileName);
         //int i = Integer.parseInt(fileName.substring(fileName.length()-5));
-        temp = temp.substring(0,temp.length()-6);
+        if (temp.length()<6) return false;
+        int kk = temp.length()-6;
+        while (temp.charAt(kk)>='0'&&temp.charAt(kk)<='9') kk=kk-1;
+        temp = temp.substring(0,kk+1);
+        //int min = 99999;
         if (temp.equals(operator.substring(0,operator.length()-1))) {
-            int i = Integer.parseInt(fileName.substring(fileName.length()-6,fileName.length()-5));
-            if (used[i]) {
-                used[i] = false;
-                return true;
-            }
+            int i = Integer.parseInt(fileName.substring(kk+1,fileName.length()-5));
+            //used[i] = false;
+            return used[i];
         }
         return false;
     }
@@ -66,7 +65,7 @@ public class UDFgenerator {
         //ArrayList<String> list = new ArrayList<>();
         Pattern Main = Pattern.compile("main");
         Matcher Ma;
-        Pattern type = Pattern.compile("static");
+        Pattern type = Pattern.compile("static|final");
         Matcher m;
         if (file.exists())
         {
@@ -87,25 +86,42 @@ public class UDFgenerator {
         File dir = new File(pathw);
 
         String [] UDFnames = dir.list();
+        String ans ="";
+
+        int k = 0;
+        int kk=0;
 
         assert UDFnames != null;
         for (String UDF: UDFnames){
             if (CheckSameOperator(operator,UDF)) {
-                UDFfileName = UDF;
-                return UDF;
+                kk =UDF.length()-6;
+                while (UDF.charAt(kk)>='0'&&UDF.charAt(kk)<='9') kk=kk-1;
+                int i = Integer.parseInt(UDF.substring(kk+1,UDF.length()-5));
+                if (i>k)
+                {
+                    k = i;
+                    ans = UDF;
+                    UDFfileName=UDF;
+                }
             }
 
         }
+        if (k>0)
+        {
+            used[k] = false;
+            //System.out.println(ans);
+            return ans;
+        }
+        System.out.println(operator+":"+kk);
         System.out.println("Error: Not find UDF");
         return "error";
     }
 
-    private String checkOutType(String typeLine) throws IOException {
+    private String checkOutType(String typeLine) {
 
         Pattern type = Pattern.compile("apply");
         Matcher m = type.matcher(typeLine);
         m.find();
-        System.out.println(typeLine);
         int start = m.start()-2;
         while (typeLine.charAt(start)!=' ') {start=start-1;}
 
@@ -128,61 +144,69 @@ public class UDFgenerator {
 
     }
 
-    private String checkInType(String typeLine) throws IOException {
-
-        //String typeLine = UDFreader(fileName);
-        Pattern type = Pattern.compile("apply");
-        Matcher m = type.matcher(typeLine);
-        m.find();
-        int start = m.end()-1;
-        while (typeLine.charAt(start)!='(') {start=start+1;}
-        int end = start;
-        while (typeLine.charAt(end)!=')') {end=end+1;}
-
-        return typeLine.substring(start,end+1);
-
-    }
-
-    private String checkInVal(String typeLine) {
-        Pattern type = Pattern.compile("apply");
-        Matcher m = type.matcher(typeLine);
-        m.find();
-        int end = m.end()-1;
-        while (typeLine.charAt(end)!=')') {end=end+1;}
-        end=end-1;
-        while (typeLine.charAt(end)==' ') {end=end-1;}
-        int start = end;
-        while (typeLine.charAt(start)!=' ') {start = start-1;}
-        System.out.println(typeLine.substring(start,end));
-        return typeLine.substring(start,end+1);
-    }
-
-    public void UDFset(ArrayList<String> dataFlow) throws IOException {
+    public ArrayList<String> UDFset(ArrayList<String> dataFlow) throws IOException {
         CustomFile.write(UDFPreConstruct()+"\n");
+        ArrayList<String> type = new ArrayList<>();
+        String last = "";
         for (String operator: dataFlow){
             if ((!operator.equals("CustomArray.read(inputFile);"))&&(!operator.equals("CustomArray.readStr(inputFile);"))) {
 
                 String Line = UDFreader(operator);
+                //System.out.println(UDFfileName);
+                String s = checkOutType(Line);
+                boolean b = operator.substring(0, operator.length() - 1).equals("Filter");
+                if (b ||operator.substring(0,operator.length()-1
+                ).equals("ReduceByKey")) {s = last;}
+                type.add(s);
+                System.out.println(s);
 
-                CustomFile.write(" public static " +
-                    checkOutType(Line)+" "+operator+checkInType(Line)+"{\n"+
+                if (!b){
+                CustomFile.write(" public static ArrayList<" +
+                        s+ "> " + operator + "(ArrayList<" + last + "> result)" + "{\n" +
 
-                    "        int callersLineNumber = Thread.currentThread().getStackTrace()[1].getLineNumber();\n" +
-                    "\n" +
-                    "        int iid = CustomArray.class.hashCode(); // this should be a random value associated with a " +
-                    "program location\n" +
-                    "        MemberRef method = new METHOD_BEGIN(Thread.currentThread().getStackTrace()[1].getClassN" +
-                    "ame(), Thread.currentThread().getStackTrace()[1].getMethodName(), \"()V\"); // containing method\n" +
-                    "\n" +
-                    "        // Generate a custom event!\n" +
-                    "        TraceLogger.get().emit(new "+operator.substring(0,operator.length()-1)+"Event(iid, m" +
-                    "ethod, callersLineNumber));"+"return "+checkName(Line)+"("+checkInVal(Line)+");\n"+"\n}\n"
-            );/////还没有加最后的引用部分
+                        "        int callersLineNumber = Thread.currentThread().getStackTrace()[1].getLineNumber();\n" +
+                        "\n" +
+                        "        int iid = CustomArray.class.hashCode(); // this should be a random value associated with a " +
+                        "program location\n" +
+                        "        MemberRef method = new METHOD_BEGIN(Thread.currentThread().getStackTrace()[1].getClassN" +
+                        "ame(), Thread.currentThread().getStackTrace()[1].getMethodName(), \"()V\"); // containing method\n" +
+                        "\n" +
+                        "        ArrayList<" + s + "> ans = new ArrayList<>();\n" +
+                        "        TraceLogger.get().emit(new " + operator.substring(0, operator.length() - 1) +
+                        "Event(iid, m" +
+                        "ethod, callersLineNumber));\n" + "for (" + last + " results: result)" + "{ans.add( " +
+                        checkName(Line) + "( results));}\n" + "return ans;\n}\n"
+                );}
 
-        }
+                else {
+                    CustomFile.write(" public static ArrayList<" +
+                            s+ "> " + operator + "(ArrayList<" + last + "> result)" + "{\n" +
+
+                            "        int callersLineNumber = Thread.currentThread().getStackTrace()[1].getLineNumber();\n" +
+                            "\n" +
+                            "        int iid = CustomArray.class.hashCode(); // this should be a random value associated with a " +
+                            "program location\n" +
+                            "        MemberRef method = new METHOD_BEGIN(Thread.currentThread().getStackTrace()[1].getClassN" +
+                            "ame(), Thread.currentThread().getStackTrace()[1].getMethodName(), \"()V\"); // containing method\n" +
+                            "\n" +
+                            "        ArrayList<" + s + "> ans = new ArrayList<>();\n"
+                            + "for (" + last + " results: result)" + "{if ("+ checkName
+                            (Line) + "(results._1(),results._2()))" +
+                            "ans.add(results );}\n" + "int arm = 0;\n" +
+                            "if (!ans.isEmpty()) arm=1;\n" +
+                            "     TraceLogger.get().emit(new FilterEvent(iid, method, callersLineNumber,arm));\n" +
+                            "return ans;\n}\n"
+                    );}
+
+
+                last = s;
+
+            }
+            else {last = "String";}
         }
         CustomFile.write("}");
         CustomFile.close();
+        return type;
     }
 
 }

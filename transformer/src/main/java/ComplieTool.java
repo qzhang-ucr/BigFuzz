@@ -3,11 +3,10 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 class ComplieTool {
-    private String[] constLibrary = new String[]{"map","filter","mapValues","reduceByKey","mapToPair","flatMap"};
 
     private int checkFirst (int[] a){
         int min = 0;
-        for (int i=0;i<7;i++)
+        for (int i=0;i<9;i++)
         {
             if (a[i]<= a[min]){
                 min=i;
@@ -56,6 +55,7 @@ class ComplieTool {
             pointer = pointer+1;
         }
 
+
         pointer = mapToVar.size()-1;
         while (!mapToVar.get(pointer).equals(fatherName)) {
             pointer=pointer-1;
@@ -77,6 +77,8 @@ class ComplieTool {
         Pattern MapToPairFind = Pattern.compile("\\.mapToPair");
         Pattern FlatMapFind = Pattern.compile("\\.flatMap");
         Pattern TextFileFind = Pattern.compile("\\.textFile");
+        Pattern JoinFind = Pattern.compile("\\.join");
+        Pattern ReduceFind = Pattern.compile("\\.reduce\\(");
 
         ArrayList<Matcher> matchers = new ArrayList<>();
         matchers.add(MapFind.matcher(line));
@@ -86,16 +88,17 @@ class ComplieTool {
         matchers.add(MapToPairFind.matcher(line));
         matchers.add(FlatMapFind.matcher(line));
         matchers.add(TextFileFind.matcher(line));
+        matchers.add(JoinFind.matcher(line));
+        matchers.add(ReduceFind.matcher(line));
 
 
-        int[] position = new int[7];
-        for (int i=0;i<7;i++){
+        int[] position = new int[9];
+        for (int i=0;i<9;i++){
             position[i]=99999;
             if (matchers.get(i).find()) position[i] = matchers.get(i).start();
         }
         int k=checkFirst(position);
         while (k!=-1){
-            //System.out.println(line);
             position[k] = 99999;
             Sequence.add(k);
             if (matchers.get(k).find()) position[k] = matchers.get(k).start();

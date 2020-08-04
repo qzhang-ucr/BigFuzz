@@ -4,11 +4,11 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 
-public class ToComplie {
+public class JavaToComplie {
     private static String[] constLibrary = new String[]{"Map","Filter",
             "MapValues","ReduceByKey","MapToPair","FlatMap",
-            "CustomArray.readStr(inputFile);"};
-    private static int[] timeForOpe = new int[]{0,0,0,0,0,0,0};
+            "CustomArray.read(inputFile);","Join","Reduce"};
+    private static int[] timeForOpe = new int[]{0,0,0,0,0,0,0,0,0};
     private static int totalStage = 0;
     private static ArrayList<String> operatorLine = new ArrayList<>();
 
@@ -82,7 +82,7 @@ public class ToComplie {
                     operatorLine.add(constLibrary[operator]+timeForOpe[operator]);
                 }
                 else {
-                    newLine = "String results0 = "+constLibrary[operator];
+                    newLine = "ArrayList<String> results"+totalStage+" = "+constLibrary[operator];
                     mapToVar.add(a.findVal(line));
                     operatorLine.add(constLibrary[operator]);
                     findAlready = true;
@@ -116,14 +116,16 @@ public class ToComplie {
         return list;
     }
 
-    public static void main(String[] args) throws IOException {
-        ArrayList<String> sourceCode;
+    public static void main(String[] args) throws IOException {//the type check in main program has not been done yet
+        ArrayList<String> sourceCode;//the filter, map, etc, can be done automatically but not finished yet
         //sourceCode = reader(args[0]);
         String pathr = "customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/";
         String pathw = "customarray/src/";
-        sourceCode = reader(pathr+"WordCountNew.scala");
+        sourceCode = reader(pathr+"WordCount.java");
+        JavaUDF a = new JavaUDF();
         //String name =args[1];
-        String name = "WordCountNew";
+        String name = "WordCount";
+        ArrayList<String> NewSourceCode = sourceCode;
         sourceCode = Refactor(sourceCode, name);
 
         ArrayList<String> driver;
@@ -138,6 +140,7 @@ public class ToComplie {
             driveFile.write(line+"\n");
         }
         driveFile.close();
+        a.FindUDF(NewSourceCode,operatorLine);
         UDFgenerator UDF = new UDFgenerator(name,operatorLine.size());
         UDF.UDFset(operatorLine);
     }
