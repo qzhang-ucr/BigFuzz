@@ -7,18 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2774e54c-0a4f-4f30-9e38-c5ee0352aa9a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/src/WordCountNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/WordCountNew.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/src/WordCountNewDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/WordCountNewDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/jqf-examples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/examples/jqf-examples.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transformer/bigfuzz-transformer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/bigfuzz-transformer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transformer/src/main/java/ComplieTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/src/main/java/ComplieTool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transformer/src/main/java/ToComplie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transformer/src/main/java/UDFgenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/src/main/java/UDFgenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transformer/target/classes/ComplieTool.class" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/target/classes/ComplieTool.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transformer/target/classes/ToComplie.class" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/target/classes/ToComplie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transformer/target/classes/UDFgenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/target/classes/UDFgenerator.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,16 +91,8 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/dataset" />
-      <recent name="$PROJECT_DIR$/TestCases/src/edu/ucla/cs/bigfuzz" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="edu.ucla.cs.bigfuzz.sparkprogram" />
-      <recent name="edu.ucla.cs.bigfuzz" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/transformer/src/main/java" />
@@ -119,6 +100,14 @@
       <recent name="$PROJECT_DIR$/parse/src/main/java" />
       <recent name="$PROJECT_DIR$/instrument/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/events/dataflow" />
       <recent name="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/dataflow" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.ucla.cs.bigfuzz.sparkprogram" />
+      <recent name="edu.ucla.cs.bigfuzz" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dataset" />
+      <recent name="$PROJECT_DIR$/TestCases/src/edu/ucla/cs/bigfuzz" />
     </key>
   </component>
   <component name="RunManager" selected="Application.ToComplie">
@@ -229,22 +218,22 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1358" height="210" key="GridCell.Tab.0.bottom" timestamp="1596516476455">
+    <state width="1358" height="210" key="GridCell.Tab.0.bottom" timestamp="1596651047507">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state width="1358" height="210" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1596516476455" />
-    <state width="1358" height="210" key="GridCell.Tab.0.center" timestamp="1596516476454">
+    <state width="1358" height="210" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1596651047507" />
+    <state width="1358" height="210" key="GridCell.Tab.0.center" timestamp="1596651047506">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state width="1358" height="210" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1596516476454" />
-    <state width="1358" height="210" key="GridCell.Tab.0.left" timestamp="1596516476453">
+    <state width="1358" height="210" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1596651047506" />
+    <state width="1358" height="210" key="GridCell.Tab.0.left" timestamp="1596651047502">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state width="1358" height="210" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1596516476453" />
-    <state width="1358" height="210" key="GridCell.Tab.0.right" timestamp="1596516476455">
+    <state width="1358" height="210" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1596651047502" />
+    <state width="1358" height="210" key="GridCell.Tab.0.right" timestamp="1596651047506">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state width="1358" height="210" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1596516476455" />
+    <state width="1358" height="210" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1596651047506" />
     <state x="142" y="23" key="SettingsEditor" timestamp="1596516357106">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
