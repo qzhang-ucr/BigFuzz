@@ -8,6 +8,13 @@
   <component name="ChangeListManager">
     <list default="true" id="2774e54c-0a4f-4f30-9e38-c5ee0352aa9a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/WordCountNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/WordCountNew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/WordCountNewCustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/WordCountNewCustomArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/map2.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/map2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transformer/src/main/java/ToComplie.java" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/src/main/java/ToComplie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transformer/src/main/java/UDFgenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/src/main/java/UDFgenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transformer/target/classes/ToComplie.class" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/target/classes/ToComplie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transformer/target/classes/UDFgenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/target/classes/UDFgenerator.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,8 +98,17 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dataset" />
+      <recent name="$PROJECT_DIR$/TestCases/src/edu/ucla/cs/bigfuzz" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="edu.ucla.cs.bigfuzz.sparkprogram" />
+      <recent name="edu.ucla.cs.bigfuzz" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/transformer/src/main/java" />
@@ -100,14 +116,6 @@
       <recent name="$PROJECT_DIR$/parse/src/main/java" />
       <recent name="$PROJECT_DIR$/instrument/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/events/dataflow" />
       <recent name="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/dataflow" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="edu.ucla.cs.bigfuzz.sparkprogram" />
-      <recent name="edu.ucla.cs.bigfuzz" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/dataset" />
-      <recent name="$PROJECT_DIR$/TestCases/src/edu/ucla/cs/bigfuzz" />
     </key>
   </component>
   <component name="RunManager" selected="Application.ToComplie">
@@ -181,6 +189,9 @@
       <workItem from="1576199499628" duration="6289000" />
       <workItem from="1577989446378" duration="17177000" />
       <workItem from="1596516065328" duration="544000" />
+      <workItem from="1597807869303" duration="3715000" />
+      <workItem from="1598287493124" duration="4395000" />
+      <workItem from="1598817823092" duration="2617000" />
     </task>
     <servers />
   </component>
@@ -218,26 +229,31 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1358" height="210" key="GridCell.Tab.0.bottom" timestamp="1596651047507">
+    <state width="1358" height="202" key="GridCell.Tab.0.bottom" timestamp="1597814277014">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state width="1358" height="210" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1596651047507" />
-    <state width="1358" height="210" key="GridCell.Tab.0.center" timestamp="1596651047506">
+    <state width="1358" height="202" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1597814277014" />
+    <state width="1358" height="202" key="GridCell.Tab.0.center" timestamp="1597814277013">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state width="1358" height="210" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1596651047506" />
-    <state width="1358" height="210" key="GridCell.Tab.0.left" timestamp="1596651047502">
+    <state width="1358" height="202" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1597814277013" />
+    <state width="1358" height="202" key="GridCell.Tab.0.left" timestamp="1597814277013">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state width="1358" height="210" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1596651047502" />
-    <state width="1358" height="210" key="GridCell.Tab.0.right" timestamp="1596651047506">
+    <state width="1358" height="202" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1597814277013" />
+    <state width="1358" height="202" key="GridCell.Tab.0.right" timestamp="1597814277014">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state width="1358" height="210" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1596651047506" />
+    <state width="1358" height="202" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1597814277014" />
     <state x="142" y="23" key="SettingsEditor" timestamp="1596516357106">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state x="142" y="23" key="SettingsEditor/0.23.1440.823@0.23.1440.823" timestamp="1596516357106" />
+    <state x="378" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1598817823719">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="378" y="257" key="com.intellij.ide.util.TipDialog/0.23.1440.814@0.23.1440.814" timestamp="1598817823719" />
+    <state x="378" y="260" key="com.intellij.ide.util.TipDialog/0.23.1440.823@0.23.1440.823" timestamp="1598287493074" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

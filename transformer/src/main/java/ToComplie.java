@@ -131,10 +131,11 @@ public class ToComplie {
 
         String pathr = "customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/";
         String pathw = "customarray/src/";
+        String name = "WordCountNew";
         String JadPath = pathw+"edu/ucla/cs/bigfuzz/customarray/";
-        sourceCode = reader(pathr+"Combined.scala");
+        sourceCode = reader(pathr+name+".scala");
         //String name =args[1];
-        String name = "Combined";
+
         //ArrayList<String> JadSourceCode = reader(JadPath+"Test2$.java");
 
         sourceCode = Refactor(sourceCode, name);

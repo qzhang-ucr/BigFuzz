@@ -154,13 +154,13 @@ public class UDFgenerator {
                 String Line = UDFreader(operator);
                 //System.out.println(UDFfileName);
                 String s = checkOutType(Line);
-                boolean b = operator.substring(0, operator.length() - 1).equals("Filter");
-                if (b ||operator.substring(0,operator.length()-1
-                ).equals("ReduceByKey")) {s = last;}
+                boolean filterFlag = operator.substring(0, operator.length() - 1).equals("Filter");
+                boolean reduceByKeyFlag= operator.substring(0,operator.length()-1).equals("ReduceByKey");
+                if (filterFlag || reduceByKeyFlag) {s = last;}
                 type.add(s);
                 System.out.println(s);
 
-                if (!b){
+                if ((!filterFlag)&(!reduceByKeyFlag)){
                 CustomFile.write(" public static ArrayList<" +
                         s+ "> " + operator + "(ArrayList<" + last + "> result)" + "{\n" +
 
@@ -178,7 +178,7 @@ public class UDFgenerator {
                         checkName(Line) + "( results));}\n" + "return ans;\n}\n"
                 );}
 
-                else {
+                else if (filterFlag){
                     CustomFile.write(" public static ArrayList<" +
                             s+ "> " + operator + "(ArrayList<" + last + "> result)" + "{\n" +
 
@@ -198,6 +198,56 @@ public class UDFgenerator {
                             "return ans;\n}\n"
                     );}
 
+                else {
+                    CustomFile.write(" public static ArrayList<" +
+                            s+ "> " + operator + "(ArrayList<" + last + "> result)" + "{\n" +
+
+                            "        int callersLineNumber = Thread.currentThread().getStackTrace()[1].getLineNumber();\n" +
+                            "\n" +
+                            "        int iid = CustomArray.class.hashCode(); // this should be a random value associated with a " +
+                            "program location\n" +
+                            "        MemberRef method = new METHOD_BEGIN(Thread.currentThread().getStackTrace()[1].getClassN" +
+                            "ame(), Thread.currentThread().getStackTrace()[1].getMethodName(), \"()V\"); // containing method\n" +
+                            "TraceLogger.get().emit(new ReduceByKeyEvent(iid, method, callersLineNumber));\n"+
+                            "        ArrayList<"+s+"> ans =new ArrayList<>();\n" +
+                            "        int[][] array;  //prepare for reduce by key, array[][] records number list\n" +
+                            "        int[] num; // num[] records how many same item for one specific item\n" +
+                            "        num = new int [result.size()+1];\n" +
+                            "        array = new int [result.size()+1][result.size()+1];\n" +
+                            "        ArrayList<"+s+"> results55 = new ArrayList<>();\n" +
+                            "        for ("+s+" result1: result){\n" +
+                            "            int a = 0; //flag\n" +
+                            "            for ("+s+" result2: results55){\n" +
+                            "                if (result1._1().equals(result2._1())) {\n" +
+                            "                    num[a] = num[a] + 1;\n" +
+                            "                    a = a - 99999;\n" +
+                            "                    break;\n" +
+                            "                }\n" +
+                            "                a = a+1;\n" +
+                            "            }\n" +
+                            "            if (a>=0) {\n" +
+                            "                array[results55.size()][num[results55.size()]] = result1._2();\n" +
+                            "                num[results55.size()]=1;\n" +
+                            "                results55.add(result1);\n" +
+                            "            }\n" +
+                            "            else {\n" +
+                            "                array[a+99999][num[a+99999]] = result1._2();\n" +
+                            "            }\n" +
+                            "        }\n" +
+                            "\n" +
+                            "        int a=0;\n" +
+                            "        for ("+s+" results: results55)\n" +
+                            "        {\n" +
+                            "            int k = 0;\n" +
+                            "            for (int i=0;i<num[a];i++) {\n" +
+                            "                k="+checkName(Line)+"(array[a]);\n" +
+                            "            }\n" +
+                            "            ans.add(new "+s+"(results._1(),k));\n" +
+                            "            a=a+1;\n" +
+                            "        }\n" +
+                            "        return ans;\n" +
+                            "    }");//not finished
+                }
 
                 last = s;
 

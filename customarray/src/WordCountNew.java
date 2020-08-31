@@ -1,14 +1,13 @@
-import edu.ucla.cs.bigfuzz.customarray.WordCountNewCustomArray;
-import edu.ucla.cs.bigfuzz.customarray.CustomArray;
+import edu.ucla.cs.bigfuzz.customarray.*;
 import javafx.util.Pair;
-import java.io.File;
+import scala.*;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Map;
 public class WordCountNew {
 public void WordCountNew(String inputFile) throws IOException {
-String results0 = CustomArray.readStr(inputFile);
-ArrayList<Object> results1 = WordCountNewCustomArray.FlatMap1(results0);
-ArrayList<Object> results2 = WordCountNewCustomArray.Map1(results1);
-ArrayList<Object> results3 = WordCountNewCustomArray.ReduceByKey1(results2);
+ArrayList<String> results0 = CustomArray.read(inputFile);
+ArrayList< Object[]>results1 = WordCountNewCustomArray.FlatMap1(results0);
+ArrayList< map2>results2 = WordCountNewCustomArray.Map1(results1);
+ArrayList< map2>results3 = WordCountNewCustomArray.ReduceByKey1(results2);
 }}

@@ -10,8 +10,8 @@ public class map2 {
 String sa,sb;
 
 int ia,ib;
-public int _1(){
-	return ia;
+public String _1(){
+	return sa;
 }
 public int _2(){
 	return ib;
