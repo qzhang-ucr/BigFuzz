@@ -158,8 +158,15 @@ public class UDFgenerator {
                 boolean reduceByKeyFlag= operator.substring(0,operator.length()-1).equals("ReduceByKey");
                 if (filterFlag || reduceByKeyFlag) {s = last;}
                 type.add(s);
-                System.out.println(s);
 
+                int flagFlatMapLast = 1;
+                String finalLine = "";
+                if (last.equals(" String[]")){
+                    finalLine = "for ( String[] results: result){for(String R: results) {ans.add("+checkName(Line)+"( R));}}\n";
+                }
+                else {
+                    finalLine = "for (" + last + " results: result)" + "{ans.add( "+ checkName(Line) + "( results));}\n";
+                }
                 if ((!filterFlag)&(!reduceByKeyFlag)){
                 CustomFile.write(" public static ArrayList<" +
                         s+ "> " + operator + "(ArrayList<" + last + "> result)" + "{\n" +
@@ -174,8 +181,7 @@ public class UDFgenerator {
                         "        ArrayList<" + s + "> ans = new ArrayList<>();\n" +
                         "        TraceLogger.get().emit(new " + operator.substring(0, operator.length() - 1) +
                         "Event(iid, m" +
-                        "ethod, callersLineNumber));\n" + "for (" + last + " results: result)" + "{ans.add( " +
-                        checkName(Line) + "( results));}\n" + "return ans;\n}\n"
+                        "ethod, callersLineNumber));\n" + finalLine + "return ans;\n}\n"
                 );}
 
                 else if (filterFlag){
@@ -208,7 +214,7 @@ public class UDFgenerator {
                             "program location\n" +
                             "        MemberRef method = new METHOD_BEGIN(Thread.currentThread().getStackTrace()[1].getClassN" +
                             "ame(), Thread.currentThread().getStackTrace()[1].getMethodName(), \"()V\"); // containing method\n" +
-                            "TraceLogger.get().emit(new ReduceByKeyEvent(iid, method, callersLineNumber));\n"+
+                            "        TraceLogger.get().emit(new ReduceByKeyEvent(iid, method, callersLineNumber));\n"+
                             "        ArrayList<"+s+"> ans =new ArrayList<>();\n" +
                             "        int[][] array;  //prepare for reduce by key, array[][] records number list\n" +
                             "        int[] num; // num[] records how many same item for one specific item\n" +

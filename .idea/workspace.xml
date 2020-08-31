@@ -10,7 +10,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customarray/src/WordCountNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/WordCountNew.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/WordCountNewCustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/WordCountNewCustomArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/map2.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/map2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/flatMap3.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/flatMap3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/transformer/src/main/java/ToComplie.java" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/src/main/java/ToComplie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/transformer/src/main/java/UDFgenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/src/main/java/UDFgenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/transformer/target/classes/ToComplie.class" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/target/classes/ToComplie.class" afterDir="false" />
@@ -38,24 +38,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>filter</find>
-      <find>mutation</find>
-      <find>Commute</find>
-      <find>File</find>
-      <find>FileInputStream</find>
-      <find>Write</find>
-      <find>writeFile</find>
-      <find>MutationTemplate</find>
-      <find>Output</find>
-      <find>close</find>
-      <find>CustomMutation</find>
-      <find>rows</find>
-      <find>println</find>
-      <find>System.out</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -191,7 +173,7 @@
       <workItem from="1596516065328" duration="544000" />
       <workItem from="1597807869303" duration="3715000" />
       <workItem from="1598287493124" duration="4395000" />
-      <workItem from="1598817823092" duration="2617000" />
+      <workItem from="1598817823092" duration="8483000" />
     </task>
     <servers />
   </component>
@@ -229,21 +211,25 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1358" height="202" key="GridCell.Tab.0.bottom" timestamp="1597814277014">
-      <screen x="0" y="23" width="1440" height="823" />
+    <state width="1358" height="202" key="GridCell.Tab.0.bottom" timestamp="1598890142668">
+      <screen x="0" y="23" width="1440" height="814" />
     </state>
+    <state width="1358" height="202" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1598890142668" />
     <state width="1358" height="202" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1597814277014" />
-    <state width="1358" height="202" key="GridCell.Tab.0.center" timestamp="1597814277013">
-      <screen x="0" y="23" width="1440" height="823" />
+    <state width="1358" height="202" key="GridCell.Tab.0.center" timestamp="1598890142667">
+      <screen x="0" y="23" width="1440" height="814" />
     </state>
+    <state width="1358" height="202" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1598890142667" />
     <state width="1358" height="202" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1597814277013" />
-    <state width="1358" height="202" key="GridCell.Tab.0.left" timestamp="1597814277013">
-      <screen x="0" y="23" width="1440" height="823" />
+    <state width="1358" height="202" key="GridCell.Tab.0.left" timestamp="1598890142666">
+      <screen x="0" y="23" width="1440" height="814" />
     </state>
+    <state width="1358" height="202" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1598890142666" />
     <state width="1358" height="202" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1597814277013" />
-    <state width="1358" height="202" key="GridCell.Tab.0.right" timestamp="1597814277014">
-      <screen x="0" y="23" width="1440" height="823" />
+    <state width="1358" height="202" key="GridCell.Tab.0.right" timestamp="1598890142668">
+      <screen x="0" y="23" width="1440" height="814" />
     </state>
+    <state width="1358" height="202" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1598890142667" />
     <state width="1358" height="202" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1597814277014" />
     <state x="142" y="23" key="SettingsEditor" timestamp="1596516357106">
       <screen x="0" y="23" width="1440" height="823" />

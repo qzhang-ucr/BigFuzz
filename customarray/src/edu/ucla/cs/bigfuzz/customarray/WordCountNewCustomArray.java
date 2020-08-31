@@ -16,18 +16,18 @@ import java.util.*;public class WordCountNewCustomArray {
     public void WordCountNewCustomArray() {
 
     }
- public static ArrayList< Object[]> FlatMap1(ArrayList<String> result){
+ public static ArrayList< String[]> FlatMap1(ArrayList<String> result){
         int callersLineNumber = Thread.currentThread().getStackTrace()[1].getLineNumber();
 
         int iid = CustomArray.class.hashCode(); // this should be a random value associated with a program location
         MemberRef method = new METHOD_BEGIN(Thread.currentThread().getStackTrace()[1].getClassName(), Thread.currentThread().getStackTrace()[1].getMethodName(), "()V"); // containing method
 
-        ArrayList< Object[]> ans = new ArrayList<>();
+        ArrayList< String[]> ans = new ArrayList<>();
         TraceLogger.get().emit(new FlatMapEvent(iid, method, callersLineNumber));
 for (String results: result){ans.add( flatMap3.apply( results));}
 return ans;
 }
- public static ArrayList< map2> Map1(ArrayList< Object[]> result){
+ public static ArrayList< map2> Map1(ArrayList< String[]> result){
         int callersLineNumber = Thread.currentThread().getStackTrace()[1].getLineNumber();
 
         int iid = CustomArray.class.hashCode(); // this should be a random value associated with a program location
@@ -35,7 +35,7 @@ return ans;
 
         ArrayList< map2> ans = new ArrayList<>();
         TraceLogger.get().emit(new MapEvent(iid, method, callersLineNumber));
-for ( Object[] results: result){ans.add( map2.apply( results));}
+for ( String[] results: result){for(String R: results) {ans.add(map2.apply( R));}}
 return ans;
 }
  public static ArrayList< map2> ReduceByKey1(ArrayList< map2> result){
@@ -43,7 +43,7 @@ return ans;
 
         int iid = CustomArray.class.hashCode(); // this should be a random value associated with a program location
         MemberRef method = new METHOD_BEGIN(Thread.currentThread().getStackTrace()[1].getClassName(), Thread.currentThread().getStackTrace()[1].getMethodName(), "()V"); // containing method
-TraceLogger.get().emit(new ReduceByKeyEvent(iid, method, callersLineNumber));
+        TraceLogger.get().emit(new ReduceByKeyEvent(iid, method, callersLineNumber));
         ArrayList< map2> ans =new ArrayList<>();
         int[][] array;  //prepare for reduce by key, array[][] records number list
         int[] num; // num[] records how many same item for one specific item

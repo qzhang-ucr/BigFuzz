@@ -150,12 +150,11 @@ public class ToComplie {
         for (String line: sourceCode){
             if (line.length()>10){
             String a=line.substring(0,11);
-            System.out.println(line);
+
             if (a.equals("ArrayList<>")) {
                 a=a.substring(0,9)+"<"+type.get(k)+">"+ line.substring(12);
                 codeFile.write(a+"\n");
                 k=k+1;
-                System.out.println(a);
                 }
             else codeFile.write(line+"\n");
             }

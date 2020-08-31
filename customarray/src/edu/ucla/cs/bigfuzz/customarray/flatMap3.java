@@ -4,7 +4,7 @@ public class flatMap3 {
    public static void main(String[] args) { 
        apply("");
    }
-  static final Object[] apply(String line){
+  static final String[] apply(String line){
   return (line.split(","));
 }
 }
