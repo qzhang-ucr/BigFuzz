@@ -10,7 +10,7 @@ import java.time.temporal.ChronoUnit;
 public class BigFuzzDriver {
     public static void main(String[] args) {
         if (args.length < 2) {
-            System.err.println("Usage: java " + BigFuzzDriver.class + " TEST_CLASS TEST_METHOD [OUTPUT_DIR [SEEDS...]]");
+            System.err.println("Usage: java " + BigFuzzDriver.class + " TEST_CLASS TEST_METHOD [MAX_TRIALS]");
             System.exit(1);
         }
 
@@ -20,17 +20,17 @@ public class BigFuzzDriver {
         System.out.println("maxTrials: "+maxTrials);
 //        File outputDirectory = new File("../fuzz-results");
 
-//        String file = "/Users/zhuhaichao/Documents/Workspace/github/BigFuzz/dataset/salary1.csv";
-        //String file = "dataset/salary1.csv";
-        String file = "/home/qzhang/Programs/BigFuzz/dataset/config";
+
+        String file = "/home/qzhang/Programs/BigFuzz/dataset/conf";
        try {
            long startTime = System.currentTimeMillis();
 
             String title = testClassName+"#"+testMethodName;
-            //NoGuidance guidance = new NoGuidance(file, maxTrials, System.err);
-            Duration duration = Duration.of(100, ChronoUnit.SECONDS);
-            BigFuzzGuidance guidance = new BigFuzzGuidance("Test1", file, maxTrials, duration, System.err);
-            // Run the Junit test
+              Duration duration = Duration.of(100, ChronoUnit.SECONDS);
+             //NoGuidance guidance = new NoGuidance(file, maxTrials, System.err);
+             BigFuzzGuidance guidance = new BigFuzzGuidance("Test1", file, maxTrials, duration, System.err);
+
+             // Run the Junit test
             GuidedFuzzing.run(testClassName, testMethodName, guidance, System.out);
 
             if (Boolean.getBoolean("jqf.logCoverage")) {

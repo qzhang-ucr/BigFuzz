@@ -14,7 +14,7 @@
     <orderEntry type="library" name="Maven: org.scala-lang:scala-library:2.12.4" level="project" />
     <orderEntry type="library" name="org.apache.spark:spark-core_2.10:2.1.0" level="project" />
     <orderEntry type="module" module-name="bigfuzz-guidance" />
-    <orderEntry type="module" module-name="jqf-instrument" />
+    <orderEntry type="module" module-name="bigfuzz-instrument" />
     <orderEntry type="library" name="scala-sdk-2.11.8" level="application" />
     <orderEntry type="library" name="Maven: org.scalaz:scalaz-core_2.12:7.2.15" level="project" />
   </component>

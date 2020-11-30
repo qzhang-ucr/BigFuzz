@@ -4,10 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/customarray/bigfuzz-dfcoverage.iml" filepath="$PROJECT_DIR$/customarray/bigfuzz-dfcoverage.iml" />
       <module fileurl="file://$PROJECT_DIR$/fuzz/bigfuzz-guidance.iml" filepath="$PROJECT_DIR$/fuzz/bigfuzz-guidance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/instrument/bigfuzz-instrument.iml" filepath="$PROJECT_DIR$/instrument/bigfuzz-instrument.iml" />
       <module fileurl="file://$PROJECT_DIR$/transformer/bigfuzz-transformer.iml" filepath="$PROJECT_DIR$/transformer/bigfuzz-transformer.iml" />
       <module fileurl="file://$PROJECT_DIR$/jqf.iml" filepath="$PROJECT_DIR$/jqf.iml" />
       <module fileurl="file://$PROJECT_DIR$/examples/jqf-examples.iml" filepath="$PROJECT_DIR$/examples/jqf-examples.iml" />
-      <module fileurl="file://$PROJECT_DIR$/instrument/jqf-instrument.iml" filepath="$PROJECT_DIR$/instrument/jqf-instrument.iml" />
       <module fileurl="file://$PROJECT_DIR$/maven-plugin/jqf-maven-plugin.iml" filepath="$PROJECT_DIR$/maven-plugin/jqf-maven-plugin.iml" />
     </modules>
   </component>

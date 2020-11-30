@@ -4,7 +4,7 @@
     <root id="archive" name="bigfuzz-dfcoverage.jar">
       <element id="module-output" name="bigfuzz-dfcoverage" />
       <element id="module-output" name="bigfuzz-guidance" />
-      <element id="module-output" name="jqf-instrument" />
+      <element id="module-output" name="bigfuzz-instrument" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/ow2/asm/asm-tree/6.2.1/asm-tree-6.2.1.jar" path-in-jar="/" />

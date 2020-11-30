@@ -18,19 +18,21 @@ public class SalaryAnalysisDriver {
 //        byte[] bytes = fileName.getBytes();
         System.out.println("SalaryAnalysisDriver::testSalaryAnalysis: "+fileName);
         SalaryAnalysis analysis = new SalaryAnalysis();
-        //fileName = "/home/qzhang/Downloads/BigTest-JPF-integrated/benchmarks/src/datasets/salary.csv";
+        System.out.println(fileName);
         List<String> fileList = Files.readAllLines(Paths.get(fileName));
         System.out.println(fileList.size());
         analysis.SalaryAnalysis(fileList.get(0));
-
-    //    CommuteType analysis = new CommuteType();
-    //    analysis.CommuteType(fileList.get(0), fileList.get(1));
     }
 
-//    public static void main(String[] args) throws IOException
-//    {
-//
-//        SalaryAnalysis salaryAnalysis = new SalaryAnalysis();
-//        salaryAnalysis.SalaryAnalysis("/Users/zhuhaichao/Documents/Workspace/github/BigFuzz/dataset/201910251526.csv");
-//    }
+    public static void main(String[] args) throws IOException
+    {
+
+        String fileName = "/home/qzhang/Programs/BigFuzz/dataset/conf";
+        System.out.println("SalaryAnalysisDriver::testSalaryAnalysis: "+fileName);
+        SalaryAnalysis analysis = new SalaryAnalysis();
+        System.out.println(fileName);
+        List<String> fileList = Files.readAllLines(Paths.get(fileName));
+        System.out.println(fileList.size());
+        analysis.SalaryAnalysis(fileList.get(0));
+    }
 }

@@ -18,10 +18,4 @@ public class DFOperatorDriver {
     System.out.println("file list: *****" + fileList.size());
     analysis.DFOperator(fileList.get(0));
     }
-
-//    public static void main(String[] args) throws IOException {
-//
-//        DFOperator analysis = new DFOperator();
-//        analysis.DFOperator("/home/qzhang/Programs/BigFuzz/dataset/salary1.csv");
-//    }
 }

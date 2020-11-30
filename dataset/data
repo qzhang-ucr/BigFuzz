@@ -1,6 +1,1 @@
-column
-4
-type
-float, integer, float, string
-delimeter
-,
+string [900xx], interger [0-120], integer [0-2^32]

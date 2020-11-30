@@ -50,8 +50,6 @@ public class MutationGenerator {
         String srcPath = "/home/qzhang/Programs/BigFuzz/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/MutationTemplate.java";
         String dstPath = "/home/qzhang/Programs/BigFuzz/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/CustomMutation.java";
 
-        // TODO 3: change line 125 to actual delimeter
-        // TODO 4: change line 127 to actual # of columns
 
         generateCustomedSourceFile(srcPath, dstPath, "CustomMutation", delimeter, cols);
 

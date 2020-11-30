@@ -7,7 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="bigfuzz-transformer" />
-        <module name="jqf-instrument" />
+        <module name="bigfuzz-instrument" />
         <module name="jqf-examples" />
         <module name="jqf-maven-plugin" />
         <module name="bigfuzz-guidance" />
@@ -15,10 +15,10 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="bigfuzz-guidance" target="1.8" />
+      <module name="bigfuzz-instrument" target="1.8" />
       <module name="bigfuzz-transformer" target="1.8" />
       <module name="jqf" target="1.5" />
       <module name="jqf-examples" target="1.8" />
-      <module name="jqf-instrument" target="1.8" />
       <module name="jqf-maven-plugin" target="1.8" />
     </bytecodeTargetLevel>
   </component>

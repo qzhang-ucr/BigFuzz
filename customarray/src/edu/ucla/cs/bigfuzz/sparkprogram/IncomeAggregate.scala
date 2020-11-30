@@ -13,9 +13,6 @@ object IncomeAggregate  {
 
     val text = sc.textFile(args(0));
 
-//    val text = sc.textFile("/Users/zhuhaichao/Documents/Workspace/github/BigFuzz/dataset/salary1.csv");
-//    val text = sc.textFile("/home/qzhang/Programs/BigFuzz/dataset/salary1.csv")
-
     val data = text.map {
       s =>
         val cols = s.split(",")
@@ -39,35 +36,6 @@ object IncomeAggregate  {
     val sum = pair.mapValues( x => (x, 1)).reduceByKey((x, y) => (x._1 + y._1, x._2 + y._2))
       .mapValues(x => (x._2, x._1.toDouble / x._2.toDouble))
       .foreach(println)
-
-//    (90024, 40, 5000)
-//   map s1, s2, s3 (90024, 40, 5000)
-//   filter  s1 s2 s3 (90024 xxxx)
-//    map (40-50, s3), (0-19, s3)
-//    mapvalues (label, (s3, 1))
-//    reducebykey (label (s3, +))
-//    mapvalue (label, s3/+)
-
-
-    //    try{
-    //      val sum = text.map{
-    //        line =>
-    //          if (line.substring(0, 1).equals("$")) {
-    //            val i = line.substring(1)
-    //            i
-    //          } else {
-    //            line
-    //          }
-    //      }
-    //        .map( p => Integer.parseInt(p))
-    //        .filter( r => r < 300)
-    //        .reduce(_ + _)
-    //      println(sum)
-    //    }
-    //    catch {
-    //      case e : Exception =>
-    //        e.printStackTrace()
-    //    }
 
     println("Time: " + (System.currentTimeMillis() - startTime))
   }

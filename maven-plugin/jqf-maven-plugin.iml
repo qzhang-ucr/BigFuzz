@@ -41,7 +41,7 @@
     <orderEntry type="library" name="Maven: javax.inject:javax.inject:1" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-component-annotations:1.7.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.5" level="project" />
-    <orderEntry type="module" module-name="jqf-instrument" />
+    <orderEntry type="module" module-name="bigfuzz-instrument" />
     <orderEntry type="library" name="Maven: org.ow2.asm:asm:6.2.1" level="project" />
     <orderEntry type="module" module-name="bigfuzz-guidance" />
     <orderEntry type="library" name="Maven: junit:junit:4.12" level="project" />
