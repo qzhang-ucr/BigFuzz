@@ -1,6 +1,6 @@
-package edu.ucla.cs.bigfuzz.customarray.applicable.WordCountSimple;
+package edu.ucla.cs.bigfuzz.customarray;
 
-public class reduceByKey1 {
+public class reduceByKey4 {
    public static void main(String[] args) { 
        int[] arr = {1,2,3,4};
        applyReduce(arr);

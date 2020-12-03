@@ -12,7 +12,7 @@ public class UDFgenerator {
     String name;
     String UDFfileName;
     static boolean[] used;
-    public UDFgenerator(String name, int number) throws IOException {
+    public UDFgenerator(String name) throws IOException {
         CustomFile = new FileWriter(pathw+name+"CustomArray.java");
         this.name =name;
         used = new boolean[1000];
@@ -43,15 +43,12 @@ public class UDFgenerator {
     private boolean CheckSameOperator(String operator, String fileName)
     {
         String temp = fileName.substring(0,1).toUpperCase()+fileName.substring(1);
-        //int i = Integer.parseInt(fileName.substring(fileName.length()-5));
         if (temp.length()<6) return false;
         int kk = temp.length()-6;
         while (temp.charAt(kk)>='0'&&temp.charAt(kk)<='9') kk=kk-1;
         temp = temp.substring(0,kk+1);
-        //int min = 99999;
         if (temp.equals(operator.substring(0,operator.length()-1))) {
             int i = Integer.parseInt(fileName.substring(kk+1,fileName.length()-5));
-            //used[i] = false;
             return used[i];
         }
         return false;
@@ -62,7 +59,6 @@ public class UDFgenerator {
 
         String inputFile = pathw+UDFget(operator);
         File file = new File(inputFile);
-        //ArrayList<String> list = new ArrayList<>();
         Pattern Main = Pattern.compile("main");
         Matcher Ma;
         Pattern type = Pattern.compile("static|final");
@@ -79,7 +75,6 @@ public class UDFgenerator {
             }
         }
         return "";
-        //return list;
     }
 
     private String UDFget(String operator) throws FileNotFoundException {
@@ -109,7 +104,6 @@ public class UDFgenerator {
         if (k>0)
         {
             used[k] = false;
-            //System.out.println(ans);
             return ans;
         }
         System.out.println(operator+":"+kk);
@@ -131,7 +125,6 @@ public class UDFgenerator {
 
     private String checkName(String typeLine) throws IOException {
 
-        //String typeLine = UDFreader(fileName);
         Pattern type = Pattern.compile("apply");
         Matcher m = type.matcher(typeLine);
         m.find();
@@ -152,7 +145,7 @@ public class UDFgenerator {
             if ((!operator.equals("CustomArray.read(inputFile);"))&&(!operator.equals("CustomArray.readStr(inputFile);"))) {
 
                 String Line = UDFreader(operator);
-                //System.out.println(UDFfileName);
+                System.out.println(operator);
                 String s = checkOutType(Line);
                 boolean filterFlag = operator.substring(0, operator.length() - 1).equals("Filter");
                 boolean reduceByKeyFlag= operator.substring(0,operator.length()-1).equals("ReduceByKey");

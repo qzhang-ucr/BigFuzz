@@ -1,4 +1,4 @@
-package edu.ucla.cs.bigfuzz.customarray;
+package edu.ucla.cs.bigfuzz.customarray.applicable.WordCountSimple;
 
 public class flatMap3 {
    public static void main(String[] args) { 

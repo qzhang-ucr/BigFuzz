@@ -4,6 +4,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 
+/*Main class: */
+
 public class ToComplie {
     private static String[] constLibrary = new String[]{"Map","Filter",
             "MapValues","ReduceByKey","MapToPair","FlatMap",
@@ -36,7 +38,6 @@ public class ToComplie {
 
         ArrayList<String> list = new ArrayList<>();
         list.add("import edu.ucla.cs.bigfuzz.customarray.*;");
-        //list.add("import edu.ucla.cs.bigfuzz.customarray.CustomArray;");
         list.add("import javafx.util.Pair;");
         list.add("import scala.*;");
         list.add("import java.io.IOException;");
@@ -49,7 +50,6 @@ public class ToComplie {
         Matcher m;
         Pattern mai = Pattern.compile("def main");
         ArrayList<String> mapToVar = new ArrayList<>();
-        int k=1;
 
         boolean findAlready;
         boolean main=false;
@@ -131,15 +131,14 @@ public class ToComplie {
 
         String pathr = "customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/";
         String pathw = "customarray/src/";
-        String name = "WordCountNew";
-        String JadPath = pathw+"edu/ucla/cs/bigfuzz/customarray/";
+        String name = "CommuteType";
         sourceCode = reader(pathr+name+".scala");
         //String name =args[1];
 
         //ArrayList<String> JadSourceCode = reader(JadPath+"Test2$.java");
 
         sourceCode = Refactor(sourceCode, name);
-        UDFgenerator UDF = new UDFgenerator(name,operatorLine.size());
+        UDFgenerator UDF = new UDFgenerator(name);
         ArrayList<String> type=UDF.UDFset(operatorLine);
         int k=0;
 
@@ -166,8 +165,6 @@ public class ToComplie {
         }
         driveFile.close();
 
-
-        //jad.FindUDF(JadSourceCode,operatorLine);
 
 
     }

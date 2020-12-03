@@ -3,10 +3,12 @@ import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/* change for to while. Input: scala source code; Output: scala source code */
+
+
 public class Forchange {
 
     private static boolean ForDectect = true;
-    static int numberOfExFun=0;
 
     private static ArrayList<String> reader(String inputFile) throws IOException {
         File file = new File(inputFile);
@@ -27,25 +29,6 @@ public class Forchange {
         }
         return list;
     }
-    /*private static ArrayList<String> changeDef(ArrayList<String> source){
-        Pattern defFind = Pattern.compile("def");
-        Pattern mainFind = Pattern.compile("main");
-        Matcher m;
-        ArrayList<String> ExternalUDF = new ArrayList<>();
-        for (String line: source){
-            m = defFind.matcher(line);
-            if (m.find()){
-                Matcher m1 = mainFind.matcher(line);
-                if (m1.find()) continue;
-                else {
-                    ExternalUDF.add("public class ExFun"+numberOfExFun+"{");
-                    ExternalUDF.add("static final ");
-
-
-                }
-            }
-        }
-    }*/
 
     private static ArrayList<String> change(ArrayList<String> source){
         Pattern ForFind = Pattern.compile("for \\(|for\\(");

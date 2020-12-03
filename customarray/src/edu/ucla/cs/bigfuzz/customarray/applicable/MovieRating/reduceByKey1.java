@@ -1,4 +1,4 @@
-package edu.ucla.cs.bigfuzz.customarray.applicable.WordCountSimple;
+package edu.ucla.cs.bigfuzz.customarray.applicable.MovieRating;
 
 public class reduceByKey1 {
    public static void main(String[] args) { 

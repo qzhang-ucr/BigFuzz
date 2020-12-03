@@ -8,11 +8,22 @@
   <component name="ChangeListManager">
     <list default="true" id="2774e54c-0a4f-4f30-9e38-c5ee0352aa9a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/CommuteType.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/CommuteType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/CommuteTypeDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/CommuteTypeDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/MovieRating.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/MovieRating.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/MovieRatingDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/MovieRatingDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/WordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/WordCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/WordCountDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/WordCountDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customarray/src/WordCountNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/WordCountNew.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/WordCountNewCustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/WordCountNewCustomArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/flatMap3.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/flatMap3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/WordCountSimple/WordCountNewCustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/WordCountSimple/WordCountNewCustomArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/WordCountSimple/flatMap3.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/WordCountSimple/flatMap3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/WordCountSimple/map2.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/WordCountSimple/map2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/WordCountSimple/reduceByKey1.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/WordCountSimple/reduceByKey1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transformer/src/main/java/Forchange.java" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/src/main/java/Forchange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transformer/src/main/java/JavaToComplie.java" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/src/main/java/JavaToComplie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/transformer/src/main/java/ToComplie.java" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/src/main/java/ToComplie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/transformer/src/main/java/UDFgenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/src/main/java/UDFgenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transformer/target/classes/META-INF/parse.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/transformer/target/classes/ToComplie.class" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/target/classes/ToComplie.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/transformer/target/classes/UDFgenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/target/classes/UDFgenerator.class" afterDir="false" />
     </list>
@@ -73,31 +84,32 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/transformer/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2764706" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/dataset" />
-      <recent name="$PROJECT_DIR$/TestCases/src/edu/ucla/cs/bigfuzz" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-      <recent name="edu.ucla.cs.bigfuzz.sparkprogram" />
-      <recent name="edu.ucla.cs.bigfuzz" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray" />
       <recent name="$PROJECT_DIR$/transformer/src/main/java" />
       <recent name="$PROJECT_DIR$/parse" />
       <recent name="$PROJECT_DIR$/parse/src/main/java" />
       <recent name="$PROJECT_DIR$/instrument/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/events/dataflow" />
-      <recent name="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/dataflow" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.ucla.cs.bigfuzz.customarray" />
+      <recent name="" />
+      <recent name="edu.ucla.cs.bigfuzz.sparkprogram" />
+      <recent name="edu.ucla.cs.bigfuzz" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dataset" />
+      <recent name="$PROJECT_DIR$/TestCases/src/edu/ucla/cs/bigfuzz" />
     </key>
   </component>
   <component name="RunManager" selected="Application.ToComplie">
@@ -115,16 +127,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PropertyDriver (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PropertyDriver" />
-      <module name="bigfuzz-dfcoverage" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PropertyDriver (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PropertyDriver" />
-      <module name="bigfuzz-dfcoverage" />
+    <configuration name="JavaToComplie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaToComplie" />
+      <module name="bigfuzz-transformer" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -136,13 +141,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WordCountNewDriver.testWordCountNew" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bigfuzz-dfcoverage" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WordCountNewDriver" />
+      <option name="METHOD_NAME" value="testWordCountNew" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ToComplie" />
+        <item itemvalue="Application.JavaToComplie" />
+        <item itemvalue="JUnit.WordCountNewDriver.testWordCountNew" />
         <item itemvalue="Application.CommuteTypeDriver (1)" />
         <item itemvalue="Application.CommuteTypeDriver" />
-        <item itemvalue="Application.PropertyDriver (2)" />
-        <item itemvalue="Application.PropertyDriver (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -174,6 +189,7 @@
       <workItem from="1597807869303" duration="3715000" />
       <workItem from="1598287493124" duration="4395000" />
       <workItem from="1598817823092" duration="8483000" />
+      <workItem from="1606948131710" duration="5920000" />
     </task>
     <servers />
   </component>
@@ -211,35 +227,38 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1358" height="202" key="GridCell.Tab.0.bottom" timestamp="1598890142668">
-      <screen x="0" y="23" width="1440" height="814" />
+    <state x="478" y="181" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606951118519">
+      <screen x="0" y="23" width="1440" height="813" />
     </state>
+    <state x="478" y="181" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.813@0.23.1440.813" timestamp="1606951118519" />
+    <state width="1358" height="234" key="GridCell.Tab.0.bottom" timestamp="1606955699254">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state width="1358" height="234" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1606955699254" />
     <state width="1358" height="202" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1598890142668" />
-    <state width="1358" height="202" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1597814277014" />
-    <state width="1358" height="202" key="GridCell.Tab.0.center" timestamp="1598890142667">
-      <screen x="0" y="23" width="1440" height="814" />
+    <state width="1358" height="234" key="GridCell.Tab.0.center" timestamp="1606955699253">
+      <screen x="0" y="23" width="1440" height="813" />
     </state>
+    <state width="1358" height="234" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1606955699253" />
     <state width="1358" height="202" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1598890142667" />
-    <state width="1358" height="202" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1597814277013" />
-    <state width="1358" height="202" key="GridCell.Tab.0.left" timestamp="1598890142666">
-      <screen x="0" y="23" width="1440" height="814" />
+    <state width="1358" height="234" key="GridCell.Tab.0.left" timestamp="1606955699250">
+      <screen x="0" y="23" width="1440" height="813" />
     </state>
+    <state width="1358" height="234" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1606955699250" />
     <state width="1358" height="202" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1598890142666" />
-    <state width="1358" height="202" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1597814277013" />
-    <state width="1358" height="202" key="GridCell.Tab.0.right" timestamp="1598890142668">
-      <screen x="0" y="23" width="1440" height="814" />
+    <state width="1358" height="234" key="GridCell.Tab.0.right" timestamp="1606955699254">
+      <screen x="0" y="23" width="1440" height="813" />
     </state>
+    <state width="1358" height="234" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1606955699254" />
     <state width="1358" height="202" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1598890142667" />
-    <state width="1358" height="202" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1597814277014" />
-    <state x="142" y="23" key="SettingsEditor" timestamp="1596516357106">
-      <screen x="0" y="23" width="1440" height="823" />
-    </state>
-    <state x="142" y="23" key="SettingsEditor/0.23.1440.823@0.23.1440.823" timestamp="1596516357106" />
     <state x="378" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1598817823719">
       <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state x="378" y="257" key="com.intellij.ide.util.TipDialog/0.23.1440.814@0.23.1440.814" timestamp="1598817823719" />
-    <state x="378" y="260" key="com.intellij.ide.util.TipDialog/0.23.1440.823@0.23.1440.823" timestamp="1598287493074" />
+    <state x="282" y="184" width="741" height="486" key="find.popup" timestamp="1606951055199">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state x="282" y="184" width="741" height="486" key="find.popup/0.23.1440.813@0.23.1440.813" timestamp="1606951055199" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

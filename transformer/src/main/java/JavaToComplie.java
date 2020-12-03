@@ -123,7 +123,7 @@ public class JavaToComplie {
         String pathw = "customarray/src/";
         sourceCode = reader(pathr+"WordCount.java");
         JavaUDF a = new JavaUDF();
-        //String name =args[1];
+
         String name = "WordCount";
         ArrayList<String> NewSourceCode = sourceCode;
         sourceCode = Refactor(sourceCode, name);
@@ -141,7 +141,7 @@ public class JavaToComplie {
         }
         driveFile.close();
         a.FindUDF(NewSourceCode,operatorLine);
-        UDFgenerator UDF = new UDFgenerator(name,operatorLine.size());
+        UDFgenerator UDF = new UDFgenerator(name);
         UDF.UDFset(operatorLine);
     }
 }
