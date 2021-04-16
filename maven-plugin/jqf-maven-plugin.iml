@@ -59,5 +59,6 @@
     <orderEntry type="library" name="Maven: org.ow2.asm:asm-commons:6.2.1" level="project" />
     <orderEntry type="library" name="Maven: org.ow2.asm:asm-analysis:6.2.1" level="project" />
     <orderEntry type="library" name="Maven: org.ow2.asm:asm-tree:6.2.1" level="project" />
+    <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.6" level="project" />
   </component>
 </module>

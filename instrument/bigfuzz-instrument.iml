@@ -10,7 +10,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="classes" level="project" />
     <orderEntry type="library" name="Maven: org.ow2.asm:asm:6.2.1" level="project" />
   </component>
 </module>

@@ -5,7 +5,8 @@ import edu.ucla.cs.bigfuzz.dataflow.*;
 import edu.ucla.cs.bigfuzz.sparkprogram.WordCount;
 import janala.logger.inst.METHOD_BEGIN;
 import janala.logger.inst.MemberRef;
-import javafx.util.Pair;
+import org.apache.commons.lang3.tuple.ImmutablePair;
+import org.apache.commons.lang3.tuple.Pair;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -157,7 +158,7 @@ public class CustomArray {
             {
                 key = ">65";
             }
-            ret.add(new Pair<String, Integer>(key, salary));
+            ret.add(new ImmutablePair<>(key, salary));
         }
         return ret;
     }
@@ -175,7 +176,7 @@ public class CustomArray {
         ArrayList<Pair<String, Pair<Integer, Integer>>> ret = new ArrayList<Pair<String, Pair<Integer, Integer>>>();
         for(Pair<String, Integer> item:arrayList)
         {
-            ret.add(new Pair<String, Pair<Integer, Integer>>(item.getKey(), new Pair<Integer, Integer>(item.getValue(), 1)));
+            ret.add(new ImmutablePair<>(item.getKey(), new ImmutablePair<Integer, Integer>(item.getValue(), 1)));
         }
         return ret;
     }
@@ -192,10 +193,10 @@ public class CustomArray {
 
 
         Map<String, Pair<Integer, Integer>> res = new HashMap<>();
-        res.put("0-19", new Pair<Integer, Integer>(0,0));
-        res.put("20-40", new Pair<Integer, Integer>(0,0));
-        res.put("40-65", new Pair<Integer, Integer>(0,0));
-        res.put(">65", new Pair<Integer, Integer>(0,0));
+        res.put("0-19", new ImmutablePair<>(0,0));
+        res.put("20-40", new ImmutablePair<Integer, Integer>(0,0));
+        res.put("40-65", new ImmutablePair<Integer, Integer>(0,0));
+        res.put(">65", new ImmutablePair<Integer, Integer>(0,0));
         //System.out.println("reduceByKey1");
         for(Pair<String, Pair<Integer, Integer>> item:arrayList)
         {
@@ -203,7 +204,7 @@ public class CustomArray {
             //System.out.println(item.getKey()+", "+p.getKey()+","+p.getValue());
             int salary = p.getKey() + item.getValue().getKey();
             int count = p.getValue() + item.getValue().getValue();
-            Pair<Integer, Integer> newp = new Pair<Integer, Integer>(salary, count);
+            Pair<Integer, Integer> newp = new ImmutablePair<Integer, Integer>(salary, count);
             res.put(item.getKey(), newp);
             p = res.get(item.getKey());
             //System.out.println(item.getKey()+", "+p.getKey()+","+p.getValue());

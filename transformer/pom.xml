@@ -6,10 +6,11 @@
         <artifactId>jqf</artifactId>
         <groupId>edu.berkeley.cs.jqf</groupId>
         <version>1.2-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>parse</artifactId>
+    <artifactId>transformer</artifactId>
 
 
 </project>

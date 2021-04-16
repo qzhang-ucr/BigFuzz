@@ -14,8 +14,8 @@ object CommuteType{
     val startTime = System.currentTimeMillis();
     val sc = new SparkContext(conf)
 
-    val data_trip = sc.textFile("/home/qzhang/Programs/BigFuzz-TestPrograms/src/dataset/trips.csv")
-    val data_zipcode = sc.textFile("/home/qzhang/Programs/BigFuzz-TestPrograms/src/dataset/zipcode.csv")
+    val data_trip = sc.textFile("dataset/trips.csv")
+    val data_zipcode = sc.textFile("dataset/zipcode.csv")
 
     val trips = data_trip.map {
       s =>

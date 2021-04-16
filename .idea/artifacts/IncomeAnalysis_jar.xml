@@ -162,7 +162,6 @@
       <element id="extracted-dir" path="$PROJECT_DIR$/fuzz/target/dependency/org.jacoco.report-0.8.2.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/fuzz/target/dependency/junit-quickcheck-core-0.8.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/fuzz/target/dependency/junit-quickcheck-generators-0.8.jar" path-in-jar="/" />
-      <element id="library" level="project" name="classes2" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/ow2/asm/asm-analysis/6.2.1/asm-analysis-6.2.1.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/ow2/asm/asm-commons/6.2.1/asm-commons-6.2.1.jar" path-in-jar="/" />

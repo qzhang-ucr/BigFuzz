@@ -12,7 +12,7 @@ object MovieRating {
     val startTime = System.currentTimeMillis();
     val sc = new SparkContext(conf)
 
-    val text = sc.textFile("/home/qzhang/Programs/BigFuzz-TestPrograms/src/dataset/movie.csv")
+    val text = sc.textFile("dataset/movie.csv")
     val rates = text.map { line =>
       val arr = line.split(":")
       val movie_str = arr(0)

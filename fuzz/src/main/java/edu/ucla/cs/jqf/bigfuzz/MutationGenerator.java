@@ -8,7 +8,7 @@ public class MutationGenerator {
 
     public static void main(String[] args) throws IOException {
         //read data type file in
-        String datafile = "/home/qzhang/Programs/BigFuzz/dataset/data";
+        String datafile = "dataset/data";
         //TODO 1: get the # of columns and delimeter in data file
         FileInputStream inputStream = new FileInputStream(datafile);
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
@@ -47,8 +47,8 @@ public class MutationGenerator {
         //File dst = new File(fileName);
 
         //TODO 2: change the Class Name to FindSalaryMutation
-        String srcPath = "/home/qzhang/Programs/BigFuzz/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/MutationTemplate.java";
-        String dstPath = "/home/qzhang/Programs/BigFuzz/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/CustomMutation.java";
+        String srcPath = "fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/MutationTemplate.java";
+        String dstPath = "fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/CustomMutation.java";
 
 
         generateCustomedSourceFile(srcPath, dstPath, "CustomMutation", delimeter, cols);

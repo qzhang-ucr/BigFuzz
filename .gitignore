@@ -3,6 +3,9 @@
 .idea/*
 classes/*
 target/*
-*/target/*
+**/target
 *.class
 *.log
+fuzz/target/
+# Ignores crash reports & sample data
+2021*

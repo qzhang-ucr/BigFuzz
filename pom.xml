@@ -65,7 +65,7 @@
         <module>instrument</module>
         <module>examples</module>
         <module>maven-plugin</module>
-        <module>parse</module>
+        <module>transformer</module>
     </modules>
 
     <dependencyManagement>
@@ -166,7 +166,7 @@
                 <plugin>
                     <groupId>edu.berkeley.cs.jqf</groupId>
                     <artifactId>jqf-maven-plugin</artifactId>
-                    <version>1.2-SNAPSHOT</version>
+                    <version>1.2</version>  <!-- Use release version to avoid import error -->
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>

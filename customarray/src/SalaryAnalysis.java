@@ -1,6 +1,7 @@
 import edu.ucla.cs.bigfuzz.customarray.CustomArray;
 import edu.ucla.cs.bigfuzz.customarray.SalaryItem;
-import javafx.util.Pair;
+import org.apache.commons.lang3.tuple.Pair;
+
 //import org.supercsv.cellprocessor.ParseDouble;
 
 import java.io.File;

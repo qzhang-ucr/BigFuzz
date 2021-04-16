@@ -23,6 +23,6 @@ public class MovieRatingDriver {
     public static void main(String[] args) throws IOException {
 
         MovieRating analysis = new MovieRating();
-        analysis.MovieRating("/home/qzhang/Programs/BigFuzz/dataset/salary1.csv");
+        analysis.MovieRating("./dataset/salary1.csv");
     }
 }
