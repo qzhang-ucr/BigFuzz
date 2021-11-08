@@ -17,5 +17,6 @@
     <orderEntry type="module" module-name="bigfuzz-instrument" />
     <orderEntry type="library" name="scala-sdk-2.11.8" level="application" />
     <orderEntry type="library" name="Maven: org.scalaz:scalaz-core_2.12:7.2.15" level="project" />
+    <orderEntry type="library" name="jline-3.19.0" level="project" />
   </component>
 </module>

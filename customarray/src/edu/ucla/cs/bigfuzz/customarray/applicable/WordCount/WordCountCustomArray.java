@@ -32,8 +32,8 @@ import java.util.*;public class WordCountCustomArray {
 
         ArrayList< mapToPair2> ans = new ArrayList<>();
         TraceLogger.get().emit(new MapToPairEvent(iid, method, callersLineNumber));
-for ( String[] results: result){for(String R: results) {ans.add( mapToPair2.apply( R));}}
-return ans;
+        for ( String[] results: result){for(String R: results) {ans.add( mapToPair2.apply( R));}}
+        return ans;
 }
  public static ArrayList< mapToPair2> ReduceByKey1(ArrayList< mapToPair2> result) throws Exception {
      int callersLineNumber = Thread.currentThread().getStackTrace()[1].getLineNumber();

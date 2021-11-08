@@ -8,16 +8,13 @@ package edu.ucla.cs.jqf.bigfuzz;
 
 
 import org.apache.commons.lang.RandomStringUtils;
-import scala.actors.threadpool.Arrays;
+//import scala.actors.threadpool.Arrays;
 
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.text.DecimalFormat;
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 
 public class ExternalUDFMutation implements BigFuzzMutation{
 

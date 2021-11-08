@@ -17,6 +17,7 @@ class ComplieTool {
         else return -1;
     }
 
+    //gets variable name in val abc = ... | will return abc
     String findVal(String line){
         Pattern val = Pattern.compile("val|JavaRDD|JavaPairRDD");
         Matcher a = val.matcher(line);
@@ -39,6 +40,7 @@ class ComplieTool {
 
         return valName;
     }
+
 
     String trace(ArrayList<String> mapToVar, String line){
         Pattern val = Pattern.compile("val|JavaRDD|JavaPairRDD");
