@@ -1,0 +1,1 @@
+sudo javac --module-path $PATH_TO_FX --add-modules=javafx.base -cp .:../../instrument/target/classes:$(ls ~/Downloads/scala-2.13.6/lib/*.jar | tr -s n :)$(ls ~/Downloads/spark-3.1.2-bin-hadoop3.2/jars/*.jar | tr -s n :)$(../../scripts/classpath.sh) DFOperatorDriver.java

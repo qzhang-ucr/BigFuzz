@@ -11,6 +11,8 @@ public class map2 {
   return (((int)s._2()) >= 40) & (((int)s._2()) <= 65) ? new map2("40-65",(int)s._3()) : (((int)s._2()) >= 20) & (((int)s._2()) < 40) ? new map2("20-39",(int)s._3()) : ((int)s._2()) >= 20 ? new map2(">65",(int)s._3()) : new map2("0-19",(int)s._3());
 }
 String sa,sb;
+    /*
+     */
 
 int ia,ib;
 public int _1(){

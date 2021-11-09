@@ -5,39 +5,43 @@
       <artifact name="IncomeAnalysis:jar" />
     </artifacts-to-build>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2774e54c-0a4f-4f30-9e38-c5ee0352aa9a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dataset/conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/IncomeAnalysis_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/IncomeAnalysis_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customarray/bigfuzz-dfcoverage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/bigfuzz-dfcoverage.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/src/DFOperatorDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/DFOperatorDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customarray/src/SalaryAnalysisDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/SalaryAnalysisDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/IncomeAggregate.scala" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/IncomeAggregate.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/WordCountNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/WordCountNew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/WordCountNewDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/WordCountNewDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/WordCount/WordCountCustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/WordCount/WordCountCustomArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/flatMap3.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/flatMap1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/inapplicable/DFOperator/map2.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/inapplicable/DFOperator/map2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customarray/target/classes/SalaryAnalysisDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/SalaryAnalysisDriver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/data" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/salary1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/salary1.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/jqf-examples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/examples/jqf-examples.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fuzz/bigfuzz-guidance.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/bigfuzz-guidance.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzGuidance.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzGuidance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/MutationGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/MutationGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/NoGuidance.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/NoGuidance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/jqf-instrument.iml" beforeDir="false" afterPath="$PROJECT_DIR$/instrument/bigfuzz-instrument.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/ExternalUDFMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/ExternalUDFMutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/MovieRatingMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/MovieRatingMutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/StudentGradeMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/StudentGradeMutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/datagen/IncomeDataGen$$anonfun$1$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/datagen/IncomeDataGen$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/datagen/IncomeDataGen$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/datagen/IncomeDataGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/junit/quickcheck/SparkJobSubmit.class" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/junit/quickcheck/SparkJobSubmit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/target/classes/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instrument/bigfuzz-instrument.iml" beforeDir="false" afterPath="$PROJECT_DIR$/instrument/bigfuzz-instrument.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jqf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jqf.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/maven-plugin/jqf-maven-plugin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/maven-plugin/jqf-maven-plugin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/janala.conf" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/janala.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/jqf-driver.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/jqf-driver.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transformer/bigfuzz-transformer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/bigfuzz-transformer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transformer/src/main/java/ComplieTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/src/main/java/ComplieTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transformer/src/main/java/ToComplie.java" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/src/main/java/ToComplie.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/classes/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/parse/target/" />
-    <ignored path="$PROJECT_DIR$/fuzz/target/" />
-    <ignored path="$PROJECT_DIR$/maven-plugin/target/" />
-    <ignored path="$PROJECT_DIR$/instrument/target/" />
-    <ignored path="$PROJECT_DIR$/examples/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,97 +57,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/IncomeAggregate.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzGuidance.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1170">
-              <caret line="86" column="45" selection-start-line="86" selection-start-column="45" selection-end-line="86" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/IncomeAggregationMutation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzMutation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/customarray/src/DFOperatorDriver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/customarray/src/DFOperator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="10" selection-start-line="10" selection-end-line="12" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/MutationGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/NoGuidance.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="69" column="51" selection-start-line="69" selection-start-column="51" selection-end-line="69" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -176,6 +89,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -239,15 +160,8 @@
       <facet id="jqf-examples/invalid/Spring" />
     </ignored-facets>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-256" />
@@ -325,7 +239,6 @@
     </panes>
   </component>
   <component name="ProjectViewState">
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -336,87 +249,89 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="jdk.selected.JAVA_MODULE" value="16" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BigTest/jpf-symbc/lib/org.eclipse.text_3.5.0.jar" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2764706" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/UDFExtractor/src" />
       <recent name="$PROJECT_DIR$/parse" />
       <recent name="$PROJECT_DIR$/parse/src/main/java" />
       <recent name="$PROJECT_DIR$/instrument/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/events/dataflow" />
-      <recent name="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/dataflow" />
-      <recent name="$PROJECT_DIR$/dataflow/src/edu/ucla/cs/jqf/instrument/dataflow" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="edu.ucla.cs.bigfuzz.sparkprogram" />
-      <recent name="edu.ucla.cs.bigfuzz" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/dataset" />
       <recent name="$PROJECT_DIR$/TestCases/src/edu/ucla/cs/bigfuzz" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.ucla.cs.bigfuzz.sparkprogram" />
+      <recent name="edu.ucla.cs.bigfuzz.customarray" />
+      <recent name="edu.ucla.cs.bigfuzz" />
+    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.SalaryAnalysisDriver (5)">
-    <configuration name="SalaryAnalysisDriver (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SalaryAnalysisDriver" />
+  <component name="RunManager" selected="Application.MatrixMinMaxNNDriver">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="udfExtractor.Main" />
+      <module name="UDFExtractor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="udfExtractor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MatrixMinMaxNN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MatrixMinMaxNN" />
       <module name="bigfuzz-dfcoverage" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SalaryAnalysisDriver (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SalaryAnalysisDriver" />
+    <configuration name="MatrixMinMaxNNDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MatrixMinMaxNNDriver" />
       <module name="bigfuzz-dfcoverage" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SalaryAnalysisDriver (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SalaryAnalysisDriver" />
-      <module name="bigfuzz-dfcoverage" />
+    <configuration name="ToComplie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ToComplie" />
+      <module name="bigfuzz-transformer" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SalaryAnalysisDriver (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SalaryAnalysisDriver" />
+    <configuration name="flatMap1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.ucla.cs.bigfuzz.customarray.applicable.MinMaxMatrixNN.flatMap1" />
       <module name="bigfuzz-dfcoverage" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SalaryAnalysisDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SalaryAnalysisDriver" />
-      <module name="bigfuzz-dfcoverage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.ucla.cs.bigfuzz.customarray.applicable.MinMaxMatrixNN.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SalaryAnalysisDriver (5)" />
-        <item itemvalue="Application.SalaryAnalysisDriver (4)" />
-        <item itemvalue="Application.SalaryAnalysisDriver (3)" />
-        <item itemvalue="Application.SalaryAnalysisDriver" />
-        <item itemvalue="Application.SalaryAnalysisDriver (2)" />
+        <item itemvalue="Application.MatrixMinMaxNNDriver" />
+        <item itemvalue="Application.MatrixMinMaxNN" />
+        <item itemvalue="Application.flatMap1" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ToComplie" />
       </list>
     </recent_temporary>
   </component>
@@ -432,6 +347,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -549,15 +465,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -576,36 +484,7 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="1172" y="479" key="#Project_Structure" timestamp="1578093426292">
-      <screen x="0" y="23" width="2560" height="1348" />
-    </state>
-    <state x="1172" y="479" key="#Project_Structure/0.23.2560.1348@0.23.2560.1348" timestamp="1578093426292" />
-    <state x="1078" y="751" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1577989939041">
-      <screen x="0" y="23" width="2560" height="1348" />
-    </state>
-    <state x="1078" y="751" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.23.2560.1348@0.23.2560.1348" timestamp="1577989939041" />
-    <state width="1358" height="287" key="GridCell.Tab.0.bottom" timestamp="1579913099387">
-      <screen x="0" y="23" width="2560" height="1344" />
-    </state>
-    <state width="1358" height="287" key="GridCell.Tab.0.bottom/0.23.2560.1344@0.23.2560.1344" timestamp="1579913099387" />
-    <state width="677" height="287" key="GridCell.Tab.0.bottom/0.23.2560.1348@0.23.2560.1348" timestamp="1578100385668" />
-    <state width="1358" height="287" key="GridCell.Tab.0.center" timestamp="1579913099387">
-      <screen x="0" y="23" width="2560" height="1344" />
-    </state>
-    <state width="1358" height="287" key="GridCell.Tab.0.center/0.23.2560.1344@0.23.2560.1344" timestamp="1579913099387" />
-    <state width="677" height="287" key="GridCell.Tab.0.center/0.23.2560.1348@0.23.2560.1348" timestamp="1578100385668" />
-    <state width="1358" height="287" key="GridCell.Tab.0.left" timestamp="1579913099386">
-      <screen x="0" y="23" width="2560" height="1344" />
-    </state>
-    <state width="1358" height="287" key="GridCell.Tab.0.left/0.23.2560.1344@0.23.2560.1344" timestamp="1579913099386" />
-    <state width="677" height="287" key="GridCell.Tab.0.left/0.23.2560.1348@0.23.2560.1348" timestamp="1578100385667" />
-    <state width="1358" height="287" key="GridCell.Tab.0.right" timestamp="1579913099387">
-      <screen x="0" y="23" width="2560" height="1344" />
-    </state>
-    <state width="1358" height="287" key="GridCell.Tab.0.right/0.23.2560.1344@0.23.2560.1344" timestamp="1579913099387" />
-    <state width="677" height="287" key="GridCell.Tab.0.right/0.23.2560.1348@0.23.2560.1348" timestamp="1578100385668" />
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -613,11 +492,14 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/ei/ZestGuidance.java</url>
           <line>341</line>
-          <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/customarray/src/CommuteType.java">

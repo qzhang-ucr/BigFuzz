@@ -1,7 +1,10 @@
+import scala.reflect.runtime.SynchronizedSymbols;
+
 import java.io.*;
 import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import scala.meta.*;
 
 
 public class ToComplie {
@@ -13,9 +16,6 @@ public class ToComplie {
     private static ArrayList<String> operatorLine = new ArrayList<>();
 
 
-
-
-
     private static ArrayList<String> reader(String inputFile) throws IOException {
         File file = new File(inputFile);
         ArrayList<String> list = new ArrayList<>();
@@ -25,12 +25,20 @@ public class ToComplie {
             String readline;
             while ((readline = br.readLine()) != null)
             {
+                System.out.println(readline);
                 list.add(readline);
             }
+        }
+        else {
+            System.err.println("File not found: "+inputFile);
         }
         return list;
     }
 
+    private static ArrayList<String> BetterRefactor(ArrayList<String> source, String name) {
+
+        return new ArrayList<String>();
+    }
 
     private static ArrayList<String> Refactor(ArrayList<String> source, String name) {
 
@@ -48,7 +56,6 @@ public class ToComplie {
         Pattern comment = Pattern.compile("^\\s+//|//");
         Matcher m;
         ArrayList<String> mapToVar = new ArrayList<>();
-
         boolean findAlready;
 
         for (String line: source){
@@ -58,7 +65,7 @@ public class ToComplie {
                 continue;
             }
             ArrayList<Integer> thisLine = a.DataFlowSequence(line);
-
+            System.out.println(thisLine);
             findAlready= a.findVal(line) != null;
             for (Integer operator: thisLine)
             {
@@ -121,9 +128,9 @@ public class ToComplie {
         //sourceCode = reader(args[0]);
         String pathr = "customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/";
         String pathw = "customarray/src/";
-        sourceCode = reader(pathr+"WordCountNew.scala");
+        sourceCode = reader(pathr+"MatrixMinMaxNN.scala");
         //String name =args[1];
-        String name = "WordCountNew";
+        String name = "MatrixMinMaxNN";
         sourceCode = Refactor(sourceCode, name);
 
         ArrayList<String> driver;
@@ -132,6 +139,7 @@ public class ToComplie {
         FileWriter driveFile = new FileWriter(pathw+name+"Driver.java");
         for (String line: sourceCode){
             codeFile.write(line+"\n");
+            System.out.println(line);
         }
         codeFile.close();
         for (String line: driver){

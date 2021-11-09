@@ -25,7 +25,7 @@ FUZZ_CLASSPATH="${FUZZ_DIR}/classes:${FUZZ_JAR}"
 # If user-defined classpath is not set, default to '.'
 if [ -z "${CLASSPATH}" ]; then
   CLASSPATH="."
-fi  
+fi
 
 # Java Agent config (can be turned off using env var)
 if [ -z "$JQF_DISABLE_INSTRUMENTATION" ]; then
