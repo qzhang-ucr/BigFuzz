@@ -93,7 +93,7 @@ public class BigFuzzGuidance implements Guidance {
     static final boolean STEAL_RESPONSIBILITY = Boolean.getBoolean("jqf.ei.STEAL_RESPONSIBILITY");
 
     protected final String initialInputFile;
-    BigFuzzMutation mutation = new IncomeAggregationMutation();
+    BigFuzzMutation mutation = new InputReductionMutation();
     private String currentInputFile;
 
     ArrayList<String> testInputFiles = new ArrayList<String>();
@@ -311,6 +311,7 @@ public class BigFuzzGuidance implements Guidance {
             }
             else {
                 try {
+		    System.out.println(currentInputFile);
                     mutation.deleteFile(currentInputFile);
                 } catch (IOException e) {
                     e.printStackTrace();
@@ -358,6 +359,7 @@ public class BigFuzzGuidance implements Guidance {
                 src.renameTo(des);
             } else {
                 try {
+		    System.out.println(currentInputFile);
                     mutation.deleteFile(currentInputFile);
                 } catch (IOException e) {
                     e.printStackTrace();

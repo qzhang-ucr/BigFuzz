@@ -16,6 +16,7 @@ public class DFOperatorDriver {
         DFOperator analysis = new DFOperator();
     List<String> fileList = Files.readAllLines(Paths.get(fileName));
     System.out.println("file list: *****" + fileList.size());
+    System.out.println("ARG TO DFO: " + fileList.get(0));
     analysis.DFOperator(fileList.get(0));
     }
 }

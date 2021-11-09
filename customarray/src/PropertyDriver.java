@@ -24,7 +24,7 @@ public class PropertyDriver {
     }
 
     public static void main(String[] args) throws IOException {
-        String fileName = "/home/qzhang/Programs/BigFuzz/dataset/salary1.csv";
+        String fileName = "/BigFuzz/dataset/salary1.csv";
         Property analysis = new Property();
         analysis.Property(fileName);
     }

@@ -21,7 +21,7 @@ public class BigFuzzDriver {
 //        File outputDirectory = new File("../fuzz-results");
 
 
-        String file = "/home/qzhang/Programs/BigFuzz/dataset/conf";
+        String file = "/BigFuzz/dataset/conf";
        try {
            long startTime = System.currentTimeMillis();
 
@@ -40,11 +40,11 @@ public class BigFuzzDriver {
 
 
            long endTime = System.currentTimeMillis();
-           System.out.println("*********Running Time：" + (endTime - startTime) + "ms");
+           System.out.println("*********Running Time:" + (endTime - startTime) + "ms");
 
        } catch (Exception e) {
-//            e.printStackTrace();
-//            System.exit(2);
+            e.printStackTrace();
+            System.exit(2);
         }
 
     }
