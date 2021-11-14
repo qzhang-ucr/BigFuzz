@@ -26,7 +26,7 @@ import gov.nasa.jpf.vm.FieldInfo;
  * if the class or name part are omitted, "*" is assumed
  * a preceeding '!' means the match is inverted
  *
- * spec examples
+ * spec main.scala.examples
  *   "x.y.Foo.bar  : field 'bar' in class 'x.y.Foo'
  *   "x.y.Foo+.bar : all 'bar' fields in 'x.y.Foo' and all its supertypes
  *   "x.y.Foo.*"   : all fields of x.y.Foo

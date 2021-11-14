@@ -21,7 +21,7 @@ public class BigFuzzDriver {
 //        File outputDirectory = new File("../fuzz-results");
 
 
-        String file = "/BigFuzz/dataset/conf";
+        String file = "/home/ahmad/Documents/VT/project1/BigFuzz/dataset/conf";
        try {
            long startTime = System.currentTimeMillis();
 

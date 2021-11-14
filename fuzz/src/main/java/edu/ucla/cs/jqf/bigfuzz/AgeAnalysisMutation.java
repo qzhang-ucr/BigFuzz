@@ -125,7 +125,7 @@ public class AgeAnalysisMutation implements BigFuzzMutation{
     }
 
     public void writeFile(String outputFile) throws IOException {
-//        String path = "/BigFuzz/dataset/" + outputFile;
+//        String path = "/home/ahmad/Documents/VT/project1/BigFuzz/dataset/" + outputFile;
         File fout = new File(outputFile);
         FileOutputStream fos = new FileOutputStream(fout);
 

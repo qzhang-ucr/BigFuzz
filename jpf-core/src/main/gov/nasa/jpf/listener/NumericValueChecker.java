@@ -36,7 +36,7 @@ import gov.nasa.jpf.vm.ThreadInfo;
 /**
  * little listener that checks value ranges of specified numeric fields and local vars
  *
- * configuration examples:
+ * configuration main.scala.examples:
  *
  *  range.fields=speed,..
  *  range.speed.field=x.y.SomeClass.velocity

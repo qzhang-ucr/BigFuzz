@@ -51,7 +51,7 @@ public class Main {
 
     //loop directory to get file list
     public static void ParseFilesInDir() throws IOException {
-        String classfile = "/home/ahmad/Documents/VTech/project1/FineGrainedDataProvenance/target/scala-2.11/classes/examples/benchmarks/input_reduction_benchmarks/MatrixMinMaxNN$"; //"/Users/malig/workspace/git/Test-Minimization-in-Big-Data/udf_extractor/target/scala-2.11/classes/WordCount$$anonfun$main$3";
+        String classfile = "/home/ahmad/Documents/VT/project1/FineGrainedDataProvenance/target/scala-2.11/classes/main.scala.examples/benchmarks/input_reduction_benchmarks/MatrixMinMaxNN$"; //"/Users/malig/workspace/git/Test-Minimization-in-Big-Data/udf_extractor/target/scala-2.11/classes/WordCount$$anonfun$main$3";
         String classFile_jad = classfile.split("/")[classfile.split("/").length-1] + ".jad";
         if(new File(classFile_jad).exists()){
             new File(classFile_jad).delete();
@@ -66,8 +66,8 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         ParseFilesInDir();
-        String classp = "/home/ahmad/Documents/VTech/project1/FineGrainedDataProvenance/target/scala-2.11/classes/examples/benchmarks/input_reduction_benchmarks/MatrixMinMaxNN$";
-        String jadp = "/home/ahmad/Documents/VTech/project1/BigFuzz/MatrixMinMaxNN$.jad";
+        String classp = "/home/ahmad/Documents/VT/project1/FineGrainedDataProvenance/target/scala-2.11/classes/main.scala.examples/benchmarks/input_reduction_benchmarks/MatrixMinMaxNN$";
+        String jadp = "/home/ahmad/Documents/VT/project1/BigFuzz/MatrixMinMaxNN$.jad";
         UDFDecompilerAndExtractor extractor = new UDFDecompilerAndExtractor(classp, jadp, "testing.java");
         try {
             extractor.ParseFilesInDir("test");
@@ -82,7 +82,7 @@ public class Main {
         try {
             // run the Unix "ps -ef" command
             // using the Runtime exec method:
-            String jad_exe = "/home/ahmad/Documents/VTech/project1/jad";
+            String jad_exe = "/home/ahmad/Documents/VT/project1/jad";
             Process p = Runtime.getRuntime().exec(jad_exe + " " + file);
             BufferedReader stdInput = new BufferedReader(new
                     InputStreamReader(p.getInputStream()));

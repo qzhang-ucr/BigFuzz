@@ -307,7 +307,7 @@ public class JPF implements Runnable {
 						SymbolicState symState = new SymbolicState();
 						SymbolicResult currentPaths = new SymbolicResult(symState);
 						//symbolicheap/StaticTest.jpf
-						Config conf1 = createConfig(new String[] {"/Users/malig/workspace/up_jpf/jpf-symbc/src/examples/flatMap5.jpf"});//"/Users/malig/workspace/up_jpf/jpf-symbc/src/examples/strings/GoodbyeWorld.jpf"});
+						Config conf1 = createConfig(new String[] {"/Users/malig/workspace/up_jpf/jpf-symbc/src/main.scala.examples/flatMap5.jpf"});//"/Users/malig/workspace/up_jpf/jpf-symbc/src/main.scala.examples/strings/GoodbyeWorld.jpf"});
 							JPF jpf = new JPF(conf1);
 							jpf.run();
 							System.out.println("JPF Finished");
@@ -320,7 +320,7 @@ public class JPF implements Runnable {
 			/// Table1
 						SymbolicState symState = new SymbolicState();
 						SymbolicResult currentPaths = new SymbolicResult(symState);
-						Config conf1 = createConfig(new String[] {"/Users/malig/workspace/up_jpf/jpf-symbc/src/examples/mapjoin1.jpf"});//"/Users/malig/workspace/up_jpf/jpf-symbc/src/examples/strings/GoodbyeWorld.jpf"});
+						Config conf1 = createConfig(new String[] {"/Users/malig/workspace/up_jpf/jpf-symbc/src/main.scala.examples/mapjoin1.jpf"});//"/Users/malig/workspace/up_jpf/jpf-symbc/src/main.scala.examples/strings/GoodbyeWorld.jpf"});
 							JPF jpf = new JPF(conf1);
 							jpf.run();
 							System.out.println("JPF Finished");
@@ -329,7 +329,7 @@ public class JPF implements Runnable {
 			/// Table 2
 							SymbolicResult currentPaths2 = new SymbolicResult(symState);
 							//symbolicheap/StaticTest.jpf
-							Config conf2 = createConfig(new String[] {"/Users/malig/workspace/up_jpf/jpf-symbc/src/examples/mapjoin2.jpf"});//"/Users/malig/workspace/up_jpf/jpf-symbc/src/examples/strings/GoodbyeWorld.jpf"});
+							Config conf2 = createConfig(new String[] {"/Users/malig/workspace/up_jpf/jpf-symbc/src/main.scala.examples/mapjoin2.jpf"});//"/Users/malig/workspace/up_jpf/jpf-symbc/src/main.scala.examples/strings/GoodbyeWorld.jpf"});
 								JPF jpf2 = new JPF(conf2);
 								jpf2.run();
 								System.out.println("JPF Finished");

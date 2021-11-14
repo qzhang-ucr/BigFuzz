@@ -10,37 +10,122 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2774e54c-0a4f-4f30-9e38-c5ee0352aa9a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_1_10_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_10_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_18.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/bigfuzz-dfcoverage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/bigfuzz-dfcoverage.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MatrixMinMax$.java" beforeDir="false" afterPath="$PROJECT_DIR$/MatrixMinMax$.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TraceEventTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/TraceEventTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UDFExtractor/UDFExtractor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UDFExtractor/UDFExtractor.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UDFExtractor/src/udfExtractor/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/UDFExtractor/src/udfExtractor/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UDFExtractor/src/udfExtractor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/UDFExtractor/src/udfExtractor/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UDFExtractor/src/udfExtractor/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/UDFExtractor/src/udfExtractor/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UDFExtractor/src/udfExtractor/SparkProgramVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/UDFExtractor/src/udfExtractor/SparkProgramVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UDFExtractor/src/udfExtractor/UDFDecompilerAndExtractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/UDFExtractor/src/udfExtractor/UDFDecompilerAndExtractor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UDFExtractor/src/udfExtractor/UDFWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/UDFExtractor/src/udfExtractor/UDFWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/CommuteTypeDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/CommuteTypeDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/ExternalUDFDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/ExternalUDFDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/InfiniteloopDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/InfiniteloopDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/MatrixMinMaxNNDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/MatrixMinMaxNNDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/MovieRatingDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/MovieRatingDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/PropertyDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/PropertyDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customarray/src/SalaryAnalysisDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/SalaryAnalysisDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/src/WordCountNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/WordCountNew.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/src/WordCountNewDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/WordCountNewDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/WordCount/WordCountCustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/WordCount/WordCountCustomArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/flatMap3.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/flatMap1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/inapplicable/DFOperator/map2.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/inapplicable/DFOperator/map2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/StudentGradesDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/StudentGradesDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/conf+cov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/conf+crash+0+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/CustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/CustomArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/MatrixMinMaxNN/DecompiledScala.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/MatrixMinMaxNN/DecompiledScala.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/InputReduction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/InputReduction.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/MatrixMinMax.scala" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/MatrixMinMax.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/WordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/WordCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/input.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/customarray/target/classes/SalaryAnalysisDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/SalaryAnalysisDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/WordCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/sparkprogram/WordCount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/conf" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/ired/config.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/ired/config.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/ired/data1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/ired/data1.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/jqf-examples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/examples/jqf-examples.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/bigfuzz-guidance.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/bigfuzz-guidance.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/examples/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/resources/META-INF/services/com.pholser.junit.quickcheck.generator.Generator" beforeDir="false" afterPath="$PROJECT_DIR$/examples/src/main/resources/META-INF/services/com.pholser.junit.quickcheck.generator.Generator" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/test/java/edu/berkeley/cs/jqf/examples/chess/MoveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/src/test/java/edu/berkeley/cs/jqf/examples/chess/MoveTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/classes/META-INF/services/com.pholser.junit.quickcheck.generator.Generator" beforeDir="false" afterPath="$PROJECT_DIR$/examples/target/classes/META-INF/services/com.pholser.junit.quickcheck.generator.Generator" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/RobustnessTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/algs4/StringSearchTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/ant/ProjectBuilderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/bcel/ParserTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/chess/FENTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/closure/CompilerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/commons/CompressTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/commons/DecompressTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/commons/HashedMapTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/commons/MathTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/commons/PatriciaTrieTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/errorprone/CompilerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/guava/CacheEvictionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/imageio/GifReaderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/imageio/JpegReaderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/imageio/PngReaderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jdk/DateFormatterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jdk/HashTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jdk/MultiThreadedTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jdk/MultiThreadedTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jdk/RegexTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jdk/SetsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jdk/SortTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jdk/URLTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jgrapht/CyclesTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jgrapht/DirectedGraphTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jgrapht/LayoutTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jgrapht/ShortestPathTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jgrapht/SimpleGraphTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jgrapht/SpanningTreeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/jgrapht/WeightedGraphTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/maven/ModelReaderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/rhino/CompilerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/tika/TikaParserTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/tomcat/HeadersTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/tomcat/ParametersTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/tomcat/WebXmlTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/trees/BinaryTreeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/edu/berkeley/cs/jqf/examples/trees/RedBlackBSTTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/org/apache/bcel/verifier/StatelessVerifierFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/org/apache/coyote/http11/HeaderParser$SocketWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/target/test-classes/org/apache/coyote/http11/HeaderParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/junit/quickcheck/FuzzStringStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/berkeley/cs/jqf/fuzz/junit/quickcheck/FuzzStringStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/AgeAnalysisMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/AgeAnalysisMutation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/ExternalUDFMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/ExternalUDFMutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/MovieRatingMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/MovieRatingMutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/StudentGradeMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/StudentGradeMutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/datagen/IncomeDataGen$$anonfun$1$$anonfun$apply$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/datagen/IncomeDataGen$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/datagen/IncomeDataGen$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/datagen/IncomeDataGen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/junit/quickcheck/SparkJobSubmit.class" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/junit/quickcheck/SparkJobSubmit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/target/classes/edu/ucla/cs/jqf/bigfuzz/BigFuzzDriver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument/bigfuzz-instrument.iml" beforeDir="false" afterPath="$PROJECT_DIR$/instrument/bigfuzz-instrument.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jqf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jqf.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-plugin/jqf-maven-plugin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/maven-plugin/jqf-maven-plugin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/jqf-driver.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/jqf-driver.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transformer/bigfuzz-transformer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/bigfuzz-transformer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transformer/src/main/java/ComplieTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/src/main/java/ComplieTool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transformer/src/main/java/ToComplie.java" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/src/main/java/ToComplie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/IncomeAggregationMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/IncomeAggregationMutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/InputReductionMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/InputReductionMutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/MutationGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/MutationGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/TestMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/TestMutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/datagen/IncomeDataGen.scala" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/datagen/IncomeDataGen.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/junit/quickcheck/FuzzStringStatement.class" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/target/classes/edu/berkeley/cs/jqf/fuzz/junit/quickcheck/FuzzStringStatement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instrument/src/main/java/janala/instrument/SnoopInstructionMethodAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/instrument/src/main/java/janala/instrument/SnoopInstructionMethodAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpf-core/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpf-core/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpf-core/eclipse/run-JPF.launch" beforeDir="false" afterPath="$PROJECT_DIR$/jpf-core/eclipse/run-JPF.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpf-core/eclipse/test-JPF.launch" beforeDir="false" afterPath="$PROJECT_DIR$/jpf-core/eclipse/test-JPF.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpf-core/jpf.properties" beforeDir="false" afterPath="$PROJECT_DIR$/jpf-core/jpf.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpf-core/nbproject/ide-file-targets.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpf-core/nbproject/ide-file-targets.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpf-core/nbproject/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpf-core/nbproject/project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpf-core/src/main/gov/nasa/jpf/JPF.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpf-core/src/main/gov/nasa/jpf/JPF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpf-core/src/main/gov/nasa/jpf/jvm/bytecode/RETURN.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpf-core/src/main/gov/nasa/jpf/jvm/bytecode/RETURN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpf-core/src/main/gov/nasa/jpf/listener/MethodAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpf-core/src/main/gov/nasa/jpf/listener/MethodAnalyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpf-core/src/main/gov/nasa/jpf/listener/NumericValueChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpf-core/src/main/gov/nasa/jpf/listener/NumericValueChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpf-core/src/main/gov/nasa/jpf/tool/RunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpf-core/src/main/gov/nasa/jpf/tool/RunTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpf-core/src/main/gov/nasa/jpf/util/FieldSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpf-core/src/main/gov/nasa/jpf/util/FieldSpec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpf-core/src/main/gov/nasa/jpf/util/MethodSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpf-core/src/main/gov/nasa/jpf/util/MethodSpec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpf-core/src/peers/gov/nasa/jpf/vm/JPF_java_lang_reflect_Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpf-core/src/peers/gov/nasa/jpf/vm/JPF_java_lang_reflect_Field.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpf-core/src/tests/gov/nasa/jpf/test/basic/JPF_gov_nasa_jpf_test_basic_MJITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpf-core/src/tests/gov/nasa/jpf/test/basic/JPF_gov_nasa_jpf_test_basic_MJITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-plugin/target/classes/edu/berkeley/cs/jqf/plugin/FuzzGoal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-plugin/target/classes/edu/berkeley/cs/jqf/plugin/ReproGoal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala_example/InputReduction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/scala_example/InputReduction.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/examples_classpath.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/examples_classpath.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/janala.conf" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/janala.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/repro_benchmark.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/repro_benchmark.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/run_benchmark.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/run_benchmark.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transformer/src/main/java/BT.java" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/src/main/java/BT.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,7 +335,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="16" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BigTest/jpf-symbc/lib/org.eclipse.text_3.5.0.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BigTest/jpf-symbc/lib/org.eclipse.jdt.core_3.5.2.v_981_R35x.jar" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2764706" />
@@ -258,13 +343,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ProvFuzz" />
+      <recent name="$PROJECT_DIR$/ProvFuzz/src" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/UDFExtractor/src" />
       <recent name="$PROJECT_DIR$/parse" />
-      <recent name="$PROJECT_DIR$/parse/src/main/java" />
-      <recent name="$PROJECT_DIR$/instrument/src/main/java/edu/berkeley/cs/jqf/instrument/tracing/events/dataflow" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ProvFuzz/src" />
+      <recent name="$PROJECT_DIR$/dataset/ired" />
       <recent name="$PROJECT_DIR$/dataset" />
       <recent name="$PROJECT_DIR$/TestCases/src/edu/ucla/cs/bigfuzz" />
     </key>
@@ -277,7 +364,14 @@
       <recent name="edu.ucla.cs.bigfuzz" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MatrixMinMaxNNDriver">
+  <component name="RunManager" selected="Application.Runner">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="ProvFuzz" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="udfExtractor.Main" />
       <module name="UDFExtractor" />
@@ -291,8 +385,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatrixMinMaxNN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MatrixMinMaxNN" />
+    <configuration name="MatrixMinMaxNNDriver (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MatrixMinMaxNNDriver" />
       <module name="bigfuzz-dfcoverage" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -305,19 +399,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToComplie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ToComplie" />
-      <module name="bigfuzz-transformer" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="flatMap1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.ucla.cs.bigfuzz.customarray.applicable.MinMaxMatrixNN.flatMap1" />
-      <module name="bigfuzz-dfcoverage" />
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="udfExtractor.Runner" />
+      <module name="UDFExtractor" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.ucla.cs.bigfuzz.customarray.applicable.MinMaxMatrixNN.*" />
+          <option name="PATTERN" value="udfExtractor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -327,11 +414,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MatrixMinMaxNNDriver" />
-        <item itemvalue="Application.MatrixMinMaxNN" />
-        <item itemvalue="Application.flatMap1" />
+        <item itemvalue="Application.Runner" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ToComplie" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.MatrixMinMaxNNDriver (1)" />
+        <item itemvalue="Application.MatrixMinMaxNNDriver" />
       </list>
     </recent_temporary>
   </component>

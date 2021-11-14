@@ -50,7 +50,7 @@ public class RETURN extends JVMReturnInstruction {
 
     } else if (mi.isClinit()) {
       // this also needs to happen in NATIVERETURN for native clinits. See comment
-      // there why we can't refactor this into DIRECTCALLRETURN
+      // there why we can't main.scala.refactor this into DIRECTCALLRETURN
       mi.getClassInfo().setInitialized();
     }
 

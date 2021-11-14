@@ -261,7 +261,7 @@ public class MethodAnalyzer extends ListenerAdapter {
   }
   
   //--- SearchListener interface
-  // <2do> this is the same as DeadlockAnalyzer, except of xxOp type -> refactor
+  // <2do> this is the same as DeadlockAnalyzer, except of xxOp type -> main.scala.refactor
   @Override
   public void stateAdvanced (Search search){
     

@@ -42,7 +42,7 @@ public class JPF_gov_nasa_jpf_test_basic_MJITest extends NativePeer {
   public void $init__I__V (MJIEnv env, int robj, int i) {
     // NOTE : if we directly intercept the ctor, then we also have
     // to take care of calling the proper superclass ctors
-    // better approach is to refactor this into a separate native method
+    // better approach is to main.scala.refactor this into a separate native method
     // (say init0(..))
     System.out.println("# entering native <init>(I)");
     env.setIntField(robj, "idata", i);

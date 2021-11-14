@@ -46,9 +46,9 @@
                     <encoding>UTF-8</encoding>
                 </source-folder>
                 <source-folder>
-                    <label>src/examples</label>
+                    <label>src/main.scala.examples</label>
                     <type>java</type>
-                    <location>src/examples</location>
+                    <location>src/main.scala.examples</location>
                     <encoding>UTF-8</encoding>
                 </source-folder>
             </folders>
@@ -95,13 +95,13 @@
                         </arity>
                     </context>
                 </action>
-                <!-- run stuff in examples -->
+                <!-- run stuff in main.scala.examples -->
                 <action name="run.single">
                     <script>nbproject/ide-file-targets.xml</script>
                     <target>run-selected-example</target>
                     <context>
                         <property>run.class</property>
-                        <folder>src/examples</folder>
+                        <folder>src/main.scala.examples</folder>
                         <pattern>\.java$</pattern>
                         <format>java-name</format>
                         <arity>
@@ -114,7 +114,7 @@
                     <target>debug-selected-example</target>
                     <context>
                         <property>debug.class</property>
-                        <folder>src/examples</folder>
+                        <folder>src/main.scala.examples</folder>
                         <pattern>\.java$</pattern>
                         <format>java-name</format>
                         <arity>
@@ -127,7 +127,7 @@
                     <target>run-selected-example-jpf</target>
                     <context>
                         <property>jpf.config</property>
-                        <folder>src/examples</folder>
+                        <folder>src/main.scala.examples</folder>
                         <pattern>\.jpf$</pattern>
                         <format>absolute-path</format>
                         <arity>
@@ -140,7 +140,7 @@
                     <target>debug-selected-example-jpf</target>
                     <context>
                         <property>jpf.config</property>
-                        <folder>src/examples</folder>
+                        <folder>src/main.scala.examples</folder>
                         <pattern>\.jpf$</pattern>
                         <format>absolute-path</format>
                         <arity>
@@ -219,7 +219,7 @@
             </export>
             <export>
                 <type>folder</type>
-                <location>build/examples</location>
+                <location>build/main.scala.examples</location>
                 <build-target>build</build-target>
             </export>
             <export>
@@ -255,8 +255,8 @@
                         <location>src/tests</location>
                     </source-folder>
                     <source-folder style="packages">
-                        <label>src/examples</label>
-                        <location>src/examples</location>
+                        <label>src/main.scala.examples</label>
+                        <location>src/main.scala.examples</location>
                     </source-folder>
                     <source-file>
                         <location>build.xml</location>
@@ -291,10 +291,10 @@
                 <source-level>1.8</source-level>
             </compilation-unit>
             <compilation-unit>
-                <package-root>src/examples</package-root>
+                <package-root>src/main.scala.examples</package-root>
                 <unit-tests/>
                 <classpath mode="compile">build/main</classpath>
-                <built-to>build/examples</built-to>
+                <built-to>build/main.scala.examples</built-to>
                 <source-level>1.8</source-level>
             </compilation-unit>
             <compilation-unit>

@@ -1,4 +1,4 @@
-package examples.benchmarks.input_reduction_benchmarks
+package main.scala.examples.benchmarks.input_reduction_benchmarks
 
 import scala.reflect.runtime.universe._
 import provenance.data.Provenance

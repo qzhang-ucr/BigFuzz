@@ -11,7 +11,7 @@ ROOT_DIR=`dirname $SCRIPT_DIR`
 # Create classpath
 cp="$ROOT_DIR/examples/target/classes:$ROOT_DIR/examples/target/test-classes"
 
-for jar in $ROOT_DIR/examples/target/dependency/*.jar; do
+for jar in $ROOT_DIR/main.scala.examples/target/dependency/*.jar; do
   cp="$cp:$jar"
 done
 

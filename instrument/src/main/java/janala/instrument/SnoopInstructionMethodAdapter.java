@@ -726,7 +726,7 @@ public class SnoopInstructionMethodAdapter extends MethodVisitor implements Opco
         //
         // XXX: This is a hack. We assume that if we see an <init> to same or
         // super class, then it must be a super() or this() call. However,
-        // there are counter-examples such as `public Foo() { super(new Foo()); }`,
+        // there are counter-main.scala.examples such as `public Foo() { super(new Foo()); }`,
         // which will cause broken class files. This comment is here as a forewarning
         // for when this situation is eventually encountered due to a bytecode
         // verification error due to stack-map frames not matching up.

@@ -47,14 +47,14 @@ public class TraceEventTest {
     @Fuzz
     public void fakeBranchEvent(int iid, int arm) {
         TraceEvent e = new BranchEvent(iid,
-                new METHOD_BEGIN("examples.A", "foo", "()V"), 0, arm);
+                new METHOD_BEGIN("main.scala.examples.A", "foo", "()V"), 0, arm);
         TraceLogger.get().emit(e);
     }
 
     @Fuzz
     public void customEvent(String data) {
         int iid = TraceEventTest.class.hashCode(); // this should be a random value associated with a program location
-        MemberRef method = new METHOD_BEGIN("examples.A", "foo", "()V"); // containing method
+        MemberRef method = new METHOD_BEGIN("main.scala.examples.A", "foo", "()V"); // containing method
         int lineNumber = 0; // line number if it exists
 
         // Generate a custom event!

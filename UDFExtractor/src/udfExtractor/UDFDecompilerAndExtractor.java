@@ -1,5 +1,6 @@
 package udfExtractor;
 
+import org.eclipse.jdt.core.compiler.IProblem;
 import org.eclipse.jdt.core.dom.*;
 import org.eclipse.jdt.core.dom.rewrite.ASTRewrite;
 import org.eclipse.jface.text.Document;
@@ -22,7 +23,7 @@ public class UDFDecompilerAndExtractor extends Logging {
     }
 
 public JPFDAGNode getDAG() {
-	
+
 	JPFDAGNode prev = null;
 	for(JPFDAGNode node  : jpf_dag ) {
 		if(prev ==null) {
@@ -36,7 +37,7 @@ public JPFDAGNode getDAG() {
 	return prev;
 }    
     
-    public void parse(String str , String jpfdir) {
+    public void parse(String str, String jpfdir) {
         ASTParser parser = ASTParser.newParser(AST.JLS3);
         Document doc = new Document(str);
         parser.setSource(doc.get().toCharArray());
@@ -48,6 +49,8 @@ public JPFDAGNode getDAG() {
         ASTRewrite rewriter = ASTRewrite.create(ast);
         cu.recordModifications();
         SparkProgramVisitor spv = new SparkProgramVisitor(this , jpfdir , rewriter);
+        for(IProblem problem : cu.getProblems()) {System.out.println(problem.getSourceLineNumber() + " > " + problem.getMessage());}
+        System.out.println("___");
         cu.accept(spv);
 //       TextEdit edits = null;
 //        edits = spv.rewrite.rewriteAST(doc, null);
@@ -84,12 +87,12 @@ public JPFDAGNode getDAG() {
     //loop directory to get file list
     public void ParseFilesInDir( String jpfdir) throws Exception {
 
-        if (new File(classFile_jad).exists()) {
-            loginfo(LogType.INFO, "Deleting file " + classFile_jad + " ...");
-            new File(classFile_jad).delete();
-        }
-        String classFile_class = classfile + ".class";
-        decompileProgram(classFile_class);
+//        if (new File(classFile_jad).exists()) {
+//            loginfo(LogType.INFO, "Deleting file " + classFile_jad + " ...");
+//            new File(classFile_jad).delete();
+//        }
+//        String classFile_class = classfile + ".class";
+//        decompileProgram(classFile_class);
         parse(readFileToString(classFile_jad), jpfdir);
     }
 
@@ -97,9 +100,18 @@ public JPFDAGNode getDAG() {
     public void decompileProgram(String file) {
         String[] args = new String[]{Configuration.JAD_EXE, file};
         runCommand(args);
+//        String out = runCommand(args);
+//        try {
+//            FileWriter fw = new FileWriter(this.classFile_jad);
+//            fw.write(out);
+//            fw.close();
+//        } catch (IOException e) {
+//            System.err.println("Error writing jad file");
+//        }
     }
 
-    public void runCommand(String[] args) {
+    public String runCommand(String[] args) {
+        StringBuilder stdout = new StringBuilder("");
         try {
             String s = "";
             for (String a : args) {
@@ -113,14 +125,16 @@ public JPFDAGNode getDAG() {
             BufferedReader stdError = new BufferedReader(new
                     InputStreamReader(p.getErrorStream()));
             // read the output from the command
-            StringBuilder stdout = new StringBuilder("");
+
             while ((s = stdInput.readLine()) != null) {
                 stdout.append(s);
+                stdout.append("\n");
             }
             loginfo(LogType.INFO, stdout.toString());
             StringBuilder stderr = new StringBuilder("");
             while ((s = stdError.readLine()) != null) {
                 stderr.append(s);
+                stderr.append("\n");
             }
             loginfo(LogType.WARN, stderr.toString());
             stdError.close();
@@ -128,5 +142,6 @@ public JPFDAGNode getDAG() {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        return stdout.toString();
     }
 }

@@ -8,5 +8,7 @@
     <orderEntry type="jdk" jdkName="16" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="org.eclipse.core.contenttype_3.4.1.R35x_v20090826-0451" level="project" />
+    <orderEntry type="library" name="org.eclipse.jdt.core-1.9.8.RC1" level="project" />
+    <orderEntry type="library" name="org.eclipse.jdt.core_3.5.2.v_981_R35x" level="project" />
   </component>
 </module>

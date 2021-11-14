@@ -3,7 +3,7 @@
 //// Decompiler options: packimports(3)
 //// Source File Name:   MatrixMinMaxNN.scala
 //
-//package examples.benchmarks.input_reduction_benchmarks;
+//package main.scala.examples.benchmarks.input_reduction_benchmarks;
 //
 //import org.apache.spark.SparkConf;
 //import org.apache.spark.SparkContext;

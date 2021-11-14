@@ -315,7 +315,7 @@ public class CustomArray {
         //int iid = CustomArray.class.hashCode(); // this should be a random value associated with a program location
         //MemberRef method = new METHOD_BEGIN(Thread.currentThread().getStackTrace()[1].getClassName(), Thread.currentThread().getStackTrace()[1].getMethodName(), "()V"); // containing method
 
-        //       MemberRef method = new METHOD_BEGIN("examples.A", "foo", "()V");
+        //       MemberRef method = new METHOD_BEGIN("main.scala.examples.A", "foo", "()V");
 
         // line number if it exists
 

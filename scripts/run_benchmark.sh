@@ -89,4 +89,4 @@ export CLASSPATH="$ROOT_DIR/examples/target/classes/:$ROOT_DIR/examples/target/t
 echo "Fuzzing method $class#$method..."
   
 "$AFL_FUZZ" $afl_options -i $input_dir -o "$output_dir" -T "$class#$method$suffix" \
-  "$ROOT_DIR/bin/jqf-afl-target" $jqf_options edu.berkeley.cs.jqf.examples."$class" "$method" "$input_file"
+  "$ROOT_DIR/bin/jqf-afl-target" $jqf_options edu.berkeley.cs.jqf.main.scala.examples."$class" "$method" "$input_file"

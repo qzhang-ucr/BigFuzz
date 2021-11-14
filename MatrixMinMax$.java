@@ -3,22 +3,22 @@
 // Decompiler options: packimports(3) 
 // Source File Name:   MatrixMinMax.scala
 
-package examples.benchmarks.input_reduction_benchmarks;
+package main.scala.examples.benchmarks.input_reduction_benchmarks;
 
-import examples.benchmarks.AggregationFunctions$;
+import main.scala.examples.benchmarks.AggregationFunctions$;
 import org.apache.spark.SparkConf;
 import org.apache.spark.SparkContext;
-import provenance.data.Provenance$;
-import provenance.rdd.PairProvenanceRDD;
-import provenance.rdd.ProvenanceRDD;
+import main.scala.provenance.data.Provenance$;
+import main.scala.provenance.rdd.PairProvenanceRDD;
+import main.scala.provenance.rdd.ProvenanceRDD;
 import scala.*;
 import scala.collection.immutable.*;
 import scala.collection.mutable.ArrayOps;
 import scala.reflect.ClassTag$;
 import scala.runtime.*;
 import sparkwrapper.SparkContextWithDP;
-import symbolicprimitives.SymFloat;
-import symbolicprimitives.SymString;
+import main.scala.symbolicprimitives.SymFloat;
+import main.scala.symbolicprimitives.SymString;
 
 public final class MatrixMinMax$
 {
@@ -67,7 +67,7 @@ public final class MatrixMinMax$
 
                     public static final long serialVersionUID = 0L;
 
-                }, Array$.MODULE$.canBuildFrom(ClassTag$.MODULE$.apply(symbolicprimitives/SymFloat)))).tail();
+                }, Array$.MODULE$.canBuildFrom(ClassTag$.MODULE$.apply(main.scala.symbolicprimitives /SymFloat)))).tail();
                 SymFloat min = (SymFloat)Predef$.MODULE$.refArrayOps((Object[])int_row).reduce(new Serializable() {
 
                     public final SymFloat apply(SymFloat acc, SymFloat e)

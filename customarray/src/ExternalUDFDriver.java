@@ -25,6 +25,6 @@ public class ExternalUDFDriver {
     public static void main(String[] args) throws IOException {
 
         ExternalUDF analysis = new ExternalUDF();
-        analysis.ExternalUDF("/BigFuzz/dataset/salary1.csv");
+        analysis.ExternalUDF("/home/ahmad/Documents/VT/project1/BigFuzz/dataset/salary1.csv");
     }
 }

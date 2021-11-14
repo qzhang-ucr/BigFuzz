@@ -125,7 +125,7 @@ public class IncomeAggregationMutation implements BigFuzzMutation{
     }
 
     public void writeFile(String outputFile) throws IOException {
-//        String path = "/BigFuzz/dataset/" + outputFile;
+//        String path = "/home/ahmad/Documents/VT/project1/BigFuzz/dataset/" + outputFile;
         File fout = new File(outputFile);
         FileOutputStream fos = new FileOutputStream(fout);
 
@@ -265,7 +265,7 @@ public class IncomeAggregationMutation implements BigFuzzMutation{
         // 1: random change into string
 //        // 2: random insert
         // 3: random delete one column
-//        // 4: random add one coumn
+//        // 4: random add one column
         String[] columns = list.get(lineNum).split(",");
 
         int method = (int)(Math.random() * 2);

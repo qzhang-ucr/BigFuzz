@@ -20,7 +20,7 @@ public class WordCount implements Serializable {
         JavaSparkContext sparkContext = new JavaSparkContext(sparkConf);
 
 //        JavaRDD<String> lines = sparkContext.textFile(inputFile);
-        JavaRDD<String> lines = sparkContext.textFile("/BigFuzz/dataset/data/");
+        JavaRDD<String> lines = sparkContext.textFile("/home/ahmad/Documents/VT/project1/BigFuzz/dataset/data/");
 
         JavaRDD words = lines.flatMap(s -> Arrays.asList(s.split(" ")).iterator());
 

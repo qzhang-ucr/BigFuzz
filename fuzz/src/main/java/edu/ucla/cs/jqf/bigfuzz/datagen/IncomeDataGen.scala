@@ -19,7 +19,7 @@ object IncomeDataGen {
     if(args.length < 2) {
       sparkConf.setMaster("local[6]")
       sparkConf.setAppName("TermVector_LineageDD").set("spark.executor.memory", "2g")
-      logFile =  "/BigFuzz/dataset/"
+      logFile =  "/home/ahmad/Documents/VT/project1/BigFuzz/dataset/"
     }else{
       logFile = args(0)
       partitions =args(1).toInt

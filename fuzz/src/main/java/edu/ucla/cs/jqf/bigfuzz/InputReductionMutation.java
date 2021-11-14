@@ -6,7 +6,7 @@ package edu.ucla.cs.jqf.bigfuzz;
  mutation for I5: unsupported DF operator
  */
 
-import org.apache.commons.lang.RandomStringUtils;
+//import org.apache.commons.lang.RandomStringUtils;
 
 import java.io.*;
 import java.nio.file.Files;
@@ -22,7 +22,8 @@ public class InputReductionMutation implements BigFuzzMutation{
     private ArrayList<Integer> nonFuzzCols = new ArrayList<Integer>();
     private ArrayList<String> fileRows = new ArrayList<String>();
     private int maxCols;
-    private String configFile = "/BigFuzz/dataset/ired/config.txt";
+    private String configFile = "/home/ahmad/Documents/VT/project1/BigFuzz/dataset/ired/config.txt";
+	private Random rand = new Random();
 
 
     public void randomDuplicateRows(ArrayList<String> rows)
@@ -85,11 +86,12 @@ public class InputReductionMutation implements BigFuzzMutation{
 	    // 		...
 
 	List<String> fileList = Files.readAllLines(Paths.get(inputFile));
+	System.out.println("mutate: " + fileList);
 	Random random = new Random();
 	parseToInts(Files.readAllLines(Paths.get(this.configFile))); 
 
 	int min = 0;
-	int max = fileList.size();
+	int max = fileList.size()-1;
 	int n = random.nextInt(max - min + 1) + min;
 	String fileToMutate = fileList.get(n);
 	mutateFile(fileToMutate);
@@ -118,12 +120,12 @@ public class InputReductionMutation implements BigFuzzMutation{
 	br.close();
 
 	//Manipulate rows here
-	
+	mutate(rows);
 	//--------------------
 	
 	fileRows = rows;
-	System.out.println(this.fileRows);
-	System.out.println(this.nonFuzzCols);
+	System.out.println("mutateFile: fileRows[0]: " + this.fileRows.get(0));
+	System.out.println("mutateFile: nonFuzzCols: " + this.nonFuzzCols);
     }
     public static String[] removeOneElement(String[] input, int index) {
 	    return new String[1];
@@ -132,9 +134,75 @@ public class InputReductionMutation implements BigFuzzMutation{
 	    return new String[1];
     }
 
-    public void mutate(ArrayList<String> list)
-    {
-    }
+	private int genValidColIndex(Random rand, int max, ArrayList<Integer> exceptions) {
+		int col;
+		while (true) {
+			col = rand.nextInt(max);
+			if (!exceptions.contains(col)) {
+				return col;
+			}
+		}
+	}
+
+	private String M1(String value) {
+		return "," + value;
+	}
+	private String M2(String value) {
+		return "," + value;
+	}
+	private String M3(String value) {
+		return "," + value;
+	}
+	private String M4(String value) {
+		return "," + value;
+	}
+	private String M5(String value) {
+		return "," + value;
+	}
+	private String M6(String value) {
+		return "," + value;
+	}
+
+	private String applyMutation(String value, int id) {
+		switch (id) {
+			case 0:
+				return M1(value);
+			case 1:
+				return M2(value);
+			case 2:
+				return M3(value);
+			case 3:
+				return M4(value);
+			case 4:
+				return M5(value);
+			case 5:
+				return M6(value);
+			default:
+				return ",<" + value + ">";
+		}
+	}
+
+    public void mutate(ArrayList<String> list) {
+		long seed = System.currentTimeMillis();
+		this.rand.setSeed(seed);
+		int toMutateIndex = this.rand.nextInt(list.size()); // pick a random row to mutate
+		String[] toMutate = list.get(toMutateIndex).split(",");
+		System.out.println("mutate: Mutating row " + toMutateIndex + ", seed = " + seed);
+		System.out.println("mutate: row = " + list.get(toMutateIndex));
+
+		// int mutateCol = genValidColIndex(this.rand, this.maxCols, this.nonFuzzCols);
+		// javac -cp .:$(~/Documents/VT/project1/BigFuzz/scripts/classpath.sh) BigFuzz* InputRed* -d ~/Documents/VT/project1/BigFuzz/fuzz/target/classes
+		//~/Documents/VT/project1/BigFuzz/bin/jqf-bigfuzz -c ~/Documents/VT/project1/BigFuzz/customarray/target/classes:$(~/Documents/VT/project1/BigFuzz/scripts/classpath.sh) MatrixMinMaxNNDriver testMatrixMinMaxNN 10
+
+		String row = toMutate[0];
+		for (int i = 1; i < toMutate.length; i++){
+			int mutationID = this.rand.nextInt(6);
+			row += applyMutation(toMutate[i], (this.nonFuzzCols.contains(i))? -1: mutationID);
+		}
+
+		list.set(toMutateIndex, row);
+		System.out.println("mutate: mutated_row = " + row);
+	}
 
     private String randomChangeByte(String instr)
     {

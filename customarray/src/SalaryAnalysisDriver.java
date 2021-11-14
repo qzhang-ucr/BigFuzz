@@ -27,7 +27,7 @@ public class SalaryAnalysisDriver {
     public static void main(String[] args) throws IOException
     {
 
-        String fileName = "/BigFuzz/dataset/conf";
+        String fileName = "/home/ahmad/Documents/VT/project1/BigFuzz/dataset/conf";
         System.out.println("SalaryAnalysisDriver::testSalaryAnalysis: "+fileName);
         SalaryAnalysis analysis = new SalaryAnalysis();
         System.out.println(fileName);

@@ -23,6 +23,6 @@ public class StudentGradesDriver {
     public static void main(String[] args) throws IOException {
 
         StudentGrades analysis = new StudentGrades();
-        analysis.StudentGrades("/BigFuzz/dataset/salary1.csv");
+        analysis.StudentGrades("/home/ahmad/Documents/VT/project1/BigFuzz/dataset/salary1.csv");
     }
 }

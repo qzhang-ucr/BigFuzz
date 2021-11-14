@@ -71,8 +71,8 @@ public class FuzzStringStatement extends Statement {
     private static final String basePath = "/Users/zhuhaichao/Desktop/";
 //    private static final String basePath = "/home/qzhang/Downloads/";
     private static final String sendKondorShellName = basePath + "submit.sh";
-    private static final String fileBasePath = "/Users/zhuhaichao/Documents/Workspace/github/BigFuzz/fuzz/target/classes/";
-//    private static final String fileBasePath = "/BigFuzz/fuzz/target/classes/";
+    private static final String fileBasePath = "/Users/zhuhaichao/Documents/Workspace/github/home/ahmad/Documents/VT/project1/BigFuzz/fuzz/target/classes/";
+//    private static final String fileBasePath = "/home/ahmad/Documents/VT/project1/BigFuzz/fuzz/target/classes/";
     private static final SparkJobSubmit SPARK_JOB_SUBMIT = new SparkJobSubmit();
     private final FrameworkMethod method;
     private final TestClass testClass;

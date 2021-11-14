@@ -8,7 +8,7 @@ public class MutationGenerator {
 
     public static void main(String[] args) throws IOException {
         //read data type file in
-        String datafile = "/BigFuzz/dataset/data";
+        String datafile = "/home/ahmad/Documents/VT/project1/BigFuzz/dataset/data";
         //TODO 1: get the # of columns and delimeter in data file
         FileInputStream inputStream = new FileInputStream(datafile);
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
@@ -42,13 +42,13 @@ public class MutationGenerator {
 
         inputStream.close();
         //copy SalaryAnalysisMutation.java
-        //File src = new File("/BigFuzz/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/MutationTemplate.java");
-        //String fileName = "/BigFuzz/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/CustomMutation.java";
+        //File src = new File("/home/ahmad/Documents/VT/project1/BigFuzz/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/MutationTemplate.java");
+        //String fileName = "/home/ahmad/Documents/VT/project1/BigFuzz/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/CustomMutation.java";
         //File dst = new File(fileName);
 
         //TODO 2: change the Class Name to FindSalaryMutation
-        String srcPath = "/BigFuzz/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/MutationTemplate.java";
-        String dstPath = "/BigFuzz/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/CustomMutation.java";
+        String srcPath = "/home/ahmad/Documents/VT/project1/BigFuzz/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/MutationTemplate.java";
+        String dstPath = "/home/ahmad/Documents/VT/project1/BigFuzz/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/CustomMutation.java";
 
 
         generateCustomedSourceFile(srcPath, dstPath, "CustomMutation", delimeter, cols);

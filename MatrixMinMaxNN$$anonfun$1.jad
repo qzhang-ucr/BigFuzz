@@ -1,0 +1,17 @@
+17:28:17.487 INFO  com.github.kwart.jd.cli.Main - Decompiling /home/ahmad/Documents/VT/project1/FineGrainedDataProvenance/target/classes/examples/benchmarks/input_reduction_benchmarks/MatrixMinMaxNN$$anonfun$1.class
+package .home.ahmad.Documents.VT.project1.FineGrainedDataProvenance.target.classes.examples.benchmarks.input_reduction_benchmarks;
+
+import examples.benchmarks.input_reduction_benchmarks.MatrixMinMaxNN$;
+import scala.Predef$;
+import scala.Serializable;
+import scala.collection.mutable.ArrayOps;
+import scala.runtime.AbstractFunction1;
+
+public final class null extends AbstractFunction1<String, ArrayOps<String>> implements Serializable {
+  public static final long serialVersionUID = 0L;
+  
+  public final ArrayOps<String> apply(String r) {
+    return Predef$.MODULE$.refArrayOps((Object[])Predef$.MODULE$.refArrayOps((Object[])r.split(",")).tail());
+  }
+}
+

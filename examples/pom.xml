@@ -7,9 +7,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>jqf-examples</artifactId>
+    <artifactId>jqf-main.scala.examples</artifactId>
 
-    <name>jqf-examples</name>
+    <name>jqf-main.scala.examples</name>
     <description>JQF: Feedback-directed Quickcheck for Java - Sample generators and benchmark tests</description>
 
     <repositories>

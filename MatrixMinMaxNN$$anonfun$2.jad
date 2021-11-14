@@ -1,0 +1,23 @@
+18:59:45.965 INFO  com.github.kwart.jd.cli.Main - Decompiling /home/ahmad/Documents/VT/project1/FineGrainedDataProvenance/target/classes/examples/benchmarks/input_reduction_benchmarks/MatrixMinMaxNN$$anonfun$2.class
+package .home.ahmad.Documents.VT.project1.FineGrainedDataProvenance.target.classes.examples.benchmarks.input_reduction_benchmarks;
+
+import examples.benchmarks.input_reduction_benchmarks.MatrixMinMaxNN$;
+import scala.Predef$;
+import scala.Serializable;
+import scala.Tuple2;
+import scala.collection.immutable.StringOps;
+import scala.runtime.AbstractFunction1;
+import scala.runtime.BoxesRunTime;
+
+public final class null extends AbstractFunction1<String, Tuple2<Object, Object>> implements Serializable {
+  public static final long serialVersionUID = 0L;
+  
+  private final int dummyKey$1;
+  
+  public final Tuple2<Object, Object> apply(String s) {
+    return new Tuple2(BoxesRunTime.boxToInteger(this.dummyKey$1), BoxesRunTime.boxToFloat((new StringOps(Predef$.MODULE$.augmentString(s))).toFloat()));
+  }
+  
+  public null(int dummyKey$1) {}
+}
+

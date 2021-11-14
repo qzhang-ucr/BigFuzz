@@ -22,7 +22,7 @@ public class UDFWriter {
     public UDFWriter(String filen, String argsmain) {
         argsToMain = argsmain;
         try {
-
+            System.out.println("Writing UDF to: " + filen);
             filename = filen.replace("$", "");
             String arr[] = filename.split("/");
             String file_name = arr[arr.length - 1];

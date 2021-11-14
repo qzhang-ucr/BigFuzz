@@ -11,15 +11,16 @@ public class Configuration extends Logging  {
     static String HOME = ""; // Project Home to extract the class files of UDFs
     static String JUNIT_HOME = "/Users/amytis/Projects/jpf/"; // Junit Home folder
     static String JAD_EXE = "/Users/amytis/Projects/Test-Minimization-in-Big-Data/udf_extractor/jadmx158/jad";
-    static String JAVA_RUN_DIR = "/Users/amytis/Projects/jpf/jpf-symbc/src/examples";
+    static String JAVA_RUN_DIR = "/Users/amytis/Projects/jpf/jpf-symbc/src/main.scala.examples";
 */
 
 
-    static String JPF_HOME = "/Users/malig/workspace/up_jpf/"; // Assuming that jpf/ contains jpf-core and jpf-symb
+    static String JPF_HOME = "./"; // Assuming that jpf/ contains jpf-core and jpf-symb
     static String HOME = ""; // Project Home to extract the class files of UDFs
-    static String JUNIT_HOME = "/Users/malig/workspace/jpf/"; // Junit Home folder
-    static String JAD_EXE = "/Users/malig/workspace/up_jpf/jadmx158/jad";
-    static String JAVA_RUN_DIR = "/Users/malig/workspace/up_jpf/jpf-symbc/src/examples";
+    static String JUNIT_HOME = "<nil/junit_home>"; // Junit Home folder
+//    static String JAD_EXE = "/home/ahmad/Downloads/jd-cli-jd-cli-1.2.1/jd-cli/src/main/bin/jd-cli";
+    static String JAD_EXE = "/home/ahmad/Documents/VT/project1/jad";
+    static String JAVA_RUN_DIR = "/Users/malig/workspace/up_jpf/jpf-symbc/src/main.scala.examples";
     static String Z3_LIB = "/Users/malig/workspace/up_jpf/z3/build/";
     static String PYTHON_PATH = "/Users/malig/workspace/up_jpf/z3/build/python";
 
@@ -31,7 +32,7 @@ public class Configuration extends Logging  {
     
 
     //// TODO: 9/14/17 Populate the input arguments to each of the udfs
-    static String JPF_FILE_PLACEHOLDER(String target, String fun_name, String example_build, boolean isString , int numInputs) {
+    static String JPF_FILE_PLACEHOLDER(String target, String fun_name, String example_build, boolean isString, int numInputs) {
 
         String input = "sym";
         for(int i = 1 ; i < numInputs ; i++){
@@ -50,7 +51,7 @@ public class Configuration extends Logging  {
             return "target=" + target + "\n" +
                     "\n" +
                     "classpath=" + example_build + "\n" +
-                    "#sourcepath=${jpf-symbc}/src/examples\n" +
+                    "#sourcepath=${jpf-symbc}/src/main.scala.examples\n" +
                     "\n" +
                     "symbolic.method=" + target + "." + fun_name + "("+input+")\n" +
                     "\n" +
@@ -74,7 +75,7 @@ public class Configuration extends Logging  {
             return "target=" + target + "\n" +
                     "\n" +
                     "classpath=" + example_build + "\n" +
-                    "#sourcepath=${jpf-symbc}/src/examples\n" +
+                    "#sourcepath=${jpf-symbc}/src/main.scala.examples\n" +
                     "\n" +
                     "symbolic.method=" + target + "." + fun_name + "("+input+")\n" +
                     "\n" +

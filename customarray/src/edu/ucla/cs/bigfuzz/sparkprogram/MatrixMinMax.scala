@@ -1,9 +1,9 @@
-package examples.benchmarks.input_reduction_benchmarks
+package main.scala.examples.benchmarks.input_reduction_benchmarks
 
 import org.apache.spark.{SparkConf, SparkContext}
 import provenance.data.Provenance
 import sparkwrapper.SparkContextWithDP
-import examples.benchmarks.AggregationFunctions
+import main.scala.examples.benchmarks.AggregationFunctions
 import symbolicprimitives.{SymFloat, SymInt}
 import symbolicprimitives.SymImplicits._
 import symbolicprimitives.Utils

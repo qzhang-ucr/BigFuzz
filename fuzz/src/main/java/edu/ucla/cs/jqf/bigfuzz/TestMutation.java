@@ -10,7 +10,7 @@ import java.util.List;
 public class TestMutation {
     public static void main(String[] args) throws IOException
     {
-        String initialInputFile = "/BigFuzz/dataset/config";
+        String initialInputFile = "/home/ahmad/Documents/VT/project1/BigFuzz/dataset/config";
         BigFuzzMutation mutation = new RandomMutation();
 
         String currentInputFile;

@@ -23,7 +23,7 @@ public class CommuteTypeDriver {
 
     public static void main(String[] args) throws IOException
     {
-        List<String> fileList = Files.readAllLines(Paths.get("/BigFuzz/dataset/config"));
+        List<String> fileList = Files.readAllLines(Paths.get("/home/ahmad/Documents/VT/project1/BigFuzz/dataset/config"));
 
         CommuteType analysis = new CommuteType();
         analysis.CommuteType(fileList.get(0), fileList.get(1));

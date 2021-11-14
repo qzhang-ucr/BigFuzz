@@ -24,4 +24,4 @@ method="$2"
 export CLASSPATH="$ROOT_DIR/examples/target/classes/:$ROOT_DIR/examples/target/test-classes/:$ROOT_DIR/examples/target/dependency/*"
 export JVM_OPTS="-Djanala.instrumentHeapLoad=true -Djanala.instrumentAlloc=true"
   
-"$ROOT_DIR/bin/jqf-repro" $args edu.berkeley.cs.jqf.examples."$class" "$method" "${@:3}"
+"$ROOT_DIR/bin/jqf-repro" $args edu.berkeley.cs.jqf.main.scala.examples."$class" "$method" "${@:3}"

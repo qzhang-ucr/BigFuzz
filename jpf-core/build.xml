@@ -57,7 +57,7 @@
     <available file="src/peers"       type="dir" property="have_peers"/>
     <available file="src/classes"     type="dir" property="have_classes"/>
     <available file="src/tests"       type="dir" property="have_tests"/>
-    <available file="src/examples"    type="dir" property="have_examples"/>
+    <available file="src/main.scala.examples"    type="dir" property="have_examples"/>
 
     <available file=".hg"             type="dir" property="have_hg"/>
 
@@ -67,7 +67,7 @@
     <fail unless="have_peers">no src/peers</fail>
     <fail unless="have_classes">no src/classes</fail>
     <fail unless="have_tests">no src/tests</fail>
-    <fail unless="have_examples">no src/examples</fail>
+    <fail unless="have_examples">no src/main.scala.examples</fail>
 
     <condition property="have_java8">
         <equals arg1="${ant.java.version}" arg2="1.8"/>
@@ -79,7 +79,7 @@
   <!-- ======================= COMPILE SECTION ============================= -->
     
   <!-- public compile -->
-  <target name="compile" depends="-init,-compile-annotations,-compile-main,-compile-peers,-compile-classes,-compile-tests,-compile-examples"
+  <target name="compile" depends="-init,-compile-annotations,-compile-main,-compile-peers,-compile-classes,-compile-tests,-compile-main.scala.examples"
           description="compile all JPF core sources" >
 	  <copy file="build.properties" todir="build/main/gov/nasa/jpf" failonerror="false"/>
   </target>
@@ -145,9 +145,9 @@
     </javac>
   </target>
 
-  <target name="-compile-examples" if="have_examples" depends="-compile-annotations,-compile-main">
-    <mkdir dir="build/examples" />
-    <javac srcdir="src/examples" destdir="build/examples" includeantruntime="false"
+  <target name="-compile-main.scala.examples" if="have_examples" depends="-compile-annotations,-compile-main">
+    <mkdir dir="build/main.scala.examples" />
+    <javac srcdir="src/main.scala.examples" destdir="build/main.scala.examples" includeantruntime="false"
            debug="${debug}" deprecation="${deprecation}"
            classpathref="lib.path"/>
   </target>

@@ -31,7 +31,7 @@ import java.util.BitSet;
  * if the class or name part are omitted, "*" is assumed
  * a preceeding '!' means the match is inverted
  *
- * spec examples
+ * spec main.scala.examples
  *   "x.y.Foo.*"
  *   "java.util.HashMap.add(java.lang.Object,^java.lang.Object)"
  *   "*.*(x.y.MyClass)"

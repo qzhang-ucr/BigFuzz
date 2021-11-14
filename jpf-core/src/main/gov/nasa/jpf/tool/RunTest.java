@@ -159,7 +159,7 @@ public class RunTest extends Run {
       warning("incompatible " + TESTJPF_CLS + " version, quiet mode will not work");
     }
     
-    // <2do> refactor - each test class should be (optionally) loaded through a new ClassLoader instance
+    // <2do> main.scala.refactor - each test class should be (optionally) loaded through a new ClassLoader instance
     // to make sure tests don't have static field carry-over
     
     List<Class<?>> testClasses = getTestClasses(cl, testJpfCls, testPathElements, testClsName);

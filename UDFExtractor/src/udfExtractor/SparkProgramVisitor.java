@@ -26,8 +26,13 @@ public class SparkProgramVisitor extends ASTVisitor {
     String current_method_inc = null;
     String parameters = null;
 
+    public boolean visit(IfStatement ifs) {
+//        System.out.println("SPV:visit(if) > " + ifs);
+        return true;
+    }
 
     public boolean visit(ClassInstanceCreation cls) {
+//        System.out.println("SPV:visit(ClassInstanceCreation) > " + cls);
         if (current_method_inc != null)
             if (Configuration.isSparkDataflowOperator(current_method_inc) && cls.getType().toString().equals("Serializable")) {
                 startUDFClass();
@@ -40,6 +45,7 @@ public class SparkProgramVisitor extends ASTVisitor {
     HashMap<String, String> typeMapping = new HashMap<>();
 
     public boolean visit(CastExpression ce) {
+//        System.out.println("SPV:visit(CastExpression)");
         //log.logdebug(ce.getType().toString());
         //log.logdebug(ce.getExpression().toString());
         typeMapping.put(ce.getExpression().toString(), ce.getType().toString());
@@ -52,6 +58,8 @@ public class SparkProgramVisitor extends ASTVisitor {
     }
 
     public boolean visit(MethodDeclaration node) {
+//        System.out.println("SPV:visit(MethodDeclaration) > " + node);
+
         typeMapping = new HashMap<>();
         if (current_method_inc == null) return true;
         SimpleName name = node.getName();
@@ -83,6 +91,8 @@ public class SparkProgramVisitor extends ASTVisitor {
     }
 
     public boolean visit(MethodInvocation inv) {
+//        System.out.println("SPV:visit(MethodInvocation) > " + inv);
+
         if (call_graph.containsKey(current_fun)) {
             if (!current_fun.equals(inv.getName().toString()))
                 call_graph.get(current_fun).add(inv.getName().toString());
@@ -97,6 +107,7 @@ public class SparkProgramVisitor extends ASTVisitor {
         if (Configuration.isSparkDataflowOperator(inv.getName().toString())) {
             for (Expression e : (List<Expression>) inv.arguments()) {
                 current_method_inc = inv.getName().toString();
+//                System.out.println("SPV: Found invocation of: " + current_method_inc);
                 e.accept(this);
                 current_method_inc = null;
             }
@@ -181,17 +192,17 @@ public class SparkProgramVisitor extends ASTVisitor {
         getAllCallee(jpffunction, functions_set);
         u_writer.write(functions_set, jpffunction, this);
         u_writer.close();
-        String new_classname = u_writer.filename.replace(".java", "");
-        try {
-            createJPFile(new_classname, getJPFFunction("apply"), jpf_dir + new_classname + ".jpf", u_writer.isString , u_writer.symInputs);
-
-            Runner.runCommand(new String[]{"javac", "-g",
-                            Configuration.JPF_HOME + "jpf-symbc/src/examples/" + new_classname + ".java"},
-                    Configuration.JAVA_RUN_DIR);
-            log.jpf_dag.add(0, new JPFDAGNode(new_classname, jpf_dir + new_classname + ".jpf"));
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+//        String new_classname = u_writer.filename.replace(".java", "");
+//        try {
+//            createJPFile(new_classname, getJPFFunction("apply"), jpf_dir + new_classname + ".jpf", u_writer.isString , u_writer.symInputs);
+//
+//            Runner.runCommand(new String[]{"javac", "-g",
+//                            Configuration.JPF_HOME + "jpf-symbc/src/main.scala.examples/" + new_classname + ".java"},
+//                    Configuration.JAVA_RUN_DIR);
+//            log.jpf_dag.add(0, new JPFDAGNode(new_classname, jpf_dir + new_classname + ".jpf"));
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
 
 
     }

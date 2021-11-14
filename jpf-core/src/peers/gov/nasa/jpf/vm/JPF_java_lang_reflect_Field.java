@@ -650,7 +650,7 @@ public class JPF_java_lang_reflect_Field extends NativePeer {
   /**
    * Peer method for the <code>java.lang.reflect.Field.set</code> method.
    * 
-   * <2do> refactor to make boxed type handling more efficient
+   * <2do> main.scala.refactor to make boxed type handling more efficient
    */
   @MJI
   public void set__Ljava_lang_Object_2Ljava_lang_Object_2__V (MJIEnv env, int objRef, int ownerRef, int val) {

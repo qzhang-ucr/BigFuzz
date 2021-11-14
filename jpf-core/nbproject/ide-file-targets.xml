@@ -85,7 +85,7 @@
         <input message="please enter arguments" addproperty="arg.input"/>
         <java classname="${run.class}" failonerror="true" fork="true">
             <classpath>
-                <pathelement location="build/examples"/>
+                <pathelement location="build/main.scala.examples"/>
                 <path refid="base.path"/>
             </classpath>
             <jvmarg value="-ea"/>
@@ -97,25 +97,25 @@
         <fail unless="debug.class">Must set property 'debug.class'</fail>
         <ant antfile="build.xml" inheritall="false" target="compile"/>
 
-        <path id="cp.examples">
-           <pathelement location="build/examples"/>
+        <path id="cp.main.scala.examples">
+           <pathelement location="build/main.scala.examples"/>
            <path refid="base.path"/>
         </path>
-        <sourcepath id="sp.examples">
-           <pathelement location="src/examples"/>
+        <sourcepath id="sp.main.scala.examples">
+           <pathelement location="src/main.scala.examples"/>
            <path refid="source.path"/>
         </sourcepath>
 
 
         <nbjpdastart addressproperty="jpda.address" name="${debug.class}" transport="dt_socket">
-            <classpath refid="cp.examples"/>
-            <sourcepath refid="sp.examples"/>
+            <classpath refid="cp.main.scala.examples"/>
+            <sourcepath refid="sp.main.scala.examples"/>
         </nbjpdastart>
 
         <input message="please enter arguments" addproperty="arg.input"/>
 
         <java classname="${debug.class}" fork="true" >
-            <classpath refid="cp.examples"/>
+            <classpath refid="cp.main.scala.examples"/>
             <jvmarg value="-ea"/>
             <jvmarg value="-Xdebug"/>
             <jvmarg value="-Xrunjdwp:transport=dt_socket,address=${jpda.address}"/>
@@ -130,7 +130,7 @@
         <java classname="gov.nasa.jpf.JPF" failonerror="true" fork="true">
             <arg value="${jpf.config}"/>
             <classpath>
-                <pathelement location="build/examples"/>
+                <pathelement location="build/main.scala.examples"/>
                 <path refid="base.path"/>
             </classpath>
         </java>
@@ -140,22 +140,22 @@
         <fail unless="jpf.config">Must set property 'jpf.config'</fail>
         <ant antfile="build.xml" inheritall="false" target="compile"/>
 
-        <path id="cp.examples">
-           <pathelement location="build/examples"/>
+        <path id="cp.main.scala.examples">
+           <pathelement location="build/main.scala.examples"/>
            <path refid="base.path"/>
         </path>
-        <sourcepath id="sp.examples">
-           <pathelement location="src/examples"/>
+        <sourcepath id="sp.main.scala.examples">
+           <pathelement location="src/main.scala.examples"/>
            <path refid="source.path"/>
         </sourcepath>
 
         <nbjpdastart addressproperty="jpda.address" name="${jpf.config}" transport="dt_socket">
-            <classpath refid="cp.examples"/>
-            <sourcepath refid="sp.examples"/>
+            <classpath refid="cp.main.scala.examples"/>
+            <sourcepath refid="sp.main.scala.examples"/>
         </nbjpdastart>
 
         <java classname="gov.nasa.jpf.JPF" fork="true">
-            <classpath refid="cp.examples"/>
+            <classpath refid="cp.main.scala.examples"/>
             <jvmarg value="-ea"/>
             <jvmarg value="-Xdebug"/>
             <jvmarg value="-Xrunjdwp:transport=dt_socket,address=${jpda.address}"/>

@@ -26,7 +26,7 @@
 // * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 // */
-//package edu.berkeley.cs.jqf.examples.chess;
+//package edu.berkeley.cs.jqf.main.scala.examples.chess;
 //
 //import chess.Move;
 //import chess.Situation;

@@ -1,4 +1,4 @@
-edu.berkeley.cs.jqf.examples.imageio.ImageInputStreamGenerator
-edu.berkeley.cs.jqf.examples.jgrapht.ModelBasedDirectedGraphGenerator
-edu.berkeley.cs.jqf.examples.jgrapht.ModelBasedDirectedGraphGenerator
+edu.berkeley.cs.jqf.main.scala.examples.imageio.ImageInputStreamGenerator
+edu.berkeley.cs.jqf.main.scala.examples.jgrapht.ModelBasedDirectedGraphGenerator
+edu.berkeley.cs.jqf.main.scala.examples.jgrapht.ModelBasedDirectedGraphGenerator
 
