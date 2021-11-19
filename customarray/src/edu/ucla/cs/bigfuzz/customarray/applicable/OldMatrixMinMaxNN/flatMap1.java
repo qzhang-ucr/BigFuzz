@@ -1,4 +1,4 @@
-package edu.ucla.cs.bigfuzz.customarray.applicable.MatrixMinMaxNN;
+package edu.ucla.cs.bigfuzz.customarray.applicable.OldMatrixMinMaxNN;
 
 import java.util.ArrayList;
 import java.util.Arrays;

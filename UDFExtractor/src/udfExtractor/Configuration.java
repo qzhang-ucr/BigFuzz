@@ -15,7 +15,7 @@ public class Configuration extends Logging  {
 */
 
 
-    static String JPF_HOME = "./"; // Assuming that jpf/ contains jpf-core and jpf-symb
+    static String JPF_HOME = "/home/ahmad/Documents/VT/project1/BigFuzz/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/"; // Assuming that jpf/ contains jpf-core and jpf-symb
     static String HOME = ""; // Project Home to extract the class files of UDFs
     static String JUNIT_HOME = "<nil/junit_home>"; // Junit Home folder
 //    static String JAD_EXE = "/home/ahmad/Downloads/jd-cli-jd-cli-1.2.1/jd-cli/src/main/bin/jd-cli";

@@ -84,7 +84,7 @@ public class UDFgenerator {
     }
 
     private String UDFget(String operator) throws FileNotFoundException {
-        File dir = new File(pathw);
+        File dir = new File(pathw+"/applicable/"+this.name);
 
         String [] UDFnames = dir.list();
 
@@ -96,7 +96,7 @@ public class UDFgenerator {
             }
 
         }
-        System.out.println("Error: Not find UDF");
+        System.out.println("Error: Not find UDF : " + pathw);
         return "error";
     }
 
@@ -106,6 +106,7 @@ public class UDFgenerator {
         Matcher m = type.matcher(typeLine);
         m.find();
         System.out.println(typeLine);
+//        if (!m.matches()) return "";
         int start = m.start()-2;
         while (typeLine.charAt(start)!=' ') {start=start-1;}
 

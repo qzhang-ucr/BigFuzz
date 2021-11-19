@@ -1,10 +1,9 @@
-import scala.reflect.runtime.SynchronizedSymbols;
+//import scala.reflect.runtime.SynchronizedSymbols;
 
 import java.io.*;
 import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import scala.meta.*;
 
 
 public class ToComplie {

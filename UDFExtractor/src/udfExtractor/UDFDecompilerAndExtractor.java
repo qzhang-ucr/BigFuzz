@@ -49,7 +49,7 @@ public JPFDAGNode getDAG() {
         ASTRewrite rewriter = ASTRewrite.create(ast);
         cu.recordModifications();
         SparkProgramVisitor spv = new SparkProgramVisitor(this , jpfdir , rewriter);
-        for(IProblem problem : cu.getProblems()) {System.out.println(problem.getSourceLineNumber() + " > " + problem.getMessage());}
+        for(IProblem problem : cu.getProblems()) {System.err.println(problem.getSourceLineNumber() + " > " + problem.getMessage());}
         System.out.println("___");
         cu.accept(spv);
 //       TextEdit edits = null;

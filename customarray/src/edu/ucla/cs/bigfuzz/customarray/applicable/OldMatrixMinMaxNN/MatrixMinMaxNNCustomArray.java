@@ -1,12 +1,7 @@
-package edu.ucla.cs.bigfuzz.customarray.applicable.MatrixMinMaxNN;
+package edu.ucla.cs.bigfuzz.customarray.applicable.OldMatrixMinMaxNN;
 
 import edu.berkeley.cs.jqf.instrument.tracing.TraceLogger;
 import edu.ucla.cs.bigfuzz.customarray.CustomArray;
-import edu.ucla.cs.bigfuzz.customarray.applicable.MatrixMinMaxNN.flatMap1;
-import edu.ucla.cs.bigfuzz.customarray.applicable.MatrixMinMaxNN.map1;
-import edu.ucla.cs.bigfuzz.customarray.applicable.MatrixMinMaxNN.reduceByKey1;
-import edu.ucla.cs.bigfuzz.customarray.applicable.MatrixMinMaxNN.reduceByKey2;
-import edu.ucla.cs.bigfuzz.dataflow.FilterEvent;
 import edu.ucla.cs.bigfuzz.dataflow.FlatMapEvent;
 import edu.ucla.cs.bigfuzz.dataflow.MapEvent;
 import edu.ucla.cs.bigfuzz.dataflow.ReduceByKeyEvent;

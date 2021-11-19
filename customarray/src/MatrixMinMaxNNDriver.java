@@ -13,7 +13,4 @@ public class MatrixMinMaxNNDriver {
         MatrixMinMaxNN analysis = new MatrixMinMaxNN();
         analysis.MatrixMinMaxNN(fileName);
     }
-    public static void main(String[] args) {
-
-    }
 }

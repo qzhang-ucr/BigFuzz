@@ -50,11 +50,11 @@ public class Runner extends Logging {
         Configuration.map_args.put("map3" , "\"3\"");
         */
 
-        String outputJava = Configuration.JPF_HOME+ "extracted/";
+        String outputJava = Configuration.JPF_HOME+ test_name;
         createDirectory(outputJava);
         String classname = classfile.split("/")[classfile.split("/").length - 1];
         String classFile_jad = classname + ".jad";
-        String jpfModel = Configuration.JPF_HOME+ "extracted/";//+fixClassName(classname)+".jpf";
+        String jpfModel = Configuration.JPF_HOME+ test_name + "/";//+fixClassName(classname)+".jpf";
 
 
         // Decompile and extract the UDF
