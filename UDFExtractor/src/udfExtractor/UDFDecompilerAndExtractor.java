@@ -87,12 +87,14 @@ public JPFDAGNode getDAG() {
     //loop directory to get file list
     public void ParseFilesInDir( String jpfdir) throws Exception {
 
+        //-----------------------------------------------------
 //        if (new File(classFile_jad).exists()) {
 //            loginfo(LogType.INFO, "Deleting file " + classFile_jad + " ...");
 //            new File(classFile_jad).delete();
 //        }
 //        String classFile_class = classfile + ".class";
 //        decompileProgram(classFile_class);
+        //-----------------------------------------------------
         parse(readFileToString(classFile_jad), jpfdir);
     }
 

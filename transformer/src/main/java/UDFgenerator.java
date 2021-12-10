@@ -61,7 +61,9 @@ public class UDFgenerator {
 
     private String UDFreader(String operator) throws IOException {
 
-        String inputFile = pathw+UDFget(operator);
+        String inputFile = pathw+"applicable/"+this.name+"/"+UDFget(operator);
+
+        System.out.println("UDFreader:: inputFile = " + inputFile);
         File file = new File(inputFile);
         //ArrayList<String> list = new ArrayList<>();
         Pattern Main = Pattern.compile("main");
@@ -105,7 +107,10 @@ public class UDFgenerator {
         Pattern type = Pattern.compile("apply");
         Matcher m = type.matcher(typeLine);
         m.find();
-        System.out.println(typeLine);
+        System.out.println("checkOutType: typeLine = "+typeLine);
+
+        if(typeLine.isEmpty())
+            return "";
 //        if (!m.matches()) return "";
         int start = m.start()-2;
         while (typeLine.charAt(start)!=' ') {start=start-1;}
@@ -120,6 +125,8 @@ public class UDFgenerator {
         Pattern type = Pattern.compile("apply");
         Matcher m = type.matcher(typeLine);
         m.find();
+//        if(!m.matches())
+//            return "";
         int end = m.end()-1;
         while (typeLine.charAt(end)!='(') {end=end+1;}
 
@@ -132,9 +139,12 @@ public class UDFgenerator {
     private String checkInType(String typeLine) throws IOException {
 
         //String typeLine = UDFreader(fileName);
+        System.out.println("checkInType:: typeLine = " + typeLine);
         Pattern type = Pattern.compile("apply");
         Matcher m = type.matcher(typeLine);
         m.find();
+//        if(!m.matches())
+//            return "";
         int start = m.end()-1;
         while (typeLine.charAt(start)!='(') {start=start+1;}
         int end = start;
@@ -148,6 +158,8 @@ public class UDFgenerator {
         Pattern type = Pattern.compile("apply");
         Matcher m = type.matcher(typeLine);
         m.find();
+//        if(!m.matches())
+//            return "";
         int end = m.end()-1;
         while (typeLine.charAt(end)!=')') {end=end+1;}
         end=end-1;
@@ -164,7 +176,7 @@ public class UDFgenerator {
             if ((!operator.equals("CustomArray.read(inputFile);"))&&(!operator.equals("CustomArray.readStr(inputFile);"))) {
 
                 String Line = UDFreader(operator);
-
+                System.out.println("UDFSet::Line = " + Line);
                 CustomFile.write(" public static " +
                     checkOutType(Line)+" "+operator+checkInType(Line)+"{\n"+
 

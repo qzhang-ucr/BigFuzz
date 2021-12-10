@@ -3,32 +3,22 @@ package edu.ucla.cs.jqf.bigfuzz;
 import edu.berkeley.cs.jqf.fuzz.guidance.Guidance;
 import edu.berkeley.cs.jqf.fuzz.guidance.GuidanceException;
 import edu.berkeley.cs.jqf.fuzz.guidance.Result;
-import edu.berkeley.cs.jqf.fuzz.guidance.TimeoutException;
 import edu.berkeley.cs.jqf.fuzz.util.Coverage;
 import edu.berkeley.cs.jqf.instrument.tracing.events.TraceEvent;
-//import org.apache.commons.io.FileUtils;
 
 import java.io.*;
-
 import java.nio.channels.FileChannel;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.*;
-import java.util.concurrent.TimeUnit;
 import java.util.function.Consumer;
-
-import static java.lang.Math.ceil;
-import static java.lang.Math.log;
 
 /**
  * A guidance that performs coverage-guided fuzzing using JDU (Joint Dataflow and UDF)
  * Mutations: 1. randomly mutation
  * code coverage guidance: control flow coverage, dataflow operators's coverage
  */
-public class BigFuzzGuidance implements Guidance {
+public class ProvFuzzGuidance implements Guidance {
 
     /** The name of the test for display purposes. */
     protected final String testName;
@@ -93,16 +83,18 @@ public class BigFuzzGuidance implements Guidance {
     static final boolean STEAL_RESPONSIBILITY = Boolean.getBoolean("jqf.ei.STEAL_RESPONSIBILITY");
 
     protected final String initialInputFile;
-    BigFuzzMutation mutation = new ProvFuzzMutation("/home/ahmad/Documents/VT/project1/BigFuzz/dataset/ProvFuzz1/config.txt", 2);
     private String currentInputFile;
-
+    int fuzzBranch;
+    ProvFuzzMutation mutation;
     ArrayList<String> testInputFiles = new ArrayList<String>();
 
 
-    public BigFuzzGuidance(String testName, String initialInputFile, long maxTrials, Duration duration, PrintStream out) throws IOException {
+    public ProvFuzzGuidance(String testName, String initialInputFile, long maxTrials, int branch, Duration duration, PrintStream out) throws IOException {
 
         this.testName = testName;
         this.maxDurationMillis = duration != null ? duration.toMillis() : Long.MAX_VALUE;
+        this.fuzzBranch = branch;
+        this.mutation = new ProvFuzzMutation("/home/ahmad/Documents/VT/project1/BigFuzz/dataset/ProvFuzz1/config.txt", this.fuzzBranch);
         //this.outputDirectory = outputDirectory;
 
         if (maxTrials <= 0) {
@@ -162,7 +154,7 @@ public class BigFuzzGuidance implements Guidance {
 //                mutation.writeFile(fileName);
 
                 String nextInputFile = new SimpleDateFormat("yyyyMMddHHmmss'_"+this.numTrials+"'").format(new Date());
-                System.out.println(nextInputFile);
+                System.out.println("ProvFuzzGuidance :: getInput: nextInputFile = " + nextInputFile);
                 mutation.mutate(initialInputFile, nextInputFile);//currentInputFile
                 currentInputFile = nextInputFile;
 
@@ -174,7 +166,7 @@ public class BigFuzzGuidance implements Guidance {
         }
         testInputFiles.add(currentInputFile);
 
-        System.out.println("BigFuzzSalaryGuidance::getInput: "+numTrials+": "+currentInputFile );
+        System.out.println("ProvFuzzGuidance :: getInput: "+numTrials+": "+currentInputFile );
         InputStream targetStream = new ByteArrayInputStream(currentInputFile.getBytes());//currentInputFile.getBytes()
 
         return targetStream;
@@ -219,7 +211,7 @@ public class BigFuzzGuidance implements Guidance {
         // Stop timeout handling
         this.runStart = null;
 
-        System.out.println("BigFuzz::handleResult");
+        System.out.println("ProvFuzz :: handleResult");
         System.out.println(result);
 
         this.numTrials++;
@@ -274,7 +266,7 @@ public class BigFuzzGuidance implements Guidance {
             int validNonZeroAfter = validCoverage.getNonZeroCount();
 
             // Possibly save input
-            boolean toSave = false;
+            boolean toSave = true;
             String why = "";
 
             // Save if new total coverage found
@@ -378,6 +370,7 @@ public class BigFuzzGuidance implements Guidance {
                 src2.delete();
             }
         }
+        System.out.println("==========================================");
     }
 
     // Compute a set of branches for which the current input may assume responsibility

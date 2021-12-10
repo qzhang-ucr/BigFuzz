@@ -125,11 +125,11 @@ public class ToComplie {
     public static void main(String[] args) throws IOException {
         ArrayList<String> sourceCode;
         //sourceCode = reader(args[0]);
-        String pathr = "customarray/src/edu/ucla/cs/bigfuzz/sparkprogram/";
+        String name = "ProvFuzzBenchmark";
+        String pathr = "/home/ahmad/Documents/VT/project1/FineGrainedDataProvenance/src/main/scala/examples/benchmarks/exportable/";
         String pathw = "customarray/src/";
-        sourceCode = reader(pathr+"MatrixMinMaxNN.scala");
+        sourceCode = reader(pathr+name+".scala");
         //String name =args[1];
-        String name = "MatrixMinMaxNN";
         sourceCode = Refactor(sourceCode, name);
 
         ArrayList<String> driver;

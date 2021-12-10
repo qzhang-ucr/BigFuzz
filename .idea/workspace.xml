@@ -10,59 +10,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2774e54c-0a4f-4f30-9e38-c5ee0352aa9a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MatrixMinMaxNN.conf" beforeDir="false" afterPath="$PROJECT_DIR$/MatrixMinMaxNN.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UDFExtractor/src/udfExtractor/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/UDFExtractor/src/udfExtractor/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MatrixMinMax$.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MatrixMinMaxNN$$anonfun$1.jad" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MatrixMinMaxNN$$anonfun$2.jad" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MatrixMinMaxNN$$anonfun$3.jad" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MatrixMinMaxNN$$anonfun$4.jad" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/UDFExtractor/src/udfExtractor/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/UDFExtractor/src/udfExtractor/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UDFExtractor/src/udfExtractor/UDFDecompilerAndExtractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/UDFExtractor/src/udfExtractor/UDFDecompilerAndExtractor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UDFExtractor/src/udfExtractor/UDFWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/UDFExtractor/src/udfExtractor/UDFWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/CommuteType.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/CommuteType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customarray/src/MatrixMinMaxNN.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/MatrixMinMaxNN.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customarray/src/MatrixMinMaxNNDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/MatrixMinMaxNNDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/MatrixMinMaxNN/DecompiledScala.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/OldMatrixMinMaxNN/DecompiledScala.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/MatrixMinMaxNN/MatrixMinMaxNNCustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/OldMatrixMinMaxNN/MatrixMinMaxNNCustomArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/MatrixMinMaxNN/flatMap1.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/OldMatrixMinMaxNN/flatMap1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/MatrixMinMaxNN/map1.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/OldMatrixMinMaxNN/map1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/MatrixMinMaxNN/reduceByKey1.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/OldMatrixMinMaxNN/reduceByKey1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/MatrixMinMaxNN/reduceByKey2.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/OldMatrixMinMaxNN/reduceByKey2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/20211109091844_1+data1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/20211109091845_2+data1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/20211109092506_1+data1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/20211109092506_2+data1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/20211109092506_3+data1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/20211109092506_4+data1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/20211109092506_5+data1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/20211109092506_6+data1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/20211109092506_7+data1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/20211109092506_8+data1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/20211109092506_9+data1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/20211109092526_1+data1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/20211109092526_2+data1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/20211109092526_3+data1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/20211109092526_4+data1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/20211109092526_5+data1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/20211109092526_6+data1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/20211109092527_7+data1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/20211109092527_8+data1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/20211109092527_9+data1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/20211109121422_1+data1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/20211109121422_2+data1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/20211109121422_3+data1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/20211109121422_4+data1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/20211109121422_5+data1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/20211109121422_6+data1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/20211109121422_7+data1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/20211109121422_8+data1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/20211109121422_9+data1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/20211109121439_1+data1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/20211109121439_2+data1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/20211109121522_1+data1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/20211109121522_2+data1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/20211109122340_1+data1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/20211109122340_2+data1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/20211109153201_1+data1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/20211109153201_2+data1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/20211109164626_1+data1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/20211109164626_2+data1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transformer/src/main/java/BT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/CustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/CustomArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/MatrixMinMaxNN/flatMap2.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/MatrixMinMaxNN/flatMap2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/MatrixMinMaxNN/map1.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/MatrixMinMaxNN/map1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/MatrixMinMaxNN/reduceByKey3.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/MatrixMinMaxNN/reduceByKey3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/MatrixMinMaxNN/reduceByKey4.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/MatrixMinMaxNN/reduceByKey4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/customarray/CustomArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/customarray/CustomArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/conf" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzGuidance.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzGuidance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/ucla/cs/jqf/bigfuzz/BigFuzzGuidance.class" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/target/classes/edu/ucla/cs/jqf/bigfuzz/BigFuzzGuidance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/ucla/cs/jqf/bigfuzz/BigFuzzMutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/target/classes/edu/ucla/cs/jqf/bigfuzz/BigFuzzMutation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rapidtesting/compile.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transformer/src/main/java/ComplieTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/src/main/java/ComplieTool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/transformer/src/main/java/ToComplie.java" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/src/main/java/ToComplie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/transformer/src/main/java/UDFgenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/src/main/java/UDFgenerator.java" afterDir="false" />
     </list>
@@ -184,6 +156,9 @@
       <facet id="jqf-examples/invalid/Spring" />
     </ignored-facets>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -274,19 +249,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="16" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BigTest/jpf-symbc/lib/org.eclipse.jdt.core_3.5.2.v_981_R35x.jar" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bin" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2764706" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bin" />
+      <recent name="$PROJECT_DIR$/dataset/ProvFuzz1" />
       <recent name="$PROJECT_DIR$/ProvFuzz" />
       <recent name="$PROJECT_DIR$/ProvFuzz/src" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/UDFExtractor/src" />
-      <recent name="$PROJECT_DIR$/parse" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ProvFuzz/src" />
@@ -298,34 +273,29 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.ucla.cs.jqf.bigfuzz" />
       <recent name="edu.ucla.cs.bigfuzz.sparkprogram" />
       <recent name="edu.ucla.cs.bigfuzz.customarray" />
       <recent name="edu.ucla.cs.bigfuzz" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Runner">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="ProvFuzz" />
+  <component name="RunManager" selected="Application.ProvFuzzBenchmarkDriver (2)">
+    <configuration name="ProvFuzzBenchmarkDriver (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProvFuzzBenchmarkDriver" />
+      <module name="bigfuzz-dfcoverage" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="udfExtractor.Main" />
-      <module name="UDFExtractor" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="udfExtractor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="ProvFuzzBenchmarkDriver (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProvFuzzBenchmarkDriver" />
+      <module name="bigfuzz-dfcoverage" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatrixMinMaxNNDriver (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MatrixMinMaxNNDriver" />
+    <configuration name="ProvFuzzBenchmarkDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProvFuzzBenchmarkDriver" />
       <module name="bigfuzz-dfcoverage" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -344,20 +314,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToComplie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ToComplie" />
-      <module name="bigfuzz-transformer" />
+    <configuration name="map3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.ucla.cs.bigfuzz.customarray.applicable.ProvFuzzBenchmark.map3" />
+      <module name="bigfuzz-dfcoverage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.ucla.cs.bigfuzz.customarray.applicable.ProvFuzzBenchmark.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProvFuzzBenchmarkDriver (2)" />
+        <item itemvalue="Application.ProvFuzzBenchmarkDriver" />
+        <item itemvalue="Application.ProvFuzzBenchmarkDriver (1)" />
+        <item itemvalue="Application.map3" />
         <item itemvalue="Application.Runner" />
-        <item itemvalue="Application.ToComplie" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.MatrixMinMaxNNDriver (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -510,7 +486,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -2,7 +2,6 @@ package edu.ucla.cs.bigfuzz.customarray;
 
 import edu.berkeley.cs.jqf.instrument.tracing.TraceLogger;
 import edu.ucla.cs.bigfuzz.dataflow.*;
-import edu.ucla.cs.bigfuzz.sparkprogram.WordCount;
 import janala.logger.inst.METHOD_BEGIN;
 import janala.logger.inst.MemberRef;
 import javafx.util.Pair;
@@ -20,13 +19,13 @@ public class CustomArray {
 
     }
 
-    public static String readStr(String inputPath) throws IOException {
+    public static String[] readStr(String inputPath) throws IOException {
         BufferedReader br = new BufferedReader(new FileReader(inputPath));
         //List<String> lists = new ArrayList<String>();
-        String list =null;
+        String[] list =null;
         String readLine = null;
         while((readLine = br.readLine()) != null){
-            list = list+readLine;
+            list = new String[]{list + readLine};
             /*String[] wordsArr1 = readLine.split("[^a-zA-Z]");
             for (String word : wordsArr1) {
                 if(word.length() != 0){

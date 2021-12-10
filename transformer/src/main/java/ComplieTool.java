@@ -45,7 +45,7 @@ class ComplieTool {
     String trace(ArrayList<String> mapToVar, String line){
         Pattern val = Pattern.compile("val|JavaRDD|JavaPairRDD");
         Matcher a = val.matcher(line);
-
+        System.out.println("trace: line = "+ line);
         a.find();
         int pointer = a.end();
         String fatherName ="";
