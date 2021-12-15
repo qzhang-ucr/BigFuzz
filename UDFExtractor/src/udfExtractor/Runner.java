@@ -35,8 +35,8 @@ public class Runner extends Logging {
 
 //            String classfile = "/home/ahmad/Documents/VT/project1/FineGrainedDataProvenance/target/classes/examples/benchmarks/input_reduction_benchmarks/" + test_name + "$"; // "/Users/malig/workspace/up_jpf/SymExec/bin/main.scala.examples/"+test_name+"$";
 //            String classfile = "/home/ahmad/Documents/VT/project1/FineGrainedDataProvenance/target/classes/examples/benchmarks/input_reduction_benchmarks/MatrixMinMaxNN$";
-            String classfile = "/home/ahmad/Documents/VT/project1/FineGrainedDataProvenance/target/classes/examples/benchmarks/exportable/"+test_name+"_exp$";
-
+//            String classfile = "/home/ahmad/Documents/VT/project1/FineGrainedDataProvenance/target/classes/examples/benchmarks/exportable/"+test_name+"_exportable$";
+            String classfile = "/home/ahmad/Documents/VT/project1/FineGrainedDataProvenance/target/scala-2.11/classes/examples/benchmarks/exportable/"+test_name+"_exportable$";
             // Input arguments to the UDFS  (UDF-name --> input args) .
             // Required for SPF. The Ids appended to the operator name are in reverse order.
             // Write the input args in the <classname>.conf file

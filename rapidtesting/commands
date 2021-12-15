@@ -1,0 +1,4 @@
+./bigfuzz ProvFuzzBenchmarkDriver testProvFuzzBenchmark BigFuzzMutation -t 100
+./provfuzz ProvFuzzBenchmarkDriver testProvFuzzBenchmark ProvFuzzMutation -b 2 -t 100
+rm -f generated/*
+./bigfuzz FindSalaryDriver testFindSalary FindSalaryMutation -t 100

@@ -266,7 +266,7 @@ public class ProvFuzzGuidance implements Guidance {
             int validNonZeroAfter = validCoverage.getNonZeroCount();
 
             // Possibly save input
-            boolean toSave = true;
+            boolean toSave = false;
             String why = "";
 
             // Save if new total coverage found

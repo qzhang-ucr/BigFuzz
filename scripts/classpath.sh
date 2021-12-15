@@ -15,7 +15,7 @@ for jar in $ROOT_DIR/fuzz/target/dependency/*.jar; do
   cp="$cp:$jar"
 done
 
-for jar in /usr/spark/spark-2.4.3-bin-hadoop2.7/jars/*jar; do
+for jar in $ROOT_DIR/../spark-2.4.3-bin-hadoop2.7/jars/*jar; do
   cp="$cp:$jar"
 done
 

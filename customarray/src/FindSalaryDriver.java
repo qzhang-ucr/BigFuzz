@@ -18,9 +18,12 @@ public class FindSalaryDriver {
 @Fuzz
     public void testFindSalary(String fileName) throws IOException {
         System.out.println("edu.ucla.cs.bigfuzz.customarray.applicable.FindSalary.FindSalaryDriver::testFindSalary: "+fileName);
-
         List<String> fileList = Files.readAllLines(Paths.get(fileName));
         FindSalary analysis = new FindSalary();
         analysis.FindSalary(fileList.get(0));
+    }
+    public static void main(String[] args) throws IOException {
+        FindSalary analysis = new FindSalary();
+        analysis.FindSalary("/home/ahmad/Documents/VT/project1/BigFuzz/dataset/salary1.csv");
     }
 }

@@ -93,7 +93,7 @@ public class BigFuzzGuidance implements Guidance {
     static final boolean STEAL_RESPONSIBILITY = Boolean.getBoolean("jqf.ei.STEAL_RESPONSIBILITY");
 
     protected final String initialInputFile;
-    BigFuzzMutation mutation = new ProvFuzzMutation("/home/ahmad/Documents/VT/project1/BigFuzz/dataset/ProvFuzz1/config.txt", 2);
+    BigFuzzMutation mutation = new FindSalaryMutation();
     private String currentInputFile;
 
     ArrayList<String> testInputFiles = new ArrayList<String>();
@@ -130,7 +130,7 @@ public class BigFuzzGuidance implements Guidance {
     @Override
     public InputStream getInput()
     {
-    //    System.out.println("BigFuzzSalaryGuidance::getInput");
+        //    System.out.println("BigFuzzSalaryGuidance::getInput");
         //return Guidance.createInputStream(() -> random.nextInt(256));
         // Clear coverage stats for this run
         runCoverage.clear();
@@ -311,7 +311,6 @@ public class BigFuzzGuidance implements Guidance {
             }
             else {
                 try {
-		    System.out.println(currentInputFile);
                     mutation.deleteFile(currentInputFile);
                 } catch (IOException e) {
                     e.printStackTrace();
@@ -359,7 +358,6 @@ public class BigFuzzGuidance implements Guidance {
                 src.renameTo(des);
             } else {
                 try {
-		    System.out.println(currentInputFile);
                     mutation.deleteFile(currentInputFile);
                 } catch (IOException e) {
                     e.printStackTrace();

@@ -10,33 +10,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2774e54c-0a4f-4f30-9e38-c5ee0352aa9a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MatrixMinMax$.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MatrixMinMaxNN$$anonfun$1.jad" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MatrixMinMaxNN$$anonfun$2.jad" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MatrixMinMaxNN$$anonfun$3.jad" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MatrixMinMaxNN$$anonfun$4.jad" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/UDFExtractor/src/udfExtractor/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/UDFExtractor/src/udfExtractor/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UDFExtractor/src/udfExtractor/UDFDecompilerAndExtractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/UDFExtractor/src/udfExtractor/UDFDecompilerAndExtractor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UDFExtractor/src/udfExtractor/UDFWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/UDFExtractor/src/udfExtractor/UDFWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/src/CommuteType.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/CommuteType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/src/MatrixMinMaxNN.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/MatrixMinMaxNN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/src/MatrixMinMaxNNDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/MatrixMinMaxNNDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/CustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/CustomArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/MatrixMinMaxNN/flatMap2.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/MatrixMinMaxNN/flatMap2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/MatrixMinMaxNN/map1.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/MatrixMinMaxNN/map1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/MatrixMinMaxNN/reduceByKey3.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/MatrixMinMaxNN/reduceByKey3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/MatrixMinMaxNN/reduceByKey4.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/MatrixMinMaxNN/reduceByKey4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/customarray/CustomArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/target/classes/edu/ucla/cs/bigfuzz/customarray/CustomArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/conf" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/FindSalaryDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/customarray/src/FindSalaryDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/ProvFuzzBenchmark/filter2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/ProvFuzzBenchmark/map1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customarray/src/edu/ucla/cs/bigfuzz/customarray/applicable/ProvFuzzBenchmark/map3.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzGuidance.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/BigFuzzGuidance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/ProvFuzzGuidance.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/ProvFuzzGuidance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/ucla/cs/jqf/bigfuzz/BigFuzzGuidance.class" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/target/classes/edu/ucla/cs/jqf/bigfuzz/BigFuzzGuidance.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzz/target/classes/edu/ucla/cs/jqf/bigfuzz/BigFuzzMutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz/target/classes/edu/ucla/cs/jqf/bigfuzz/BigFuzzMutation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rapidtesting/compile.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transformer/src/main/java/ComplieTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/src/main/java/ComplieTool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transformer/src/main/java/ToComplie.java" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/src/main/java/ToComplie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transformer/src/main/java/UDFgenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/src/main/java/UDFgenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/classpath.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/classpath.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -279,7 +263,14 @@
       <recent name="edu.ucla.cs.bigfuzz" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProvFuzzBenchmarkDriver (2)">
+  <component name="RunManager" selected="Application.FindSalaryDriver">
+    <configuration name="FindSalaryDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FindSalaryDriver" />
+      <module name="bigfuzz-dfcoverage" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProvFuzzBenchmarkDriver (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ProvFuzzBenchmarkDriver" />
       <module name="bigfuzz-dfcoverage" />
@@ -314,26 +305,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="map3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.ucla.cs.bigfuzz.customarray.applicable.ProvFuzzBenchmark.map3" />
-      <module name="bigfuzz-dfcoverage" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.ucla.cs.bigfuzz.customarray.applicable.ProvFuzzBenchmark.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindSalaryDriver" />
+        <item itemvalue="Application.Runner" />
         <item itemvalue="Application.ProvFuzzBenchmarkDriver (2)" />
         <item itemvalue="Application.ProvFuzzBenchmarkDriver" />
         <item itemvalue="Application.ProvFuzzBenchmarkDriver (1)" />
-        <item itemvalue="Application.map3" />
-        <item itemvalue="Application.Runner" />
       </list>
     </recent_temporary>
   </component>

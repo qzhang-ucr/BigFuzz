@@ -1,0 +1,19 @@
+#!/bin/bash
+
+cd generated
+
+DRIVER=$1
+METHOD=$2
+MUTATION=$3
+TRIALS=$5
+
+javac -cp \
+        ../../fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz:/home/ahmad/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:$(../../scripts/classpath.sh) \
+        ../../fuzz/src/main/java/edu/ucla/cs/jqf/bigfuzz/{{BigFuzzGuidance,BigFuzzDriver}.java,$MUTATION.java} \
+         -d ../../fuzz/target/classes \
+         && \
+../../bin/jqf-bigfuzz \
+        -c ../../customarray/target/classes:$(../../scripts/classpath.sh)  \
+        $DRIVER $METHOD $TRIALS
+
+
